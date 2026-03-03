@@ -1,0 +1,37 @@
+Role: Act as an Elite Sports Scientist and Expert React Developer.
+
+Tech Stack: React, Vite, Tailwind CSS, and Lucide-React for icons.
+
+Task: Build a fully functional, interactive, single-page web app called the "Athlete Performance Dashboard." This is for a 16-year-old female basketball player focused on explosiveness ("twitch") and aesthetic physique development.
+
+Context & Constraints: * Athlete Profile: 5’8”, 140 lbs, strong base, needs to eliminate "slow feet."
+
+Environment: Planet Fitness (Smith Machines, DBs, Cables).
+
+Programming Logic: Concurrent Training (Neural Primer -> Heavy Strength -> Aesthetic Finisher).
+
+Schedule: 45-minute sessions, Mon–Thu.
+
+UI/UX Requirements:
+
+Style: Implement a high-performance "Dark Mode" theme using Tailwind (slate-900 backgrounds, with electric blue, yellow, and neon green accents).
+
+App Layout: * Left Sidebar/Column: Include a navigation menu to switch between training days (Monday - Thursday). Below the nav, create a "Twitch Radar" using simple Tailwind progress bars to show focus allocation (Lateral Quickness 95%, First-Step 90%, Glute/Shoulder Hypertrophy 85%).
+
+Main Content Area: An interactive workout card that updates based on the selected day.
+
+Workout Data Table: The main card must use a clean table layout showing: Phase (with a distinct icon for Plyo, Strength, Aesthetic), Exercise Name, Sets x Reps, Tempo, and Rest.
+
+Interactive Element: Ensure the Tempo (e.g., 3-0-X-1) is bolded and includes a stylized info box explaining that "X" means "eXplosive" to recruit fast-twitch muscle fibers.
+
+The Training Data to Hardcode:
+
+Monday (Linear/Glutes): Plyo: DB Countermovement Jump (3x5). Strength: Smith Squat (3x6-8). Aesthetic: Cable Glute Kickbacks (3x12-15).
+
+Tuesday (Lateral/Shoulders): Plyo: Heiden Bounds (4x6/side). Strength: Smith OHP (3x8). Aesthetic: DB Lateral Raises (3x15).
+
+Wednesday (Vertical/Posterior): Plyo: Broad Jumps (4x4). Strength: DB RDLs (3x8-10). Aesthetic: Cable Pull-Throughs (3x15).
+
+Thursday (COD/Core): Plyo: Med Ball Wall Tosses (3x6/side). Strength: Smith Bent Over Row (3x8). Aesthetic: Plank with Hip Dips (3x20).
+
+Output: Generate the complete working code, ensure all imports are correct, and make the layout fully responsive.
