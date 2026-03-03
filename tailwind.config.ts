@@ -11,6 +11,11 @@ export default {
         sm: ".1875rem", /* 3px */
       },
       colors: {
+        neon: {
+          blue: "hsl(183, 100%, 50%)",
+          green: "hsl(111, 100%, 54%)",
+          yellow: "hsl(60, 100%, 50%)",
+        },
         // Flat / base colors (regular buttons)
         background: "hsl(var(--background) / <alpha-value>)",
         foreground: "hsl(var(--foreground) / <alpha-value>)",
@@ -86,6 +91,8 @@ export default {
         sans: ["var(--font-sans)"],
         serif: ["var(--font-serif)"],
         mono: ["var(--font-mono)"],
+        display: ["var(--font-display)"],
+        body: ["var(--font-sans)"],
       },
       keyframes: {
         "accordion-down": {
