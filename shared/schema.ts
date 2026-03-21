@@ -7,6 +7,7 @@ export const exerciseSchema = z.object({
   setsReps: z.string(),
   tempo: z.string(),
   rest: z.string(),
+  note: z.string().optional(),
 });
 
 export const dayWorkoutSchema = z.object({
