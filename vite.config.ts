@@ -4,6 +4,9 @@ import path from "path";
 import runtimeErrorOverlay from "@replit/vite-plugin-runtime-error-modal";
 
 export default defineConfig({
+  // Set this to '/<YOUR-REPO-NAME>/' when deploying to GitHub Pages.
+  // When running locally on Replit, use '/' (the default).
+  base: process.env.GITHUB_PAGES ? `/${process.env.REPO_NAME}/` : "/",
   plugins: [
     react(),
     runtimeErrorOverlay(),
