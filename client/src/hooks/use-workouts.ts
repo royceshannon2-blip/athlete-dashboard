@@ -536,6 +536,138 @@ const WORKOUTS_DATA: WorkoutsData = {
       ]
     },
     {
+      day: "Friday",
+      focus: "Upper/Arms Recovery",
+      categoryWorkouts: [
+        {
+          category: "weightlifting",
+          workouts: [
+            {
+              duration: "30m",
+              exercises: [
+                { id: "fri-wl-30-1", phase: "Strength", name: "Dumbbell Curls", setsReps: "3x8-10", tempo: "2-0-1-1", rest: "90s" },
+                { id: "fri-wl-30-2", phase: "Aesthetic", name: "Tricep Rope Pushdown", setsReps: "3x12-15", tempo: "2-0-1-1", rest: "60s" }
+              ]
+            },
+            {
+              duration: "1h",
+              exercises: [
+                { id: "fri-wl-1h-1", phase: "Strength", name: "Barbell Curl", setsReps: "3x6-8", tempo: "2-0-X-1", rest: "120s" },
+                { id: "fri-wl-1h-2", phase: "Strength", name: "Dumbbell Curls", setsReps: "3x8-10", tempo: "2-0-1-1", rest: "90s" },
+                { id: "fri-wl-1h-3", phase: "Aesthetic", name: "Tricep Rope Pushdown", setsReps: "3x12-15", tempo: "2-0-1-1", rest: "60s" }
+              ]
+            },
+            {
+              duration: "2h",
+              exercises: [
+                { id: "fri-wl-2h-1", phase: "Strength", name: "Barbell Curl", setsReps: "4x6-8", tempo: "2-0-X-1", rest: "120s" },
+                { id: "fri-wl-2h-2", phase: "Strength", name: "Dumbbell Curls", setsReps: "3x8-10", tempo: "2-0-1-1", rest: "90s" },
+                { id: "fri-wl-2h-3", phase: "Strength", name: "Skull Crushers", setsReps: "3x8-10", tempo: "2-0-1-1", rest: "90s" },
+                { id: "fri-wl-2h-4", phase: "Aesthetic", name: "Tricep Rope Pushdown", setsReps: "3x12-15", tempo: "2-0-1-1", rest: "60s" },
+                { id: "fri-wl-2h-5", phase: "Aesthetic", name: "Hammer Curls", setsReps: "3x12", tempo: "2-0-1-1", rest: "60s" }
+              ]
+            },
+            {
+              duration: "3h",
+              exercises: [
+                { id: "fri-wl-3h-1", phase: "Strength", name: "Barbell Curl", setsReps: "5x6-8", tempo: "2-0-X-1", rest: "120s" },
+                { id: "fri-wl-3h-2", phase: "Strength", name: "Dumbbell Curls", setsReps: "4x8-10", tempo: "2-0-1-1", rest: "90s" },
+                { id: "fri-wl-3h-3", phase: "Strength", name: "Skull Crushers", setsReps: "4x8-10", tempo: "2-0-1-1", rest: "90s" },
+                { id: "fri-wl-3h-4", phase: "Strength", name: "Close-Grip Bench", setsReps: "3x6-8", tempo: "2-0-X-1", rest: "120s" },
+                { id: "fri-wl-3h-5", phase: "Aesthetic", name: "Tricep Rope Pushdown", setsReps: "4x12-15", tempo: "2-0-1-1", rest: "60s" },
+                { id: "fri-wl-3h-6", phase: "Aesthetic", name: "Hammer Curls", setsReps: "3x12", tempo: "2-0-1-1", rest: "60s" },
+                { id: "fri-wl-3h-7", phase: "Aesthetic", name: "Machine Dip", setsReps: "3x12", tempo: "2-0-1-1", rest: "60s" }
+              ]
+            }
+          ]
+        },
+        {
+          category: "basketball",
+          workouts: [
+            {
+              duration: "30m",
+              exercises: [
+                { id: "fri-bb-30-1", phase: "Strength", name: "Ball Handling Drills", setsReps: "3x5min", tempo: "1-0-1-0", rest: "60s" },
+                { id: "fri-bb-30-2", phase: "Aesthetic", name: "Footwork Ladder", setsReps: "3x20m", tempo: "1-0-1-0", rest: "45s" }
+              ]
+            },
+            {
+              duration: "1h",
+              exercises: [
+                { id: "fri-bb-1h-1", phase: "Strength", name: "Ball Handling Drills", setsReps: "4x5min", tempo: "1-0-1-0", rest: "60s" },
+                { id: "fri-bb-1h-2", phase: "Strength", name: "Footwork Ladder", setsReps: "4x20m", tempo: "1-0-1-0", rest: "45s" },
+                { id: "fri-bb-1h-3", phase: "Aesthetic", name: "Off-Ball Movement", setsReps: "3x6", tempo: "1-0-1-0", rest: "60s" }
+              ]
+            },
+            {
+              duration: "2h",
+              exercises: [
+                { id: "fri-bb-2h-1", phase: "Strength", name: "Ball Handling Drills", setsReps: "5x5min", tempo: "1-0-1-0", rest: "60s" },
+                { id: "fri-bb-2h-2", phase: "Strength", name: "Footwork Ladder", setsReps: "4x20m", tempo: "1-0-1-0", rest: "45s" },
+                { id: "fri-bb-2h-3", phase: "Strength", name: "Cutting Drills", setsReps: "3x6", tempo: "X-0-X-1", rest: "90s" },
+                { id: "fri-bb-2h-4", phase: "Aesthetic", name: "Off-Ball Movement", setsReps: "4x6", tempo: "1-0-1-0", rest: "60s" },
+                { id: "fri-bb-2h-5", phase: "Aesthetic", name: "Spacing Drill", setsReps: "3x10", tempo: "1-0-1-0", rest: "45s" }
+              ]
+            },
+            {
+              duration: "3h",
+              exercises: [
+                { id: "fri-bb-3h-1", phase: "Strength", name: "Ball Handling Drills", setsReps: "6x5min", tempo: "1-0-1-0", rest: "60s" },
+                { id: "fri-bb-3h-2", phase: "Strength", name: "Footwork Ladder", setsReps: "5x20m", tempo: "1-0-1-0", rest: "45s" },
+                { id: "fri-bb-3h-3", phase: "Strength", name: "Cutting Drills", setsReps: "4x6", tempo: "X-0-X-1", rest: "90s" },
+                { id: "fri-bb-3h-4", phase: "Strength", name: "Pick and Roll Defense", setsReps: "3x5", tempo: "1-0-1-0", rest: "60s" },
+                { id: "fri-bb-3h-5", phase: "Aesthetic", name: "Off-Ball Movement", setsReps: "5x6", tempo: "1-0-1-0", rest: "60s" },
+                { id: "fri-bb-3h-6", phase: "Aesthetic", name: "Spacing Drill", setsReps: "4x10", tempo: "1-0-1-0", rest: "45s" },
+                { id: "fri-bb-3h-7", phase: "Aesthetic", name: "Passing Accuracy", setsReps: "3x20", tempo: "1-0-1-0", rest: "60s" }
+              ]
+            }
+          ]
+        },
+        {
+          category: "jumping",
+          workouts: [
+            {
+              duration: "30m",
+              exercises: [
+                { id: "fri-jp-30-1", phase: "Strength", name: "Double-Leg Squat", setsReps: "3x8-10", tempo: "2-0-1-1", rest: "90s" },
+                { id: "fri-jp-30-2", phase: "Aesthetic", name: "Calf Stretch Hold", setsReps: "3x30s/side", tempo: "1-0-1-0", rest: "45s" }
+              ]
+            },
+            {
+              duration: "1h",
+              exercises: [
+                { id: "fri-jp-1h-1", phase: "Strength", name: "Double-Leg Squat", setsReps: "4x8-10", tempo: "2-0-1-1", rest: "90s" },
+                { id: "fri-jp-1h-2", phase: "Strength", name: "Single-Leg Squat", setsReps: "3x6/leg", tempo: "2-0-1-1", rest: "90s" },
+                { id: "fri-jp-1h-3", phase: "Aesthetic", name: "Calf Raise", setsReps: "3x15", tempo: "2-0-1-1", rest: "60s" }
+              ]
+            },
+            {
+              duration: "2h",
+              exercises: [
+                { id: "fri-jp-2h-1", phase: "Strength", name: "Double-Leg Squat", setsReps: "5x8-10", tempo: "2-0-1-1", rest: "90s" },
+                { id: "fri-jp-2h-2", phase: "Strength", name: "Single-Leg Squat", setsReps: "4x6/leg", tempo: "2-0-1-1", rest: "90s" },
+                { id: "fri-jp-2h-3", phase: "Strength", name: "Leg Press", setsReps: "3x8-10", tempo: "2-0-1-1", rest: "90s" },
+                { id: "fri-jp-2h-4", phase: "Aesthetic", name: "Calf Raise", setsReps: "3x15", tempo: "2-0-1-1", rest: "60s" },
+                { id: "fri-jp-2h-5", phase: "Aesthetic", name: "Couch Stretch", setsReps: "3x45s/side", tempo: "1-0-1-0", rest: "30s" }
+              ]
+            },
+            {
+              duration: "3h",
+              exercises: [
+                { id: "fri-jp-3h-1", phase: "Strength", name: "Double-Leg Squat", setsReps: "6x8-10", tempo: "2-0-1-1", rest: "90s" },
+                { id: "fri-jp-3h-2", phase: "Strength", name: "Single-Leg Squat", setsReps: "5x6/leg", tempo: "2-0-1-1", rest: "90s" },
+                { id: "fri-jp-3h-3", phase: "Strength", name: "Leg Press", setsReps: "4x8-10", tempo: "2-0-1-1", rest: "90s" },
+                { id: "fri-jp-3h-4", phase: "Strength", name: "Nordic Curl", setsReps: "3x5", tempo: "3-0-2-0", rest: "90s" },
+                { id: "fri-jp-3h-5", phase: "Aesthetic", name: "Calf Raise", setsReps: "4x15", tempo: "2-0-1-1", rest: "60s" },
+                { id: "fri-jp-3h-6", phase: "Aesthetic", name: "Couch Stretch", setsReps: "4x45s/side", tempo: "1-0-1-0", rest: "30s" },
+                { id: "fri-jp-3h-7", phase: "Aesthetic", name: "Hip Flexor Stretch", setsReps: "3x45s/side", tempo: "1-0-1-0", rest: "30s" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       day: "Saturday",
       focus: "Back Squat Depth / Elastic Power",
       categoryWorkouts: [
@@ -661,6 +793,138 @@ const WORKOUTS_DATA: WorkoutsData = {
                 { id: "sat-jp-3h-5", phase: "Plyo", name: "Box Jump to Landings", setsReps: "3x5", tempo: "X-0-X-2", rest: "2min" },
                 { id: "sat-jp-3h-6", phase: "Strength", name: "DB RDLs", setsReps: "4x8-10", tempo: "3-0-X-1", rest: "90s" },
                 { id: "sat-jp-3h-7", phase: "Aesthetic", name: "Single-Leg RDL", setsReps: "3x8/leg", tempo: "3-0-1-1", rest: "60s" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      day: "Sunday",
+      focus: "Active Recovery / Mobility",
+      categoryWorkouts: [
+        {
+          category: "weightlifting",
+          workouts: [
+            {
+              duration: "30m",
+              exercises: [
+                { id: "sun-wl-30-1", phase: "Strength", name: "Light DB Rows", setsReps: "3x10", tempo: "2-0-1-1", rest: "60s" },
+                { id: "sun-wl-30-2", phase: "Aesthetic", name: "Foam Roll Thoracic Spine", setsReps: "3x10", tempo: "1-0-1-0", rest: "45s" }
+              ]
+            },
+            {
+              duration: "1h",
+              exercises: [
+                { id: "sun-wl-1h-1", phase: "Strength", name: "Light DB Bench Press", setsReps: "3x8", tempo: "2-0-1-1", rest: "90s" },
+                { id: "sun-wl-1h-2", phase: "Strength", name: "Light DB Rows", setsReps: "3x10", tempo: "2-0-1-1", rest: "60s" },
+                { id: "sun-wl-1h-3", phase: "Aesthetic", name: "Foam Roll Thoracic Spine", setsReps: "3x10", tempo: "1-0-1-0", rest: "45s" }
+              ]
+            },
+            {
+              duration: "2h",
+              exercises: [
+                { id: "sun-wl-2h-1", phase: "Strength", name: "Light DB Bench Press", setsReps: "3x8", tempo: "2-0-1-1", rest: "90s" },
+                { id: "sun-wl-2h-2", phase: "Strength", name: "Light DB Rows", setsReps: "4x10", tempo: "2-0-1-1", rest: "60s" },
+                { id: "sun-wl-2h-3", phase: "Strength", name: "Scapular Push-Ups", setsReps: "3x12", tempo: "2-0-1-1", rest: "60s" },
+                { id: "sun-wl-2h-4", phase: "Aesthetic", name: "Foam Roll Thoracic Spine", setsReps: "3x10", tempo: "1-0-1-0", rest: "45s" },
+                { id: "sun-wl-2h-5", phase: "Aesthetic", name: "Lat Stretch", setsReps: "3x30s/side", tempo: "1-0-1-0", rest: "30s" }
+              ]
+            },
+            {
+              duration: "3h",
+              exercises: [
+                { id: "sun-wl-3h-1", phase: "Strength", name: "Light DB Bench Press", setsReps: "4x8", tempo: "2-0-1-1", rest: "90s" },
+                { id: "sun-wl-3h-2", phase: "Strength", name: "Light DB Rows", setsReps: "5x10", tempo: "2-0-1-1", rest: "60s" },
+                { id: "sun-wl-3h-3", phase: "Strength", name: "Scapular Push-Ups", setsReps: "4x12", tempo: "2-0-1-1", rest: "60s" },
+                { id: "sun-wl-3h-4", phase: "Strength", name: "Light DB Curls", setsReps: "3x10", tempo: "2-0-1-1", rest: "60s" },
+                { id: "sun-wl-3h-5", phase: "Aesthetic", name: "Foam Roll Thoracic Spine", setsReps: "3x10", tempo: "1-0-1-0", rest: "45s" },
+                { id: "sun-wl-3h-6", phase: "Aesthetic", name: "Lat Stretch", setsReps: "3x30s/side", tempo: "1-0-1-0", rest: "30s" },
+                { id: "sun-wl-3h-7", phase: "Aesthetic", name: "Pec Stretch", setsReps: "3x30s/side", tempo: "1-0-1-0", rest: "30s" }
+              ]
+            }
+          ]
+        },
+        {
+          category: "basketball",
+          workouts: [
+            {
+              duration: "30m",
+              exercises: [
+                { id: "sun-bb-30-1", phase: "Strength", name: "Walking", setsReps: "1x20min", tempo: "1-0-1-0", rest: "0s" },
+                { id: "sun-bb-30-2", phase: "Aesthetic", name: "Dynamic Stretching", setsReps: "3x8/side", tempo: "1-0-1-0", rest: "30s" }
+              ]
+            },
+            {
+              duration: "1h",
+              exercises: [
+                { id: "sun-bb-1h-1", phase: "Strength", name: "Light Shooting Practice", setsReps: "3x10", tempo: "1-0-1-0", rest: "60s" },
+                { id: "sun-bb-1h-2", phase: "Strength", name: "Walking", setsReps: "1x30min", tempo: "1-0-1-0", rest: "0s" },
+                { id: "sun-bb-1h-3", phase: "Aesthetic", name: "Dynamic Stretching", setsReps: "3x8/side", tempo: "1-0-1-0", rest: "30s" }
+              ]
+            },
+            {
+              duration: "2h",
+              exercises: [
+                { id: "sun-bb-2h-1", phase: "Strength", name: "Light Shooting Practice", setsReps: "4x10", tempo: "1-0-1-0", rest: "60s" },
+                { id: "sun-bb-2h-2", phase: "Strength", name: "Walking", setsReps: "1x40min", tempo: "1-0-1-0", rest: "0s" },
+                { id: "sun-bb-2h-3", phase: "Strength", name: "Light Ball Handling", setsReps: "3x5min", tempo: "1-0-1-0", rest: "60s" },
+                { id: "sun-bb-2h-4", phase: "Aesthetic", name: "Dynamic Stretching", setsReps: "3x8/side", tempo: "1-0-1-0", rest: "30s" },
+                { id: "sun-bb-2h-5", phase: "Aesthetic", name: "Hip Mobility", setsReps: "3x30s/side", tempo: "1-0-1-0", rest: "30s" }
+              ]
+            },
+            {
+              duration: "3h",
+              exercises: [
+                { id: "sun-bb-3h-1", phase: "Strength", name: "Light Shooting Practice", setsReps: "5x10", tempo: "1-0-1-0", rest: "60s" },
+                { id: "sun-bb-3h-2", phase: "Strength", name: "Walking", setsReps: "1x50min", tempo: "1-0-1-0", rest: "0s" },
+                { id: "sun-bb-3h-3", phase: "Strength", name: "Light Ball Handling", setsReps: "4x5min", tempo: "1-0-1-0", rest: "60s" },
+                { id: "sun-bb-3h-4", phase: "Strength", name: "Low Intensity Conditioning", setsReps: "1x20min", tempo: "1-0-1-0", rest: "0s" },
+                { id: "sun-bb-3h-5", phase: "Aesthetic", name: "Dynamic Stretching", setsReps: "4x8/side", tempo: "1-0-1-0", rest: "30s" },
+                { id: "sun-bb-3h-6", phase: "Aesthetic", name: "Hip Mobility", setsReps: "3x30s/side", tempo: "1-0-1-0", rest: "30s" },
+                { id: "sun-bb-3h-7", phase: "Aesthetic", name: "Ankle Mobility", setsReps: "3x30s/side", tempo: "1-0-1-0", rest: "30s" }
+              ]
+            }
+          ]
+        },
+        {
+          category: "jumping",
+          workouts: [
+            {
+              duration: "30m",
+              exercises: [
+                { id: "sun-jp-30-1", phase: "Strength", name: "Light Mobility Work", setsReps: "3x10", tempo: "2-0-1-1", rest: "60s" },
+                { id: "sun-jp-30-2", phase: "Aesthetic", name: "Foam Roll Quads", setsReps: "3x10/side", tempo: "1-0-1-0", rest: "45s" }
+              ]
+            },
+            {
+              duration: "1h",
+              exercises: [
+                { id: "sun-jp-1h-1", phase: "Strength", name: "Bodyweight Squat", setsReps: "3x15", tempo: "2-0-1-1", rest: "60s" },
+                { id: "sun-jp-1h-2", phase: "Strength", name: "Light Mobility Work", setsReps: "3x10", tempo: "2-0-1-1", rest: "60s" },
+                { id: "sun-jp-1h-3", phase: "Aesthetic", name: "Foam Roll Quads", setsReps: "3x10/side", tempo: "1-0-1-0", rest: "45s" }
+              ]
+            },
+            {
+              duration: "2h",
+              exercises: [
+                { id: "sun-jp-2h-1", phase: "Strength", name: "Bodyweight Squat", setsReps: "4x15", tempo: "2-0-1-1", rest: "60s" },
+                { id: "sun-jp-2h-2", phase: "Strength", name: "Light Mobility Work", setsReps: "3x10", tempo: "2-0-1-1", rest: "60s" },
+                { id: "sun-jp-2h-3", phase: "Strength", name: "Inchworm", setsReps: "3x10", tempo: "2-0-1-1", rest: "60s" },
+                { id: "sun-jp-2h-4", phase: "Aesthetic", name: "Foam Roll Quads", setsReps: "3x10/side", tempo: "1-0-1-0", rest: "45s" },
+                { id: "sun-jp-2h-5", phase: "Aesthetic", name: "Quad Stretch", setsReps: "3x30s/side", tempo: "1-0-1-0", rest: "30s" }
+              ]
+            },
+            {
+              duration: "3h",
+              exercises: [
+                { id: "sun-jp-3h-1", phase: "Strength", name: "Bodyweight Squat", setsReps: "5x15", tempo: "2-0-1-1", rest: "60s" },
+                { id: "sun-jp-3h-2", phase: "Strength", name: "Light Mobility Work", setsReps: "4x10", tempo: "2-0-1-1", rest: "60s" },
+                { id: "sun-jp-3h-3", phase: "Strength", name: "Inchworm", setsReps: "4x10", tempo: "2-0-1-1", rest: "60s" },
+                { id: "sun-jp-3h-4", phase: "Strength", name: "Glute Bridge", setsReps: "3x15", tempo: "2-0-1-1", rest: "60s" },
+                { id: "sun-jp-3h-5", phase: "Aesthetic", name: "Foam Roll Quads", setsReps: "3x10/side", tempo: "1-0-1-0", rest: "45s" },
+                { id: "sun-jp-3h-6", phase: "Aesthetic", name: "Quad Stretch", setsReps: "3x30s/side", tempo: "1-0-1-0", rest: "30s" },
+                { id: "sun-jp-3h-7", phase: "Aesthetic", name: "Hip Flexor Stretch", setsReps: "3x30s/side", tempo: "1-0-1-0", rest: "30s" }
               ]
             }
           ]
