@@ -1,13 +1,39 @@
 import { motion } from "framer-motion";
-import { Activity, Zap, Crosshair } from "lucide-react";
+import { Activity, Zap, Crosshair, ChevronDown } from "lucide-react";
+import { useState } from "react";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 
 interface SidebarProps {
   selectedDay: string;
   onSelectDay: (day: string) => void;
+  selectedCategory: string;
+  onSelectCategory: (category: string) => void;
+  selectedDuration: string;
+  onSelectDuration: (duration: string) => void;
   days: { day: string; focus: string }[];
+  categories: string[];
+  durations: string[];
 }
 
-export function Sidebar({ selectedDay, onSelectDay, days }: SidebarProps) {
+export function Sidebar({
+  selectedDay,
+  onSelectDay,
+  selectedCategory,
+  onSelectCategory,
+  selectedDuration,
+  onSelectDuration,
+  days,
+  categories,
+  durations,
+}: SidebarProps) {
+  const [categoryOpen, setCategoryOpen] = useState(false);
+  const [durationOpen, setDurationOpen] = useState(false);
   return (
     <aside className="w-full md:w-20 lg:w-80 h-auto md:h-full border-b md:border-b-0 md:border-r border-white/5 bg-slate-900/80 flex flex-col backdrop-blur-2xl relative z-20">
       <div className="p-4 md:p-8 border-b border-white/5 flex items-center justify-between md:block">
@@ -28,8 +54,8 @@ export function Sidebar({ selectedDay, onSelectDay, days }: SidebarProps) {
                 <button
                   onClick={() => onSelectDay(day)}
                   className={`w-full text-left px-6 md:px-8 py-4 transition-all duration-200 flex flex-col md:flex-row md:items-center justify-between group
-                    ${isActive 
-                      ? 'bg-primary/10 border-b-2 md:border-b-0 md:border-r-4 border-primary' 
+                    ${isActive
+                      ? 'bg-primary/10 border-b-2 md:border-b-0 md:border-r-4 border-primary'
                       : 'hover:bg-white/[0.02] border-b-2 md:border-b-0 md:border-r-4 border-transparent'
                     }`}
                 >
@@ -50,6 +76,44 @@ export function Sidebar({ selectedDay, onSelectDay, days }: SidebarProps) {
         </ul>
       </nav>
 
+      <div className="border-t border-white/5 bg-slate-950/50 p-4 md:p-8 space-y-4">
+        <div>
+          <label className="text-xs font-display font-bold tracking-widest text-slate-400 uppercase block mb-2">
+            Category
+          </label>
+          <Select value={selectedCategory} onValueChange={onSelectCategory}>
+            <SelectTrigger className="w-full bg-slate-800/50 border-slate-700 text-white">
+              <SelectValue />
+            </SelectTrigger>
+            <SelectContent className="bg-slate-800 border-slate-700">
+              {categories.map((cat) => (
+                <SelectItem key={cat} value={cat} className="text-white capitalize">
+                  {cat}
+                </SelectItem>
+              ))}
+            </SelectContent>
+          </Select>
+        </div>
+
+        <div>
+          <label className="text-xs font-display font-bold tracking-widest text-slate-400 uppercase block mb-2">
+            Duration
+          </label>
+          <Select value={selectedDuration} onValueChange={onSelectDuration}>
+            <SelectTrigger className="w-full bg-slate-800/50 border-slate-700 text-white">
+              <SelectValue />
+            </SelectTrigger>
+            <SelectContent className="bg-slate-800 border-slate-700">
+              {durations.map((dur) => (
+                <SelectItem key={dur} value={dur} className="text-white">
+                  {dur}
+                </SelectItem>
+              ))}
+            </SelectContent>
+          </Select>
+        </div>
+      </div>
+
       <div className="hidden lg:block p-8 border-t border-white/5 bg-slate-950/50">
         <div className="flex items-center gap-2 mb-4">
           <Zap className="w-4 h-4 text-yellow-400" />
@@ -68,7 +132,7 @@ export function Sidebar({ selectedDay, onSelectDay, days }: SidebarProps) {
               <span className={stat.color}>{stat.val}%</span>
             </div>
             <div className="h-1 rounded-full bg-slate-800 overflow-hidden">
-              <div 
+              <div
                 className={`h-full ${stat.color.replace('text-', 'bg-')}`}
                 style={{ width: `${stat.val}%` }}
               />

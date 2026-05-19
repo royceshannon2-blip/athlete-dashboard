@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Zap, Dumbbell, Sparkles, Clock, Layers, Info, ChevronDown } from "lucide-react";
-import { type DayWorkout, type Exercise } from "@shared/schema";
+import { type Exercise } from "@shared/schema";
 import {
   Tooltip,
   TooltipContent,
@@ -9,7 +9,7 @@ import {
 } from "@/components/ui/tooltip";
 
 interface WorkoutTableProps {
-  workout: DayWorkout;
+  exercises: Exercise[];
 }
 
 const PHASE_CONFIG = {
@@ -99,17 +99,10 @@ function ExerciseCard({ exercise }: { exercise: Exercise }) {
   );
 }
 
-export function WorkoutTable({ workout }: WorkoutTableProps) {
+export function WorkoutTable({ exercises }: WorkoutTableProps) {
   return (
     <div className="space-y-3">
-      <div className="bg-slate-900/60 rounded-xl p-4 border border-white/5">
-        <h2 className="text-lg font-display font-bold text-white tracking-widest uppercase">
-          {workout.day}
-        </h2>
-        <p className="text-slate-400 text-xs font-display uppercase tracking-widest mt-0.5">{workout.focus}</p>
-      </div>
-
-      {workout.exercises.map((ex) => (
+      {exercises.map((ex) => (
         <ExerciseCard key={ex.id} exercise={ex} />
       ))}
     </div>
