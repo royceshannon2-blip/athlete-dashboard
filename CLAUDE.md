@@ -27,6 +27,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 | **DATA_STRUCTURE.md** | Zod schemas, tempo notation, data format reference |
 | **WORKOUT_CUSTOMIZATION.md** | How to add/edit exercises for both Dashboard and Rotation systems |
 | **WORKOUT_ROTATION.md** | Complete guide to the weekly rotation feature (new) |
+| **MOBILE_OPTIMIZATION.md** | Mobile UI/UX improvements, touch targets, timer chime, responsive layouts |
 | **DEPLOYMENT.md** | GitHub Pages setup, static site hosting, build process |
 
 ---

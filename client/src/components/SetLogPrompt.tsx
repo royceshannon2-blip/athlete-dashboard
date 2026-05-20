@@ -45,7 +45,7 @@ export function SetLogPrompt({
   };
 
   return (
-    <Drawer open={isOpen} onOpenChange={(open) => !open && onSkip()}>
+    <Drawer open={isOpen} onOpenChange={(open) => !open && onSkip()} snapPoints={[0.5, 0.92]}>
       <DrawerContent className="bg-slate-900 border-slate-700">
         <DrawerHeader>
           <DrawerTitle className="text-white text-lg font-display font-bold">
@@ -64,7 +64,7 @@ export function SetLogPrompt({
               placeholder="0"
               value={weight}
               onChange={(e) => setWeight(e.target.value)}
-              className="w-full px-3 py-2 bg-slate-800 border border-slate-700 rounded-lg text-white placeholder-slate-600"
+              className="w-full px-4 py-3 text-4xl font-bold text-center bg-slate-800 border border-slate-700 rounded-lg text-white placeholder-slate-600"
               autoFocus
             />
           </div>
@@ -78,7 +78,7 @@ export function SetLogPrompt({
                 <button
                   key={u}
                   onClick={() => setUnit(u)}
-                  className={`flex-1 py-2 px-3 rounded-lg font-mono font-bold text-sm uppercase transition-colors ${
+                  className={`flex-1 min-h-[44px] px-3 rounded-lg font-mono font-bold text-sm uppercase transition-colors flex items-center justify-center ${
                     unit === u
                       ? "bg-primary text-slate-900"
                       : "bg-slate-800 text-slate-300 hover:bg-slate-700"
@@ -90,16 +90,16 @@ export function SetLogPrompt({
             </div>
           </div>
 
-          <div className="flex gap-2 pt-2">
+          <div className="flex flex-col gap-2 pt-2">
+            <Button onClick={handleLog} className="w-full min-h-[56px] text-base font-semibold bg-primary hover:bg-primary/90">
+              Log it
+            </Button>
             <Button
               variant="outline"
               onClick={onSkip}
-              className="flex-1 border-slate-700 text-slate-300 hover:bg-slate-800"
+              className="w-full min-h-[44px] text-sm border-slate-700 text-slate-300 hover:bg-slate-800"
             >
               Skip
-            </Button>
-            <Button onClick={handleLog} className="flex-1 bg-primary hover:bg-primary/90">
-              Log it
             </Button>
           </div>
         </div>

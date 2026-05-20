@@ -124,9 +124,9 @@ function ExerciseCard({
                   key={setNum}
                   onClick={() => onSetComplete(exercise, setNum)}
                   disabled={isCompleted}
-                  className={`px-3 py-1.5 rounded-lg text-xs font-mono font-bold uppercase transition-colors ${
+                  className={`min-h-[44px] px-4 text-sm rounded-lg flex-1 basis-[calc(50%-4px)] flex items-center justify-center gap-1 font-mono font-bold uppercase transition-colors ${
                     isCompleted
-                      ? `${cfg.bg} ${cfg.color} border ${cfg.border} opacity-60 cursor-default flex items-center gap-1`
+                      ? `${cfg.bg} ${cfg.color} border ${cfg.border} opacity-60 cursor-default`
                       : `border ${cfg.border} ${cfg.color} hover:${cfg.bg} cursor-pointer`
                   }`}
                 >

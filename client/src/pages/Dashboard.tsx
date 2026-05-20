@@ -79,14 +79,14 @@ export default function Dashboard() {
     );
     markSetComplete(promptState.exercise.id, promptState.setNumber);
     setPromptState(null);
-    if (weightLog.prefs.autoStart) restTimer.start();
+    restTimer.reset();
   };
 
   const handleSkip = () => {
     if (!promptState) return;
     markSetComplete(promptState.exercise.id, promptState.setNumber);
     setPromptState(null);
-    if (weightLog.prefs.autoStart) restTimer.start();
+    restTimer.reset();
   };
 
   const markSetComplete = (exerciseId: string, setNumber: number) => {

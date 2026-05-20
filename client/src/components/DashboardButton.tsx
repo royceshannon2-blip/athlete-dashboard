@@ -9,9 +9,8 @@ export function DashboardButton({ onClick }: DashboardButtonProps) {
   return (
     <Button
       variant="outline"
-      size="sm"
       onClick={onClick}
-      className="gap-2 border-white/20 hover:bg-white/[0.08]"
+      className="min-h-[44px] min-w-[44px] px-2 sm:px-4 gap-2 border-white/20 hover:bg-white/[0.08] flex items-center justify-center"
     >
       <TrendingUp className="w-4 h-4" />
       <span className="hidden sm:inline">Dashboard</span>

@@ -18,7 +18,7 @@ export function TimerSettings({ prefs, updatePrefs, isOpen, onClose }: TimerSett
   };
 
   return (
-    <Drawer open={isOpen} onOpenChange={(open) => !open && onClose()}>
+    <Drawer open={isOpen} onOpenChange={(open) => !open && onClose()} snapPoints={[0.5]}>
       <DrawerContent className="bg-slate-900 border-slate-700">
         <DrawerHeader>
           <DrawerTitle className="text-white text-lg font-display font-bold">
@@ -29,14 +29,15 @@ export function TimerSettings({ prefs, updatePrefs, isOpen, onClose }: TimerSett
         <div className="px-4 pb-6 space-y-4">
           <div>
             <label className="block text-xs font-display font-bold uppercase text-slate-400 mb-2">
-              Default Duration
+              Rest Duration (seconds)
             </label>
             <input
               type="number"
+              inputMode="numeric"
               min="0"
               value={prefs.defaultDurationSecs}
               onChange={handleDurationChange}
-              className="w-full px-3 py-2 bg-slate-800 border border-slate-700 rounded-lg text-white"
+              className="w-full min-h-[44px] px-4 py-2 bg-slate-800 border border-slate-700 rounded-lg text-white"
             />
             <p className="text-xs text-slate-500 mt-1">
               {durationMins}:{durationSecs.toString().padStart(2, "0")}
@@ -44,24 +45,12 @@ export function TimerSettings({ prefs, updatePrefs, isOpen, onClose }: TimerSett
           </div>
 
           <div>
-            <label className="flex items-center gap-2 cursor-pointer">
-              <input
-                type="checkbox"
-                checked={prefs.autoStart}
-                onChange={(e) => updatePrefs({ autoStart: e.target.checked })}
-                className="w-4 h-4 rounded border-slate-700 bg-slate-800"
-              />
-              <span className="text-sm text-slate-300">Auto-start after logging</span>
-            </label>
-          </div>
-
-          <div>
-            <label className="flex items-center gap-2 cursor-pointer">
+            <label className="flex items-center gap-3 cursor-pointer min-h-[44px]">
               <input
                 type="checkbox"
                 checked={prefs.soundEnabled}
                 onChange={(e) => updatePrefs({ soundEnabled: e.target.checked })}
-                className="w-4 h-4 rounded border-slate-700 bg-slate-800"
+                className="w-6 h-6 rounded border-slate-700 bg-slate-800 cursor-pointer"
               />
               <span className="text-sm text-slate-300">Sound notification</span>
             </label>
@@ -76,7 +65,7 @@ export function TimerSettings({ prefs, updatePrefs, isOpen, onClose }: TimerSett
                 <button
                   key={u}
                   onClick={() => updatePrefs({ unit: u })}
-                  className={`flex-1 py-2 px-3 rounded-lg font-mono font-bold text-sm uppercase transition-colors ${
+                  className={`flex-1 min-h-[44px] px-3 rounded-lg font-mono font-bold text-sm uppercase transition-colors flex items-center justify-center ${
                     prefs.unit === u
                       ? "bg-primary text-slate-900"
                       : "bg-slate-800 text-slate-300 hover:bg-slate-700"
@@ -87,6 +76,13 @@ export function TimerSettings({ prefs, updatePrefs, isOpen, onClose }: TimerSett
               ))}
             </div>
           </div>
+
+          <button
+            onClick={onClose}
+            className="w-full min-h-[56px] mt-6 px-4 py-3 rounded-lg font-mono font-bold text-sm uppercase transition-colors bg-primary text-slate-900 hover:bg-primary/90"
+          >
+            Save
+          </button>
         </div>
       </DrawerContent>
     </Drawer>

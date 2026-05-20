@@ -16,18 +16,18 @@ export function useRestTimer(initialSecs: number, soundEnabled: boolean) {
     try {
       const audioContext = new (window.AudioContext || (window as any).webkitAudioContext)();
       const now = audioContext.currentTime;
-      const osc = audioContext.createOscillator();
-      const gain = audioContext.createGain();
 
-      osc.frequency.value = 440;
-      osc.connect(gain);
-      gain.connect(audioContext.destination);
-
-      gain.gain.setValueAtTime(0.3, now);
-      gain.gain.exponentialRampToValueAtTime(0.01, now + 0.2);
-
-      osc.start(now);
-      osc.stop(now + 0.2);
+      [0, 0.35, 0.70].forEach((offset) => {
+        const osc = audioContext.createOscillator();
+        const gain = audioContext.createGain();
+        osc.connect(gain);
+        gain.connect(audioContext.destination);
+        osc.frequency.value = 440;
+        osc.start(now + offset);
+        osc.stop(now + offset + 0.2);
+        gain.gain.setValueAtTime(0.6, now + offset);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + offset + 0.2);
+      });
     } catch {
       console.error("Web Audio failed");
     }

@@ -14,6 +14,7 @@ import { SessionSummary, toDisplayWeight } from "@/hooks/use-weight-log";
 interface ExerciseProgressChartProps {
   sessions: SessionSummary[];
   unit: "lbs" | "kg";
+  height?: number;
 }
 
 interface ChartDataPoint {
@@ -22,10 +23,10 @@ interface ChartDataPoint {
   totalVolume: number;
 }
 
-export function ExerciseProgressChart({ sessions, unit }: ExerciseProgressChartProps) {
+export function ExerciseProgressChart({ sessions, unit, height = 256 }: ExerciseProgressChartProps) {
   if (sessions.length === 0) {
     return (
-      <div className="h-64 flex items-center justify-center border border-slate-700 rounded-lg">
+      <div style={{ height: `${height}px` }} className="flex items-center justify-center border border-slate-700 rounded-lg">
         <p className="text-slate-400 text-sm text-center px-4">
           No weight data yet for this exercise. Complete a session to see your progress.
         </p>
@@ -42,7 +43,7 @@ export function ExerciseProgressChart({ sessions, unit }: ExerciseProgressChartP
   const unitLabel = unit === "lbs" ? "lbs" : "kg";
 
   return (
-    <div className="w-full h-64 border border-slate-700 rounded-lg overflow-hidden">
+    <div style={{ height: `${height}px` }} className="w-full border border-slate-700 rounded-lg overflow-hidden">
       <ResponsiveContainer width="100%" height="100%">
         <ComposedChart
           data={data}
