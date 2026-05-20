@@ -83,6 +83,25 @@ WeekSelector component
   - Tempo display: X is highlighted in cyan for visibility
   - Tooltip: explains what "X" means (max velocity)
 
+### ScheduleBrowserButton
+- **File**: `client/src/components/ScheduleBrowserButton.tsx`
+- **Purpose**: Button in Dashboard header to open schedule browser panel
+- **Props**: `onClick` (callback to open panel)
+- **Features**: Calendar icon, responsive text label (hidden on mobile)
+- **Location**: Dashboard header, next to category/duration selectors
+
+### ScheduleBrowserPanel
+- **File**: `client/src/components/ScheduleBrowserPanel.tsx`
+- **Purpose**: Side panel showing cached weekly rotation schedules
+- **Props**: `isOpen` (boolean), `onClose` (callback)
+- **Features**:
+  - Week list (left column): Shows all available weeks with current week marked
+  - Day selector (top): Tabs for each training day
+  - Workout display (right): Shows exercises for selected week/day
+  - Lazy loading: Fetches week data on demand via `use-schedule-browser` hook
+  - Color-coded by phase (same as main exercise cards)
+- **Data flow**: Fetches manifest → Lists weeks → Fetches individual week JSON on selection
+
 ---
 
 ## Weekly Rotation System

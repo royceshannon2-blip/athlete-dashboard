@@ -8,9 +8,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 **APEX** is an athlete workout platform with two independent systems:
 
-1. **Dashboard** (7-day): Users select a day, training category (Basketball/Weightlifting/Jumping), and duration (30m/1h/2h/3h) to view personalized exercises.
+1. **Dashboard** (main view at `/`): Users select a day of week, training category (Basketball/Weightlifting/Jumping), and duration (30m/1h/2h/3h) to view personalized exercises. Data is hardcoded in `use-workouts.ts`.
 
-2. **Rotation** (weekly): Workouts cycle automatically by week. Users can browse current week or any past/future week. Zero code changes to add new weeks.
+2. **Schedule Browser** (side panel from Dashboard): Click "Schedule" button to view cached weekly rotation plans. Shows all available weeks with on-demand JSON fetching. Zero code changes to add new weeks—just add JSON files and update manifest.
 
 **Tech Stack**: React 18 + Vite (frontend), Express 5 (static serving), Tailwind CSS (styling), shadcn/ui (components)
 
@@ -48,15 +48,18 @@ For detailed commands and development workflow, see **DEVELOPMENT.md**.
 
 ```
 client/src/
-  ├─ pages/Dashboard.tsx           # Dashboard main page (day-based)
+  ├─ pages/Dashboard.tsx               # Dashboard main page (day-based)
   ├─ components/
-  │  ├─ WeekSelector.tsx           # Rotation main component (week-based)
-  │  ├─ Sidebar.tsx                # Day/category/duration navigation (Dashboard)
-  │  ├─ WorkoutTable.tsx           # Exercise display (shared)
-  │  └─ ...                        # Other UI components
+  │  ├─ ScheduleBrowserButton.tsx      # "Schedule" button in Dashboard header
+  │  ├─ ScheduleBrowserPanel.tsx       # Side panel with weekly rotation browser
+  │  ├─ WeekSelector.tsx               # Rotation main component (alternate view)
+  │  ├─ Sidebar.tsx                    # Day/category/duration navigation
+  │  ├─ WorkoutTable.tsx               # Exercise display (shared)
+  │  └─ ...                            # Other UI components
   └─ hooks/
-     ├─ use-workouts.ts            # WORKOUTS_DATA (Dashboard)
-     └─ use-weekly-rotation.ts      # Rotation logic (Rotation)
+     ├─ use-workouts.ts                # WORKOUTS_DATA (Dashboard)
+     ├─ use-weekly-rotation.ts          # Week data fetching (alternate)
+     └─ use-schedule-browser.ts         # Schedule browser state (panel)
 
 client/public/workouts/
   ├─ manifest.json                 # Week list and start date

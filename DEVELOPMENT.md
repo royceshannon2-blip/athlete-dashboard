@@ -136,12 +136,19 @@ export function useMyHook() {
 }
 ```
 
-### Modifying Workout Data
+### Modifying Workout Data (Dashboard)
 
 1. Open `client/src/hooks/use-workouts.ts`
 2. Find `WORKOUTS_DATA` object
 3. Edit exercise objects, add/remove days, etc.
 4. Dev server auto-reloads
+
+### Adding Weekly Rotation Plans
+
+1. Create new JSON file: `client/public/workouts/week-NNN.json`
+2. Follow week structure from existing week files
+3. Update `client/public/workouts/manifest.json` to list new week
+4. Access via "Schedule" button in Dashboard
 
 See **WORKOUT_CUSTOMIZATION.md** for detailed editing guide.
 

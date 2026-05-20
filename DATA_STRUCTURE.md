@@ -292,12 +292,75 @@ Muscle hypertrophy and muscular endurance training.
 
 ---
 
+## Rotation Data Structure
+
+The weekly rotation system uses JSON files in `client/public/workouts/`.
+
+### manifest.json
+
+```json
+{
+  "startDate": "2026-01-01",
+  "weeks": ["week-001.json", "week-002.json"]
+}
+```
+
+**Fields**:
+- `startDate` (ISO string): Reference date for week calculations
+- `weeks` (array): List of week filenames available for cycling
+
+**Purpose**: Defines which weeks exist and their cycle start date. The app calculates the current week using: `weekIndex = floor((today - startDate) / 7 days) % totalWeeks`
+
+### week-NNN.json
+
+```json
+{
+  "weekNumber": 1,
+  "days": [
+    {
+      "day": "Monday",
+      "focus": "Linear/Glutes",
+      "categoryWorkouts": [
+        {
+          "category": "weightlifting",
+          "workouts": [
+            {
+              "duration": "1h",
+              "exercises": [
+                {
+                  "id": "w1-mon-wl-1h-1",
+                  "phase": "Strength",
+                  "name": "Smith Squat",
+                  "setsReps": "4x5",
+                  "tempo": "3-0-X-1",
+                  "rest": "120s"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+```
+
+**Fields**:
+- `weekNumber` (integer): Week identifier (1, 2, etc.)
+- `days` (array): List of day workouts, same structure as Dashboard data
+  - Each day has all categories and durations available
+
+**Purpose**: Static JSON files served as public assets. No code changes needed — just edit JSON and update manifest.
+
+---
+
 ## Data File Locations
 
 | File | Purpose |
 |------|---------|
-| `client/src/hooks/use-workouts.ts` | Main WORKOUTS_DATA definition |
-| `client/src/data/workouts.json` | JSON template showing structure |
+| `client/src/hooks/use-workouts.ts` | Main WORKOUTS_DATA for Dashboard |
+| `client/public/workouts/manifest.json` | Week list and rotation start date |
+| `client/public/workouts/week-NNN.json` | Individual week plans (1..N) |
 | `shared/schema.ts` | Zod type definitions |
 
 ---
