@@ -1,15 +1,32 @@
 # Workout Customization Guide
 
-This guide explains how to customize your workouts using the category/duration system.
+This guide explains how to customize workouts in two systems: the day-based Dashboard and the week-based Rotation.
 
-## Overview
+## The Two Systems
 
-The workout system is organized by:
+### 1. Day-Based Dashboard (Default)
+Located at `/` — Shows workouts organized by day of the week.
+
+**Organization**:
 1. **Day** (Monday, Tuesday, etc.)
 2. **Category** (Basketball, Weightlifting, Jumping)
 3. **Duration** (30m, 1h, 2h, 3h)
 
-Each combination has its own set of exercises.
+Each day/category/duration combo has its own set of exercises.
+
+### 2. Weekly Rotation
+Located at `/rotation` — Shows workouts organized by week blocks that rotate automatically.
+
+**Organization**:
+1. **Week** (1, 2, 3, ... rotating)
+2. **Category** (Basketball, Weightlifting, Jumping)
+3. **Duration** (30m, 1h, 2h, 3h)
+
+Each week cycles through the list automatically based on the date.
+
+---
+
+## Customizing the Day-Based Dashboard
 
 ## How to Customize Workouts
 
@@ -162,3 +179,144 @@ To deploy your custom workouts:
 - You can add more days by adding to the `workouts` array
 - Test in dev mode with `npm run dev` before deploying
 - The UI will automatically handle new categories/durations once added to the arrays
+
+---
+
+## Customizing the Weekly Rotation
+
+The weekly rotation provides an alternative system where workouts cycle automatically every week without touching any TypeScript code.
+
+### File Location
+Edit rotation data in: `client/public/workouts/`
+
+- **manifest.json** — Lists available weeks and start date
+- **week-NNN.json** — Plans for specific weeks
+
+### Data Structure
+
+Each week file contains all 3 categories with all 4 durations:
+
+```json
+{
+  "label": "Block 1 – Week 1",
+  "categories": {
+    "basketball": {
+      "workouts": [
+        {
+          "duration": "30m",
+          "exercises": [
+            {
+              "id": "w1-bb-30-1",
+              "phase": "Plyo",
+              "name": "Vertical Jump Drills",
+              "setsReps": "4x5",
+              "tempo": "X-0-X-1",
+              "rest": "90s",
+              "note": "Optional coaching cue"
+            }
+          ]
+        },
+        { "duration": "1h", "exercises": [ /* ... */ ] },
+        { "duration": "2h", "exercises": [ /* ... */ ] },
+        { "duration": "3h", "exercises": [ /* ... */ ] }
+      ]
+    },
+    "weightlifting": { /* same structure */ },
+    "jumping": { /* same structure */ }
+  }
+}
+```
+
+**Important**: All 3 categories and all 4 durations must be present in every week file.
+
+### Adding a New Week
+
+1. Create a new file: `client/public/workouts/week-003.json`
+   - Copy an existing week as a template
+   - Edit the exercises, category, and durations as needed
+   - Make sure all 3 categories are present with all 4 durations
+
+2. Update the manifest:
+   ```json
+   {
+     "startDate": "2026-01-01",
+     "weeks": [
+       "week-001.json",
+       "week-002.json",
+       "week-003.json"
+     ]
+   }
+   ```
+
+3. Commit and push — no code changes needed!
+
+### Editing an Existing Week
+
+1. Open `client/public/workouts/week-NNN.json`
+2. Edit exercises, sets/reps, tempo, or coaching notes
+3. Save and commit — changes appear immediately on next page load
+
+### Exercise Schema in Weeks
+
+The exercise format in week files is identical to the dashboard:
+
+```json
+{
+  "id": "unique-identifier",
+  "phase": "Plyo",              // "Plyo", "Strength", or "Aesthetic"
+  "name": "Exercise Name",
+  "setsReps": "4x5",
+  "tempo": "X-0-X-1",           // eccentric-pause-concentric-pause
+  "rest": "90s",
+  "note": "Optional coaching cue"
+}
+```
+
+### How Rotation Works
+
+The system calculates which week to display based on date:
+
+```
+weekIndex = floor((today - startDate) / 7 days)
+planIndex = weekIndex % totalWeeks
+```
+
+**Example**:
+- startDate: 2026-01-01
+- Today: 2026-05-19
+- weekIndex: 19 (19 weeks elapsed)
+- With 2 weeks available: 19 % 2 = 1 → show **week-002.json**
+- Next week (week 20): 20 % 2 = 0 → show **week-001.json** (wrap around)
+
+### Accessing the Rotation
+
+1. Go to `/rotation` in your app
+2. **"This Week" tab**: Shows the current week's plan
+3. **"History" tab**: Select any week to view its plan
+
+---
+
+## Comparing Both Systems
+
+| Feature | Dashboard | Rotation |
+|---------|-----------|----------|
+| Organization | By day of week | By week block |
+| Updates | Edit TypeScript code | Edit JSON files only |
+| Rotation | Manual (user picks day) | Automatic (date-based) |
+| History | Not browsable | Fully browsable |
+| Route | `/` | `/rotation` |
+| Edit location | `client/src/hooks/use-workouts.ts` | `client/public/workouts/` |
+
+### When to Use Each
+
+**Use Dashboard if**:
+- You want workouts tied to specific days (e.g., "Mondays are always leg day")
+- Users pick which day to train on
+
+**Use Rotation if**:
+- You want week-long cycles that rotate automatically
+- You want users to follow a predefined progression
+- You want easy browsable history
+- You want to update without code changes
+
+Both systems are independent and can coexist!

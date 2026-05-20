@@ -5,6 +5,7 @@ import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import NotFound from "@/pages/not-found";
 import Dashboard from "@/pages/Dashboard";
+import { WeekSelector } from "@/components/WeekSelector";
 
 // Strip trailing slash so wouter base path matches correctly on GitHub Pages
 // e.g. "/athlete-dashboard/" → "/athlete-dashboard"
@@ -15,6 +16,7 @@ function AppRouter() {
   return (
     <Switch>
       <Route path="/" component={Dashboard} />
+      <Route path="/rotation" component={WeekSelector} />
       <Route component={NotFound} />
     </Switch>
   );

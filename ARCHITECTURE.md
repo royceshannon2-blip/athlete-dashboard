@@ -6,6 +6,10 @@ Detailed breakdown of the APEX application structure.
 
 ## System Overview
 
+The app has two independent workout systems:
+
+### 1. Day-Based Dashboard (Original)
+
 ```
 React 18 SPA (Vite)
     ↓
@@ -17,6 +21,21 @@ Dashboard (state: day/category/duration)
     ↓
 Express 5 (serves static assets; backend unused)
 ```
+
+### 2. Week Rotation (New)
+
+```
+React 18 SPA (Vite)
+    ↓
+WeekSelector component
+    ├─ "This Week" tab (current week)
+    └─ "History" tab (week picker)
+        ↓
+        use-weekly-rotation hook
+            ├─ Fetches /workouts/manifest.json
+            └─ Fetches /workouts/week-NNN.json
+                ↓
+                WorkoutTable (exercise display)
 
 ---
 
@@ -66,7 +85,43 @@ Express 5 (serves static assets; backend unused)
 
 ---
 
+## Weekly Rotation System
+
+### WeekSelector
+- **File**: `client/src/components/WeekSelector.tsx`
+- **Purpose**: Display workout rotation with weekly cycle
+- **Features**:
+  - Tabbed interface: "This Week" and "History"
+  - "This Week" tab: Shows current week's plan
+  - "History" tab: Dropdown selector for any week (past or future)
+  - Displays full plan organized by category and duration
+  - Reuses WorkoutTable for exercise rendering
+- **Route**: `/rotation`
+
+### use-weekly-rotation Hook
+- **File**: `client/src/hooks/use-weekly-rotation.ts`
+- **Purpose**: Fetch and manage weekly rotation data
+- **Logic**:
+  1. Fetch `manifest.json` to get startDate and week list
+  2. Calculate week index: `floor((today - startDate) / 7 days)`
+  3. Map to plan file: `weekIndex % totalWeeks`
+  4. Fetch corresponding week JSON file
+- **Parameters**: `overrideWeekIndex` (optional) to fetch specific week
+- **Returns**: `{ plan, weekIndex, totalWeeks, loading, error }`
+
+### Rotation Data Files
+- **Location**: `client/public/workouts/`
+- **manifest.json**: Lists available week files and startDate
+- **week-NNN.json**: Week plan with all categories and durations
+- **Format**: Static JSON files served as public assets
+- **Updates**: No code changes required — just edit JSON files and update manifest
+
+---
+
 ## State Flow
+
+### Dashboard (Day-Based)
+
 
 1. **User clicks day button** → Sidebar calls `onSelectDay(day)` → Dashboard updates `selectedDay`
 2. **User selects category** → Sidebar calls `onSelectCategory(category)` → Dashboard updates `selectedCategory`

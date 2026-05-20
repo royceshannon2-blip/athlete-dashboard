@@ -1,0 +1,674 @@
+{
+  "label": "Block 1 – Week 1",
+  "days": [
+    {
+      "day": "Monday",
+      "focus": "Lower body power",
+      "categories": {
+        "basketball": {
+          "workouts": [
+            {
+              "duration": "30m",
+              "exercises": [
+                {
+                  "id": "mon-bb-30-1",
+                  "phase": "Plyo",
+                  "name": "Defensive Slides",
+                  "setsReps": "4x30s",
+                  "tempo": "X-0-X-0",
+                  "rest": "60s",
+                  "note": "Stay low, push off outside foot"
+                },
+                {
+                  "id": "mon-bb-30-2",
+                  "phase": "Strength",
+                  "name": "Lateral Shuffles",
+                  "setsReps": "3x30s",
+                  "tempo": "1-0-1-0",
+                  "rest": "30s"
+                }
+              ]
+            },
+            {
+              "duration": "1h",
+              "exercises": [
+                {
+                  "id": "mon-bb-1h-1",
+                  "phase": "Plyo",
+                  "name": "Vertical Jump Drills",
+                  "setsReps": "4x5",
+                  "tempo": "X-0-X-1",
+                  "rest": "90s"
+                },
+                {
+                  "id": "mon-bb-1h-2",
+                  "phase": "Strength",
+                  "name": "Lateral Shuffles",
+                  "setsReps": "4x30s",
+                  "tempo": "1-0-1-0",
+                  "rest": "30s"
+                },
+                {
+                  "id": "mon-bb-1h-3",
+                  "phase": "Strength",
+                  "name": "Defensive Slide",
+                  "setsReps": "3x20m",
+                  "tempo": "1-0-1-0",
+                  "rest": "45s"
+                }
+              ]
+            },
+            {
+              "duration": "2h",
+              "exercises": [
+                {
+                  "id": "mon-bb-2h-1",
+                  "phase": "Plyo",
+                  "name": "Vertical Jump Drills",
+                  "setsReps": "5x5",
+                  "tempo": "X-0-X-1",
+                  "rest": "90s"
+                },
+                {
+                  "id": "mon-bb-2h-2",
+                  "phase": "Plyo",
+                  "name": "Broad Jump",
+                  "setsReps": "4x4",
+                  "tempo": "X-0-X-1",
+                  "rest": "2min"
+                },
+                {
+                  "id": "mon-bb-2h-3",
+                  "phase": "Strength",
+                  "name": "Lateral Shuffles",
+                  "setsReps": "4x30s",
+                  "tempo": "1-0-1-0",
+                  "rest": "30s"
+                },
+                {
+                  "id": "mon-bb-2h-4",
+                  "phase": "Strength",
+                  "name": "Defensive Slide",
+                  "setsReps": "4x20m",
+                  "tempo": "1-0-1-0",
+                  "rest": "45s"
+                },
+                {
+                  "id": "mon-bb-2h-5",
+                  "phase": "Aesthetic",
+                  "name": "Core Stability",
+                  "setsReps": "3x30s",
+                  "tempo": "1-0-1-0",
+                  "rest": "30s"
+                }
+              ]
+            },
+            {
+              "duration": "3h",
+              "exercises": [
+                {
+                  "id": "mon-bb-3h-1",
+                  "phase": "Plyo",
+                  "name": "Vertical Jump Drills",
+                  "setsReps": "6x5",
+                  "tempo": "X-0-X-1",
+                  "rest": "90s"
+                },
+                {
+                  "id": "mon-bb-3h-2",
+                  "phase": "Plyo",
+                  "name": "Broad Jump",
+                  "setsReps": "5x4",
+                  "tempo": "X-0-X-1",
+                  "rest": "2min"
+                },
+                {
+                  "id": "mon-bb-3h-3",
+                  "phase": "Strength",
+                  "name": "Lateral Shuffles",
+                  "setsReps": "5x30s",
+                  "tempo": "1-0-1-0",
+                  "rest": "30s"
+                },
+                {
+                  "id": "mon-bb-3h-4",
+                  "phase": "Strength",
+                  "name": "Defensive Slide",
+                  "setsReps": "5x20m",
+                  "tempo": "1-0-1-0",
+                  "rest": "45s"
+                },
+                {
+                  "id": "mon-bb-3h-5",
+                  "phase": "Strength",
+                  "name": "Agility Cone Drills",
+                  "setsReps": "3x5",
+                  "tempo": "X-0-X-1",
+                  "rest": "60s"
+                },
+                {
+                  "id": "mon-bb-3h-6",
+                  "phase": "Aesthetic",
+                  "name": "Core Stability",
+                  "setsReps": "4x30s",
+                  "tempo": "1-0-1-0",
+                  "rest": "30s"
+                },
+                {
+                  "id": "mon-bb-3h-7",
+                  "phase": "Aesthetic",
+                  "name": "Cardiovascular Conditioning",
+                  "setsReps": "2x3min",
+                  "tempo": "1-0-1-0",
+                  "rest": "90s"
+                }
+              ]
+            }
+          ]
+        },
+        "weightlifting": {
+          "workouts": [
+            {
+              "duration": "30m",
+              "exercises": [
+                {
+                  "id": "mon-wl-30-1",
+                  "phase": "Strength",
+                  "name": "Back Squat",
+                  "setsReps": "3x6-8",
+                  "tempo": "3-0-X-1",
+                  "rest": "120s"
+                },
+                {
+                  "id": "mon-wl-30-2",
+                  "phase": "Aesthetic",
+                  "name": "Leg Curl Machine",
+                  "setsReps": "3x12-15",
+                  "tempo": "2-0-1-1",
+                  "rest": "60s"
+                }
+              ]
+            },
+            {
+              "duration": "1h",
+              "exercises": [
+                {
+                  "id": "mon-wl-1h-1",
+                  "phase": "Plyo",
+                  "name": "DB Countermovement Jump",
+                  "setsReps": "3x5",
+                  "tempo": "3-0-X-1",
+                  "rest": "90s",
+                  "note": "Hold DBs at sides. Dip into a quarter squat, then explode upward with full hip extension."
+                },
+                {
+                  "id": "mon-wl-1h-2",
+                  "phase": "Strength",
+                  "name": "Back Squat",
+                  "setsReps": "3x6-8",
+                  "tempo": "3-0-X-1",
+                  "rest": "120s"
+                },
+                {
+                  "id": "mon-wl-1h-3",
+                  "phase": "Aesthetic",
+                  "name": "Leg Curl Machine",
+                  "setsReps": "3x12-15",
+                  "tempo": "2-0-1-1",
+                  "rest": "60s"
+                }
+              ]
+            },
+            {
+              "duration": "2h",
+              "exercises": [
+                {
+                  "id": "mon-wl-2h-1",
+                  "phase": "Plyo",
+                  "name": "DB Countermovement Jump",
+                  "setsReps": "3x5",
+                  "tempo": "3-0-X-1",
+                  "rest": "90s"
+                },
+                {
+                  "id": "mon-wl-2h-2",
+                  "phase": "Strength",
+                  "name": "Back Squat",
+                  "setsReps": "4x6-8",
+                  "tempo": "3-0-X-1",
+                  "rest": "120s"
+                },
+                {
+                  "id": "mon-wl-2h-3",
+                  "phase": "Strength",
+                  "name": "Leg Press",
+                  "setsReps": "3x8-10",
+                  "tempo": "2-0-1-1",
+                  "rest": "90s"
+                },
+                {
+                  "id": "mon-wl-2h-4",
+                  "phase": "Aesthetic",
+                  "name": "Leg Curl Machine",
+                  "setsReps": "3x12-15",
+                  "tempo": "2-0-1-1",
+                  "rest": "60s"
+                },
+                {
+                  "id": "mon-wl-2h-5",
+                  "phase": "Aesthetic",
+                  "name": "Leg Extension",
+                  "setsReps": "3x12",
+                  "tempo": "2-0-1-1",
+                  "rest": "60s"
+                }
+              ]
+            },
+            {
+              "duration": "3h",
+              "exercises": [
+                {
+                  "id": "mon-wl-3h-1",
+                  "phase": "Plyo",
+                  "name": "DB Countermovement Jump",
+                  "setsReps": "3x5",
+                  "tempo": "3-0-X-1",
+                  "rest": "90s"
+                },
+                {
+                  "id": "mon-wl-3h-2",
+                  "phase": "Strength",
+                  "name": "Back Squat",
+                  "setsReps": "5x6-8",
+                  "tempo": "3-0-X-1",
+                  "rest": "120s"
+                },
+                {
+                  "id": "mon-wl-3h-3",
+                  "phase": "Strength",
+                  "name": "Leg Press",
+                  "setsReps": "4x8-10",
+                  "tempo": "2-0-1-1",
+                  "rest": "90s"
+                },
+                {
+                  "id": "mon-wl-3h-4",
+                  "phase": "Strength",
+                  "name": "DB RDLs",
+                  "setsReps": "3x8-10",
+                  "tempo": "3-0-X-1",
+                  "rest": "90s"
+                },
+                {
+                  "id": "mon-wl-3h-5",
+                  "phase": "Aesthetic",
+                  "name": "Leg Curl Machine",
+                  "setsReps": "4x12-15",
+                  "tempo": "2-0-1-1",
+                  "rest": "60s"
+                },
+                {
+                  "id": "mon-wl-3h-6",
+                  "phase": "Aesthetic",
+                  "name": "Leg Extension",
+                  "setsReps": "3x12",
+                  "tempo": "2-0-1-1",
+                  "rest": "60s"
+                },
+                {
+                  "id": "mon-wl-3h-7",
+                  "phase": "Aesthetic",
+                  "name": "Calf Raises",
+                  "setsReps": "3x15",
+                  "tempo": "2-0-1-0",
+                  "rest": "45s"
+                }
+              ]
+            }
+          ]
+        },
+        "jumping": {
+          "workouts": [
+            {
+              "duration": "30m",
+              "exercises": [
+                {
+                  "id": "mon-jump-30-1",
+                  "phase": "Plyo",
+                  "name": "Single-Leg Hops",
+                  "setsReps": "3x8",
+                  "tempo": "X-0-X-0",
+                  "rest": "60s",
+                  "note": "Minimize ground contact time"
+                },
+                {
+                  "id": "mon-jump-30-2",
+                  "phase": "Strength",
+                  "name": "Box Step-Ups",
+                  "setsReps": "3x10",
+                  "tempo": "2-0-1-1",
+                  "rest": "45s"
+                }
+              ]
+            },
+            {
+              "duration": "1h",
+              "exercises": [
+                {
+                  "id": "mon-jump-1h-1",
+                  "phase": "Plyo",
+                  "name": "Double-Leg Hops",
+                  "setsReps": "4x10",
+                  "tempo": "X-0-X-0",
+                  "rest": "90s"
+                },
+                {
+                  "id": "mon-jump-1h-2",
+                  "phase": "Strength",
+                  "name": "Box Step-Ups",
+                  "setsReps": "3x10",
+                  "tempo": "2-0-1-1",
+                  "rest": "45s"
+                },
+                {
+                  "id": "mon-jump-1h-3",
+                  "phase": "Strength",
+                  "name": "Split Squats",
+                  "setsReps": "3x10",
+                  "tempo": "2-0-1-1",
+                  "rest": "60s"
+                }
+              ]
+            },
+            {
+              "duration": "2h",
+              "exercises": [
+                {
+                  "id": "mon-jump-2h-1",
+                  "phase": "Plyo",
+                  "name": "Double-Leg Hops",
+                  "setsReps": "5x10",
+                  "tempo": "X-0-X-0",
+                  "rest": "90s"
+                },
+                {
+                  "id": "mon-jump-2h-2",
+                  "phase": "Plyo",
+                  "name": "Bounding",
+                  "setsReps": "4x20m",
+                  "tempo": "X-0-X-1",
+                  "rest": "2min"
+                },
+                {
+                  "id": "mon-jump-2h-3",
+                  "phase": "Strength",
+                  "name": "Box Step-Ups",
+                  "setsReps": "3x10",
+                  "tempo": "2-0-1-1",
+                  "rest": "45s"
+                },
+                {
+                  "id": "mon-jump-2h-4",
+                  "phase": "Strength",
+                  "name": "Split Squats",
+                  "setsReps": "4x10",
+                  "tempo": "2-0-1-1",
+                  "rest": "60s"
+                },
+                {
+                  "id": "mon-jump-2h-5",
+                  "phase": "Aesthetic",
+                  "name": "Calf Raises",
+                  "setsReps": "3x15",
+                  "tempo": "2-0-1-0",
+                  "rest": "45s"
+                }
+              ]
+            },
+            {
+              "duration": "3h",
+              "exercises": [
+                {
+                  "id": "mon-jump-3h-1",
+                  "phase": "Plyo",
+                  "name": "Double-Leg Hops",
+                  "setsReps": "6x10",
+                  "tempo": "X-0-X-0",
+                  "rest": "90s"
+                },
+                {
+                  "id": "mon-jump-3h-2",
+                  "phase": "Plyo",
+                  "name": "Bounding",
+                  "setsReps": "5x20m",
+                  "tempo": "X-0-X-1",
+                  "rest": "2min"
+                },
+                {
+                  "id": "mon-jump-3h-3",
+                  "phase": "Strength",
+                  "name": "Box Step-Ups",
+                  "setsReps": "4x10",
+                  "tempo": "2-0-1-1",
+                  "rest": "45s"
+                },
+                {
+                  "id": "mon-jump-3h-4",
+                  "phase": "Strength",
+                  "name": "Split Squats",
+                  "setsReps": "5x10",
+                  "tempo": "2-0-1-1",
+                  "rest": "60s"
+                },
+                {
+                  "id": "mon-jump-3h-5",
+                  "phase": "Strength",
+                  "name": "Bulgarian Split Squats",
+                  "setsReps": "3x8",
+                  "tempo": "3-0-1-1",
+                  "rest": "60s"
+                },
+                {
+                  "id": "mon-jump-3h-6",
+                  "phase": "Aesthetic",
+                  "name": "Calf Raises",
+                  "setsReps": "4x15",
+                  "tempo": "2-0-1-0",
+                  "rest": "45s"
+                },
+                {
+                  "id": "mon-jump-3h-7",
+                  "phase": "Aesthetic",
+                  "name": "Quad Extension",
+                  "setsReps": "3x12",
+                  "tempo": "2-0-1-1",
+                  "rest": "45s"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "day": "Tuesday",
+      "focus": "Upper body + conditioning",
+      "categories": {
+        "basketball": {
+          "workouts": [
+            { "duration": "30m", "exercises": [] },
+            { "duration": "1h", "exercises": [] },
+            { "duration": "2h", "exercises": [] },
+            { "duration": "3h", "exercises": [] }
+          ]
+        },
+        "weightlifting": {
+          "workouts": [
+            { "duration": "30m", "exercises": [] },
+            { "duration": "1h", "exercises": [] },
+            { "duration": "2h", "exercises": [] },
+            { "duration": "3h", "exercises": [] }
+          ]
+        },
+        "jumping": {
+          "workouts": [
+            { "duration": "30m", "exercises": [] },
+            { "duration": "1h", "exercises": [] },
+            { "duration": "2h", "exercises": [] },
+            { "duration": "3h", "exercises": [] }
+          ]
+        }
+      }
+    },
+    {
+      "day": "Wednesday",
+      "focus": "Recovery",
+      "categories": {
+        "basketball": {
+          "workouts": [
+            { "duration": "30m", "exercises": [] },
+            { "duration": "1h", "exercises": [] },
+            { "duration": "2h", "exercises": [] },
+            { "duration": "3h", "exercises": [] }
+          ]
+        },
+        "weightlifting": {
+          "workouts": [
+            { "duration": "30m", "exercises": [] },
+            { "duration": "1h", "exercises": [] },
+            { "duration": "2h", "exercises": [] },
+            { "duration": "3h", "exercises": [] }
+          ]
+        },
+        "jumping": {
+          "workouts": [
+            { "duration": "30m", "exercises": [] },
+            { "duration": "1h", "exercises": [] },
+            { "duration": "2h", "exercises": [] },
+            { "duration": "3h", "exercises": [] }
+          ]
+        }
+      }
+    },
+    {
+      "day": "Thursday",
+      "focus": "Vertical + speed",
+      "categories": {
+        "basketball": {
+          "workouts": [
+            { "duration": "30m", "exercises": [] },
+            { "duration": "1h", "exercises": [] },
+            { "duration": "2h", "exercises": [] },
+            { "duration": "3h", "exercises": [] }
+          ]
+        },
+        "weightlifting": {
+          "workouts": [
+            { "duration": "30m", "exercises": [] },
+            { "duration": "1h", "exercises": [] },
+            { "duration": "2h", "exercises": [] },
+            { "duration": "3h", "exercises": [] }
+          ]
+        },
+        "jumping": {
+          "workouts": [
+            { "duration": "30m", "exercises": [] },
+            { "duration": "1h", "exercises": [] },
+            { "duration": "2h", "exercises": [] },
+            { "duration": "3h", "exercises": [] }
+          ]
+        }
+      }
+    },
+    {
+      "day": "Friday",
+      "focus": "Full body strength",
+      "categories": {
+        "basketball": {
+          "workouts": [
+            { "duration": "30m", "exercises": [] },
+            { "duration": "1h", "exercises": [] },
+            { "duration": "2h", "exercises": [] },
+            { "duration": "3h", "exercises": [] }
+          ]
+        },
+        "weightlifting": {
+          "workouts": [
+            { "duration": "30m", "exercises": [] },
+            { "duration": "1h", "exercises": [] },
+            { "duration": "2h", "exercises": [] },
+            { "duration": "3h", "exercises": [] }
+          ]
+        },
+        "jumping": {
+          "workouts": [
+            { "duration": "30m", "exercises": [] },
+            { "duration": "1h", "exercises": [] },
+            { "duration": "2h", "exercises": [] },
+            { "duration": "3h", "exercises": [] }
+          ]
+        }
+      }
+    },
+    {
+      "day": "Saturday",
+      "focus": "Skills + agility",
+      "categories": {
+        "basketball": {
+          "workouts": [
+            { "duration": "30m", "exercises": [] },
+            { "duration": "1h", "exercises": [] },
+            { "duration": "2h", "exercises": [] },
+            { "duration": "3h", "exercises": [] }
+          ]
+        },
+        "weightlifting": {
+          "workouts": [
+            { "duration": "30m", "exercises": [] },
+            { "duration": "1h", "exercises": [] },
+            { "duration": "2h", "exercises": [] },
+            { "duration": "3h", "exercises": [] }
+          ]
+        },
+        "jumping": {
+          "workouts": [
+            { "duration": "30m", "exercises": [] },
+            { "duration": "1h", "exercises": [] },
+            { "duration": "2h", "exercises": [] },
+            { "duration": "3h", "exercises": [] }
+          ]
+        }
+      }
+    },
+    {
+      "day": "Sunday",
+      "focus": "Rest / mobility",
+      "categories": {
+        "basketball": {
+          "workouts": [
+            { "duration": "30m", "exercises": [] },
+            { "duration": "1h", "exercises": [] },
+            { "duration": "2h", "exercises": [] },
+            { "duration": "3h", "exercises": [] }
+          ]
+        },
+        "weightlifting": {
+          "workouts": [
+            { "duration": "30m", "exercises": [] },
+            { "duration": "1h", "exercises": [] },
+            { "duration": "2h", "exercises": [] },
+            { "duration": "3h", "exercises": [] }
+          ]
+        },
+        "jumping": {
+          "workouts": [
+            { "duration": "30m", "exercises": [] },
+            { "duration": "1h", "exercises": [] },
+            { "duration": "2h", "exercises": [] },
+            { "duration": "3h", "exercises": [] }
+          ]
+        }
+      }
+    }
+  ]
+}
