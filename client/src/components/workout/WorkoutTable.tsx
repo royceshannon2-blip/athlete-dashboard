@@ -1,6 +1,7 @@
 import { useState } from "react";
-import { Zap, Dumbbell, Sparkles, Clock, Layers, Info, ChevronDown } from "lucide-react";
+import { Zap, Dumbbell, Sparkles, Clock, Layers, Info, ChevronDown, Check } from "lucide-react";
 import { type Exercise } from "@shared/schema";
+import { parseSetsReps } from "@/hooks/use-weight-log";
 import {
   Tooltip,
   TooltipContent,
@@ -10,6 +11,9 @@ import {
 
 interface WorkoutTableProps {
   exercises: Exercise[];
+  category?: string;
+  onSetComplete?: (exercise: Exercise, setNumber: number) => void;
+  completedSets?: Record<string, Set<number>>;
 }
 
 const PHASE_CONFIG = {
@@ -18,10 +22,23 @@ const PHASE_CONFIG = {
   Aesthetic: { icon: Sparkles, color: "text-[#ffea00]", bg: "bg-[#ffea00]/10", border: "border-[#ffea00]/20" },
 };
 
-function ExerciseCard({ exercise }: { exercise: Exercise }) {
+function ExerciseCard({
+  exercise,
+  category,
+  onSetComplete,
+  completedSets,
+}: {
+  exercise: Exercise;
+  category?: string;
+  onSetComplete?: (exercise: Exercise, setNumber: number) => void;
+  completedSets?: Record<string, Set<number>>;
+}) {
   const [expanded, setExpanded] = useState(false);
   const cfg = PHASE_CONFIG[exercise.phase];
   const PhaseIconComp = cfg.icon;
+  const isWeightlifting = category === "weightlifting";
+  const { sets: setCount } = isWeightlifting ? parseSetsReps(exercise.setsReps) : { sets: 0 };
+  const exerciseCompletedSets = completedSets?.[exercise.id] ?? new Set();
 
   return (
     <div className={`rounded-xl border ${cfg.border} overflow-hidden`}>
@@ -95,15 +112,52 @@ function ExerciseCard({ exercise }: { exercise: Exercise }) {
           </div>
         </div>
       )}
+
+      {isWeightlifting && onSetComplete && setCount > 0 && (
+        <div className="px-4 pb-3 bg-slate-900/40 border-t border-white/5">
+          <div className="flex flex-wrap gap-2 pt-3">
+            {Array.from({ length: setCount }).map((_, i) => {
+              const setNum = i + 1;
+              const isCompleted = exerciseCompletedSets.has(setNum);
+              return (
+                <button
+                  key={setNum}
+                  onClick={() => onSetComplete(exercise, setNum)}
+                  disabled={isCompleted}
+                  className={`px-3 py-1.5 rounded-lg text-xs font-mono font-bold uppercase transition-colors ${
+                    isCompleted
+                      ? `${cfg.bg} ${cfg.color} border ${cfg.border} opacity-60 cursor-default flex items-center gap-1`
+                      : `border ${cfg.border} ${cfg.color} hover:${cfg.bg} cursor-pointer`
+                  }`}
+                >
+                  Set {setNum}
+                  {isCompleted && <Check className="w-3 h-3" />}
+                </button>
+              );
+            })}
+          </div>
+        </div>
+      )}
     </div>
   );
 }
 
-export function WorkoutTable({ exercises }: WorkoutTableProps) {
+export function WorkoutTable({
+  exercises,
+  category,
+  onSetComplete,
+  completedSets,
+}: WorkoutTableProps) {
   return (
     <div className="space-y-3">
       {exercises.map((ex) => (
-        <ExerciseCard key={ex.id} exercise={ex} />
+        <ExerciseCard
+          key={ex.id}
+          exercise={ex}
+          category={category}
+          onSetComplete={onSetComplete}
+          completedSets={completedSets}
+        />
       ))}
     </div>
   );
