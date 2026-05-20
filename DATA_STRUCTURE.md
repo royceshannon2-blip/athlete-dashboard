@@ -8,13 +8,106 @@ Detailed reference for APEX's data format and TypeScript schemas.
 
 All workout data is defined in `client/src/hooks/use-workouts.ts` as a single `WORKOUTS_DATA` object. The structure is validated with Zod schemas in `shared/schema.ts`.
 
-**Hierarchy**: Days → Categories → Durations → Exercises
+**Hierarchy**: Days → Categories → Durations → Exercises (or Basketball Drills)
 
 ---
 
 ## Zod Schemas
 
 Located in `shared/schema.ts`. All schemas are exported as TypeScript types.
+
+### BasketballRep
+
+Basketball drills use a different rep model than standard exercises. Three types are supported:
+
+```typescript
+export const basketballRepSchema = z.union([
+  z.object({ type: z.literal("makes"), makes: z.number() }),
+  z.object({ type: z.literal("setsPerHand"), sets: z.number(), rightReps: z.number() }),
+  z.object({ type: z.literal("makesPerHand"), rightMakes: z.number() }),
+]);
+
+export type BasketballRep = z.infer<typeof basketballRepSchema>;
+```
+
+**Types**:
+- `makes` (number): Simple count of makes, e.g., 15 makes
+- `setsPerHand` (sets + rightReps): Sets with asymmetrical reps for left/right. Left reps auto-computed: `ceil(rightReps * 1.1)`
+- `makesPerHand` (rightMakes): Asymmetrical makes per hand. Left makes auto-computed: `ceil(rightMakes * 1.1)`
+
+**Example**:
+```typescript
+// Makes: 15 makes
+{ type: "makes", makes: 15 }
+
+// Sets per hand: 3 sets, 25 reps right, 28 reps left (auto-computed)
+{ type: "setsPerHand", sets: 3, rightReps: 25 }
+
+// Makes per hand: 10 right, 11 left (auto-computed)
+{ type: "makesPerHand", rightMakes: 10 }
+```
+
+---
+
+### BasketballDrill
+
+```typescript
+export const basketballDrillSchema = z.object({
+  id: z.string(),
+  category: z.literal("basketball"),
+  subCategory: z.enum(["shooting", "ballHandling", "finishing"]),
+  duration: z.enum(["30m", "1h", "2h", "3h"]),
+  name: z.string(),
+  description: z.string(),
+  phase: z.enum(["Plyo", "Strength", "Aesthetic"]),
+  reps: basketballRepSchema,
+});
+
+export type BasketballDrill = z.infer<typeof basketballDrillSchema>;
+```
+
+**Fields**:
+- `id` (string): Unique identifier, e.g., "mon-bb-30-shooting-1"
+- `category` (literal): Always "basketball"
+- `subCategory` (enum): "shooting", "ballHandling", or "finishing"
+- `duration` (enum): "30m", "1h", "2h", "3h"
+- `name` (string): Drill name, e.g., "Spot Shooting"
+- `description` (string): What to do, e.g., "5 spots around the arc, move after each make"
+- `phase` (enum): "Plyo", "Strength", or "Aesthetic"
+- `reps` (BasketballRep): One of the three rep models
+
+**Example**:
+```typescript
+{
+  id: "mon-bb-30-shooting-1",
+  category: "basketball",
+  subCategory: "shooting",
+  duration: "30m",
+  name: "Spot Shooting",
+  description: "5 spots around the arc, move after each make",
+  phase: "Strength",
+  reps: { type: "makes", makes: 15 }
+}
+```
+
+---
+
+### BasketballDurationWorkout
+
+```typescript
+export const basketballDurationWorkoutSchema = z.object({
+  duration: z.enum(["30m", "1h", "2h", "3h"]),
+  drills: z.array(basketballDrillSchema),
+});
+
+export type BasketballDurationWorkout = z.infer<typeof basketballDurationWorkoutSchema>;
+```
+
+**Fields**:
+- `duration` (enum): Workout length: "30m", "1h", "2h", "3h"
+- `drills` (array): List of BasketballDrill objects, organized by sub-category at display time
+
+---
 
 ### Exercise
 
@@ -86,20 +179,52 @@ export type DurationWorkout = z.infer<typeof durationWorkoutSchema>;
 
 ### CategoryWorkout
 
+CategoryWorkout is a union type: basketball uses drills, while weightlifting and jumping use exercises.
+
 ```typescript
-export const categoryWorkoutSchema = z.object({
-  category: z.enum(["basketball", "weightlifting", "jumping"]),
-  workouts: z.array(durationWorkoutSchema),
-});
+export const categoryWorkoutSchema = z.union([
+  z.object({
+    category: z.literal("basketball"),
+    workouts: z.array(basketballDurationWorkoutSchema),
+  }),
+  z.object({
+    category: z.enum(["weightlifting", "jumping"]),
+    workouts: z.array(durationWorkoutSchema),
+  }),
+]);
 
 export type CategoryWorkout = z.infer<typeof categoryWorkoutSchema>;
 ```
 
-**Fields**:
-- `category` (enum): Training style: "basketball", "weightlifting", "jumping"
-- `workouts` (array): List of DurationWorkout objects for each duration
+**For Basketball**:
+- `category` (literal): "basketball"
+- `workouts` (array): List of BasketballDurationWorkout objects with drills
 
-**Example**:
+**For Weightlifting/Jumping**:
+- `category` (enum): "weightlifting" or "jumping"
+- `workouts` (array): List of DurationWorkout objects with exercises
+
+**Example (Basketball)**:
+```typescript
+{
+  category: "basketball",
+  workouts: [
+    {
+      duration: "30m",
+      drills: [
+        { id: "...", subCategory: "shooting", ... },
+        { id: "...", subCategory: "ballHandling", ... },
+        { id: "...", subCategory: "finishing", ... }
+      ]
+    },
+    { duration: "1h", drills: [...] },
+    { duration: "2h", drills: [...] },
+    { duration: "3h", drills: [...] }
+  ]
+}
+```
+
+**Example (Weightlifting)**:
 ```typescript
 {
   category: "weightlifting",

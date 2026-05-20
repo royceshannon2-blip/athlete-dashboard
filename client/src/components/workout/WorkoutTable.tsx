@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { Zap, Dumbbell, Sparkles, Clock, Layers, Info, ChevronDown, Check } from "lucide-react";
-import { type Exercise } from "@shared/schema";
+import { type Exercise, type BasketballDrill } from "@shared/schema";
 import { parseSetsReps } from "@/hooks/use-weight-log";
+import { BasketballSection } from "./BasketballSection";
 import {
   Tooltip,
   TooltipContent,
@@ -10,7 +11,8 @@ import {
 } from "@/components/ui/tooltip";
 
 interface WorkoutTableProps {
-  exercises: Exercise[];
+  exercises?: Exercise[];
+  drills?: BasketballDrill[];
   category?: string;
   onSetComplete?: (exercise: Exercise, setNumber: number) => void;
   completedSets?: Record<string, Set<number>>;
@@ -144,13 +146,34 @@ function ExerciseCard({
 
 export function WorkoutTable({
   exercises,
+  drills,
   category,
   onSetComplete,
   completedSets,
 }: WorkoutTableProps) {
+  if (category === "basketball" && drills) {
+    const shootingDrills = drills.filter((d) => d.subCategory === "shooting");
+    const ballHandlingDrills = drills.filter((d) => d.subCategory === "ballHandling");
+    const finishingDrills = drills.filter((d) => d.subCategory === "finishing");
+
+    return (
+      <div className="space-y-6">
+        {shootingDrills.length > 0 && (
+          <BasketballSection subCategory="shooting" drills={shootingDrills} />
+        )}
+        {ballHandlingDrills.length > 0 && (
+          <BasketballSection subCategory="ballHandling" drills={ballHandlingDrills} />
+        )}
+        {finishingDrills.length > 0 && (
+          <BasketballSection subCategory="finishing" drills={finishingDrills} />
+        )}
+      </div>
+    );
+  }
+
   return (
     <div className="space-y-3">
-      {exercises.map((ex) => (
+      {exercises?.map((ex) => (
         <ExerciseCard
           key={ex.id}
           exercise={ex}

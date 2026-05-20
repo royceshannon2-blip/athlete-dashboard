@@ -28,14 +28,21 @@ Each week cycles through the list automatically based on the date.
 
 ## Customizing the Day-Based Dashboard
 
-## How to Customize Workouts
-
 ### File Location
 Edit workout data in: `client/src/hooks/use-workouts.ts`
 
 Look for the `WORKOUTS_DATA` object (starts around line 5).
 
-### Data Structure
+### Basketball vs. Other Categories
+
+**Weightlifting & Jumping** use standard exercises with sets/reps.  
+**Basketball** uses drills with three sub-categories and specialized rep models.
+
+---
+
+## Weightlifting and Jumping Workouts
+
+### Data Structure (Exercises)
 
 ```typescript
 WORKOUTS_DATA: WorkoutsData = {
@@ -156,6 +163,124 @@ Here's how to modify a 1-hour weightlifting workout for Monday:
   ]
 }
 ```
+
+---
+
+## Basketball Workouts
+
+### Sub-Categories and Rep Models
+
+Basketball drills are organized into **three sub-categories**, each with its own rep model:
+
+| Sub-category | Rep Model | Display | Example |
+|---|---|---|---|
+| **Shooting** | Makes | `15 makes` | Spot shooting, pull-ups, threes |
+| **Ball Handling** | Sets × reps per hand (left skewed) | `3 sets — 25 reps (R) / 28 reps (L)` | Crossovers, dribble drills |
+| **Finishing** | Makes per hand (left skewed) | `10 makes (R) / 11 makes (L)` | Layups, eurosteps, contested finishes |
+
+**Left Skew Rule**: Left-hand reps/makes are auto-computed: `left = ceil(right * 1.1)`. Never hardcode the left value.
+
+### Data Structure (Basketball Drills)
+
+```typescript
+{
+  category: "basketball",
+  workouts: [
+    {
+      duration: "30m",
+      drills: [
+        {
+          id: "mon-bb-30-shooting-1",
+          category: "basketball",
+          subCategory: "shooting",  // "shooting", "ballHandling", "finishing"
+          duration: "30m",
+          name: "Spot Shooting",
+          description: "5 spots around the arc, move after each make",
+          phase: "Strength",  // "Plyo", "Strength", or "Aesthetic"
+          reps: { type: "makes", makes: 15 }
+        },
+        {
+          id: "mon-bb-30-bh-1",
+          category: "basketball",
+          subCategory: "ballHandling",
+          duration: "30m",
+          name: "Stationary Crossover",
+          description: "Low and tight, eyes up",
+          phase: "Strength",
+          // Left reps auto-computed: ceil(25 * 1.1) = 28
+          reps: { type: "setsPerHand", sets: 3, rightReps: 25 }
+        },
+        {
+          id: "mon-bb-30-finishing-1",
+          category: "basketball",
+          subCategory: "finishing",
+          duration: "30m",
+          name: "Euro Step Layup",
+          description: "Full speed from the wing, attack the rim",
+          phase: "Strength",
+          // Left makes auto-computed: ceil(10 * 1.1) = 11
+          reps: { type: "makesPerHand", rightMakes: 10 }
+        }
+      ]
+    }
+  ]
+}
+```
+
+### Adding a Basketball Drill
+
+1. Find the correct day, category (basketball), and duration
+2. Determine the sub-category: shooting, ballHandling, or finishing
+3. Choose the rep model for that sub-category
+4. Add a drill object:
+
+```typescript
+{
+  id: "unique-id",  // e.g., "tue-bb-1h-shooting-2"
+  category: "basketball",
+  subCategory: "ballHandling",  // "shooting", "ballHandling", or "finishing"
+  duration: "1h",
+  name: "Between the Legs",
+  description: "Hard crossover between legs",
+  phase: "Plyo",  // "Plyo", "Strength", or "Aesthetic"
+  reps: { type: "setsPerHand", sets: 3, rightReps: 15 }
+  // Left reps auto-computed: ceil(15 * 1.1) = 17
+}
+```
+
+### Drill Counts by Duration
+
+Each duration requires a specific number of drills **per sub-category**:
+
+| Duration | Per Sub-category | Total Basketball |
+|---|---|---|
+| 30m | 1 | 3 (1 shooting + 1 BH + 1 finishing) |
+| 1h | 2 | 6 (2 each) |
+| 2h | 4 | 12 (4 each) |
+| 3h | 6 | 18 (6 each) |
+
+### Reps Objects
+
+Only **three formats** are valid for basketball reps:
+
+**1. Shooting (makes only)**
+```typescript
+{ type: "makes", makes: 15 }
+```
+
+**2. Ball Handling (sets + right reps)**
+```typescript
+{ type: "setsPerHand", sets: 3, rightReps: 25 }
+// Left reps computed: Math.ceil(25 * 1.1) = 28
+```
+
+**3. Finishing (right makes only)**
+```typescript
+{ type: "makesPerHand", rightMakes: 10 }
+// Left makes computed: Math.ceil(10 * 1.1) = 11
+```
+
+---
 
 ## Saving Changes
 

@@ -105,11 +105,16 @@ export default function Dashboard() {
 
   let activeCategoryWorkout: CategoryWorkout | undefined;
   let activeDurationWorkout: DurationWorkout | undefined;
+  let activeBasketballWorkout: any = undefined;
 
   if (activeDay) {
     activeCategoryWorkout = activeDay.categoryWorkouts.find(cw => cw.category === selectedCategory);
     if (activeCategoryWorkout) {
-      activeDurationWorkout = activeCategoryWorkout.workouts.find(dw => dw.duration === selectedDuration);
+      if (selectedCategory === "basketball") {
+        activeBasketballWorkout = activeCategoryWorkout.workouts.find(dw => dw.duration === selectedDuration);
+      } else {
+        activeDurationWorkout = activeCategoryWorkout.workouts.find(dw => dw.duration === selectedDuration);
+      }
     }
   }
 
@@ -145,7 +150,13 @@ export default function Dashboard() {
             </div>
           </div>
 
-          {activeDurationWorkout && (
+          {selectedCategory === "basketball" && activeBasketballWorkout && (
+            <WorkoutTable
+              drills={activeBasketballWorkout.drills}
+              category={selectedCategory}
+            />
+          )}
+          {selectedCategory !== "basketball" && activeDurationWorkout && (
             <WorkoutTable
               exercises={activeDurationWorkout.exercises}
               category={selectedCategory}
@@ -160,7 +171,7 @@ export default function Dashboard() {
           </div>
         </div>
 
-        {selectedCategory === "weightlifting" && (
+        {(selectedCategory === "weightlifting" || selectedCategory === "jumping") && (
           <RestTimer
             remaining={restTimer.remaining}
             isRunning={restTimer.isRunning}
