@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { X, Loader2, ChevronRight } from "lucide-react";
 import { useScheduleBrowser } from "@/hooks/use-schedule-browser";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
@@ -27,6 +27,18 @@ export function ScheduleBrowserPanel({ isOpen, onClose }: ScheduleBrowserPanelPr
   const [selectedWeekIndex, setSelectedWeekIndex] = useState<number | null>(null);
   const [selectedDay, setSelectedDay] = useState("Monday");
   const [weekLoading, setWeekLoading] = useState(false);
+
+  const panelRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (!isOpen) return;
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === "Escape") onClose();
+    };
+    document.addEventListener("keydown", handleKeyDown);
+    panelRef.current?.focus();
+    return () => document.removeEventListener("keydown", handleKeyDown);
+  }, [isOpen, onClose]);
 
   // Pre-select current week when data loads
   useEffect(() => {
@@ -58,14 +70,22 @@ export function ScheduleBrowserPanel({ isOpen, onClose }: ScheduleBrowserPanelPr
     <div data-testid="schedule-panel" className="fixed inset-0 z-50 flex">
       <div className="fixed inset-0 bg-black/50" onClick={onClose} />
 
-      <div className="relative ml-auto w-full max-w-2xl h-full bg-[#0f172a] border-l border-white/10 flex flex-col">
+      <div
+        ref={panelRef}
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="schedule-browser-title"
+        tabIndex={-1}
+        className="relative ml-auto w-full max-w-2xl h-full bg-[#0f172a] border-l border-white/10 flex flex-col outline-none"
+      >
         <div className="flex items-center justify-between border-b border-white/5 p-4">
-          <h2 className="text-lg font-display font-bold text-white tracking-wide uppercase">
+          <h2 id="schedule-browser-title" className="text-lg font-display font-bold text-white tracking-wide uppercase">
             Schedule Browser
           </h2>
           <button
             onClick={onClose}
-            className="p-1 hover:bg-white/10 rounded-lg transition-colors"
+            aria-label="Close schedule browser"
+            className="min-h-[44px] min-w-[44px] flex items-center justify-center hover:bg-white/10 rounded-lg transition-colors focus-visible:ring-1 focus-visible:ring-ring/50 outline-none"
           >
             <X className="w-5 h-5 text-slate-400" />
           </button>
@@ -95,7 +115,8 @@ export function ScheduleBrowserPanel({ isOpen, onClose }: ScheduleBrowserPanelPr
                           data-testid="past-week-row"
                           key={week.index}
                           onClick={() => setSelectedWeekIndex(week.index)}
-                          className={`w-full text-left px-2 py-2 rounded-lg text-sm transition-colors mb-1 ${
+                          aria-pressed={selectedWeekIndex === week.index}
+                          className={`w-full text-left min-h-[44px] px-2 py-2 rounded-lg text-sm transition-colors mb-1 focus-visible:ring-1 focus-visible:ring-ring/50 outline-none ${
                             selectedWeekIndex === week.index
                               ? "bg-primary/20 border border-primary/30"
                               : "hover:bg-white/5 border border-transparent"
@@ -130,7 +151,8 @@ export function ScheduleBrowserPanel({ isOpen, onClose }: ScheduleBrowserPanelPr
                           data-testid="current-week-row"
                           key={week.index}
                           onClick={() => setSelectedWeekIndex(week.index)}
-                          className={`w-full text-left px-2 py-2 rounded-lg text-sm transition-colors mb-1 highlighted ${
+                          aria-pressed={selectedWeekIndex === week.index}
+                          className={`w-full text-left min-h-[44px] px-2 py-2 rounded-lg text-sm transition-colors mb-1 highlighted focus-visible:ring-1 focus-visible:ring-ring/50 outline-none ${
                             selectedWeekIndex === week.index
                               ? "bg-primary/20 border border-primary/30"
                               : "hover:bg-white/5 border border-transparent"
@@ -169,7 +191,8 @@ export function ScheduleBrowserPanel({ isOpen, onClose }: ScheduleBrowserPanelPr
                           data-testid="upcoming-week-row"
                           key={week.index}
                           onClick={() => setSelectedWeekIndex(week.index)}
-                          className={`w-full text-left px-2 py-2 rounded-lg text-sm transition-colors mb-1 ${
+                          aria-pressed={selectedWeekIndex === week.index}
+                          className={`w-full text-left min-h-[44px] px-2 py-2 rounded-lg text-sm transition-colors mb-1 focus-visible:ring-1 focus-visible:ring-ring/50 outline-none ${
                             selectedWeekIndex === week.index
                               ? "bg-primary/20 border border-primary/30"
                               : "hover:bg-white/5 border border-transparent"
@@ -241,7 +264,8 @@ export function ScheduleBrowserPanel({ isOpen, onClose }: ScheduleBrowserPanelPr
                       <button
                         key={day.day}
                         onClick={() => setSelectedDay(day.day)}
-                        className={`px-3 py-2 rounded-lg text-sm font-semibold transition-colors whitespace-nowrap flex-shrink-0 ${
+                        aria-current={selectedDay === day.day ? "true" : undefined}
+                        className={`min-h-[44px] px-3 py-2 rounded-lg text-sm font-semibold transition-colors whitespace-nowrap flex-shrink-0 focus-visible:ring-1 focus-visible:ring-ring/50 outline-none ${
                           selectedDay === day.day
                             ? "bg-primary/20 text-primary border border-primary/30"
                             : "bg-slate-800/50 text-slate-300 border border-transparent hover:bg-slate-700/50"

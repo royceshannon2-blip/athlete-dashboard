@@ -1,4 +1,5 @@
 import { Drawer, DrawerContent, DrawerHeader, DrawerTitle } from "@/components/ui/drawer";
+import { Button } from "@/components/ui/button";
 import { WeightPrefs } from "@/hooks/use-weight-log";
 
 interface TimerSettingsProps {
@@ -28,10 +29,11 @@ export function TimerSettings({ prefs, updatePrefs, isOpen, onClose }: TimerSett
 
         <div className="px-4 pb-6 space-y-4">
           <div>
-            <label className="block text-xs font-display font-bold uppercase text-slate-400 mb-2">
+            <label htmlFor="duration-input" className="block text-xs font-display font-bold uppercase text-slate-400 mb-2">
               Rest Duration (seconds)
             </label>
             <input
+              id="duration-input"
               type="number"
               inputMode="numeric"
               min="0"
@@ -65,7 +67,7 @@ export function TimerSettings({ prefs, updatePrefs, isOpen, onClose }: TimerSett
                 <button
                   key={u}
                   onClick={() => updatePrefs({ unit: u })}
-                  className={`flex-1 min-h-[44px] px-3 rounded-lg font-mono font-bold text-sm uppercase transition-colors flex items-center justify-center ${
+                  className={`flex-1 min-h-[44px] px-3 rounded-lg font-mono font-bold text-sm uppercase transition-colors flex items-center justify-center focus-visible:ring-1 focus-visible:ring-primary/70 outline-none ${
                     prefs.unit === u
                       ? "bg-primary text-slate-900"
                       : "bg-slate-800 text-slate-300 hover:bg-slate-700"
@@ -77,12 +79,12 @@ export function TimerSettings({ prefs, updatePrefs, isOpen, onClose }: TimerSett
             </div>
           </div>
 
-          <button
+          <Button
             onClick={onClose}
-            className="w-full min-h-[56px] mt-6 px-4 py-3 rounded-lg font-mono font-bold text-sm uppercase transition-colors bg-primary text-slate-900 hover:bg-primary/90"
+            className="w-full min-h-[56px] mt-6 font-mono font-bold text-sm uppercase bg-primary text-slate-900 hover:bg-primary/90"
           >
             Save
-          </button>
+          </Button>
         </div>
       </DrawerContent>
     </Drawer>

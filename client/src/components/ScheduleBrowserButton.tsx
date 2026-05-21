@@ -10,10 +10,10 @@ export function ScheduleBrowserButton({ onClick }: ScheduleBrowserButtonProps) {
     <Button
       onClick={onClick}
       variant="outline"
-      className="min-h-[44px] min-w-[44px] px-2 sm:px-4 gap-2 border-white/20 hover:bg-white/[0.08] flex items-center justify-center"
+      className="min-h-[44px] min-w-[44px] px-3 gap-2 border-white/20 hover:bg-white/[0.08] flex items-center justify-center"
     >
       <Calendar className="w-4 h-4" />
-      <span className="hidden sm:inline">Schedule</span>
+      <span>Schedule</span>
     </Button>
   );
 }

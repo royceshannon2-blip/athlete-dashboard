@@ -74,10 +74,11 @@ export function SetLogPrompt({
 
         <div className="px-4 pb-6 space-y-4">
           <div>
-            <label className="block text-xs font-display font-bold uppercase text-slate-400 mb-2">
+            <label htmlFor="weight-input" className="block text-xs font-display font-bold uppercase text-slate-400 mb-2">
               Weight
             </label>
             <input
+              id="weight-input"
               type="number"
               inputMode="decimal"
               placeholder="0"
@@ -100,7 +101,7 @@ export function SetLogPrompt({
                 <button
                   key={u}
                   onClick={() => setUnit(u)}
-                  className={`flex-1 min-h-[44px] px-3 rounded-lg font-mono font-bold text-sm uppercase transition-colors flex items-center justify-center ${
+                  className={`flex-1 min-h-[44px] px-3 rounded-lg font-mono font-bold text-sm uppercase transition-colors flex items-center justify-center focus-visible:ring-1 focus-visible:ring-primary/70 outline-none ${
                     unit === u
                       ? "bg-primary text-slate-900"
                       : "bg-slate-800 text-slate-300 hover:bg-slate-700"

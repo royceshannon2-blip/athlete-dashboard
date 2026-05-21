@@ -120,16 +120,54 @@ Standardized as a Vaul Drawer with mobile-friendly controls:
 
 **Files**: `DashboardButton.tsx`, `ScheduleBrowserButton.tsx`
 
-Both header buttons now meet the 44×44px minimum tap target:
+Both header buttons now meet the 44×44px minimum tap target and show their text labels on all screen sizes:
 
 - **Size**: `min-h-[44px] min-w-[44px]`
-- **Padding**: `px-2` on mobile, `sm:px-4` on desktop
-- **Layout**: `flex items-center justify-center` for proper alignment
-- **Text**: hidden on mobile (`hidden sm:inline`), visible on desktop
+- **Padding**: `px-3` consistent across all viewports
+- **Layout**: `flex items-center justify-center gap-2` for proper alignment
+- **Text**: always visible — no `hidden sm:inline`; users can always read the label without guessing the icon
 
 ---
 
-### 8. Timer Auto-Start Removed
+### 8. Accessibility & UX Compliance Pass
+
+**Files**: `ScheduleBrowserPanel.tsx`, `WorkoutTable.tsx`, `SetLogPrompt.tsx`, `TimerSettings.tsx`, `DashboardButton.tsx`, `ScheduleBrowserButton.tsx`
+
+A systematic pass was made against mobile UX and WCAG accessibility requirements:
+
+**Touch targets (44px minimum enforced everywhere)**:
+- `ScheduleBrowserPanel` close button: expanded from `p-1` (~28px) to `min-h-[44px] min-w-[44px]`
+- `WorkoutTable` coaching-cue expand button: expanded from `p-1.5` (~26px) to `min-h-[44px] min-w-[44px]`
+- `ScheduleBrowserPanel` week list buttons: added `min-h-[44px]`
+- `ScheduleBrowserPanel` day tab buttons: added `min-h-[44px]`
+
+**Accessible labels on icon-only elements**:
+- Close button in `ScheduleBrowserPanel`: `aria-label="Close schedule browser"`
+- Expand button in `WorkoutTable`: `aria-label="Show coaching cue"` / `"Collapse coaching cue"` + `aria-expanded`
+- Set buttons in `WorkoutTable`: `aria-label="Log set N"` / `"Set N completed"`
+
+**ARIA dialog pattern on ScheduleBrowserPanel**:
+- Added `role="dialog"` `aria-modal="true"` `aria-labelledby="schedule-browser-title"`
+- Escape key closes the panel (global `keydown` listener, cleaned up on close)
+- Panel div receives `tabIndex={-1}` and is focused on open so screen readers announce it
+
+**Form label/input associations**:
+- `SetLogPrompt` weight input: `<label htmlFor="weight-input">` + `<input id="weight-input">`
+- `TimerSettings` duration input: `<label htmlFor="duration-input">` + `<input id="duration-input">`
+- Previously, `<label>` elements were visually correct but programmatically disconnected from their inputs
+
+**Focus-visible styles on custom `<button>` elements**:
+- All raw `<button>` elements that lacked focus rings now have `focus-visible:ring-1 focus-visible:ring-ring/50 outline-none`
+- Covers: week/day buttons in `ScheduleBrowserPanel`, unit toggle buttons in `SetLogPrompt` and `TimerSettings`, set buttons and expand button in `WorkoutTable`
+- `TimerSettings` Save button replaced with the shadcn `<Button>` component for consistency
+
+**State/selection feedback for assistive technology**:
+- Week list buttons: `aria-pressed` reflects selection state
+- Day tab buttons: `aria-current` reflects active day
+
+---
+
+### 9. Timer Auto-Start Removed
 
 **Files**: `Dashboard.tsx`, (UI only — preference removed from `TimerSettings.tsx`)
 
@@ -159,8 +197,12 @@ Before shipping, verify on a real device or browser devtools at **390×844** (iP
 - [ ] Timer completes → three beeps fire in sequence (~0.9s total)
 - [ ] ProgressionDashboard opens as bottom sheet on mobile; chart and table both visible
 - [ ] Export CSV downloads correctly on mobile Safari (uses `<a download>`)
-- [ ] Header button group does not overflow on 390px width
+- [ ] Header button group does not overflow on 390px width; "Schedule" and "Dashboard" labels visible at all sizes
 - [ ] No horizontal page scroll introduced anywhere
+- [ ] Keyboard: Tab to close button in ScheduleBrowserPanel → focus ring visible; Escape → panel closes
+- [ ] Screen reader: focusing the weight input in SetLogPrompt announces "Weight"
+- [ ] Screen reader: set buttons read "Log set 1", "Log set 2", etc.; completed sets read "Set N completed"
+- [ ] Screen reader: coaching-cue button reads "Show coaching cue" / "Collapse coaching cue" with expanded state
 
 ---
 

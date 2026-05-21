@@ -57,7 +57,9 @@ function ExerciseCard({
             <button
               data-testid={`btn-expand-${exercise.id}`}
               onClick={() => setExpanded(v => !v)}
-              className={`flex-shrink-0 p-1.5 rounded-lg border ${cfg.border} transition-colors ${expanded ? cfg.bg : 'bg-white/5'}`}
+              aria-label={expanded ? "Collapse coaching cue" : "Show coaching cue"}
+              aria-expanded={expanded}
+              className={`flex-shrink-0 min-h-[44px] min-w-[44px] flex items-center justify-center rounded-lg border ${cfg.border} transition-colors focus-visible:ring-1 focus-visible:ring-ring/50 outline-none ${expanded ? cfg.bg : 'bg-white/5'}`}
             >
               <ChevronDown className={`w-3.5 h-3.5 ${cfg.color} transition-transform duration-200 ${expanded ? 'rotate-180' : ''}`} />
             </button>
@@ -126,7 +128,8 @@ function ExerciseCard({
                   key={setNum}
                   onClick={() => onSetComplete(exercise, setNum)}
                   disabled={isCompleted}
-                  className={`min-h-[44px] px-4 text-sm rounded-lg flex-1 basis-[calc(50%-4px)] flex items-center justify-center gap-1 font-mono font-bold uppercase transition-colors ${
+                  aria-label={isCompleted ? `Set ${setNum} completed` : `Log set ${setNum}`}
+                  className={`min-h-[44px] px-4 text-sm rounded-lg flex-1 basis-[calc(50%-4px)] flex items-center justify-center gap-1 font-mono font-bold uppercase transition-colors focus-visible:ring-1 focus-visible:ring-ring/50 outline-none ${
                     isCompleted
                       ? `${cfg.bg} ${cfg.color} border ${cfg.border} opacity-60 cursor-default`
                       : `border ${cfg.border} ${cfg.color} hover:${cfg.bg} cursor-pointer`
