@@ -12,7 +12,7 @@ import { RestTimer } from "@/components/RestTimer";
 import { TimerSettings } from "@/components/TimerSettings";
 import { ProgressionDashboard } from "@/components/ProgressionDashboard";
 import { Activity, Loader2 } from "lucide-react";
-import type { Exercise, CategoryWorkout, DurationWorkout } from "@shared/schema";
+import type { Exercise, CategoryWorkout, DurationWorkout, BasketballDurationWorkout } from "@shared/schema";
 
 interface PromptState {
   exercise: Exercise;
@@ -105,15 +105,15 @@ export default function Dashboard() {
 
   let activeCategoryWorkout: CategoryWorkout | undefined;
   let activeDurationWorkout: DurationWorkout | undefined;
-  let activeBasketballWorkout: any = undefined;
+  let activeBasketballWorkout: BasketballDurationWorkout | undefined;
 
   if (activeDay) {
     activeCategoryWorkout = activeDay.categoryWorkouts.find(cw => cw.category === selectedCategory);
     if (activeCategoryWorkout) {
       if (selectedCategory === "basketball") {
-        activeBasketballWorkout = activeCategoryWorkout.workouts.find(dw => dw.duration === selectedDuration);
+        activeBasketballWorkout = (activeCategoryWorkout as Extract<CategoryWorkout, { category: "basketball" }>).workouts.find(dw => dw.duration === selectedDuration);
       } else {
-        activeDurationWorkout = activeCategoryWorkout.workouts.find(dw => dw.duration === selectedDuration);
+        activeDurationWorkout = (activeCategoryWorkout as Extract<CategoryWorkout, { category: "weightlifting" | "jumping" }>).workouts.find(dw => dw.duration === selectedDuration);
       }
     }
   }
