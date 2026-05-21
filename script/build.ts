@@ -33,6 +33,9 @@ const allowlist = [
 ];
 
 async function buildAll() {
+  // Ensure NODE_ENV is set to production for the build
+  process.env.NODE_ENV = "production";
+
   await rm("dist", { recursive: true, force: true });
 
   console.log("building client...");

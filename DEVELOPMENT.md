@@ -43,11 +43,13 @@ npm run dev
 npm run build
 ```
 
+- Sets `NODE_ENV=production` to ensure development-only code is excluded
 - Compiles TypeScript
 - Builds React app with Vite
 - Outputs to `dist/` directory
 - Optimizes assets for production
 - Handles GitHub Pages base path if `GITHUB_PAGES=true` env var is set
+- **Important**: Development plugins (Replit error overlay, dev banner) are automatically disabled in production builds
 
 ### Run Production Build Locally
 

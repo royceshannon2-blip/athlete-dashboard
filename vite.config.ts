@@ -1,15 +1,13 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import path from "path";
-import runtimeErrorOverlay from "@replit/vite-plugin-runtime-error-modal";
 
 export default defineConfig({
   // Set this to '/<YOUR-REPO-NAME>/' when deploying to GitHub Pages.
   // When running locally on Replit, use '/' (the default).
   base: process.env.GITHUB_PAGES ? `/${process.env.REPO_NAME}/` : "/",
   plugins: [
-    react(),
-    runtimeErrorOverlay(),
+    react({ include: undefined, exclude: undefined }),
     ...(process.env.NODE_ENV !== "production" &&
     process.env.REPL_ID !== undefined
       ? [
@@ -18,6 +16,9 @@ export default defineConfig({
           ),
           await import("@replit/vite-plugin-dev-banner").then((m) =>
             m.devBanner(),
+          ),
+          await import("@replit/vite-plugin-runtime-error-modal").then(
+            (m) => m.default,
           ),
         ]
       : []),
