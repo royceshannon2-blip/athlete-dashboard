@@ -6,6 +6,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import NotFound from "@/pages/not-found";
 import Dashboard from "@/pages/Dashboard";
 import { WeekSelector } from "@/components/WeekSelector";
+import { TestRunner } from "@/components/TestRunner";
 
 // Strip trailing slash so wouter base path matches correctly on GitHub Pages
 // e.g. "/athlete-dashboard/" → "/athlete-dashboard"
@@ -17,6 +18,7 @@ function AppRouter() {
     <Switch>
       <Route path="/" component={Dashboard} />
       <Route path="/rotation" component={WeekSelector} />
+      {import.meta.env.DEV && <Route path="/test-runner" component={TestRunner} />}
       <Route component={NotFound} />
     </Switch>
   );
