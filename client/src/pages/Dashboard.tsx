@@ -67,14 +67,14 @@ export default function Dashboard() {
     setPromptState({ exercise, setNumber, totalSets: sets, targetReps: reps });
   };
 
-  const handleLog = (weightKg: number, unit: "lbs" | "kg") => {
+  const handleLog = (weight: number, unit: "lbs" | "kg") => {
     if (!promptState) return;
     weightLog.logSet(
       promptState.exercise.id,
       promptState.exercise.name,
       promptState.setNumber,
       promptState.targetReps,
-      weightKg,
+      weight,
       unit
     );
     markSetComplete(promptState.exercise.id, promptState.setNumber);
@@ -132,7 +132,7 @@ export default function Dashboard() {
         durations={workoutsData.durations}
       />
 
-      <main className="flex-1 flex flex-col overflow-hidden">
+      <main data-testid="main-workout-view" className="flex-1 flex flex-col overflow-hidden">
         <div className="flex-1 overflow-y-auto p-4 md:p-6 space-y-4 pb-24 md:pb-6">
           <div className="flex items-center justify-between border-b border-white/5 pb-4 mb-2">
             <h2 className="text-xl font-display font-bold text-white tracking-wide uppercase">
@@ -151,18 +151,24 @@ export default function Dashboard() {
           </div>
 
           {selectedCategory === "basketball" && activeBasketballWorkout && (
-            <WorkoutTable
-              drills={activeBasketballWorkout.drills}
-              category={selectedCategory}
-            />
+            <div data-testid="basketball-content">
+              <WorkoutTable
+                drills={activeBasketballWorkout.drills}
+                category={selectedCategory}
+              />
+            </div>
           )}
           {selectedCategory !== "basketball" && activeDurationWorkout && (
-            <WorkoutTable
-              exercises={activeDurationWorkout.exercises}
-              category={selectedCategory}
-              onSetComplete={handleSetComplete}
-              completedSets={completedSets}
-            />
+            <div data-testid={`${selectedCategory}-content`} data-category={selectedCategory}>
+              <div data-testid="exercise-list">
+                <WorkoutTable
+                  exercises={activeDurationWorkout.exercises}
+                  category={selectedCategory}
+                  onSetComplete={handleSetComplete}
+                  completedSets={completedSets}
+                />
+              </div>
+            </div>
           )}
 
           <div className="flex justify-between items-center text-[10px] font-mono text-slate-600 px-2 uppercase tracking-tighter">

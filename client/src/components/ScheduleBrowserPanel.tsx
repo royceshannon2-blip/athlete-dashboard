@@ -55,7 +55,7 @@ export function ScheduleBrowserPanel({ isOpen, onClose }: ScheduleBrowserPanelPr
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 z-50 flex">
+    <div data-testid="schedule-panel" className="fixed inset-0 z-50 flex">
       <div className="fixed inset-0 bg-black/50" onClick={onClose} />
 
       <div className="relative ml-auto w-full max-w-2xl h-full bg-[#0f172a] border-l border-white/10 flex flex-col">
@@ -92,6 +92,7 @@ export function ScheduleBrowserPanel({ isOpen, onClose }: ScheduleBrowserPanelPr
                       .filter(w => w.isPast)
                       .map(week => (
                         <button
+                          data-testid="past-week-row"
                           key={week.index}
                           onClick={() => setSelectedWeekIndex(week.index)}
                           className={`w-full text-left px-2 py-2 rounded-lg text-sm transition-colors mb-1 ${
@@ -126,9 +127,10 @@ export function ScheduleBrowserPanel({ isOpen, onClose }: ScheduleBrowserPanelPr
                       .filter(w => w.isCurrent)
                       .map(week => (
                         <button
+                          data-testid="current-week-row"
                           key={week.index}
                           onClick={() => setSelectedWeekIndex(week.index)}
-                          className={`w-full text-left px-2 py-2 rounded-lg text-sm transition-colors mb-1 ${
+                          className={`w-full text-left px-2 py-2 rounded-lg text-sm transition-colors mb-1 highlighted ${
                             selectedWeekIndex === week.index
                               ? "bg-primary/20 border border-primary/30"
                               : "hover:bg-white/5 border border-transparent"
@@ -164,6 +166,7 @@ export function ScheduleBrowserPanel({ isOpen, onClose }: ScheduleBrowserPanelPr
                       .filter(w => w.isUpcoming)
                       .map(week => (
                         <button
+                          data-testid="upcoming-week-row"
                           key={week.index}
                           onClick={() => setSelectedWeekIndex(week.index)}
                           className={`w-full text-left px-2 py-2 rounded-lg text-sm transition-colors mb-1 ${
@@ -233,7 +236,7 @@ export function ScheduleBrowserPanel({ isOpen, onClose }: ScheduleBrowserPanelPr
 
                 {/* Day Tabs */}
                 <div className="mb-6">
-                  <div className="flex gap-1 overflow-x-auto pb-2 -mx-4 px-4">
+                  <div data-testid="day-tab-row" className="flex gap-1 overflow-x-auto pb-2 -mx-4 px-4">
                     {selectedWeekPlan.days.map(day => (
                       <button
                         key={day.day}

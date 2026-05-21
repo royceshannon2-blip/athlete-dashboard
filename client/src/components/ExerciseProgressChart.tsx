@@ -43,7 +43,7 @@ export function ExerciseProgressChart({ sessions, unit, height = 256 }: Exercise
   const unitLabel = unit === "lbs" ? "lbs" : "kg";
 
   return (
-    <div style={{ height: `${height}px` }} className="w-full border border-slate-700 rounded-lg overflow-hidden">
+    <div data-testid="progression-chart" style={{ height: `${height}px` }} className="w-full border border-slate-700 rounded-lg overflow-hidden">
       <ResponsiveContainer width="100%" height="100%">
         <ComposedChart
           data={data}

@@ -36,6 +36,7 @@ export function RestTimer({
 
   return (
     <div
+      data-testid="rest-timer"
       className={`fixed bottom-0 left-0 right-0 bg-slate-900 border-t border-slate-700 min-h-[72px] z-40 transition-all opacity-0 pointer-events-none ${
         (isRunning || !isIdle || isFinished) ? 'opacity-100 pointer-events-auto' : ''
       } ${isFinished ? "animate-pulse" : ""}`}
@@ -51,9 +52,10 @@ export function RestTimer({
         </div>
 
         {/* Time display */}
-        <div className="text-lg font-mono font-bold text-white w-16 text-center order-1 sm:order-3 sm:w-14">
+        <div data-testid="timer-display" className="text-lg font-mono font-bold text-white w-16 text-center order-1 sm:order-3 sm:w-14">
           {formatTime(remaining)}
         </div>
+        {isRunning && <span data-testid="timer-running-indicator" className="sr-only">Timer running</span>}
 
         {/* Controls - responsive grouping */}
         <div className="flex gap-1 order-2 sm:order-4">
@@ -107,6 +109,7 @@ export function RestTimer({
 
           {/* Settings - always at far right */}
           <Button
+            data-testid="timer-settings-button"
             size="sm"
             variant="ghost"
             onClick={onOpenSettings}

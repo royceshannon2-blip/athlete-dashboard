@@ -1,13 +1,16 @@
 import { useState, useEffect } from "react";
 import { Drawer, DrawerContent, DrawerHeader, DrawerTitle } from "@/components/ui/drawer";
 import { Button } from "@/components/ui/button";
-import { useWeightLog, toDisplayWeight, toKg } from "@/hooks/use-weight-log";
+import { useWeightLog, toDisplayWeight } from "@/hooks/use-weight-log";
+
+const KG_TO_LBS = 2.20462;
+const MAX_LBS = 1000;
 
 interface SetLogPromptProps {
   exercise: { id: string; name: string } | null;
   setNumber: number;
   totalSets: number;
-  onLog: (weightKg: number, unit: "lbs" | "kg") => void;
+  onLog: (weight: number, unit: "lbs" | "kg") => void;
   onSkip: () => void;
 }
 
@@ -22,6 +25,7 @@ export function SetLogPrompt({
   const weightLog = useWeightLog();
   const [weight, setWeight] = useState("");
   const [unit, setUnit] = useState<"lbs" | "kg">(weightLog.prefs.unit);
+  const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     if (isOpen && exercise) {
@@ -33,20 +37,35 @@ export function SetLogPrompt({
       } else {
         setWeight("");
       }
+      setError(null);
     }
-  }, [isOpen, exercise, weightLog]);
+    // weightLog intentionally excluded: its reference changes every render
+    // but getLastWeight is stable. We only want to seed the input when the
+    // exercise/drawer opens, not on every re-render caused by weight state changes.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [isOpen, exercise?.id]);
 
   const handleLog = () => {
     const val = parseFloat(weight);
-    if (!isNaN(val) && val >= 0) {
-      const kg = toKg(val, unit);
-      onLog(kg, unit);
+    setError(null);
+
+    if (isNaN(val) || val <= 0) {
+      setError("Enter a valid weight");
+      return;
     }
+
+    const valInLbs = unit === "lbs" ? val : val * KG_TO_LBS;
+    if (valInLbs > MAX_LBS) {
+      setError("Weight exceeds maximum (1000 lbs)");
+      return;
+    }
+
+    onLog(val, unit);
   };
 
   return (
     <Drawer open={isOpen} onOpenChange={(open) => !open && onSkip()} snapPoints={[0.5, 0.92]}>
-      <DrawerContent className="bg-slate-900 border-slate-700">
+      <DrawerContent data-testid="set-log-prompt" className="bg-slate-900 border-slate-700">
         <DrawerHeader>
           <DrawerTitle className="text-white text-lg font-display font-bold">
             {exercise?.name} — Set {setNumber} of {totalSets}
@@ -63,10 +82,13 @@ export function SetLogPrompt({
               inputMode="decimal"
               placeholder="0"
               value={weight}
-              onChange={(e) => setWeight(e.target.value)}
+              onChange={(e) => { setWeight(e.target.value); setError(null); }}
               className="w-full px-4 py-3 text-4xl font-bold text-center bg-slate-800 border border-slate-700 rounded-lg text-white placeholder-slate-600"
               autoFocus
             />
+            {error && (
+              <p className="mt-1 text-xs text-destructive text-center">{error}</p>
+            )}
           </div>
 
           <div>

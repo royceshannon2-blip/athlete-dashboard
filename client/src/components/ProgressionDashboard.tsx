@@ -75,7 +75,7 @@ export function ProgressionDashboard({ isOpen, onClose }: ProgressionDashboardPr
                   </thead>
                   <tbody>
                     {sessions.map((session) => (
-                      <tr key={session.date} className="border-b border-slate-700/50 hover:bg-slate-800/30">
+                      <tr key={session.date} data-testid="session-row" data-date={session.date} className="border-b border-slate-700/50 hover:bg-slate-800/30">
                         <td className="px-4 py-2 text-slate-300 font-mono text-xs">
                           {session.date}
                         </td>

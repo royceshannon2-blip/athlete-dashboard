@@ -46,8 +46,13 @@ function toKg(val: number, unit: "lbs" | "kg"): number {
 }
 
 function getStorageIndex(): string[] {
-  const index = localStorage.getItem("wt:index");
-  return index ? JSON.parse(index) : [];
+  const raw = localStorage.getItem("wt:index");
+  if (!raw) return [];
+  try {
+    return JSON.parse(raw);
+  } catch {
+    return [];
+  }
 }
 
 function setStorageIndex(keys: string[]): void {
@@ -55,15 +60,15 @@ function setStorageIndex(keys: string[]): void {
 }
 
 function loadPrefs(): WeightPrefs {
-  const stored = localStorage.getItem("wt:prefs");
-  return stored
-    ? JSON.parse(stored)
-    : {
-        defaultDurationSecs: 120,
-        autoStart: true,
-        soundEnabled: true,
-        unit: "lbs",
-      };
+  const raw = localStorage.getItem("wt:prefs");
+  if (raw) {
+    try {
+      return JSON.parse(raw);
+    } catch {
+      // fall through to default
+    }
+  }
+  return { defaultDurationSecs: 120, autoStart: true, soundEnabled: true, unit: "lbs" };
 }
 
 function savePrefs(prefs: WeightPrefs): void {
@@ -166,10 +171,14 @@ export function useWeightLog() {
 
       const index = getStorageIndex();
       const key = `wt:log:${exerciseId}:${date}:${setNumber}`;
-      localStorage.setItem(key, JSON.stringify(entry));
-      if (!index.includes(key)) {
-        index.push(key);
-        setStorageIndex(index);
+      try {
+        localStorage.setItem(key, JSON.stringify(entry));
+        if (!index.includes(key)) {
+          index.push(key);
+          setStorageIndex(index);
+        }
+      } catch {
+        // Storage quota exceeded or other write error — silently ignore
       }
     },
     [getLogsForExercise]

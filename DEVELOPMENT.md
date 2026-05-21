@@ -270,13 +270,17 @@ For local development, no env vars needed (defaults to `/`).
 
 ## Testing
 
-No tests are currently configured. To add tests:
+See **TESTING.md** for the full guide. Quick reference:
 
 ```bash
-npm install -D vitest @testing-library/react @testing-library/user-event
+npm run test:unit          # Run all Vitest unit tests (fast, no browser)
+npm run test:unit:watch    # Watch mode
+npm run test:e2e           # Run Playwright E2E tests (requires dev server or build)
+npm run test               # Unit + E2E
 ```
 
-Then create `.test.tsx` files and run with `npm run test`.
+Unit tests live alongside source files as `.test.ts(x)` colocated files.
+E2E tests live in `e2e/`.
 
 ---
 
