@@ -59,7 +59,7 @@ export const basketballDrillSchema = z.object({
   duration: z.enum(["30m", "1h", "2h", "3h"]),
   name: z.string(),
   description: z.string(),
-  phase: z.enum(["Plyo", "Strength", "Aesthetic"]),
+  intensity: z.enum(["low", "medium", "high"]),
   reps: basketballRepSchema,
 });
 
@@ -67,26 +67,26 @@ export type BasketballDrill = z.infer<typeof basketballDrillSchema>;
 ```
 
 **Fields**:
-- `id` (string): Unique identifier, e.g., "mon-bb-30-shooting-1"
+- `id` (string): Unique identifier, format `{day-abbrev}-bb-{duration}-{number}`, e.g., "mon-bb-30-1"
 - `category` (literal): Always "basketball"
 - `subCategory` (enum): "shooting", "ballHandling", or "finishing"
 - `duration` (enum): "30m", "1h", "2h", "3h"
-- `name` (string): Drill name, e.g., "Spot Shooting"
-- `description` (string): What to do, e.g., "5 spots around the arc, move after each make"
-- `phase` (enum): "Plyo", "Strength", or "Aesthetic"
+- `name` (string): Drill name, e.g., "Cold Start Threes"
+- `description` (string): Actionable coaching cue starting with intensity prefix (Form/Game-Speed/Pressured)
+- `intensity` (enum): "low" (recovery/technique), "medium" (game-speed), or "high" (maximum pressure)
 - `reps` (BasketballRep): One of the three rep models
 
 **Example**:
 ```typescript
 {
-  id: "mon-bb-30-shooting-1",
+  id: "mon-bb-30-1",
   category: "basketball",
   subCategory: "shooting",
   duration: "30m",
-  name: "Spot Shooting",
-  description: "5 spots around the arc, move after each make",
-  phase: "Strength",
-  reps: { type: "makes", makes: 15 }
+  name: "Cold Start Threes",
+  description: "Game-Speed: Cold start threes at game tempo, off-the-bench readiness",
+  intensity: "medium",
+  reps: { type: "makes", makes: 16 }
 }
 ```
 
@@ -371,7 +371,23 @@ IDs are generated with pattern: `{day-abbrev}-{category-abbrev}-{duration-abbrev
 
 ---
 
-## Phase Types
+## Basketball Intensity Levels
+
+Basketball drills use `intensity` (not `phase`) with three levels displayed in the UI:
+
+| Value | Label | Color | Meaning |
+|-------|-------|-------|---------|
+| `"low"` | Low | Blue `#60a5fa` | Recovery/technique — controlled tempo, form focus |
+| `"medium"` | Medium | Orange `#fb923c` | Game-speed — standard daily work |
+| `"high"` | High | Red `#f87171` | Maximum pressure — peak effort, game scenarios |
+
+Drill descriptions start with the intensity prefix: **Form:** (low), **Game-Speed:** (medium), **Pressured:** (high).
+
+---
+
+## Phase Types (Weightlifting & Jumping)
+
+These phases apply to `exerciseSchema` objects (weightlifting and jumping workouts only).
 
 ### Plyo (Explosive Power)
 
@@ -438,44 +454,53 @@ The weekly rotation system uses JSON files in `client/public/workouts/`.
 
 ### week-NNN.json
 
+Basketball rotation weeks (weeks 001–026). Each file represents one week of the 6-month plan.
+
 ```json
 {
-  "weekNumber": 1,
+  "label": "Block 1 – Week 1: Ball Handling Emphasis",
   "days": [
     {
       "day": "Monday",
-      "focus": "Linear/Glutes",
-      "categoryWorkouts": [
-        {
-          "category": "weightlifting",
+      "focus": "Ball handling fundamentals and control at game speed",
+      "categories": {
+        "basketball": {
           "workouts": [
             {
-              "duration": "1h",
-              "exercises": [
+              "duration": "30m",
+              "drills": [
                 {
-                  "id": "w1-mon-wl-1h-1",
-                  "phase": "Strength",
-                  "name": "Smith Squat",
-                  "setsReps": "4x5",
-                  "tempo": "3-0-X-1",
-                  "rest": "120s"
+                  "id": "mon-bb-30-1",
+                  "category": "basketball",
+                  "subCategory": "ballHandling",
+                  "duration": "30m",
+                  "name": "Stationary Crossovers (Wide Base)",
+                  "description": "Form: Low wide stance, slow crossovers wider than knees, weight shifts with every cross",
+                  "intensity": "low",
+                  "reps": { "type": "setsPerHand", "sets": 2, "rightReps": 10 }
                 }
               ]
             }
           ]
         }
-      ]
+      }
     }
   ]
 }
 ```
 
 **Fields**:
-- `weekNumber` (integer): Week identifier (1, 2, etc.)
-- `days` (array): List of day workouts, same structure as Dashboard data
-  - Each day has all categories and durations available
+- `label` (string): Block and week description, e.g., "Block 1 – Week 1: Ball Handling Emphasis"
+- `days` (array): Exactly 7 day objects (Monday–Sunday)
+  - `day` (string): Day name
+  - `focus` (string): Daily training theme
+  - `categories.basketball.workouts` (array): Exactly 4 duration objects (30m, 1h, 2h, 3h)
+    - `duration` (string): "30m" | "1h" | "2h" | "3h"
+    - `drills` (array): Basketball drill objects (see `basketballDrillSchema`)
 
-**Purpose**: Static JSON files served as public assets. No code changes needed — just edit JSON and update manifest.
+**Drill counts per duration**: 30m = 4, 1h = 5, 2h = 7, 3h = 10 (no drill repeats within a day across durations)
+
+**Purpose**: Static JSON files served as public assets. The 26-week program runs from 2026-01-01. No code changes needed — just edit JSON or add new weeks to manifest.
 
 ---
 

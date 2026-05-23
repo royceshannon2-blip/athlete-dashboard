@@ -1,4 +1,4 @@
-import { Zap, Dumbbell, Sparkles } from "lucide-react";
+import { Activity, Flame, Wind } from "lucide-react";
 import { type BasketballDrill } from "@shared/schema";
 import { RepDisplay } from "./RepDisplay";
 
@@ -7,10 +7,10 @@ interface BasketballSectionProps {
   drills: BasketballDrill[];
 }
 
-const PHASE_CONFIG = {
-  Plyo: { icon: Zap, color: "text-[#39ff14]", bg: "bg-[#39ff14]/10", border: "border-[#39ff14]/20" },
-  Strength: { icon: Dumbbell, color: "text-[#00f0ff]", bg: "bg-[#00f0ff]/10", border: "border-[#00f0ff]/20" },
-  Aesthetic: { icon: Sparkles, color: "text-[#ffea00]", bg: "bg-[#ffea00]/10", border: "border-[#ffea00]/20" },
+const INTENSITY_CONFIG = {
+  low: { icon: Wind, color: "text-[#60a5fa]", bg: "bg-[#60a5fa]/10", border: "border-[#60a5fa]/20", label: "Low" },
+  medium: { icon: Activity, color: "text-[#fb923c]", bg: "bg-[#fb923c]/10", border: "border-[#fb923c]/20", label: "Medium" },
+  high: { icon: Flame, color: "text-[#f87171]", bg: "bg-[#f87171]/10", border: "border-[#f87171]/20", label: "High" },
 };
 
 const SUBCATEGORY_LABELS = {
@@ -27,20 +27,20 @@ export function BasketballSection({ subCategory, drills }: BasketballSectionProp
       </h3>
 
       {drills.map((drill) => {
-        const cfg = PHASE_CONFIG[drill.phase];
-        const PhaseIcon = cfg.icon;
+        const cfg = INTENSITY_CONFIG[drill.intensity];
+        const IntensityIcon = cfg.icon;
 
         return (
           <div key={drill.id} className={`rounded-xl border ${cfg.border} overflow-hidden`}>
             <div className={`${cfg.bg} p-4`}>
               <div className="flex items-start gap-2">
-                <PhaseIcon className={`w-4 h-4 ${cfg.color} mt-0.5 flex-shrink-0`} />
+                <IntensityIcon className={`w-4 h-4 ${cfg.color} mt-0.5 flex-shrink-0`} />
                 <div className="min-w-0 flex-1">
                   <p className="text-white font-bold text-sm uppercase tracking-tight leading-snug">
                     {drill.name}
                   </p>
                   <p className={`text-[11px] font-display font-bold uppercase tracking-widest mt-0.5 ${cfg.color} opacity-70`}>
-                    {drill.phase}
+                    {cfg.label}
                   </p>
                 </div>
               </div>

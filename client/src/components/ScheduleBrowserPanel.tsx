@@ -1,25 +1,12 @@
 import { useState, useEffect, useRef } from "react";
-import { X, Loader2, ChevronRight } from "lucide-react";
+import { X, Loader2 } from "lucide-react";
 import { useScheduleBrowser } from "@/hooks/use-schedule-browser";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { WorkoutTable } from "@/components/workout/WorkoutTable";
-import type { Exercise } from "@shared/schema";
+import type { BasketballDrill } from "@shared/schema";
 
 interface ScheduleBrowserPanelProps {
   isOpen: boolean;
   onClose: () => void;
-}
-
-const PHASE_COLORS: Record<string, string> = {
-  Plyo: "from-[#39ff14]/20 to-[#39ff14]/5 border-[#39ff14]/30",
-  Strength: "from-[#00f0ff]/20 to-[#00f0ff]/5 border-[#00f0ff]/30",
-  Aesthetic: "from-[#ffea00]/20 to-[#ffea00]/5 border-[#ffea00]/30",
-};
-
-function getPhaseColor(exercises: Exercise[]): string {
-  if (exercises.length === 0) return "";
-  const firstPhase = exercises[0].phase;
-  return PHASE_COLORS[firstPhase] || "";
 }
 
 export function ScheduleBrowserPanel({ isOpen, onClose }: ScheduleBrowserPanelProps) {
@@ -298,11 +285,11 @@ export function ScheduleBrowserPanel({ isOpen, onClose }: ScheduleBrowserPanelPr
                               <div className="text-sm font-semibold text-slate-400 uppercase tracking-wider mb-2">
                                 {workout.duration} Duration
                               </div>
-                              {workout.exercises.length > 0 ? (
-                                <WorkoutTable exercises={workout.exercises as Exercise[]} />
+                              {workout.drills.length > 0 ? (
+                                <WorkoutTable drills={workout.drills as BasketballDrill[]} category="basketball" />
                               ) : (
                                 <div className="p-3 text-center text-sm text-slate-500 bg-slate-800/30 rounded-lg border border-slate-700/30">
-                                  No exercises scheduled
+                                  No drills scheduled
                                 </div>
                               )}
                             </div>

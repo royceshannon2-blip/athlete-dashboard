@@ -107,12 +107,19 @@ To add/remove categories:
 1. Update the `categories` array: `categories: ["basketball", "weightlifting", "jumping"]`
 2. Add/remove corresponding category blocks in each day's categoryWorkouts
 
-## Phase Colors
+## Phase Colors (Weightlifting & Jumping)
 
-The UI auto-colors exercises by phase:
+The UI auto-colors weightlifting/jumping exercises by phase:
 - **Plyo** (Explosive): Neon Green `#39ff14`
 - **Strength** (Heavy): Cyan `#00f0ff`
 - **Aesthetic** (Hypertrophy): Yellow `#ffea00`
+
+## Intensity Colors (Basketball)
+
+Basketball drills are colored by intensity level:
+- **Low** (Recovery/Form): Blue `#60a5fa`
+- **Medium** (Game-Speed): Orange `#fb923c`
+- **High** (Maximum Pressure): Red `#f87171`
 
 ## Tempo Notation
 
@@ -182,6 +189,8 @@ Basketball drills are organized into **three sub-categories**, each with its own
 
 ### Data Structure (Basketball Drills)
 
+Basketball drills use `intensity` (not `phase`) with three levels: `"low"` (recovery/form), `"medium"` (game-speed), `"high"` (maximum pressure). Descriptions should start with the matching prefix: **Form:**, **Game-Speed:**, or **Pressured:**.
+
 ```typescript
 {
   category: "basketball",
@@ -190,36 +199,34 @@ Basketball drills are organized into **three sub-categories**, each with its own
       duration: "30m",
       drills: [
         {
-          id: "mon-bb-30-shooting-1",
+          id: "mon-bb-30-1",
           category: "basketball",
           subCategory: "shooting",  // "shooting", "ballHandling", "finishing"
           duration: "30m",
-          name: "Spot Shooting",
-          description: "5 spots around the arc, move after each make",
-          phase: "Strength",  // "Plyo", "Strength", or "Aesthetic"
-          reps: { type: "makes", makes: 15 }
+          name: "Cold Start Threes",
+          description: "Game-Speed: Cold start threes at game tempo, off-the-bench readiness",
+          intensity: "medium",  // "low", "medium", or "high"
+          reps: { type: "makes", makes: 16 }
         },
         {
-          id: "mon-bb-30-bh-1",
+          id: "mon-bb-30-2",
           category: "basketball",
           subCategory: "ballHandling",
           duration: "30m",
-          name: "Stationary Crossover",
-          description: "Low and tight, eyes up",
-          phase: "Strength",
-          // Left reps auto-computed: ceil(25 * 1.1) = 28
-          reps: { type: "setsPerHand", sets: 3, rightReps: 25 }
+          name: "Stationary Crossovers (Wide Base)",
+          description: "Form: Low wide stance, slow crossovers wider than knees, weight shifts with every cross",
+          intensity: "low",
+          reps: { type: "setsPerHand", sets: 2, rightReps: 10 }
         },
         {
-          id: "mon-bb-30-finishing-1",
+          id: "mon-bb-30-3",
           category: "basketball",
           subCategory: "finishing",
           duration: "30m",
-          name: "Euro Step Layup",
-          description: "Full speed from the wing, attack the rim",
-          phase: "Strength",
-          // Left makes auto-computed: ceil(10 * 1.1) = 11
-          reps: { type: "makesPerHand", rightMakes: 10 }
+          name: "Modified Inside-Hand Mikan",
+          description: "Form: Mikan-style drill using inside hand only, slow touch and high spin focus",
+          intensity: "low",
+          reps: { type: "makes", makes: 12 }
         }
       ]
     }
@@ -231,20 +238,19 @@ Basketball drills are organized into **three sub-categories**, each with its own
 
 1. Find the correct day, category (basketball), and duration
 2. Determine the sub-category: shooting, ballHandling, or finishing
-3. Choose the rep model for that sub-category
+3. Choose the rep model and assign `intensity`
 4. Add a drill object:
 
 ```typescript
 {
-  id: "unique-id",  // e.g., "tue-bb-1h-shooting-2"
+  id: "tue-bb-1h-1",  // {day-abbrev}-bb-{duration}-{number}
   category: "basketball",
   subCategory: "ballHandling",  // "shooting", "ballHandling", or "finishing"
   duration: "1h",
-  name: "Between the Legs",
-  description: "Hard crossover between legs",
-  phase: "Plyo",  // "Plyo", "Strength", or "Aesthetic"
-  reps: { type: "setsPerHand", sets: 3, rightReps: 15 }
-  // Left reps auto-computed: ceil(15 * 1.1) = 17
+  name: "Dribble-Step Between the Legs",
+  description: "Game-Speed: Dribble-step between legs at game speed, explosive direction change",
+  intensity: "medium",  // "low", "medium", or "high"
+  reps: { type: "setsPerHand", sets: 3, rightReps: 10 }
 }
 ```
 

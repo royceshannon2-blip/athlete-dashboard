@@ -10,7 +10,7 @@ import {
 } from "@/components/ui/select";
 import { WorkoutTable } from "@/components/workout/WorkoutTable";
 import { Loader2, AlertCircle } from "lucide-react";
-import type { Exercise } from "@shared/schema";
+import type { BasketballDrill } from "@shared/schema";
 
 export function WeekSelector() {
   const [selectedHistoryWeek, setSelectedHistoryWeek] = useState<number | undefined>(undefined);
@@ -134,7 +134,7 @@ export function WeekSelector() {
                                 <h4 className="text-sm font-semibold text-slate-400 uppercase tracking-wider mb-3">
                                   {workout.duration} Duration
                                 </h4>
-                                <WorkoutTable exercises={workout.exercises as Exercise[]} />
+                                <WorkoutTable drills={workout.drills as BasketballDrill[]} category="basketball" />
                               </div>
                             ))}
                           </div>
@@ -233,7 +233,7 @@ export function WeekSelector() {
                                 <h4 className="text-sm font-semibold text-slate-400 uppercase tracking-wider mb-3">
                                   {workout.duration} Duration
                                 </h4>
-                                <WorkoutTable exercises={workout.exercises as Exercise[]} />
+                                <WorkoutTable drills={workout.drills as BasketballDrill[]} category="basketball" />
                               </div>
                             ))}
                           </div>

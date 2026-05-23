@@ -1,13 +1,19 @@
 import { useEffect, useState } from "react";
 
-interface Exercise {
+type BasketballRep =
+  | { type: "makes"; makes: number }
+  | { type: "setsPerHand"; sets: number; rightReps: number }
+  | { type: "makesPerHand"; rightMakes: number };
+
+interface BasketballDrill {
   id: string;
-  phase: string;
+  category: "basketball";
+  subCategory: "shooting" | "ballHandling" | "finishing";
+  duration: "30m" | "1h" | "2h" | "3h";
   name: string;
-  setsReps: string;
-  tempo: string;
-  rest: string;
-  note?: string;
+  description: string;
+  intensity: "low" | "medium" | "high";
+  reps: BasketballRep;
 }
 
 interface DayWorkout {
@@ -17,7 +23,7 @@ interface DayWorkout {
     [category: string]: {
       workouts: Array<{
         duration: string;
-        exercises: Exercise[];
+        drills: BasketballDrill[];
       }>;
     };
   };

@@ -1,9 +1,9 @@
 {
-  "label": "Block 1 – Week 1: Ball Handling Emphasis",
+  "label": "Block 3 – Week 9: Finishing Emphasis",
   "days": [
     {
       "day": "Monday",
-      "focus": "Ball handling fundamentals and control at game speed",
+      "focus": "Game-speed ball handling with skill block emphasis",
       "categories": {
         "basketball": {
           "workouts": [
@@ -13,57 +13,53 @@
                 {
                   "id": "mon-bb-30-1",
                   "category": "basketball",
-                  "subCategory": "ballHandling",
+                  "subCategory": "shooting",
                   "duration": "30m",
-                  "name": "Slow Dribble to Explosive Reach",
-                  "description": "Pressured: Live defender reaching aggressively, must explode past on every attempt",
+                  "name": "Ball Pickup Shots",
+                  "description": "Pressured: Fast pickup with defender closing, shoot before defender arrives",
                   "intensity": "high",
                   "reps": {
-                    "type": "setsPerHand",
-                    "sets": 2,
-                    "rightReps": 10
+                    "type": "makes",
+                    "makes": 22
                   }
                 },
                 {
                   "id": "mon-bb-30-2",
                   "category": "basketball",
-                  "subCategory": "ballHandling",
+                  "subCategory": "finishing",
                   "duration": "30m",
-                  "name": "Stationary Crossovers (Wide Base)",
-                  "description": "Form: Low wide stance, slow crossovers wider than knees, weight shifts with every cross",
+                  "name": "Slam and Tuck Protection",
+                  "description": "Technique: Controlled slam dribble, deliberate rib tuck and lateral jump into partner",
                   "intensity": "low",
                   "reps": {
-                    "type": "setsPerHand",
-                    "sets": 2,
-                    "rightReps": 12
+                    "type": "makes",
+                    "makes": 13
                   }
                 },
                 {
                   "id": "mon-bb-30-3",
                   "category": "basketball",
-                  "subCategory": "ballHandling",
+                  "subCategory": "finishing",
                   "duration": "30m",
-                  "name": "Anchored Pivot Pounds",
-                  "description": "Game-Speed: Anchored foot, varied pound moves at game speed before pickup",
+                  "name": "Wide Hook Soft Touch",
+                  "description": "Game-Speed: Wide hooks at game speed, both hands, varied angles",
                   "intensity": "medium",
                   "reps": {
-                    "type": "setsPerHand",
-                    "sets": 2,
-                    "rightReps": 10
+                    "type": "makes",
+                    "makes": 13
                   }
                 },
                 {
                   "id": "mon-bb-30-4",
                   "category": "basketball",
-                  "subCategory": "ballHandling",
+                  "subCategory": "finishing",
                   "duration": "30m",
-                  "name": "Double Behind to Inverted Snatch",
-                  "description": "Game-Speed: Double-behind to inverted snatch at game pace, smooth coordination",
+                  "name": "Bump and Score (5 Variations)",
+                  "description": "Game-Speed: Bump and five-variation score at game pace, mix naturally",
                   "intensity": "medium",
                   "reps": {
-                    "type": "setsPerHand",
-                    "sets": 2,
-                    "rightReps": 8
+                    "type": "makes",
+                    "makes": 11
                   }
                 }
               ]
@@ -74,57 +70,53 @@
                 {
                   "id": "mon-bb-1h-1",
                   "category": "basketball",
-                  "subCategory": "ballHandling",
+                  "subCategory": "finishing",
                   "duration": "1h",
-                  "name": "Hop Freestyle",
-                  "description": "Game-Speed: Hop freestyle with progressively larger hops at game pace",
+                  "name": "Modified Inside-Hand Mikan",
+                  "description": "Game-Speed: Inside-hand Mikan at game pace, soft touch and backboard spin",
                   "intensity": "medium",
                   "reps": {
-                    "type": "setsPerHand",
-                    "sets": 3,
-                    "rightReps": 10
+                    "type": "makes",
+                    "makes": 21
                   }
                 },
                 {
                   "id": "mon-bb-1h-2",
                   "category": "basketball",
-                  "subCategory": "ballHandling",
+                  "subCategory": "finishing",
                   "duration": "1h",
-                  "name": "Double Pump Rhythm Drill",
-                  "description": "Pressured: Full-speed double pump with live defender, execute secondary option immediately",
-                  "intensity": "high",
+                  "name": "Gyro Counter Finish",
+                  "description": "Game-Speed: Gyro counter at game pace, decisive and smooth gyro execution",
+                  "intensity": "medium",
                   "reps": {
-                    "type": "setsPerHand",
-                    "sets": 3,
-                    "rightReps": 8
+                    "type": "makes",
+                    "makes": 14
                   }
                 },
                 {
                   "id": "mon-bb-1h-3",
                   "category": "basketball",
-                  "subCategory": "ballHandling",
+                  "subCategory": "finishing",
                   "duration": "1h",
-                  "name": "Feet-Behind Footwork",
-                  "description": "Game-Speed: Feet-behind at game speed, instant forward momentum off each rep",
-                  "intensity": "medium",
+                  "name": "Standard Layup Series (Overhand, Underhand, Side-Hand)",
+                  "description": "Pressured: Layup series at full speed with close-out defender at rim",
+                  "intensity": "high",
                   "reps": {
-                    "type": "setsPerHand",
-                    "sets": 3,
-                    "rightReps": 8
+                    "type": "makes",
+                    "makes": 17
                   }
                 },
                 {
                   "id": "mon-bb-1h-4",
                   "category": "basketball",
-                  "subCategory": "ballHandling",
+                  "subCategory": "finishing",
                   "duration": "1h",
-                  "name": "In Stride Change of Direction",
-                  "description": "Technique: 40% sprint, subtle direction change without losing stride efficiency",
+                  "name": "Layups from Anywhere",
+                  "description": "Technique: Slow freestyle, any layup choice, catch and immediate creative secondary",
                   "intensity": "low",
                   "reps": {
-                    "type": "setsPerHand",
-                    "sets": 3,
-                    "rightReps": 6
+                    "type": "makes",
+                    "makes": 21
                   }
                 },
                 {
@@ -137,7 +129,7 @@
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
-                    "makes": 15
+                    "makes": 21
                   }
                 }
               ]
@@ -148,14 +140,14 @@
                 {
                   "id": "mon-bb-2h-1",
                   "category": "basketball",
-                  "subCategory": "shooting",
+                  "subCategory": "finishing",
                   "duration": "2h",
-                  "name": "Side-to-Side Pops to Shot",
-                  "description": "Form: Four lateral hops on one foot at slow pace, controlled ground and shot",
+                  "name": "Slow-Step / Extension Read",
+                  "description": "Technique: Slow approach downhill, deliberate read, choose extension or slow step",
                   "intensity": "low",
                   "reps": {
                     "type": "makes",
-                    "makes": 20
+                    "makes": 18
                   }
                 },
                 {
@@ -163,13 +155,13 @@
                   "category": "basketball",
                   "subCategory": "ballHandling",
                   "duration": "2h",
-                  "name": "Moving Pound Crossovers",
-                  "description": "Game-Speed: Full-speed sideline crossovers, hips turning explosively each rep",
+                  "name": "Hezi-Even Stance",
+                  "description": "Game-Speed: Even stance hesitation at game pace, convincing freeze before explode",
                   "intensity": "medium",
                   "reps": {
                     "type": "setsPerHand",
-                    "sets": 4,
-                    "rightReps": 12
+                    "sets": 5,
+                    "rightReps": 8
                   }
                 },
                 {
@@ -177,51 +169,52 @@
                   "category": "basketball",
                   "subCategory": "shooting",
                   "duration": "2h",
-                  "name": "Ball Pickup Shots",
-                  "description": "Game-Speed: Ball pickup at game speed, immediate rhythm into shot on pickup",
+                  "name": "Mid-Range Volume Pull-ups (25 Each Way)",
+                  "description": "Game-Speed: 25 pull-up jumpers each way at game tempo, legal footwork focus",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
-                    "makes": 26
+                    "makes": 46
                   }
                 },
                 {
                   "id": "mon-bb-2h-4",
                   "category": "basketball",
-                  "subCategory": "finishing",
+                  "subCategory": "ballHandling",
                   "duration": "2h",
-                  "name": "Rip-Away Finish",
-                  "description": "Pressured: Aggressive defender on ball, explosive rip-away and strong finish",
-                  "intensity": "high",
+                  "name": "Kyrie Two-Foot C.O.D. Series",
+                  "description": "Game-Speed: Full Kyrie two-foot C.O.D. series at game pace",
+                  "intensity": "medium",
                   "reps": {
-                    "type": "makesPerHand",
-                    "rightMakes": 13
+                    "type": "setsPerHand",
+                    "sets": 5,
+                    "rightReps": 8
                   }
                 },
                 {
                   "id": "mon-bb-2h-5",
                   "category": "basketball",
-                  "subCategory": "finishing",
+                  "subCategory": "shooting",
                   "duration": "2h",
-                  "name": "Inside Hand Driving Finish",
-                  "description": "Game-Speed: Inside-hand drive finish at game speed, left leg up on left-hand finish",
-                  "intensity": "medium",
+                  "name": "Find the Seams Warm-up",
+                  "description": "Pressured: Maximum spin on toss, fastest possible seam find with shot clock pressure",
+                  "intensity": "high",
                   "reps": {
-                    "type": "makesPerHand",
-                    "rightMakes": 13
+                    "type": "makes",
+                    "makes": 22
                   }
                 },
                 {
                   "id": "mon-bb-2h-6",
                   "category": "basketball",
-                  "subCategory": "shooting",
+                  "subCategory": "finishing",
                   "duration": "2h",
-                  "name": "Arm-Free Pickup Shoot",
-                  "description": "Game-Speed: Game-speed drive, defender on arm, fluid pickup into shot",
-                  "intensity": "medium",
+                  "name": "Two-Step Disentanglement",
+                  "description": "Technique: Defender hand firmly on ball, deliberate two steps to free and finish",
+                  "intensity": "low",
                   "reps": {
                     "type": "makes",
-                    "makes": 13
+                    "makes": 22
                   }
                 },
                 {
@@ -229,12 +222,12 @@
                   "category": "basketball",
                   "subCategory": "shooting",
                   "duration": "2h",
-                  "name": "Knee-Push Transition Shot",
-                  "description": "Technique: From one knee, slow push into transition pull-up, focus on footwork",
-                  "intensity": "low",
+                  "name": "The Curry Drill",
+                  "description": "Game-Speed: Curry drill at game pace, use screeners to create three-point space",
+                  "intensity": "medium",
                   "reps": {
                     "type": "makes",
-                    "makes": 16
+                    "makes": 22
                   }
                 }
               ]
@@ -247,12 +240,12 @@
                   "category": "basketball",
                   "subCategory": "shooting",
                   "duration": "3h",
-                  "name": "Ball Screen Hedge & Relocation",
-                  "description": "Technique: Slow hard hedge play, deliberate ball-out to short roller then relocate",
-                  "intensity": "low",
+                  "name": "Knee-Push Transition Shot",
+                  "description": "Pressured: Full-speed knee push to pull-up with defender tracking",
+                  "intensity": "high",
                   "reps": {
                     "type": "makes",
-                    "makes": 19
+                    "makes": 27
                   }
                 },
                 {
@@ -260,39 +253,39 @@
                   "category": "basketball",
                   "subCategory": "finishing",
                   "duration": "3h",
-                  "name": "Side-to-Side Cradles",
-                  "description": "Game-Speed: Side-to-side cradles at game pace, arm generates spin on backboard",
-                  "intensity": "medium",
+                  "name": "One-Move Capstone Finish",
+                  "description": "Pressured: Full-speed capstone move into best available finish under live pressure",
+                  "intensity": "high",
                   "reps": {
-                    "type": "makesPerHand",
-                    "rightMakes": 16
+                    "type": "makes",
+                    "makes": 34
                   }
                 },
                 {
                   "id": "mon-bb-3h-3",
                   "category": "basketball",
-                  "subCategory": "ballHandling",
+                  "subCategory": "shooting",
                   "duration": "3h",
-                  "name": "Off-Balance Visualization",
-                  "description": "Game-Speed: Off-balance positions at game intensity, recover dribble quickly",
-                  "intensity": "medium",
+                  "name": "Wichita Wing Series (Step-Over Rip)",
+                  "description": "Form: Step-over cut at slow speed, controlled catch and rip into pull-up",
+                  "intensity": "low",
                   "reps": {
-                    "type": "setsPerHand",
-                    "sets": 5,
-                    "rightReps": 10
+                    "type": "makes",
+                    "makes": 34
                   }
                 },
                 {
                   "id": "mon-bb-3h-4",
                   "category": "basketball",
-                  "subCategory": "shooting",
+                  "subCategory": "ballHandling",
                   "duration": "3h",
-                  "name": "Screen Rejection Jumpers",
-                  "description": "Game-Speed: Screen rejection at game pace, recover shot through contact",
+                  "name": "Wimby Pole Read",
+                  "description": "Game-Speed: Game-speed drive past primary, immediate read of help defender reach",
                   "intensity": "medium",
                   "reps": {
-                    "type": "makes",
-                    "makes": 19
+                    "type": "setsPerHand",
+                    "sets": 7,
+                    "rightReps": 7
                   }
                 },
                 {
@@ -300,53 +293,52 @@
                   "category": "basketball",
                   "subCategory": "shooting",
                   "duration": "3h",
-                  "name": "Bump and Score (Step-back)",
-                  "description": "Game-Speed: Game-speed bump and step-back, create space and shoot",
+                  "name": "Low-to-Ground Differential Pickup",
+                  "description": "Game-Speed: Low-to-ground pickup challenge at game pace, adaptive shooting",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
-                    "makes": 24
+                    "makes": 34
                   }
                 },
                 {
                   "id": "mon-bb-3h-6",
                   "category": "basketball",
-                  "subCategory": "shooting",
+                  "subCategory": "ballHandling",
                   "duration": "3h",
-                  "name": "Mid-Court Toss-and-Meet",
-                  "description": "Game-Speed: Toss and meet at game speed, immediate shot on balance",
+                  "name": "Moving Pound Crossovers",
+                  "description": "Game-Speed: Full-speed sideline crossovers, hips turning explosively each rep",
                   "intensity": "medium",
                   "reps": {
-                    "type": "makes",
-                    "makes": 19
+                    "type": "setsPerHand",
+                    "sets": 7,
+                    "rightReps": 14
                   }
                 },
                 {
                   "id": "mon-bb-3h-7",
                   "category": "basketball",
-                  "subCategory": "ballHandling",
+                  "subCategory": "finishing",
                   "duration": "3h",
-                  "name": "Dribble-Step Between the Legs",
-                  "description": "Pressured: Max-speed dribble-step change of direction with active defender",
-                  "intensity": "high",
+                  "name": "Kyrie Cuffing Series",
+                  "description": "Game-Speed: Cuffing series at game pace, total control during acrobatics",
+                  "intensity": "medium",
                   "reps": {
-                    "type": "setsPerHand",
-                    "sets": 5,
-                    "rightReps": 12
+                    "type": "makes",
+                    "makes": 22
                   }
                 },
                 {
                   "id": "mon-bb-3h-8",
                   "category": "basketball",
-                  "subCategory": "ballHandling",
+                  "subCategory": "finishing",
                   "duration": "3h",
-                  "name": "Left-Hand Rip Away",
-                  "description": "Technique: Slow gather with partner lightly holding ball, deliberate left-hand rip",
+                  "name": "Two-Foot Finish off Sell-Out Reach",
+                  "description": "Technique: Slow reactive step-up off deliberate reach, controlled two-foot finish",
                   "intensity": "low",
                   "reps": {
-                    "type": "setsPerHand",
-                    "sets": 5,
-                    "rightReps": 12
+                    "type": "makes",
+                    "makes": 22
                   }
                 },
                 {
@@ -354,13 +346,13 @@
                   "category": "basketball",
                   "subCategory": "ballHandling",
                   "duration": "3h",
-                  "name": "Lava Pop-Back (COD Tween)",
-                  "description": "Game-Speed: Cross-step at game pace, explosive pop-back the instant second foot lands",
+                  "name": "Shoulder-to-Shoulder Recovery",
+                  "description": "Game-Speed: Game-speed shoulder recovery from driving line disruption",
                   "intensity": "medium",
                   "reps": {
                     "type": "setsPerHand",
-                    "sets": 5,
-                    "rightReps": 7
+                    "sets": 7,
+                    "rightReps": 10
                   }
                 },
                 {
@@ -368,12 +360,12 @@
                   "category": "basketball",
                   "subCategory": "shooting",
                   "duration": "3h",
-                  "name": "Corner to Wing Shooting",
-                  "description": "Pressured: Corner to wing with defender closing, make on catch target",
-                  "intensity": "high",
+                  "name": "Arm-Free Pickup Shoot",
+                  "description": "Game-Speed: Game-speed drive, defender on arm, fluid pickup into shot",
+                  "intensity": "medium",
                   "reps": {
                     "type": "makes",
-                    "makes": 32
+                    "makes": 22
                   }
                 }
               ]
@@ -384,7 +376,7 @@
     },
     {
       "day": "Tuesday",
-      "focus": "High-intensity shooting and competitive skill work",
+      "focus": "High-intensity finishing circuits with contested shots",
       "categories": {
         "basketball": {
           "workouts": [
@@ -396,12 +388,12 @@
                   "category": "basketball",
                   "subCategory": "ballHandling",
                   "duration": "30m",
-                  "name": "Hezi-Even Stance",
-                  "description": "Game-Speed: Even stance hesitation at game pace, convincing freeze before explode",
+                  "name": "Off-Balance Visualization",
+                  "description": "Game-Speed: Off-balance positions at game intensity, recover dribble quickly",
                   "intensity": "medium",
                   "reps": {
                     "type": "setsPerHand",
-                    "sets": 2,
+                    "sets": 3,
                     "rightReps": 8
                   }
                 },
@@ -410,40 +402,39 @@
                   "category": "basketball",
                   "subCategory": "ballHandling",
                   "duration": "30m",
-                  "name": "Wichita Outside Hip Sweep",
-                  "description": "Pressured: Full-speed outside hip sweep with active defender reaching",
+                  "name": "Small Space Reactive Dribbling",
+                  "description": "Pressured: Live aggressive defender in tight space, maximum ball protection and creativity",
                   "intensity": "high",
                   "reps": {
                     "type": "setsPerHand",
-                    "sets": 2,
-                    "rightReps": 10
+                    "sets": 3,
+                    "rightReps": 8
                   }
                 },
                 {
                   "id": "tue-bb-30-3",
                   "category": "basketball",
-                  "subCategory": "shooting",
+                  "subCategory": "finishing",
                   "duration": "30m",
-                  "name": "Corner to Corner Shooting",
-                  "description": "Technique: Different footwork every rep at slow pace, master each footwork style",
+                  "name": "Inside Hand Driving Finish",
+                  "description": "Technique: Slow drive, inside hand finish, get corresponding leg up for protection",
                   "intensity": "low",
                   "reps": {
-                    "type": "makes",
-                    "makes": 12
+                    "type": "makesPerHand",
+                    "rightMakes": 11
                   }
                 },
                 {
                   "id": "tue-bb-30-4",
                   "category": "basketball",
-                  "subCategory": "ballHandling",
+                  "subCategory": "shooting",
                   "duration": "30m",
-                  "name": "Lunge Stop Series",
-                  "description": "Game-Speed: Lunge stop at game speed, explosive early explosion option",
+                  "name": "Visualization Short Jumpers",
+                  "description": "Game-Speed: Visualization drill at game speed, commit to pull-up decision",
                   "intensity": "medium",
                   "reps": {
-                    "type": "setsPerHand",
-                    "sets": 2,
-                    "rightReps": 8
+                    "type": "makes",
+                    "makes": 22
                   }
                 }
               ]
@@ -454,69 +445,67 @@
                 {
                   "id": "tue-bb-1h-1",
                   "category": "basketball",
-                  "subCategory": "ballHandling",
+                  "subCategory": "finishing",
                   "duration": "1h",
-                  "name": "Shoulder-to-Shoulder Recovery",
-                  "description": "Game-Speed: Game-speed shoulder recovery from driving line disruption",
+                  "name": "Inside-Hand Reverse Finish",
+                  "description": "Game-Speed: Inside-hand reverse at game pace, backboard shield from defender",
                   "intensity": "medium",
                   "reps": {
-                    "type": "setsPerHand",
-                    "sets": 3,
-                    "rightReps": 8
+                    "type": "makesPerHand",
+                    "rightMakes": 14
                   }
                 },
                 {
                   "id": "tue-bb-1h-2",
                   "category": "basketball",
-                  "subCategory": "ballHandling",
+                  "subCategory": "shooting",
                   "duration": "1h",
-                  "name": "Slam and Protect (Rib Tuck)",
-                  "description": "Game-Speed: Game-speed slam and tuck, shoulder shields ball on contact",
-                  "intensity": "medium",
+                  "name": "Single Leg RDL Reach to Shot",
+                  "description": "Pressured: Full-speed RDL to shot with defender closing, maintain balance",
+                  "intensity": "high",
                   "reps": {
-                    "type": "setsPerHand",
-                    "sets": 3,
-                    "rightReps": 10
+                    "type": "makes",
+                    "makes": 21
                   }
                 },
                 {
                   "id": "tue-bb-1h-3",
                   "category": "basketball",
-                  "subCategory": "ballHandling",
+                  "subCategory": "finishing",
                   "duration": "1h",
-                  "name": "Wichita Double Rip",
-                  "description": "Game-Speed: Double rip at game speed, drive or pull-up off the second rip",
+                  "name": "Touch the Net Reach",
+                  "description": "Game-Speed: Game-speed touch-the-net reach, protected finish on pullback",
                   "intensity": "medium",
                   "reps": {
-                    "type": "setsPerHand",
-                    "sets": 3,
-                    "rightReps": 10
+                    "type": "makes",
+                    "makes": 11
                   }
                 },
                 {
                   "id": "tue-bb-1h-4",
                   "category": "basketball",
-                  "subCategory": "shooting",
+                  "subCategory": "finishing",
                   "duration": "1h",
-                  "name": "Different Footwork Every Rep",
-                  "description": "Pressured: Full-speed corner to corner, different footwork every rep with defender",
-                  "intensity": "high",
+                  "name": "Overhead Gather Bait",
+                  "description": "Technique: Controlled pound into overhead gather, slow bait show before finish",
+                  "intensity": "low",
                   "reps": {
                     "type": "makes",
-                    "makes": 15
+                    "makes": 17
                   }
                 },
                 {
                   "id": "tue-bb-1h-5",
                   "category": "basketball",
-                  "subCategory": "shooting",
+                  "subCategory": "ballHandling",
                   "duration": "1h",
-                  "name": "Single Leg RDL Reach to Shot",
-                  "description": "Form: Single-leg RDL reach-out, controlled energy transfer into shot",
-                  "intensity": "low",
+                  "name": "Spin Downhill (Creative Options)",
+                  "description": "Game-Speed: Live spin-off with creative secondary moves at game pace",
+                  "intensity": "medium",
                   "reps": {
-                    "type": "makes",
-                    "makes": 15
+                    "type": "setsPerHand",
+                    "sets": 4,
+                    "rightReps": 8
                   }
                 }
               ]
@@ -527,28 +516,27 @@
                 {
                   "id": "tue-bb-2h-1",
                   "category": "basketball",
-                  "subCategory": "ballHandling",
+                  "subCategory": "finishing",
                   "duration": "2h",
-                  "name": "Low Joint Position Mobility Warm-up",
-                  "description": "Pressured: Dynamic low joint positions at full speed, maximum mobility activation",
-                  "intensity": "high",
+                  "name": "Escape Floater",
+                  "description": "Game-Speed: Escape floater at game pace, max two dribbles under chase",
+                  "intensity": "medium",
                   "reps": {
-                    "type": "setsPerHand",
-                    "sets": 3,
-                    "rightReps": 10
+                    "type": "makesPerHand",
+                    "rightMakes": 18
                   }
                 },
                 {
                   "id": "tue-bb-2h-2",
                   "category": "basketball",
-                  "subCategory": "finishing",
+                  "subCategory": "shooting",
                   "duration": "2h",
-                  "name": "Inside-Hand Reverse Finish",
-                  "description": "Game-Speed: Inside-hand reverse at game pace, backboard shield from defender",
+                  "name": "Separate Back Separation Shot",
+                  "description": "Game-Speed: Game-speed ball screen separation, shoot before defender recovers",
                   "intensity": "medium",
                   "reps": {
-                    "type": "makesPerHand",
-                    "rightMakes": 13
+                    "type": "makes",
+                    "makes": 27
                   }
                 },
                 {
@@ -556,66 +544,65 @@
                   "category": "basketball",
                   "subCategory": "shooting",
                   "duration": "2h",
-                  "name": "2v1 / 1v2 Shooting",
-                  "description": "Game-Speed: 1v2 at game speed, quick read and shoot before help arrives",
+                  "name": "Screen Rejection Jumpers",
+                  "description": "Game-Speed: Screen rejection at game pace, recover shot through contact",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
-                    "makes": 13
+                    "makes": 22
                   }
                 },
                 {
                   "id": "tue-bb-2h-4",
                   "category": "basketball",
-                  "subCategory": "finishing",
+                  "subCategory": "ballHandling",
                   "duration": "2h",
-                  "name": "Two-Step Disentanglement",
-                  "description": "Game-Speed: Game-speed two-step disentanglement, efficient and decisive",
-                  "intensity": "medium",
+                  "name": "Cross-Step Pop (COD Tween)",
+                  "description": "Pressured: Full-speed cross-step pop with defender, floor is lava on second foot contact",
+                  "intensity": "high",
                   "reps": {
-                    "type": "makes",
-                    "makes": 16
+                    "type": "setsPerHand",
+                    "sets": 5,
+                    "rightReps": 8
                   }
                 },
                 {
                   "id": "tue-bb-2h-5",
                   "category": "basketball",
-                  "subCategory": "shooting",
+                  "subCategory": "finishing",
                   "duration": "2h",
-                  "name": "One Move Capstone Shooting",
-                  "description": "Technique: One chosen move into any shooting option at slow pace, build confidence",
-                  "intensity": "low",
+                  "name": "Wichita Counter to Finish",
+                  "description": "Pressured: Full-speed counter to finish with live help defender, remain low and compact",
+                  "intensity": "high",
                   "reps": {
                     "type": "makes",
-                    "makes": 20
+                    "makes": 22
                   }
                 },
                 {
                   "id": "tue-bb-2h-6",
                   "category": "basketball",
-                  "subCategory": "ballHandling",
+                  "subCategory": "finishing",
                   "duration": "2h",
-                  "name": "Cross-Step Pop (COD Tween)",
-                  "description": "Game-Speed: Cross-step pop at game speed, instant reaction when foot lands",
+                  "name": "Two-Foot Change of Direction (Kyrie Series)",
+                  "description": "Game-Speed: Kyrie two-foot change of direction at game pace, finish at baseline",
                   "intensity": "medium",
                   "reps": {
-                    "type": "setsPerHand",
-                    "sets": 4,
-                    "rightReps": 8
+                    "type": "makes",
+                    "makes": 18
                   }
                 },
                 {
                   "id": "tue-bb-2h-7",
                   "category": "basketball",
-                  "subCategory": "ballHandling",
+                  "subCategory": "finishing",
                   "duration": "2h",
-                  "name": "Hezi In-and-Out Explode",
-                  "description": "Pressured: Full-speed in-and-out hezi with live defender, freeze feet and burst past",
-                  "intensity": "high",
+                  "name": "Chest-Stop Screen Rejection Finish",
+                  "description": "Technique: Slow screen rejection, deliberate chest stop contact, compose and finish",
+                  "intensity": "low",
                   "reps": {
-                    "type": "setsPerHand",
-                    "sets": 4,
-                    "rightReps": 10
+                    "type": "makes",
+                    "makes": 15
                   }
                 }
               ]
@@ -626,15 +613,14 @@
                 {
                   "id": "tue-bb-3h-1",
                   "category": "basketball",
-                  "subCategory": "ballHandling",
+                  "subCategory": "finishing",
                   "duration": "3h",
-                  "name": "Cross Step Inverted Between",
-                  "description": "Pressured: Full-speed cross-step with defender, maximize forward projection",
-                  "intensity": "high",
+                  "name": "Differential Angle Floaters",
+                  "description": "Technique: Three floater types from different angles slowly, dexterity focus",
+                  "intensity": "low",
                   "reps": {
-                    "type": "setsPerHand",
-                    "sets": 5,
-                    "rightReps": 10
+                    "type": "makes",
+                    "makes": 27
                   }
                 },
                 {
@@ -642,12 +628,12 @@
                   "category": "basketball",
                   "subCategory": "ballHandling",
                   "duration": "3h",
-                  "name": "Split Feet Pound-Between",
-                  "description": "Game-Speed: Moving split-feet pound-between at game pace, feet snap back under hips",
+                  "name": "Overhead Gathered Pound",
+                  "description": "Game-Speed: Max-speed pound to overhead gather, sell shot fake convincingly",
                   "intensity": "medium",
                   "reps": {
                     "type": "setsPerHand",
-                    "sets": 5,
+                    "sets": 7,
                     "rightReps": 12
                   }
                 },
@@ -656,12 +642,12 @@
                   "category": "basketball",
                   "subCategory": "shooting",
                   "duration": "3h",
-                  "name": "Reverse Lunge Overhead to Shot",
-                  "description": "Game-Speed: Reverse lunge to shot at game pace, fluid energy transfer",
+                  "name": "Corner Out of Bounds",
+                  "description": "Game-Speed: Corner out-of-bounds at game pace, simulate end-of-game pressure",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
-                    "makes": 24
+                    "makes": 34
                   }
                 },
                 {
@@ -669,29 +655,16 @@
                   "category": "basketball",
                   "subCategory": "shooting",
                   "duration": "3h",
-                  "name": "Anchored Pivot Pickup Shoot",
-                  "description": "Game-Speed: Anchored pivot pounds at game tempo, unpredictable before pickup",
+                  "name": "Peripheral Vision/Quiet Eye Turn",
+                  "description": "Game-Speed: Mid-speed turn with hands up from defender, lock eyes and shoot",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
-                    "makes": 32
+                    "makes": 34
                   }
                 },
                 {
                   "id": "tue-bb-3h-5",
-                  "category": "basketball",
-                  "subCategory": "finishing",
-                  "duration": "3h",
-                  "name": "Same Foot Same Hand (Off-Foot)",
-                  "description": "Technique: Controlled creative move, slow same-foot/same-hand layup, feel the timing",
-                  "intensity": "low",
-                  "reps": {
-                    "type": "makesPerHand",
-                    "rightMakes": 16
-                  }
-                },
-                {
-                  "id": "tue-bb-3h-6",
                   "category": "basketball",
                   "subCategory": "finishing",
                   "duration": "3h",
@@ -700,7 +673,20 @@
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
-                    "makes": 16
+                    "makes": 22
+                  }
+                },
+                {
+                  "id": "tue-bb-3h-6",
+                  "category": "basketball",
+                  "subCategory": "shooting",
+                  "duration": "3h",
+                  "name": "Offhand Floater Development Circuit",
+                  "description": "Pressured: High-volume off-hand floater circuit with live defender challenging",
+                  "intensity": "high",
+                  "reps": {
+                    "type": "makes",
+                    "makes": 45
                   }
                 },
                 {
@@ -708,53 +694,51 @@
                   "category": "basketball",
                   "subCategory": "shooting",
                   "duration": "3h",
-                  "name": "Double Pump Shots",
-                  "description": "Pressured: Full-speed double pump with live defender, execute on second rhythm",
+                  "name": "One Move Capstone Shooting",
+                  "description": "Pressured: Full-speed capstone move with live defender, execute under fatigue",
                   "intensity": "high",
                   "reps": {
                     "type": "makes",
-                    "makes": 24
+                    "makes": 34
                   }
                 },
                 {
                   "id": "tue-bb-3h-8",
                   "category": "basketball",
-                  "subCategory": "ballHandling",
+                  "subCategory": "finishing",
                   "duration": "3h",
-                  "name": "Spin Downhill (Creative Options)",
-                  "description": "Technique: Controlled spin off slow defender, explore creative options at low speed",
+                  "name": "Trey Young High Floater",
+                  "description": "Technique: Slow high-arc floater attempts, ball targets above backboard dropping in",
                   "intensity": "low",
                   "reps": {
-                    "type": "setsPerHand",
-                    "sets": 5,
-                    "rightReps": 10
+                    "type": "makes",
+                    "makes": 22
                   }
                 },
                 {
                   "id": "tue-bb-3h-9",
                   "category": "basketball",
-                  "subCategory": "shooting",
+                  "subCategory": "finishing",
                   "duration": "3h",
-                  "name": "Wichita Wing Series (Step-Over Rip)",
-                  "description": "Pressured: Full-speed step-over with live defender, rip and attack immediately",
+                  "name": "Wichita Double Rip to Finish",
+                  "description": "Pressured: Full-speed double rip with live defender, execute tight compact finish",
                   "intensity": "high",
                   "reps": {
                     "type": "makes",
-                    "makes": 24
+                    "makes": 22
                   }
                 },
                 {
                   "id": "tue-bb-3h-10",
                   "category": "basketball",
-                  "subCategory": "ballHandling",
+                  "subCategory": "finishing",
                   "duration": "3h",
-                  "name": "Continuous Jolt Cross (No Pound)",
-                  "description": "Game-Speed: Continuous jolt crosses at game speed, strong fingertip control throughout",
+                  "name": "Wichita Double Rip Middle Finish",
+                  "description": "Game-Speed: Double rip middle finish at game pace, stay low through contact",
                   "intensity": "medium",
                   "reps": {
-                    "type": "setsPerHand",
-                    "sets": 5,
-                    "rightReps": 10
+                    "type": "makes",
+                    "makes": 22
                   }
                 }
               ]
@@ -765,7 +749,7 @@
     },
     {
       "day": "Wednesday",
-      "focus": "Recovery shooting and technique reinforcement",
+      "focus": "Light-to-medium skills with emphasis on technique",
       "categories": {
         "basketball": {
           "workouts": [
@@ -775,42 +759,40 @@
                 {
                   "id": "wed-bb-30-1",
                   "category": "basketball",
-                  "subCategory": "shooting",
+                  "subCategory": "finishing",
                   "duration": "30m",
-                  "name": "Catch and Shoot (On the Move)",
-                  "description": "Game-Speed: Catch and shoot on the move at full game speed",
+                  "name": "Off-Hand Floater Circuit",
+                  "description": "Game-Speed: Off-hand floater circuit at game pace, baseline and middle variety",
                   "intensity": "medium",
                   "reps": {
-                    "type": "makes",
-                    "makes": 16
+                    "type": "makesPerHand",
+                    "rightMakes": 11
                   }
                 },
                 {
                   "id": "wed-bb-30-2",
                   "category": "basketball",
-                  "subCategory": "ballHandling",
+                  "subCategory": "shooting",
                   "duration": "30m",
-                  "name": "Single Hand Freestyle",
-                  "description": "Technique: Court-wide single hand dribbling at 50% speed, focus on fluidity",
+                  "name": "Psychological Momentum (Quick Form)",
+                  "description": "Form: Slow form shooting, goal 8 makes in a row, build confidence and flow",
                   "intensity": "low",
                   "reps": {
-                    "type": "setsPerHand",
-                    "sets": 2,
-                    "rightReps": 8
+                    "type": "makes",
+                    "makes": 11
                   }
                 },
                 {
                   "id": "wed-bb-30-3",
                   "category": "basketball",
-                  "subCategory": "ballHandling",
+                  "subCategory": "shooting",
                   "duration": "30m",
-                  "name": "Wichita Step-First Attack",
-                  "description": "Game-Speed: Step-first rip at game pace, immediate drive off the catch",
+                  "name": "Wichita Help-Side Counter Pull-up",
+                  "description": "Game-Speed: Help-side counter pull-up at game pace, smooth transition from drive",
                   "intensity": "medium",
                   "reps": {
-                    "type": "setsPerHand",
-                    "sets": 2,
-                    "rightReps": 10
+                    "type": "makes",
+                    "makes": 17
                   }
                 },
                 {
@@ -818,13 +800,13 @@
                   "category": "basketball",
                   "subCategory": "ballHandling",
                   "duration": "30m",
-                  "name": "Small Space Reactive Dribbling",
-                  "description": "Pressured: Live aggressive defender in tight space, maximum ball protection and creativity",
+                  "name": "Change of Speed Push-Out",
+                  "description": "Pressured: Explosive change of speed with defender live, maximize freeze effect",
                   "intensity": "high",
                   "reps": {
                     "type": "setsPerHand",
-                    "sets": 2,
-                    "rightReps": 8
+                    "sets": 3,
+                    "rightReps": 10
                   }
                 }
               ]
@@ -835,14 +817,14 @@
                 {
                   "id": "wed-bb-1h-1",
                   "category": "basketball",
-                  "subCategory": "shooting",
+                  "subCategory": "finishing",
                   "duration": "1h",
-                  "name": "Wichita Help-Side Counter Pull-up",
-                  "description": "Technique: Slow wing rip with visualized help defender, controlled counter pull-up",
+                  "name": "Rip-Away Finish",
+                  "description": "Technique: Slow gather with partner on ball, deliberate rip-away and finish",
                   "intensity": "low",
                   "reps": {
-                    "type": "makes",
-                    "makes": 15
+                    "type": "makesPerHand",
+                    "rightMakes": 14
                   }
                 },
                 {
@@ -850,9 +832,9 @@
                   "category": "basketball",
                   "subCategory": "ballHandling",
                   "duration": "1h",
-                  "name": "Change of Speed Push-Out",
-                  "description": "Game-Speed: Change of speed push-out at game tempo, defender freeze timing",
-                  "intensity": "medium",
+                  "name": "Exaggerated Low to High",
+                  "description": "Pressured: Max-speed exaggerated low-to-high with defender close, maintain control",
+                  "intensity": "high",
                   "reps": {
                     "type": "setsPerHand",
                     "sets": 3,
@@ -862,14 +844,14 @@
                 {
                   "id": "wed-bb-1h-3",
                   "category": "basketball",
-                  "subCategory": "finishing",
+                  "subCategory": "shooting",
                   "duration": "1h",
-                  "name": "The Four-Way Reverse Sequence",
-                  "description": "Game-Speed: Four-way reverse sequence at game pace, varied hand-rim combinations",
+                  "name": "Bump and Score (Step-back)",
+                  "description": "Game-Speed: Game-speed bump and step-back, create space and shoot",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
-                    "makes": 8
+                    "makes": 21
                   }
                 },
                 {
@@ -877,25 +859,25 @@
                   "category": "basketball",
                   "subCategory": "shooting",
                   "duration": "1h",
-                  "name": "Turn and Decide (Close-out)",
-                  "description": "Pressured: Full-speed turn, aggressive close-out, committed instant decision",
-                  "intensity": "high",
+                  "name": "Mid-Court Toss-and-Meet",
+                  "description": "Technique: Gentle toss across court, jog to meet, find balance and shoot",
+                  "intensity": "low",
                   "reps": {
                     "type": "makes",
-                    "makes": 15
+                    "makes": 17
                   }
                 },
                 {
                   "id": "wed-bb-1h-5",
                   "category": "basketball",
-                  "subCategory": "shooting",
+                  "subCategory": "finishing",
                   "duration": "1h",
-                  "name": "The Curry Drill",
-                  "description": "Technique: Slow relocation cuts using passers and screeners, work for clean look",
-                  "intensity": "low",
+                  "name": "The Four-Way Reverse Sequence",
+                  "description": "Game-Speed: Four-way reverse sequence at game pace, varied hand-rim combinations",
+                  "intensity": "medium",
                   "reps": {
                     "type": "makes",
-                    "makes": 12
+                    "makes": 11
                   }
                 }
               ]
@@ -906,28 +888,27 @@
                 {
                   "id": "wed-bb-2h-1",
                   "category": "basketball",
-                  "subCategory": "shooting",
+                  "subCategory": "finishing",
                   "duration": "2h",
-                  "name": "Psychological Momentum (Quick Form)",
-                  "description": "Form: Slow form shooting, goal 8 makes in a row, build confidence and flow",
+                  "name": "Contact Pump Fake",
+                  "description": "Technique: Slow slam and tuck, patient pump fake, deliberate finish over defender",
                   "intensity": "low",
                   "reps": {
                     "type": "makes",
-                    "makes": 13
+                    "makes": 18
                   }
                 },
                 {
                   "id": "wed-bb-2h-2",
                   "category": "basketball",
-                  "subCategory": "ballHandling",
+                  "subCategory": "finishing",
                   "duration": "2h",
-                  "name": "Over-the-Net Reach",
-                  "description": "Game-Speed: Game-speed drive with over-net reach, controlled return to finish",
+                  "name": "Off-Hand Key Extension",
+                  "description": "Game-Speed: Off-hand key extension at game speed, no backboard challenge",
                   "intensity": "medium",
                   "reps": {
-                    "type": "setsPerHand",
-                    "sets": 4,
-                    "rightReps": 8
+                    "type": "makesPerHand",
+                    "rightMakes": 18
                   }
                 },
                 {
@@ -935,39 +916,39 @@
                   "category": "basketball",
                   "subCategory": "shooting",
                   "duration": "2h",
-                  "name": "Peripheral Vision/Quiet Eye Turn",
-                  "description": "Game-Speed: Mid-speed turn with hands up from defender, lock eyes and shoot",
+                  "name": "Two-Foot Floater Series",
+                  "description": "Game-Speed: Full Kyrie two-foot floater series at game pace",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
-                    "makes": 20
+                    "makes": 22
                   }
                 },
                 {
                   "id": "wed-bb-2h-4",
                   "category": "basketball",
-                  "subCategory": "ballHandling",
+                  "subCategory": "shooting",
                   "duration": "2h",
-                  "name": "Bump and Counter (5 Variations)",
-                  "description": "Pressured: Full-speed bump with live defender, execute best counter in real time",
-                  "intensity": "high",
+                  "name": "Ball Screen Hedge & Relocation",
+                  "description": "Game-Speed: Hard hedge response at game pace, quick relocation for return pass",
+                  "intensity": "medium",
                   "reps": {
-                    "type": "setsPerHand",
-                    "sets": 4,
-                    "rightReps": 8
+                    "type": "makes",
+                    "makes": 22
                   }
                 },
                 {
                   "id": "wed-bb-2h-5",
                   "category": "basketball",
-                  "subCategory": "shooting",
+                  "subCategory": "ballHandling",
                   "duration": "2h",
-                  "name": "Hezi BTB/Push Cross Pull-up",
-                  "description": "Game-Speed: BTB/push-cross hezi at game speed, freeze then rise to pull-up",
+                  "name": "Lava Pop-Back (COD Tween)",
+                  "description": "Game-Speed: Cross-step at game pace, explosive pop-back the instant second foot lands",
                   "intensity": "medium",
                   "reps": {
-                    "type": "makes",
-                    "makes": 20
+                    "type": "setsPerHand",
+                    "sets": 5,
+                    "rightReps": 6
                   }
                 },
                 {
@@ -976,11 +957,11 @@
                   "subCategory": "finishing",
                   "duration": "2h",
                   "name": "Kyrie 18-Shot Finishing Series",
-                  "description": "Technique: Six shots × three timings slowly, master each timing variation",
-                  "intensity": "low",
+                  "description": "Pressured: Full 18-shot series at maximum speed with live defense",
+                  "intensity": "high",
                   "reps": {
                     "type": "makes",
-                    "makes": 23
+                    "makes": 33
                   }
                 },
                 {
@@ -988,12 +969,12 @@
                   "category": "basketball",
                   "subCategory": "finishing",
                   "duration": "2h",
-                  "name": "Layups from Anywhere",
-                  "description": "Game-Speed: Freestyle layups at game pace, immediate secondary finish on catch",
-                  "intensity": "medium",
+                  "name": "Behind-the-Back Air Dexterity",
+                  "description": "Form: Slow ball toss, behind-the-back while moving, find rim and finish",
+                  "intensity": "low",
                   "reps": {
                     "type": "makes",
-                    "makes": 20
+                    "makes": 18
                   }
                 }
               ]
@@ -1004,112 +985,106 @@
                 {
                   "id": "wed-bb-3h-1",
                   "category": "basketball",
-                  "subCategory": "ballHandling",
+                  "subCategory": "finishing",
                   "duration": "3h",
-                  "name": "Pound to Jolt Cross",
-                  "description": "Game-Speed: Standard pound then immediate low jolt cross at game pace",
-                  "intensity": "medium",
+                  "name": "Off-Board Touch Finishing",
+                  "description": "Form: Toss ball off backboard/rim at slow pace, react and finish with creativity",
+                  "intensity": "low",
                   "reps": {
-                    "type": "setsPerHand",
-                    "sets": 5,
-                    "rightReps": 12
+                    "type": "makes",
+                    "makes": 34
                   }
                 },
                 {
                   "id": "wed-bb-3h-2",
                   "category": "basketball",
-                  "subCategory": "ballHandling",
+                  "subCategory": "shooting",
                   "duration": "3h",
-                  "name": "Leaning Pull the Chair Recovery",
-                  "description": "Pressured: Full-speed lean, aggressive chair-pull, recover balance and finish at rim",
+                  "name": "Double Pump Shots",
+                  "description": "Pressured: Full-speed double pump with live defender, execute on second rhythm",
                   "intensity": "high",
                   "reps": {
-                    "type": "setsPerHand",
-                    "sets": 5,
-                    "rightReps": 10
+                    "type": "makes",
+                    "makes": 34
                   }
                 },
                 {
                   "id": "wed-bb-3h-3",
                   "category": "basketball",
-                  "subCategory": "ballHandling",
+                  "subCategory": "finishing",
                   "duration": "3h",
-                  "name": "Feet-Behind Spin",
-                  "description": "Technique: Feet-behind entry then controlled spin, maintain downhill momentum",
-                  "intensity": "low",
+                  "name": "Underhand Floater (Same-Foot/Same-Hand)",
+                  "description": "Game-Speed: Same-foot/hand underhand floater at game pace, away from rim",
+                  "intensity": "medium",
                   "reps": {
-                    "type": "setsPerHand",
-                    "sets": 5,
-                    "rightReps": 7
+                    "type": "makesPerHand",
+                    "rightMakes": 22
                   }
                 },
                 {
                   "id": "wed-bb-3h-4",
                   "category": "basketball",
-                  "subCategory": "ballHandling",
+                  "subCategory": "finishing",
                   "duration": "3h",
-                  "name": "Blended Crossover/Between Series",
-                  "description": "Game-Speed: Blended series at game pace, stay slanted and reactive",
+                  "name": "Inside-Hand Wrap Reverse",
+                  "description": "Game-Speed: Inside-hand wrap reverse at game pace, use backboard strategically",
                   "intensity": "medium",
                   "reps": {
-                    "type": "setsPerHand",
-                    "sets": 5,
-                    "rightReps": 12
+                    "type": "makesPerHand",
+                    "rightMakes": 22
                   }
                 },
                 {
                   "id": "wed-bb-3h-5",
                   "category": "basketball",
-                  "subCategory": "ballHandling",
+                  "subCategory": "finishing",
                   "duration": "3h",
-                  "name": "Slow Step Extension",
-                  "description": "Game-Speed: Slow step with defender on hip at game pace, read and execute decision",
+                  "name": "Side-to-Side Cradles",
+                  "description": "Game-Speed: Side-to-side cradles at game pace, arm generates spin on backboard",
                   "intensity": "medium",
                   "reps": {
-                    "type": "setsPerHand",
-                    "sets": 5,
-                    "rightReps": 12
+                    "type": "makesPerHand",
+                    "rightMakes": 22
                   }
                 },
                 {
                   "id": "wed-bb-3h-6",
                   "category": "basketball",
-                  "subCategory": "finishing",
+                  "subCategory": "ballHandling",
                   "duration": "3h",
-                  "name": "Object Jump Finish",
-                  "description": "Technique: Object on floor, slow jump from outside, deliberate creative hand finishes",
+                  "name": "Hezi-Jumpback Explode",
+                  "description": "Technique: Even stance hesitation, slow jumpback sell, feel the direction change",
                   "intensity": "low",
                   "reps": {
-                    "type": "makes",
-                    "makes": 16
+                    "type": "setsPerHand",
+                    "sets": 7,
+                    "rightReps": 10
                   }
                 },
                 {
                   "id": "wed-bb-3h-7",
                   "category": "basketball",
-                  "subCategory": "ballHandling",
+                  "subCategory": "finishing",
                   "duration": "3h",
-                  "name": "Find the Seams Dribble-to-Shot",
-                  "description": "Game-Speed: Game-speed toss, fast seam find, immediate move into shot",
+                  "name": "Object Jump Finish",
+                  "description": "Game-Speed: Object jump at game pace, use hang time for varied finishes",
                   "intensity": "medium",
                   "reps": {
-                    "type": "setsPerHand",
-                    "sets": 5,
-                    "rightReps": 12
+                    "type": "makes",
+                    "makes": 22
                   }
                 },
                 {
                   "id": "wed-bb-3h-8",
                   "category": "basketball",
-                  "subCategory": "ballHandling",
+                  "subCategory": "finishing",
                   "duration": "3h",
-                  "name": "Overhead Gathered Pound",
-                  "description": "Pressured: Full-speed overhead gather with shot-blocker bait, finish off balance",
-                  "intensity": "high",
+                  "name": "Cradle-Change Direction Finish",
+                  "description": "Technique: Slow cradle gather during mid-air two-foot direction shift",
+                  "intensity": "low",
                   "reps": {
-                    "type": "setsPerHand",
-                    "sets": 5,
-                    "rightReps": 12
+                    "type": "makes",
+                    "makes": 22
                   }
                 },
                 {
@@ -1117,25 +1092,26 @@
                   "category": "basketball",
                   "subCategory": "shooting",
                   "duration": "3h",
-                  "name": "Find the Seams Warm-up",
-                  "description": "Game-Speed: Spin toss at game pace, fast seam find into shot",
+                  "name": "Hezi BTB/Push Cross Pull-up",
+                  "description": "Game-Speed: BTB/push-cross hezi at game speed, freeze then rise to pull-up",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
-                    "makes": 19
+                    "makes": 34
                   }
                 },
                 {
                   "id": "wed-bb-3h-10",
                   "category": "basketball",
-                  "subCategory": "shooting",
+                  "subCategory": "ballHandling",
                   "duration": "3h",
-                  "name": "Tense to Relaxed Shooting",
-                  "description": "Technique: Light pushing/pulling from partner, controlled shift to relaxed shot",
-                  "intensity": "low",
+                  "name": "Feet-Behind Footwork",
+                  "description": "Pressured: Explosive feet-behind with active defender, max acceleration out",
+                  "intensity": "high",
                   "reps": {
-                    "type": "makes",
-                    "makes": 16
+                    "type": "setsPerHand",
+                    "sets": 7,
+                    "rightReps": 10
                   }
                 }
               ]
@@ -1146,7 +1122,7 @@
     },
     {
       "day": "Thursday",
-      "focus": "Primary skill development at standard game pace",
+      "focus": "Game-speed primary skill and secondary combinations",
       "categories": {
         "basketball": {
           "workouts": [
@@ -1156,55 +1132,54 @@
                 {
                   "id": "thu-bb-30-1",
                   "category": "basketball",
-                  "subCategory": "finishing",
+                  "subCategory": "shooting",
                   "duration": "30m",
-                  "name": "Off-Hand Floater Circuit",
-                  "description": "Game-Speed: Off-hand floater circuit at game pace, baseline and middle variety",
+                  "name": "Lunge Stop Anchor Stop Pull-up",
+                  "description": "Game-Speed: Lunge-anchor stop pull-up at game pace, snap from drive to shot",
                   "intensity": "medium",
                   "reps": {
-                    "type": "makesPerHand",
-                    "rightMakes": 8
+                    "type": "makes",
+                    "makes": 13
                   }
                 },
                 {
                   "id": "thu-bb-30-2",
                   "category": "basketball",
-                  "subCategory": "ballHandling",
+                  "subCategory": "finishing",
                   "duration": "30m",
-                  "name": "Wimby Pole Read",
-                  "description": "Pressured: Full-speed drive with live Wimby-style help, adapt finish under pressure",
+                  "name": "Gyro Counter Finish",
+                  "description": "Pressured: Full-speed gyro counter with live defender, explosive gyro step finish",
                   "intensity": "high",
                   "reps": {
-                    "type": "setsPerHand",
-                    "sets": 2,
-                    "rightReps": 6
+                    "type": "makes",
+                    "makes": 11
                   }
                 },
                 {
                   "id": "thu-bb-30-3",
                   "category": "basketball",
-                  "subCategory": "ballHandling",
+                  "subCategory": "finishing",
                   "duration": "30m",
-                  "name": "Accel/Decel Flow",
-                  "description": "Game-Speed: Accel/decel footwork at game rhythm, explosive ankle and Achilles prep",
+                  "name": "Layups from Anywhere",
+                  "description": "Game-Speed: Freestyle layups at game pace, immediate secondary finish on catch",
                   "intensity": "medium",
                   "reps": {
-                    "type": "setsPerHand",
-                    "sets": 2,
-                    "rightReps": 8
+                    "type": "makes",
+                    "makes": 17
                   }
                 },
                 {
                   "id": "thu-bb-30-4",
                   "category": "basketball",
-                  "subCategory": "shooting",
+                  "subCategory": "ballHandling",
                   "duration": "30m",
-                  "name": "Corner Out of Bounds",
-                  "description": "Form: Five corner out-of-bounds shots, focus on arc and precision",
+                  "name": "Pound Between-Behind",
+                  "description": "Form: Stationary pound, between legs by big toe, then behind back at slow rhythm",
                   "intensity": "low",
                   "reps": {
-                    "type": "makes",
-                    "makes": 12
+                    "type": "setsPerHand",
+                    "sets": 3,
+                    "rightReps": 10
                   }
                 }
               ]
@@ -1215,42 +1190,40 @@
                 {
                   "id": "thu-bb-1h-1",
                   "category": "basketball",
-                  "subCategory": "ballHandling",
+                  "subCategory": "finishing",
                   "duration": "1h",
-                  "name": "Left-Hand Rip Away",
-                  "description": "Game-Speed: Game-speed gather, defender has hand on ball, rip away cleanly",
+                  "name": "Modified Inside-Hand Mikan",
+                  "description": "Game-Speed: Inside-hand Mikan at game pace, soft touch and backboard spin",
                   "intensity": "medium",
                   "reps": {
-                    "type": "setsPerHand",
-                    "sets": 3,
-                    "rightReps": 10
+                    "type": "makes",
+                    "makes": 21
                   }
                 },
                 {
                   "id": "thu-bb-1h-2",
                   "category": "basketball",
-                  "subCategory": "ballHandling",
+                  "subCategory": "finishing",
                   "duration": "1h",
-                  "name": "Arm-Free Pickup (Disentanglement)",
-                  "description": "Pressured: Aggressive defender on arm, explosive disentanglement into finish",
-                  "intensity": "high",
+                  "name": "One-Move Capstone Finish",
+                  "description": "Game-Speed: Capstone move into creative finish at game pace when fatigued",
+                  "intensity": "medium",
                   "reps": {
-                    "type": "setsPerHand",
-                    "sets": 3,
-                    "rightReps": 8
+                    "type": "makes",
+                    "makes": 21
                   }
                 },
                 {
                   "id": "thu-bb-1h-3",
                   "category": "basketball",
-                  "subCategory": "shooting",
+                  "subCategory": "finishing",
                   "duration": "1h",
-                  "name": "Offhand Floater Development Circuit",
-                  "description": "Game-Speed: Off-hand floater circuit at game tempo, one-foot and two-foot variety",
+                  "name": "Wide Hook Soft Touch",
+                  "description": "Game-Speed: Wide hooks at game speed, both hands, varied angles",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
-                    "makes": 20
+                    "makes": 17
                   }
                 },
                 {
@@ -1258,12 +1231,12 @@
                   "category": "basketball",
                   "subCategory": "shooting",
                   "duration": "1h",
-                  "name": "Separate Back Separation Shot",
-                  "description": "Technique: Slow separation back move off imaginary screen, create window and shoot",
-                  "intensity": "low",
+                  "name": "Tense to Relaxed Shooting",
+                  "description": "Pressured: Aggressive push/pull, explosive release from tension to relaxed fluid shot",
+                  "intensity": "high",
                   "reps": {
                     "type": "makes",
-                    "makes": 15
+                    "makes": 14
                   }
                 },
                 {
@@ -1271,12 +1244,12 @@
                   "category": "basketball",
                   "subCategory": "shooting",
                   "duration": "1h",
-                  "name": "Cold Start Threes",
-                  "description": "Game-Speed: Cold start threes at game tempo, off-the-bench readiness",
-                  "intensity": "medium",
+                  "name": "Corner to Wing Shooting",
+                  "description": "Form: Alternating corner and wing threes at slow pace, 7 for 10 target",
+                  "intensity": "low",
                   "reps": {
                     "type": "makes",
-                    "makes": 20
+                    "makes": 28
                   }
                 }
               ]
@@ -1289,86 +1262,30 @@
                   "category": "basketball",
                   "subCategory": "ballHandling",
                   "duration": "2h",
-                  "name": "Anchored Pivot Pounds",
-                  "description": "Technique: Anchor one foot, slow freestyle pound dribbles exploring unpredictable patterns",
-                  "intensity": "low",
+                  "name": "Blended Crossover/Between Series",
+                  "description": "Pressured: Full-speed blended crossover/between with defender shadowing",
+                  "intensity": "high",
                   "reps": {
                     "type": "setsPerHand",
-                    "sets": 4,
+                    "sets": 5,
                     "rightReps": 10
                   }
                 },
                 {
                   "id": "thu-bb-2h-2",
                   "category": "basketball",
-                  "subCategory": "ballHandling",
+                  "subCategory": "shooting",
                   "duration": "2h",
-                  "name": "Pound Between-Behind",
-                  "description": "Game-Speed: Full rhythm pound-between-behind series at game pace, sway with ball",
+                  "name": "Anchored Pivot Pickup Shoot",
+                  "description": "Game-Speed: Anchored pivot pounds at game tempo, unpredictable before pickup",
                   "intensity": "medium",
                   "reps": {
-                    "type": "setsPerHand",
-                    "sets": 4,
-                    "rightReps": 10
+                    "type": "makes",
+                    "makes": 36
                   }
                 },
                 {
                   "id": "thu-bb-2h-3",
-                  "category": "basketball",
-                  "subCategory": "ballHandling",
-                  "duration": "2h",
-                  "name": "Weight Shift Pound",
-                  "description": "Pressured: Maximum speed weight shifts with defender shadowing, protect ball and maintain control",
-                  "intensity": "high",
-                  "reps": {
-                    "type": "setsPerHand",
-                    "sets": 3,
-                    "rightReps": 10
-                  }
-                },
-                {
-                  "id": "thu-bb-2h-4",
-                  "category": "basketball",
-                  "subCategory": "ballHandling",
-                  "duration": "2h",
-                  "name": "Moving Pound Crossovers",
-                  "description": "Form: Sideline-to-sideline crossovers, hips turn toward ball on each cross at slow pace",
-                  "intensity": "low",
-                  "reps": {
-                    "type": "setsPerHand",
-                    "sets": 4,
-                    "rightReps": 12
-                  }
-                },
-                {
-                  "id": "thu-bb-2h-5",
-                  "category": "basketball",
-                  "subCategory": "ballHandling",
-                  "duration": "2h",
-                  "name": "Rotational Pulls",
-                  "description": "Game-Speed: Rotational pulls at game speed, explosive forward lean off rotation",
-                  "intensity": "medium",
-                  "reps": {
-                    "type": "setsPerHand",
-                    "sets": 4,
-                    "rightReps": 10
-                  }
-                },
-                {
-                  "id": "thu-bb-2h-6",
-                  "category": "basketball",
-                  "subCategory": "finishing",
-                  "duration": "2h",
-                  "name": "One-Move Capstone Finish",
-                  "description": "Game-Speed: Capstone move into creative finish at game pace when fatigued",
-                  "intensity": "medium",
-                  "reps": {
-                    "type": "makes",
-                    "makes": 20
-                  }
-                },
-                {
-                  "id": "thu-bb-2h-7",
                   "category": "basketball",
                   "subCategory": "finishing",
                   "duration": "2h",
@@ -1377,7 +1294,61 @@
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
-                    "makes": 16
+                    "makes": 22
+                  }
+                },
+                {
+                  "id": "thu-bb-2h-4",
+                  "category": "basketball",
+                  "subCategory": "finishing",
+                  "duration": "2h",
+                  "name": "Slow-Step / Extension Read",
+                  "description": "Technique: Slow approach downhill, deliberate read, choose extension or slow step",
+                  "intensity": "low",
+                  "reps": {
+                    "type": "makes",
+                    "makes": 18
+                  }
+                },
+                {
+                  "id": "thu-bb-2h-5",
+                  "category": "basketball",
+                  "subCategory": "ballHandling",
+                  "duration": "2h",
+                  "name": "Double Behind to Inverted Snatch",
+                  "description": "Form: Two behind-the-back dribbles then inverted snatch at controlled tempo",
+                  "intensity": "low",
+                  "reps": {
+                    "type": "setsPerHand",
+                    "sets": 5,
+                    "rightReps": 8
+                  }
+                },
+                {
+                  "id": "thu-bb-2h-6",
+                  "category": "basketball",
+                  "subCategory": "finishing",
+                  "duration": "2h",
+                  "name": "Two-Foot Finish off Sell-Out Reach",
+                  "description": "Game-Speed: React to sell-out reach at game speed, step up and two-foot finish",
+                  "intensity": "medium",
+                  "reps": {
+                    "type": "makes",
+                    "makes": 18
+                  }
+                },
+                {
+                  "id": "thu-bb-2h-7",
+                  "category": "basketball",
+                  "subCategory": "ballHandling",
+                  "duration": "2h",
+                  "name": "Bump and Counter (5 Variations)",
+                  "description": "Game-Speed: Game-speed bump and counter, mix all five variations naturally",
+                  "intensity": "medium",
+                  "reps": {
+                    "type": "setsPerHand",
+                    "sets": 5,
+                    "rightReps": 8
                   }
                 }
               ]
@@ -1390,12 +1361,12 @@
                   "category": "basketball",
                   "subCategory": "shooting",
                   "duration": "3h",
-                  "name": "Two-Foot Floater Series",
-                  "description": "Technique: Cross-between-behind at slow speed into controlled two-foot floater",
+                  "name": "Corner to Corner Shooting",
+                  "description": "Technique: Different footwork every rep at slow pace, master each footwork style",
                   "intensity": "low",
                   "reps": {
                     "type": "makes",
-                    "makes": 19
+                    "makes": 34
                   }
                 },
                 {
@@ -1403,12 +1374,12 @@
                   "category": "basketball",
                   "subCategory": "ballHandling",
                   "duration": "3h",
-                  "name": "Slow Dribble to Explosive Reach",
-                  "description": "Game-Speed: Slow dribble baiting defender, explosive blast off on reach",
+                  "name": "Low Joint Position Mobility Warm-up",
+                  "description": "Game-Speed: Low joint mobility flow at moderate pace, prep explosive first steps",
                   "intensity": "medium",
                   "reps": {
                     "type": "setsPerHand",
-                    "sets": 5,
+                    "sets": 4,
                     "rightReps": 12
                   }
                 },
@@ -1417,25 +1388,25 @@
                   "category": "basketball",
                   "subCategory": "shooting",
                   "duration": "3h",
-                  "name": "Lunge Stop Anchor Stop Pull-up",
-                  "description": "Game-Speed: Lunge-anchor stop pull-up at game pace, snap from drive to shot",
+                  "name": "Cold Start Threes",
+                  "description": "Game-Speed: Cold start threes at game tempo, off-the-bench readiness",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
-                    "makes": 19
+                    "makes": 45
                   }
                 },
                 {
                   "id": "thu-bb-3h-4",
                   "category": "basketball",
-                  "subCategory": "shooting",
+                  "subCategory": "finishing",
                   "duration": "3h",
-                  "name": "Low-to-Ground Differential Pickup",
-                  "description": "Game-Speed: Low-to-ground pickup challenge at game pace, adaptive shooting",
-                  "intensity": "medium",
+                  "name": "Two-Step Disentanglement",
+                  "description": "Pressured: Aggressive defender hold, explosive two-step disentanglement and finish",
+                  "intensity": "high",
                   "reps": {
                     "type": "makes",
-                    "makes": 24
+                    "makes": 27
                   }
                 },
                 {
@@ -1443,26 +1414,25 @@
                   "category": "basketball",
                   "subCategory": "shooting",
                   "duration": "3h",
-                  "name": "Mid-Range Volume Pull-ups (25 Each Way)",
-                  "description": "Game-Speed: 25 pull-up jumpers each way at game tempo, legal footwork focus",
-                  "intensity": "medium",
+                  "name": "Turn and Decide (Close-out)",
+                  "description": "Pressured: Full-speed turn, aggressive close-out, committed instant decision",
+                  "intensity": "high",
                   "reps": {
                     "type": "makes",
-                    "makes": 40
+                    "makes": 34
                   }
                 },
                 {
                   "id": "thu-bb-3h-6",
                   "category": "basketball",
-                  "subCategory": "ballHandling",
+                  "subCategory": "finishing",
                   "duration": "3h",
-                  "name": "Hezi-Jumpback Explode",
-                  "description": "Pressured: Full-speed jumpback with live defender, maximum commitment on explode",
-                  "intensity": "high",
+                  "name": "Kyrie Cuffing Series",
+                  "description": "Game-Speed: Cuffing series at game pace, total control during acrobatics",
+                  "intensity": "medium",
                   "reps": {
-                    "type": "setsPerHand",
-                    "sets": 5,
-                    "rightReps": 10
+                    "type": "makes",
+                    "makes": 22
                   }
                 },
                 {
@@ -1470,53 +1440,51 @@
                   "category": "basketball",
                   "subCategory": "finishing",
                   "duration": "3h",
-                  "name": "Inside-Hand Wrap Reverse",
-                  "description": "Pressured: Full-speed inside-hand wrap with live defender, backboard is shield",
-                  "intensity": "high",
+                  "name": "One Move Capstone Finishing",
+                  "description": "Game-Speed: Capstone finishing circuit at game pace, test moves when tired",
+                  "intensity": "medium",
                   "reps": {
-                    "type": "makesPerHand",
-                    "rightMakes": 16
+                    "type": "makes",
+                    "makes": 34
                   }
                 },
                 {
                   "id": "thu-bb-3h-8",
                   "category": "basketball",
-                  "subCategory": "shooting",
+                  "subCategory": "finishing",
                   "duration": "3h",
-                  "name": "High-Speed Skip Pull-ups",
-                  "description": "Technique: Two skips at 50% speed, controlled three-point pull-up",
+                  "name": "Same Foot Same Hand (Off-Foot)",
+                  "description": "Technique: Controlled creative move, slow same-foot/same-hand layup, feel the timing",
                   "intensity": "low",
                   "reps": {
-                    "type": "makes",
-                    "makes": 24
+                    "type": "makesPerHand",
+                    "rightMakes": 22
                   }
                 },
                 {
                   "id": "thu-bb-3h-9",
                   "category": "basketball",
-                  "subCategory": "ballHandling",
+                  "subCategory": "shooting",
                   "duration": "3h",
-                  "name": "Exaggerated Low to High",
-                  "description": "Game-Speed: Low-to-high alternation at game pace, explosive height transitions",
+                  "name": "Catch and Shoot (On the Move)",
+                  "description": "Game-Speed: Catch and shoot on the move at full game speed",
                   "intensity": "medium",
                   "reps": {
-                    "type": "setsPerHand",
-                    "sets": 3,
-                    "rightReps": 12
+                    "type": "makes",
+                    "makes": 45
                   }
                 },
                 {
                   "id": "thu-bb-3h-10",
                   "category": "basketball",
-                  "subCategory": "ballHandling",
+                  "subCategory": "finishing",
                   "duration": "3h",
-                  "name": "Kyrie Two-Foot C.O.D. Series",
-                  "description": "Game-Speed: Full Kyrie two-foot C.O.D. series at game pace",
+                  "name": "Standard Layup Series (Overhand, Underhand, Side-Hand)",
+                  "description": "Game-Speed: Full layup series at game pace, consecutive makes target",
                   "intensity": "medium",
                   "reps": {
-                    "type": "setsPerHand",
-                    "sets": 5,
-                    "rightReps": 10
+                    "type": "makes",
+                    "makes": 27
                   }
                 }
               ]
@@ -1527,7 +1495,7 @@
     },
     {
       "day": "Friday",
-      "focus": "High-intensity finishing and competitive game scenarios",
+      "focus": "High-pressure finishing and competitive game skills",
       "categories": {
         "basketball": {
           "workouts": [
@@ -1537,29 +1505,27 @@
                 {
                   "id": "fri-bb-30-1",
                   "category": "basketball",
-                  "subCategory": "ballHandling",
+                  "subCategory": "shooting",
                   "duration": "30m",
-                  "name": "In Stride Change of Direction",
-                  "description": "Game-Speed: 60-70% sprint, game-like direction shift, no speed loss",
+                  "name": "Reverse Lunge Overhead to Shot",
+                  "description": "Game-Speed: Reverse lunge to shot at game pace, fluid energy transfer",
                   "intensity": "medium",
                   "reps": {
-                    "type": "setsPerHand",
-                    "sets": 2,
-                    "rightReps": 6
+                    "type": "makes",
+                    "makes": 17
                   }
                 },
                 {
                   "id": "fri-bb-30-2",
                   "category": "basketball",
-                  "subCategory": "ballHandling",
+                  "subCategory": "finishing",
                   "duration": "30m",
-                  "name": "Hop Freestyle",
-                  "description": "Form: Single-leg hops with freestyle dribble, small controlled hops at slow speed",
+                  "name": "Trey Young High Floater",
+                  "description": "Technique: Slow high-arc floater attempts, ball targets above backboard dropping in",
                   "intensity": "low",
                   "reps": {
-                    "type": "setsPerHand",
-                    "sets": 2,
-                    "rightReps": 10
+                    "type": "makes",
+                    "makes": 11
                   }
                 },
                 {
@@ -1567,26 +1533,25 @@
                   "category": "basketball",
                   "subCategory": "finishing",
                   "duration": "30m",
-                  "name": "Two-Foot Finish off Sell-Out Reach",
-                  "description": "Pressured: Live aggressive defender reach, explosive step-up two-foot balanced finish",
+                  "name": "Chest-Stop Screen Rejection Finish",
+                  "description": "Pressured: Full-speed rejection with aggressive chest stop, finish through contact",
                   "intensity": "high",
                   "reps": {
                     "type": "makes",
-                    "makes": 8
+                    "makes": 9
                   }
                 },
                 {
                   "id": "fri-bb-30-4",
                   "category": "basketball",
-                  "subCategory": "ballHandling",
+                  "subCategory": "finishing",
                   "duration": "30m",
-                  "name": "Low Joint Position Mobility Warm-up",
-                  "description": "Game-Speed: Low joint mobility flow at moderate pace, prep explosive first steps",
+                  "name": "Wichita Counter to Finish",
+                  "description": "Game-Speed: Wichita counter to finish at game pace, tight compact finish",
                   "intensity": "medium",
                   "reps": {
-                    "type": "setsPerHand",
-                    "sets": 2,
-                    "rightReps": 10
+                    "type": "makes",
+                    "makes": 13
                   }
                 }
               ]
@@ -1599,13 +1564,13 @@
                   "category": "basketball",
                   "subCategory": "ballHandling",
                   "duration": "1h",
-                  "name": "Dribble-Step Between the Legs",
-                  "description": "Game-Speed: Dribble-step between legs at game speed, explosive direction change",
+                  "name": "Stationary Crossovers (Wide Base)",
+                  "description": "Game-Speed: Crossovers at game speed in wide base stance, explosive weight transfer each rep",
                   "intensity": "medium",
                   "reps": {
                     "type": "setsPerHand",
                     "sets": 3,
-                    "rightReps": 10
+                    "rightReps": 12
                   }
                 },
                 {
@@ -1613,12 +1578,12 @@
                   "category": "basketball",
                   "subCategory": "finishing",
                   "duration": "1h",
-                  "name": "Wide Hook Soft Touch",
-                  "description": "Pressured: Wide hooks with active defender, maintain touch under pressure",
-                  "intensity": "high",
+                  "name": "Wichita Double Rip Middle Finish",
+                  "description": "Game-Speed: Double rip middle finish at game pace, stay low through contact",
+                  "intensity": "medium",
                   "reps": {
                     "type": "makes",
-                    "makes": 12
+                    "makes": 14
                   }
                 },
                 {
@@ -1626,40 +1591,39 @@
                   "category": "basketball",
                   "subCategory": "ballHandling",
                   "duration": "1h",
-                  "name": "Double Behind to Inverted Snatch",
-                  "description": "Game-Speed: Double-behind to inverted snatch at game pace, smooth coordination",
+                  "name": "Rotational Pulls",
+                  "description": "Game-Speed: Rotational pulls at game speed, explosive forward lean off rotation",
                   "intensity": "medium",
                   "reps": {
                     "type": "setsPerHand",
-                    "sets": 3,
-                    "rightReps": 8
+                    "sets": 4,
+                    "rightReps": 10
                   }
                 },
                 {
                   "id": "fri-bb-1h-4",
                   "category": "basketball",
-                  "subCategory": "ballHandling",
+                  "subCategory": "shooting",
                   "duration": "1h",
-                  "name": "Continuous Jolt Cross (No Pound)",
-                  "description": "Technique: Back-to-back low jolt crosses at slow tempo, float ball between crosses",
-                  "intensity": "low",
+                  "name": "2v1 / 1v2 Shooting",
+                  "description": "Pressured: Live 1v2 at full game intensity, shoot under maximum pressure",
+                  "intensity": "high",
                   "reps": {
-                    "type": "setsPerHand",
-                    "sets": 3,
-                    "rightReps": 8
+                    "type": "makes",
+                    "makes": 14
                   }
                 },
                 {
                   "id": "fri-bb-1h-5",
                   "category": "basketball",
-                  "subCategory": "shooting",
+                  "subCategory": "finishing",
                   "duration": "1h",
-                  "name": "Arm-Free Pickup Shoot",
-                  "description": "Game-Speed: Game-speed drive, defender on arm, fluid pickup into shot",
-                  "intensity": "medium",
+                  "name": "Inside Hand Driving Finish",
+                  "description": "Technique: Slow drive, inside hand finish, get corresponding leg up for protection",
+                  "intensity": "low",
                   "reps": {
-                    "type": "makes",
-                    "makes": 10
+                    "type": "makesPerHand",
+                    "rightMakes": 14
                   }
                 }
               ]
@@ -1670,19 +1634,6 @@
                 {
                   "id": "fri-bb-2h-1",
                   "category": "basketball",
-                  "subCategory": "shooting",
-                  "duration": "2h",
-                  "name": "Visualization Short Jumpers",
-                  "description": "Game-Speed: Visualization drill at game speed, commit to pull-up decision",
-                  "intensity": "medium",
-                  "reps": {
-                    "type": "makes",
-                    "makes": 26
-                  }
-                },
-                {
-                  "id": "fri-bb-2h-2",
-                  "category": "basketball",
                   "subCategory": "finishing",
                   "duration": "2h",
                   "name": "Differential Angle Floaters",
@@ -1690,20 +1641,33 @@
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
-                    "makes": 16
+                    "makes": 22
+                  }
+                },
+                {
+                  "id": "fri-bb-2h-2",
+                  "category": "basketball",
+                  "subCategory": "shooting",
+                  "duration": "2h",
+                  "name": "Wichita Wing Series (Step-Over Rip)",
+                  "description": "Game-Speed: Step-over cut at game speed, hard rip into one-dribble pull-up",
+                  "intensity": "medium",
+                  "reps": {
+                    "type": "makes",
+                    "makes": 27
                   }
                 },
                 {
                   "id": "fri-bb-2h-3",
                   "category": "basketball",
-                  "subCategory": "shooting",
+                  "subCategory": "finishing",
                   "duration": "2h",
-                  "name": "Screen Rejection Jumpers",
-                  "description": "Pressured: Full-speed screen rejection, aggressive chest stop, explosive recovery shot",
-                  "intensity": "high",
+                  "name": "Pull the Chair Recovery",
+                  "description": "Game-Speed: Game-speed lean, sudden chair-pull, recover and finish",
+                  "intensity": "medium",
                   "reps": {
                     "type": "makes",
-                    "makes": 16
+                    "makes": 18
                   }
                 },
                 {
@@ -1711,12 +1675,12 @@
                   "category": "basketball",
                   "subCategory": "shooting",
                   "duration": "2h",
-                  "name": "Corner to Wing Shooting",
-                  "description": "Pressured: Corner to wing with defender closing, make on catch target",
-                  "intensity": "high",
+                  "name": "Different Footwork Every Rep",
+                  "description": "Technique: Corner to corner shooting, different footwork each rep at slow tempo",
+                  "intensity": "low",
                   "reps": {
                     "type": "makes",
-                    "makes": 26
+                    "makes": 27
                   }
                 },
                 {
@@ -1724,12 +1688,12 @@
                   "category": "basketball",
                   "subCategory": "shooting",
                   "duration": "2h",
-                  "name": "Knee-Push Transition Shot",
-                  "description": "Technique: From one knee, slow push into transition pull-up, focus on footwork",
-                  "intensity": "low",
+                  "name": "Mid-Range Volume Pull-ups (25 Each Way)",
+                  "description": "Pressured: Volume pull-ups each direction with closing defender, clean footwork",
+                  "intensity": "high",
                   "reps": {
                     "type": "makes",
-                    "makes": 16
+                    "makes": 46
                   }
                 },
                 {
@@ -1737,12 +1701,12 @@
                   "category": "basketball",
                   "subCategory": "shooting",
                   "duration": "2h",
-                  "name": "Mid-Court Toss-and-Meet",
-                  "description": "Game-Speed: Toss and meet at game speed, immediate shot on balance",
+                  "name": "Side-to-Side Pops to Shot",
+                  "description": "Game-Speed: Lateral pops at game speed, find ground and rise into shot",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
-                    "makes": 16
+                    "makes": 27
                   }
                 },
                 {
@@ -1750,13 +1714,13 @@
                   "category": "basketball",
                   "subCategory": "ballHandling",
                   "duration": "2h",
-                  "name": "Double Pump Rhythm Drill",
-                  "description": "Game-Speed: Double pump at game speed, recover rhythm quickly into shot or drive",
-                  "intensity": "medium",
+                  "name": "Anchored Pivot Pounds",
+                  "description": "Pressured: Full-speed anchored pivot pounds with defender challenging pickup timing",
+                  "intensity": "high",
                   "reps": {
                     "type": "setsPerHand",
-                    "sets": 4,
-                    "rightReps": 8
+                    "sets": 5,
+                    "rightReps": 10
                   }
                 }
               ]
@@ -1769,31 +1733,56 @@
                   "category": "basketball",
                   "subCategory": "ballHandling",
                   "duration": "3h",
-                  "name": "Feet-Behind Footwork",
-                  "description": "Pressured: Explosive feet-behind with active defender, max acceleration out",
-                  "intensity": "high",
+                  "name": "Accel/Decel Flow",
+                  "description": "Technique: One-two footwork pattern at slow speed, ball moves around feet in sync",
+                  "intensity": "low",
                   "reps": {
                     "type": "setsPerHand",
-                    "sets": 5,
+                    "sets": 7,
                     "rightReps": 10
                   }
                 },
                 {
                   "id": "fri-bb-3h-2",
                   "category": "basketball",
-                  "subCategory": "ballHandling",
+                  "subCategory": "shooting",
                   "duration": "3h",
-                  "name": "Hezi-Even Stance",
-                  "description": "Game-Speed: Even stance hesitation at game pace, convincing freeze before explode",
+                  "name": "Low-to-Ground Differential Pickup",
+                  "description": "Game-Speed: Low-to-ground pickup challenge at game pace, adaptive shooting",
                   "intensity": "medium",
                   "reps": {
-                    "type": "setsPerHand",
-                    "sets": 5,
-                    "rightReps": 10
+                    "type": "makes",
+                    "makes": 34
                   }
                 },
                 {
                   "id": "fri-bb-3h-3",
+                  "category": "basketball",
+                  "subCategory": "finishing",
+                  "duration": "3h",
+                  "name": "Wichita Double Rip to Finish",
+                  "description": "Game-Speed: Double rip to tight finish at game pace, low and compact",
+                  "intensity": "medium",
+                  "reps": {
+                    "type": "makes",
+                    "makes": 22
+                  }
+                },
+                {
+                  "id": "fri-bb-3h-4",
+                  "category": "basketball",
+                  "subCategory": "shooting",
+                  "duration": "3h",
+                  "name": "High-Speed Skip Pull-ups",
+                  "description": "Pressured: Maximum-speed skips into three-point pull-up with defender close",
+                  "intensity": "high",
+                  "reps": {
+                    "type": "makes",
+                    "makes": 34
+                  }
+                },
+                {
+                  "id": "fri-bb-3h-5",
                   "category": "basketball",
                   "subCategory": "finishing",
                   "duration": "3h",
@@ -1802,33 +1791,7 @@
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
-                    "makes": 19
-                  }
-                },
-                {
-                  "id": "fri-bb-3h-4",
-                  "category": "basketball",
-                  "subCategory": "shooting",
-                  "duration": "3h",
-                  "name": "Ball Screen Hedge & Relocation",
-                  "description": "Game-Speed: Hard hedge response at game pace, quick relocation for return pass",
-                  "intensity": "medium",
-                  "reps": {
-                    "type": "makes",
-                    "makes": 19
-                  }
-                },
-                {
-                  "id": "fri-bb-3h-5",
-                  "category": "basketball",
-                  "subCategory": "shooting",
-                  "duration": "3h",
-                  "name": "Ball Pickup Shots",
-                  "description": "Pressured: Fast pickup with defender closing, shoot before defender arrives",
-                  "intensity": "high",
-                  "reps": {
-                    "type": "makes",
-                    "makes": 32
+                    "makes": 27
                   }
                 },
                 {
@@ -1836,68 +1799,65 @@
                   "category": "basketball",
                   "subCategory": "ballHandling",
                   "duration": "3h",
-                  "name": "Lava Pop-Back (COD Tween)",
-                  "description": "Pressured: Max-speed cross-step, floor is lava, instant pop-back with defender live",
-                  "intensity": "high",
+                  "name": "Slow Dribble to Explosive Reach",
+                  "description": "Game-Speed: Slow dribble baiting defender, explosive blast off on reach",
+                  "intensity": "medium",
                   "reps": {
                     "type": "setsPerHand",
-                    "sets": 5,
-                    "rightReps": 7
+                    "sets": 7,
+                    "rightReps": 12
                   }
                 },
                 {
                   "id": "fri-bb-3h-7",
                   "category": "basketball",
-                  "subCategory": "ballHandling",
+                  "subCategory": "finishing",
                   "duration": "3h",
-                  "name": "Stationary Crossovers (Wide Base)",
-                  "description": "Game-Speed: Crossovers at game speed in wide base stance, explosive weight transfer each rep",
+                  "name": "Touch the Net Reach",
+                  "description": "Game-Speed: Game-speed touch-the-net reach, protected finish on pullback",
                   "intensity": "medium",
                   "reps": {
-                    "type": "setsPerHand",
-                    "sets": 3,
-                    "rightReps": 14
+                    "type": "makes",
+                    "makes": 18
                   }
                 },
                 {
                   "id": "fri-bb-3h-8",
                   "category": "basketball",
-                  "subCategory": "ballHandling",
+                  "subCategory": "finishing",
                   "duration": "3h",
-                  "name": "Off-Balance Visualization",
-                  "description": "Technique: Slow awkward positions, visualize bumps and recover dribble at low speed",
-                  "intensity": "low",
+                  "name": "Two-Foot Change of Direction (Kyrie Series)",
+                  "description": "Pressured: Full-speed Kyrie COD with live defender, decisive baseline shift and finish",
+                  "intensity": "high",
                   "reps": {
-                    "type": "setsPerHand",
-                    "sets": 5,
-                    "rightReps": 10
+                    "type": "makes",
+                    "makes": 22
                   }
                 },
                 {
                   "id": "fri-bb-3h-9",
                   "category": "basketball",
-                  "subCategory": "ballHandling",
+                  "subCategory": "finishing",
                   "duration": "3h",
-                  "name": "Hezi In-and-Out Explode",
-                  "description": "Technique: Slow in-and-out during hesitation, body rises to freeze imaginary defender",
-                  "intensity": "low",
+                  "name": "Escape Floater",
+                  "description": "Pressured: Full-speed escape with live aggressive chaser, fading floater under pressure",
+                  "intensity": "high",
                   "reps": {
-                    "type": "setsPerHand",
-                    "sets": 5,
-                    "rightReps": 12
+                    "type": "makesPerHand",
+                    "rightMakes": 22
                   }
                 },
                 {
                   "id": "fri-bb-3h-10",
                   "category": "basketball",
-                  "subCategory": "shooting",
+                  "subCategory": "finishing",
                   "duration": "3h",
-                  "name": "Side-to-Side Pops to Shot",
-                  "description": "Game-Speed: Lateral pops at game speed, find ground and rise into shot",
-                  "intensity": "medium",
+                  "name": "Bump and Score (5 Variations)",
+                  "description": "Technique: Slow bump into defender hip, practice all five scoring counters methodically",
+                  "intensity": "low",
                   "reps": {
                     "type": "makes",
-                    "makes": 24
+                    "makes": 22
                   }
                 }
               ]
@@ -1908,7 +1868,7 @@
     },
     {
       "day": "Saturday",
-      "focus": "Secondary skill focus with light-to-medium intensity",
+      "focus": "Technical secondary skill circuits with light intensity",
       "categories": {
         "basketball": {
           "workouts": [
@@ -1918,55 +1878,55 @@
                 {
                   "id": "sat-bb-30-1",
                   "category": "basketball",
-                  "subCategory": "ballHandling",
+                  "subCategory": "finishing",
                   "duration": "30m",
-                  "name": "Wichita Outside Hip Sweep",
-                  "description": "Game-Speed: Outside hip sweep at game speed, jerk ball to air not across body",
+                  "name": "Off-Board Touch Finishing",
+                  "description": "Game-Speed: Off-board touch finishing at game speed, varied creative finishes",
                   "intensity": "medium",
                   "reps": {
-                    "type": "setsPerHand",
-                    "sets": 2,
-                    "rightReps": 10
+                    "type": "makes",
+                    "makes": 17
                   }
                 },
                 {
                   "id": "sat-bb-30-2",
                   "category": "basketball",
-                  "subCategory": "ballHandling",
+                  "subCategory": "shooting",
                   "duration": "30m",
-                  "name": "Wichita Double Rip",
-                  "description": "Technique: Catch on wing, controlled rip across body then back to middle",
+                  "name": "Screen Rejection Jumpers",
+                  "description": "Form: Reject slow screen, controlled chest stop, recover into jump shot",
                   "intensity": "low",
                   "reps": {
-                    "type": "setsPerHand",
-                    "sets": 2,
-                    "rightReps": 10
+                    "type": "makes",
+                    "makes": 13
                   }
                 },
                 {
                   "id": "sat-bb-30-3",
                   "category": "basketball",
-                  "subCategory": "shooting",
+                  "subCategory": "ballHandling",
                   "duration": "30m",
-                  "name": "Wichita Wing Series (Step-Over Rip)",
-                  "description": "Pressured: Full-speed step-over with live defender, rip and attack immediately",
+                  "name": "Double Pump Rhythm Drill",
+                  "description": "Pressured: Full-speed double pump with live defender, execute secondary option immediately",
                   "intensity": "high",
                   "reps": {
-                    "type": "makes",
-                    "makes": 12
+                    "type": "setsPerHand",
+                    "sets": 3,
+                    "rightReps": 8
                   }
                 },
                 {
                   "id": "sat-bb-30-4",
                   "category": "basketball",
-                  "subCategory": "shooting",
+                  "subCategory": "ballHandling",
                   "duration": "30m",
-                  "name": "Bump and Score (Step-back)",
-                  "description": "Game-Speed: Game-speed bump and step-back, create space and shoot",
+                  "name": "Hezi In-and-Out Explode",
+                  "description": "Game-Speed: In-and-out hezi at game pace, convincing freeze before explode",
                   "intensity": "medium",
                   "reps": {
-                    "type": "makes",
-                    "makes": 12
+                    "type": "setsPerHand",
+                    "sets": 3,
+                    "rightReps": 10
                   }
                 }
               ]
@@ -1979,38 +1939,38 @@
                   "category": "basketball",
                   "subCategory": "finishing",
                   "duration": "1h",
-                  "name": "Wichita Double Rip to Finish",
-                  "description": "Game-Speed: Double rip to tight finish at game pace, low and compact",
+                  "name": "Contact Pump Fake",
+                  "description": "Game-Speed: Contact pump fake at game pace, get defender in air before finish",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
-                    "makes": 10
+                    "makes": 14
                   }
                 },
                 {
                   "id": "sat-bb-1h-2",
                   "category": "basketball",
-                  "subCategory": "shooting",
+                  "subCategory": "finishing",
                   "duration": "1h",
-                  "name": "Different Footwork Every Rep",
-                  "description": "Game-Speed: Corner to corner at game pace, varied footwork — no repeats",
+                  "name": "Off-Hand Key Extension",
+                  "description": "Game-Speed: Off-hand key extension at game speed, no backboard challenge",
                   "intensity": "medium",
                   "reps": {
-                    "type": "makes",
-                    "makes": 15
+                    "type": "makesPerHand",
+                    "rightMakes": 14
                   }
                 },
                 {
                   "id": "sat-bb-1h-3",
                   "category": "basketball",
-                  "subCategory": "shooting",
+                  "subCategory": "finishing",
                   "duration": "1h",
-                  "name": "One Move Capstone Shooting",
-                  "description": "Game-Speed: Capstone move into shooting option at game tempo",
-                  "intensity": "medium",
+                  "name": "Inside-Hand Wrap Reverse",
+                  "description": "Pressured: Full-speed inside-hand wrap with live defender, backboard is shield",
+                  "intensity": "high",
                   "reps": {
-                    "type": "makes",
-                    "makes": 15
+                    "type": "makesPerHand",
+                    "rightMakes": 14
                   }
                 },
                 {
@@ -2018,26 +1978,25 @@
                   "category": "basketball",
                   "subCategory": "shooting",
                   "duration": "1h",
-                  "name": "Corner to Corner Shooting",
-                  "description": "Technique: Different footwork every rep at slow pace, master each footwork style",
+                  "name": "The Curry Drill",
+                  "description": "Technique: Slow relocation cuts using passers and screeners, work for clean look",
                   "intensity": "low",
                   "reps": {
                     "type": "makes",
-                    "makes": 15
+                    "makes": 17
                   }
                 },
                 {
                   "id": "sat-bb-1h-5",
                   "category": "basketball",
-                  "subCategory": "ballHandling",
+                  "subCategory": "shooting",
                   "duration": "1h",
-                  "name": "Cross Step Inverted Between",
-                  "description": "Pressured: Full-speed cross-step with defender, maximize forward projection",
-                  "intensity": "high",
+                  "name": "Find the Seams Warm-up",
+                  "description": "Game-Speed: Spin toss at game pace, fast seam find into shot",
+                  "intensity": "medium",
                   "reps": {
-                    "type": "setsPerHand",
-                    "sets": 3,
-                    "rightReps": 8
+                    "type": "makes",
+                    "makes": 17
                   }
                 }
               ]
@@ -2048,94 +2007,93 @@
                 {
                   "id": "sat-bb-2h-1",
                   "category": "basketball",
-                  "subCategory": "shooting",
+                  "subCategory": "finishing",
                   "duration": "2h",
-                  "name": "Single Leg RDL Reach to Shot",
-                  "description": "Game-Speed: RDL reach to shot at game speed, switching spots each rep",
-                  "intensity": "medium",
+                  "name": "Kyrie 18-Shot Finishing Series",
+                  "description": "Technique: Six shots × three timings slowly, master each timing variation",
+                  "intensity": "low",
                   "reps": {
                     "type": "makes",
-                    "makes": 20
+                    "makes": 33
                   }
                 },
                 {
                   "id": "sat-bb-2h-2",
                   "category": "basketball",
-                  "subCategory": "shooting",
+                  "subCategory": "finishing",
                   "duration": "2h",
-                  "name": "Double Pump Shots",
-                  "description": "Game-Speed: Double pump at game speed, smooth rhythm recovery into shot",
+                  "name": "Behind-the-Back Air Dexterity",
+                  "description": "Game-Speed: Air dexterity at game pace, explosive hand-eye coordination finish",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
-                    "makes": 20
+                    "makes": 18
                   }
                 },
                 {
                   "id": "sat-bb-2h-3",
                   "category": "basketball",
-                  "subCategory": "ballHandling",
+                  "subCategory": "shooting",
                   "duration": "2h",
-                  "name": "Cross-Step Pop (COD Tween)",
-                  "description": "Pressured: Full-speed cross-step pop with defender, floor is lava on second foot contact",
+                  "name": "Single Leg RDL Reach to Shot",
+                  "description": "Pressured: Full-speed RDL to shot with defender closing, maintain balance",
                   "intensity": "high",
                   "reps": {
-                    "type": "setsPerHand",
-                    "sets": 4,
-                    "rightReps": 8
+                    "type": "makes",
+                    "makes": 27
                   }
                 },
                 {
                   "id": "sat-bb-2h-4",
                   "category": "basketball",
-                  "subCategory": "ballHandling",
+                  "subCategory": "finishing",
                   "duration": "2h",
-                  "name": "Leaning Pull the Chair Recovery",
-                  "description": "Technique: Lean into partner slowly, partner pulls away, controlled balance recovery",
+                  "name": "Object Jump Finish",
+                  "description": "Technique: Object on floor, slow jump from outside, deliberate creative hand finishes",
                   "intensity": "low",
                   "reps": {
-                    "type": "setsPerHand",
-                    "sets": 4,
-                    "rightReps": 8
+                    "type": "makes",
+                    "makes": 18
                   }
                 },
                 {
                   "id": "sat-bb-2h-5",
                   "category": "basketball",
-                  "subCategory": "finishing",
+                  "subCategory": "shooting",
                   "duration": "2h",
-                  "name": "Off-Hand Key Extension",
-                  "description": "Game-Speed: Off-hand key extension at game speed, no backboard challenge",
+                  "name": "Visualization Short Jumpers",
+                  "description": "Game-Speed: Visualization drill at game speed, commit to pull-up decision",
                   "intensity": "medium",
                   "reps": {
-                    "type": "makesPerHand",
-                    "rightMakes": 13
+                    "type": "makes",
+                    "makes": 36
                   }
                 },
                 {
                   "id": "sat-bb-2h-6",
                   "category": "basketball",
-                  "subCategory": "shooting",
+                  "subCategory": "ballHandling",
                   "duration": "2h",
-                  "name": "2v1 / 1v2 Shooting",
-                  "description": "Game-Speed: 1v2 at game speed, quick read and shoot before help arrives",
+                  "name": "Leaning Pull the Chair Recovery",
+                  "description": "Game-Speed: Game-speed lean with sudden chair-pull, maintain dribble on recovery",
                   "intensity": "medium",
                   "reps": {
-                    "type": "makes",
-                    "makes": 13
+                    "type": "setsPerHand",
+                    "sets": 5,
+                    "rightReps": 8
                   }
                 },
                 {
                   "id": "sat-bb-2h-7",
                   "category": "basketball",
-                  "subCategory": "finishing",
+                  "subCategory": "shooting",
                   "duration": "2h",
-                  "name": "Touch the Net Reach",
-                  "description": "Technique: Slow drive, deliberate ball-to-net reach, pull back to shoulder finish",
-                  "intensity": "low",
+                  "name": "Arm-Free Pickup Shoot",
+                  "description": "Game-Speed: Game-speed drive, defender on arm, fluid pickup into shot",
+                  "intensity": "medium",
                   "reps": {
                     "type": "makes",
-                    "makes": 10
+                    "makes": 18
                   }
                 }
               ]
@@ -2148,68 +2106,65 @@
                   "category": "basketball",
                   "subCategory": "ballHandling",
                   "duration": "3h",
-                  "name": "Overhead Gathered Pound",
-                  "description": "Pressured: Full-speed overhead gather with shot-blocker bait, finish off balance",
-                  "intensity": "high",
+                  "name": "Find the Seams Dribble-to-Shot",
+                  "description": "Technique: Slow spin toss, controlled seam find, smooth dribble-to-shot transition",
+                  "intensity": "low",
                   "reps": {
                     "type": "setsPerHand",
-                    "sets": 5,
+                    "sets": 7,
                     "rightReps": 12
                   }
                 },
                 {
                   "id": "sat-bb-3h-2",
                   "category": "basketball",
-                  "subCategory": "ballHandling",
+                  "subCategory": "finishing",
                   "duration": "3h",
-                  "name": "Feet-Behind Spin",
-                  "description": "Game-Speed: Feet-behind spin at game pace, stay downhill through rotation",
-                  "intensity": "medium",
+                  "name": "Inside-Hand Reverse Finish",
+                  "description": "Pressured: Full-speed inside-hand reverse with live defender, use backboard",
+                  "intensity": "high",
                   "reps": {
-                    "type": "setsPerHand",
-                    "sets": 5,
-                    "rightReps": 7
+                    "type": "makesPerHand",
+                    "rightMakes": 22
                   }
                 },
                 {
                   "id": "sat-bb-3h-3",
                   "category": "basketball",
-                  "subCategory": "shooting",
+                  "subCategory": "finishing",
                   "duration": "3h",
-                  "name": "Reverse Lunge Overhead to Shot",
-                  "description": "Form: Controlled reverse lunge overhead, pop feet to ground and shoot with rhythm",
+                  "name": "The Four-Way Reverse Sequence",
+                  "description": "Technique: All four reverse types slowly: drive R/finish L, R/R, L/R, L/L",
                   "intensity": "low",
                   "reps": {
                     "type": "makes",
-                    "makes": 24
+                    "makes": 18
                   }
                 },
                 {
                   "id": "sat-bb-3h-4",
                   "category": "basketball",
-                  "subCategory": "ballHandling",
+                  "subCategory": "finishing",
                   "duration": "3h",
-                  "name": "Slow Step Extension",
-                  "description": "Game-Speed: Slow step with defender on hip at game pace, read and execute decision",
+                  "name": "Underhand Floater (Same-Foot/Same-Hand)",
+                  "description": "Game-Speed: Same-foot/hand underhand floater at game pace, away from rim",
                   "intensity": "medium",
                   "reps": {
-                    "type": "setsPerHand",
-                    "sets": 5,
-                    "rightReps": 12
+                    "type": "makesPerHand",
+                    "rightMakes": 22
                   }
                 },
                 {
                   "id": "sat-bb-3h-5",
                   "category": "basketball",
-                  "subCategory": "ballHandling",
+                  "subCategory": "finishing",
                   "duration": "3h",
-                  "name": "Shoulder-to-Shoulder Recovery",
-                  "description": "Game-Speed: Game-speed shoulder recovery from driving line disruption",
+                  "name": "Cradle-Change Direction Finish",
+                  "description": "Game-Speed: Cradle change of direction at game pace, protect ball mid-air",
                   "intensity": "medium",
                   "reps": {
-                    "type": "setsPerHand",
-                    "sets": 5,
-                    "rightReps": 10
+                    "type": "makes",
+                    "makes": 22
                   }
                 },
                 {
@@ -2217,41 +2172,39 @@
                   "category": "basketball",
                   "subCategory": "ballHandling",
                   "duration": "3h",
-                  "name": "Spin Downhill (Creative Options)",
-                  "description": "Game-Speed: Live spin-off with creative secondary moves at game pace",
+                  "name": "Wichita Outside Hip Sweep",
+                  "description": "Game-Speed: Outside hip sweep at game speed, jerk ball to air not across body",
                   "intensity": "medium",
                   "reps": {
                     "type": "setsPerHand",
-                    "sets": 5,
-                    "rightReps": 10
+                    "sets": 7,
+                    "rightReps": 12
                   }
                 },
                 {
                   "id": "sat-bb-3h-7",
                   "category": "basketball",
-                  "subCategory": "ballHandling",
+                  "subCategory": "shooting",
                   "duration": "3h",
-                  "name": "Lunge Stop Series",
-                  "description": "Game-Speed: Lunge stop at game speed, explosive early explosion option",
-                  "intensity": "medium",
+                  "name": "Knee-Push Transition Shot",
+                  "description": "Pressured: Full-speed knee push to pull-up with defender tracking",
+                  "intensity": "high",
                   "reps": {
-                    "type": "setsPerHand",
-                    "sets": 5,
-                    "rightReps": 10
+                    "type": "makes",
+                    "makes": 27
                   }
                 },
                 {
                   "id": "sat-bb-3h-8",
                   "category": "basketball",
-                  "subCategory": "ballHandling",
+                  "subCategory": "finishing",
                   "duration": "3h",
-                  "name": "Split Feet Pound-Between",
-                  "description": "Form: Moving pound with split feet (one forward/back) as ball goes between legs",
+                  "name": "Rip-Away Finish",
+                  "description": "Technique: Slow gather with partner on ball, deliberate rip-away and finish",
                   "intensity": "low",
                   "reps": {
-                    "type": "setsPerHand",
-                    "sets": 5,
-                    "rightReps": 12
+                    "type": "makesPerHand",
+                    "rightMakes": 22
                   }
                 },
                 {
@@ -2259,26 +2212,25 @@
                   "category": "basketball",
                   "subCategory": "finishing",
                   "duration": "3h",
-                  "name": "Wichita Counter to Finish",
-                  "description": "Technique: Slow step-over cut, rip and controlled counter into tight finish at rim",
-                  "intensity": "low",
+                  "name": "Side-to-Side Cradles",
+                  "description": "Game-Speed: Side-to-side cradles at game pace, arm generates spin on backboard",
+                  "intensity": "medium",
                   "reps": {
-                    "type": "makes",
-                    "makes": 19
+                    "type": "makesPerHand",
+                    "rightMakes": 22
                   }
                 },
                 {
                   "id": "sat-bb-3h-10",
                   "category": "basketball",
-                  "subCategory": "ballHandling",
+                  "subCategory": "shooting",
                   "duration": "3h",
-                  "name": "Slam and Protect (Rib Tuck)",
-                  "description": "Pressured: Full-speed slam, aggressive lateral jump into defender, maximum protection",
-                  "intensity": "high",
+                  "name": "Ball Pickup Shots",
+                  "description": "Game-Speed: Ball pickup at game speed, immediate rhythm into shot on pickup",
+                  "intensity": "medium",
                   "reps": {
-                    "type": "setsPerHand",
-                    "sets": 5,
-                    "rightReps": 12
+                    "type": "makes",
+                    "makes": 45
                   }
                 }
               ]
@@ -2289,7 +2241,7 @@
     },
     {
       "day": "Sunday",
-      "focus": "Active recovery with form shooting and light handles",
+      "focus": "Active recovery and low-intensity skill reinforcement",
       "categories": {
         "basketball": {
           "workouts": [
@@ -2299,24 +2251,36 @@
                 {
                   "id": "sun-bb-30-1",
                   "category": "basketball",
-                  "subCategory": "ballHandling",
+                  "subCategory": "finishing",
                   "duration": "30m",
-                  "name": "Over-the-Net Reach",
-                  "description": "Technique: Drive slowly, extend ball as high as possible toward net, pull back to shoulder",
-                  "intensity": "low",
+                  "name": "Same Foot Same Hand (Off-Foot)",
+                  "description": "Game-Speed: Same-foot/same-hand finish at game pace, difficult for defender to time",
+                  "intensity": "medium",
                   "reps": {
-                    "type": "setsPerHand",
-                    "sets": 2,
-                    "rightReps": 8
+                    "type": "makesPerHand",
+                    "rightMakes": 11
                   }
                 },
                 {
                   "id": "sun-bb-30-2",
                   "category": "basketball",
+                  "subCategory": "finishing",
+                  "duration": "30m",
+                  "name": "Kyrie Cuffing Series",
+                  "description": "Technique: Slow cuffing practice holding ball against forearm/wrist before move",
+                  "intensity": "low",
+                  "reps": {
+                    "type": "makes",
+                    "makes": 11
+                  }
+                },
+                {
+                  "id": "sun-bb-30-3",
+                  "category": "basketball",
                   "subCategory": "ballHandling",
                   "duration": "30m",
-                  "name": "Wichita Step-First Attack",
-                  "description": "Technique: Slow rip with step first emphasis, maximize space off catch",
+                  "name": "Weight Shift Pound",
+                  "description": "Form: Hard pound dribble at knee-to-hip level, shift body weight side-to-side keeping ball on same spot",
                   "intensity": "low",
                   "reps": {
                     "type": "setsPerHand",
@@ -2325,30 +2289,16 @@
                   }
                 },
                 {
-                  "id": "sun-bb-30-3",
-                  "category": "basketball",
-                  "subCategory": "ballHandling",
-                  "duration": "30m",
-                  "name": "Small Space Reactive Dribbling",
-                  "description": "Game-Speed: Tight space with active defender, protect ball and find openings",
-                  "intensity": "medium",
-                  "reps": {
-                    "type": "setsPerHand",
-                    "sets": 2,
-                    "rightReps": 8
-                  }
-                },
-                {
                   "id": "sun-bb-30-4",
                   "category": "basketball",
                   "subCategory": "shooting",
                   "duration": "30m",
-                  "name": "Anchored Pivot Pickup Shoot",
-                  "description": "Game-Speed: Anchored pivot pounds at game tempo, unpredictable before pickup",
+                  "name": "Mid-Court Toss-and-Meet",
+                  "description": "Game-Speed: Toss and meet at game speed, immediate shot on balance",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
-                    "makes": 16
+                    "makes": 13
                   }
                 }
               ]
@@ -2359,15 +2309,14 @@
                 {
                   "id": "sun-bb-1h-1",
                   "category": "basketball",
-                  "subCategory": "ballHandling",
+                  "subCategory": "finishing",
                   "duration": "1h",
-                  "name": "Single Hand Freestyle",
-                  "description": "Technique: Court-wide single hand dribbling at 50% speed, focus on fluidity",
+                  "name": "Slam and Tuck Protection",
+                  "description": "Technique: Controlled slam dribble, deliberate rib tuck and lateral jump into partner",
                   "intensity": "low",
                   "reps": {
-                    "type": "setsPerHand",
-                    "sets": 3,
-                    "rightReps": 8
+                    "type": "makes",
+                    "makes": 17
                   }
                 },
                 {
@@ -2375,12 +2324,12 @@
                   "category": "basketball",
                   "subCategory": "shooting",
                   "duration": "1h",
-                  "name": "Tense to Relaxed Shooting",
-                  "description": "Game-Speed: Moderate disruption, quick shift from tense to fluid on go signal",
+                  "name": "Peripheral Vision/Quiet Eye Turn",
+                  "description": "Game-Speed: Mid-speed turn with hands up from defender, lock eyes and shoot",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
-                    "makes": 10
+                    "makes": 21
                   }
                 },
                 {
@@ -2388,12 +2337,12 @@
                   "category": "basketball",
                   "subCategory": "shooting",
                   "duration": "1h",
-                  "name": "Catch and Shoot (On the Move)",
-                  "description": "Game-Speed: Catch and shoot on the move at full game speed",
+                  "name": "One Move Capstone Shooting",
+                  "description": "Game-Speed: Capstone move into shooting option at game tempo",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
-                    "makes": 20
+                    "makes": 21
                   }
                 },
                 {
@@ -2401,25 +2350,25 @@
                   "category": "basketball",
                   "subCategory": "finishing",
                   "duration": "1h",
-                  "name": "Kyrie Cuffing Series",
-                  "description": "Technique: Slow cuffing practice holding ball against forearm/wrist before move",
+                  "name": "Wide Hook Soft Touch",
+                  "description": "Form: Wide hooks with both hands at slow pace, extend range of touch near rim",
                   "intensity": "low",
                   "reps": {
                     "type": "makes",
-                    "makes": 10
+                    "makes": 17
                   }
                 },
                 {
                   "id": "sun-bb-1h-5",
                   "category": "basketball",
-                  "subCategory": "shooting",
+                  "subCategory": "finishing",
                   "duration": "1h",
-                  "name": "Psychological Momentum (Quick Form)",
-                  "description": "Pressured: 15 consecutive makes target, maximum mental focus and consistency",
+                  "name": "Two-Step Disentanglement",
+                  "description": "Pressured: Aggressive defender hold, explosive two-step disentanglement and finish",
                   "intensity": "high",
                   "reps": {
                     "type": "makes",
-                    "makes": 10
+                    "makes": 17
                   }
                 }
               ]
@@ -2432,26 +2381,25 @@
                   "category": "basketball",
                   "subCategory": "finishing",
                   "duration": "2h",
-                  "name": "Wichita Double Rip Middle Finish",
-                  "description": "Pressured: Full-speed double rip middle finish with live defense, no hesitation",
+                  "name": "Modified Inside-Hand Mikan",
+                  "description": "Pressured: Full-speed inside-hand Mikan with tight time windows",
                   "intensity": "high",
                   "reps": {
                     "type": "makes",
-                    "makes": 13
+                    "makes": 27
                   }
                 },
                 {
                   "id": "sun-bb-2h-2",
                   "category": "basketball",
-                  "subCategory": "ballHandling",
+                  "subCategory": "shooting",
                   "duration": "2h",
-                  "name": "Pound to Jolt Cross",
-                  "description": "Game-Speed: Standard pound then immediate low jolt cross at game pace",
+                  "name": "Separate Back Separation Shot",
+                  "description": "Game-Speed: Game-speed ball screen separation, shoot before defender recovers",
                   "intensity": "medium",
                   "reps": {
-                    "type": "setsPerHand",
-                    "sets": 4,
-                    "rightReps": 10
+                    "type": "makes",
+                    "makes": 27
                   }
                 },
                 {
@@ -2459,44 +2407,55 @@
                   "category": "basketball",
                   "subCategory": "shooting",
                   "duration": "2h",
-                  "name": "Peripheral Vision/Quiet Eye Turn",
-                  "description": "Game-Speed: Mid-speed turn with hands up from defender, lock eyes and shoot",
+                  "name": "Corner Out of Bounds",
+                  "description": "Game-Speed: Corner out-of-bounds at game pace, simulate end-of-game pressure",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
-                    "makes": 20
+                    "makes": 27
                   }
                 },
                 {
                   "id": "sun-bb-2h-4",
                   "category": "basketball",
-                  "subCategory": "ballHandling",
+                  "subCategory": "shooting",
                   "duration": "2h",
-                  "name": "Find the Seams Dribble-to-Shot",
-                  "description": "Technique: Slow spin toss, controlled seam find, smooth dribble-to-shot transition",
+                  "name": "Offhand Floater Development Circuit",
+                  "description": "Form: Off-hand floater circuit at deliberate pace, focus on touch and arc",
                   "intensity": "low",
                   "reps": {
-                    "type": "setsPerHand",
-                    "sets": 4,
-                    "rightReps": 10
+                    "type": "makes",
+                    "makes": 36
                   }
                 },
                 {
                   "id": "sun-bb-2h-5",
                   "category": "basketball",
-                  "subCategory": "ballHandling",
+                  "subCategory": "finishing",
                   "duration": "2h",
-                  "name": "Accel/Decel Flow",
-                  "description": "Game-Speed: Accel/decel footwork at game rhythm, explosive ankle and Achilles prep",
+                  "name": "Gyro Counter Finish",
+                  "description": "Game-Speed: Gyro counter at game pace, decisive and smooth gyro execution",
                   "intensity": "medium",
                   "reps": {
-                    "type": "setsPerHand",
-                    "sets": 4,
-                    "rightReps": 8
+                    "type": "makes",
+                    "makes": 18
                   }
                 },
                 {
                   "id": "sun-bb-2h-6",
+                  "category": "basketball",
+                  "subCategory": "shooting",
+                  "duration": "2h",
+                  "name": "Psychological Momentum (Quick Form)",
+                  "description": "Form: Slow form shooting, goal 8 makes in a row, build confidence and flow",
+                  "intensity": "low",
+                  "reps": {
+                    "type": "makes",
+                    "makes": 18
+                  }
+                },
+                {
+                  "id": "sun-bb-2h-7",
                   "category": "basketball",
                   "subCategory": "shooting",
                   "duration": "2h",
@@ -2505,21 +2464,7 @@
                   "intensity": "low",
                   "reps": {
                     "type": "makes",
-                    "makes": 20
-                  }
-                },
-                {
-                  "id": "sun-bb-2h-7",
-                  "category": "basketball",
-                  "subCategory": "ballHandling",
-                  "duration": "2h",
-                  "name": "Blended Crossover/Between Series",
-                  "description": "Form: Moving crossover alternating with between-legs, slanted back posture, slow pace",
-                  "intensity": "low",
-                  "reps": {
-                    "type": "setsPerHand",
-                    "sets": 4,
-                    "rightReps": 10
+                    "makes": 27
                   }
                 }
               ]
@@ -2530,41 +2475,40 @@
                 {
                   "id": "sun-bb-3h-1",
                   "category": "basketball",
-                  "subCategory": "shooting",
+                  "subCategory": "finishing",
                   "duration": "3h",
-                  "name": "Hezi BTB/Push Cross Pull-up",
-                  "description": "Technique: Slow BTB or push-cross hesitation, controlled pull-up entry",
+                  "name": "Standard Layup Series (Overhand, Underhand, Side-Hand)",
+                  "description": "Form: Slow consecutive overhand, underhand, and side-hand layups, master positioning",
                   "intensity": "low",
                   "reps": {
                     "type": "makes",
-                    "makes": 24
+                    "makes": 27
                   }
                 },
                 {
                   "id": "sun-bb-3h-2",
                   "category": "basketball",
-                  "subCategory": "shooting",
+                  "subCategory": "finishing",
                   "duration": "3h",
-                  "name": "Find the Seams Warm-up",
-                  "description": "Pressured: Maximum spin on toss, fastest possible seam find with shot clock pressure",
+                  "name": "Slow-Step / Extension Read",
+                  "description": "Pressured: Full-speed read with live defender, instant decision on extension vs stepback",
                   "intensity": "high",
                   "reps": {
                     "type": "makes",
-                    "makes": 19
+                    "makes": 22
                   }
                 },
                 {
                   "id": "sun-bb-3h-3",
                   "category": "basketball",
-                  "subCategory": "ballHandling",
+                  "subCategory": "finishing",
                   "duration": "3h",
-                  "name": "Change of Speed Push-Out",
-                  "description": "Technique: Raise body to slow down, slow-motion push-out dribble then snatch back",
+                  "name": "One-Move Capstone Finish",
+                  "description": "Technique: One chosen move into any creative finish at deliberate pace",
                   "intensity": "low",
                   "reps": {
-                    "type": "setsPerHand",
-                    "sets": 5,
-                    "rightReps": 12
+                    "type": "makes",
+                    "makes": 34
                   }
                 },
                 {
@@ -2572,27 +2516,26 @@
                   "category": "basketball",
                   "subCategory": "ballHandling",
                   "duration": "3h",
-                  "name": "Wimby Pole Read",
-                  "description": "Game-Speed: Game-speed drive past primary, immediate read of help defender reach",
+                  "name": "Cross Step Inverted Between",
+                  "description": "Game-Speed: Cross-step inverted between at game pace, project body forward",
                   "intensity": "medium",
                   "reps": {
                     "type": "setsPerHand",
-                    "sets": 5,
-                    "rightReps": 7
+                    "sets": 7,
+                    "rightReps": 10
                   }
                 },
                 {
                   "id": "sun-bb-3h-5",
                   "category": "basketball",
-                  "subCategory": "ballHandling",
+                  "subCategory": "finishing",
                   "duration": "3h",
-                  "name": "Rotational Pulls",
-                  "description": "Game-Speed: Rotational pulls at game speed, explosive forward lean off rotation",
-                  "intensity": "medium",
+                  "name": "One Move Capstone Finishing",
+                  "description": "Technique: 15 one-foot + 15 two-foot layups, each preceded by chosen capstone move slowly",
+                  "intensity": "low",
                   "reps": {
-                    "type": "setsPerHand",
-                    "sets": 5,
-                    "rightReps": 12
+                    "type": "makes",
+                    "makes": 34
                   }
                 },
                 {
@@ -2600,13 +2543,13 @@
                   "category": "basketball",
                   "subCategory": "ballHandling",
                   "duration": "3h",
-                  "name": "Bump and Counter (5 Variations)",
-                  "description": "Technique: Slow bump into defender hip, practice five counter options methodically",
-                  "intensity": "low",
+                  "name": "Slam and Protect (Rib Tuck)",
+                  "description": "Game-Speed: Game-speed slam and tuck, shoulder shields ball on contact",
+                  "intensity": "medium",
                   "reps": {
                     "type": "setsPerHand",
-                    "sets": 5,
-                    "rightReps": 10
+                    "sets": 7,
+                    "rightReps": 12
                   }
                 },
                 {
@@ -2614,39 +2557,40 @@
                   "category": "basketball",
                   "subCategory": "ballHandling",
                   "duration": "3h",
-                  "name": "Hezi-Jumpback Explode",
-                  "description": "Game-Speed: Hezi-jumpback at game speed, convincing lean before explosion",
+                  "name": "Hop Freestyle",
+                  "description": "Game-Speed: Hop freestyle with progressively larger hops at game pace",
                   "intensity": "medium",
                   "reps": {
                     "type": "setsPerHand",
-                    "sets": 5,
-                    "rightReps": 10
+                    "sets": 7,
+                    "rightReps": 12
                   }
                 },
                 {
                   "id": "sun-bb-3h-8",
                   "category": "basketball",
-                  "subCategory": "shooting",
+                  "subCategory": "finishing",
                   "duration": "3h",
-                  "name": "Turn and Decide (Close-out)",
-                  "description": "Technique: Turn late, slow close-out read, decide shoot or drive at half speed",
+                  "name": "Off-Hand Floater Circuit",
+                  "description": "Technique: Off-hand floater circuit at slow pace, 20 makes with one-foot and two-foot",
                   "intensity": "low",
                   "reps": {
-                    "type": "makes",
-                    "makes": 24
+                    "type": "makesPerHand",
+                    "rightMakes": 22
                   }
                 },
                 {
                   "id": "sun-bb-3h-9",
                   "category": "basketball",
-                  "subCategory": "finishing",
+                  "subCategory": "ballHandling",
                   "duration": "3h",
-                  "name": "Bump and Score (5 Variations)",
-                  "description": "Game-Speed: Bump and five-variation score at game pace, mix naturally",
+                  "name": "In Stride Change of Direction",
+                  "description": "Game-Speed: 60-70% sprint, game-like direction shift, no speed loss",
                   "intensity": "medium",
                   "reps": {
-                    "type": "makes",
-                    "makes": 16
+                    "type": "setsPerHand",
+                    "sets": 7,
+                    "rightReps": 7
                   }
                 },
                 {
@@ -2654,12 +2598,12 @@
                   "category": "basketball",
                   "subCategory": "finishing",
                   "duration": "3h",
-                  "name": "Slow-Step / Extension Read",
-                  "description": "Game-Speed: Slow-step extension read at game pace, commit to chosen option",
+                  "name": "Two-Foot Finish off Sell-Out Reach",
+                  "description": "Game-Speed: React to sell-out reach at game speed, step up and two-foot finish",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
-                    "makes": 16
+                    "makes": 22
                   }
                 }
               ]

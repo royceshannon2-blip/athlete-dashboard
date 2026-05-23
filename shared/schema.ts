@@ -23,7 +23,7 @@ export const basketballDrillSchema = z.object({
   duration: z.enum(["30m", "1h", "2h", "3h"]),
   name: z.string(),
   description: z.string(),
-  phase: z.enum(["Plyo", "Strength", "Aesthetic"]),
+  intensity: z.enum(["low", "medium", "high"]),
   reps: basketballRepSchema,
 });
 

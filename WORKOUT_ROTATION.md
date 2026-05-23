@@ -87,21 +87,20 @@ client/public/workouts/
       "workouts": [
         {
           "duration": "30m",
-          "exercises": [
+          "drills": [
             {
               "id": "unique-id",
-              "phase": "Plyo",
-              "name": "Exercise Name",
-              "setsReps": "4x5",
-              "tempo": "X-0-X-0",
-              "rest": "60s",
-              "note": "Optional coaching cue"
+              "intensity": "medium",
+              "name": "Cold Start Threes",
+              "description": "Game-Speed: Cold start threes at game tempo",
+              "subCategory": "shooting",
+              "reps": { "type": "makes", "makes": 20 }
             }
           ]
         },
-        { "duration": "1h", "exercises": [ /* ... */ ] },
-        { "duration": "2h", "exercises": [ /* ... */ ] },
-        { "duration": "3h", "exercises": [ /* ... */ ] }
+        { "duration": "1h", "drills": [ /* ... */ ] },
+        { "duration": "2h", "drills": [ /* ... */ ] },
+        { "duration": "3h", "drills": [ /* ... */ ] }
       ]
     },
     "weightlifting": { /* same structure */ },

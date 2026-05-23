@@ -59,60 +59,60 @@ const WORKOUTS_DATA: WorkoutsData = {
             {
               duration: "30m",
               drills: [
-                { id: "mon-bb-30-shooting-1", category: "basketball", subCategory: "shooting", duration: "30m", phase: "Strength", name: "Spot Shooting", description: "5 spots around the arc, move after each make", reps: { type: "makes", makes: 15 } },
-                { id: "mon-bb-30-bh-1", category: "basketball", subCategory: "ballHandling", duration: "30m", phase: "Strength", name: "Stationary Crossover", description: "Low and tight, eyes up", reps: { type: "setsPerHand", sets: 3, rightReps: 25 } },
-                { id: "mon-bb-30-finishing-1", category: "basketball", subCategory: "finishing", duration: "30m", phase: "Strength", name: "Euro Step Layup", description: "Full speed from the wing, attack the rim", reps: { type: "makesPerHand", rightMakes: 10 } }
+                { id: "mon-bb-30-shooting-1", category: "basketball", subCategory: "shooting", duration: "30m", intensity: "medium", name: "Spot Shooting", description: "5 spots around the arc, move after each make", reps: { type: "makes", makes: 15 } },
+                { id: "mon-bb-30-bh-1", category: "basketball", subCategory: "ballHandling", duration: "30m", intensity: "medium", name: "Stationary Crossover", description: "Low and tight, eyes up", reps: { type: "setsPerHand", sets: 3, rightReps: 25 } },
+                { id: "mon-bb-30-finishing-1", category: "basketball", subCategory: "finishing", duration: "30m", intensity: "medium", name: "Euro Step Layup", description: "Full speed from the wing, attack the rim", reps: { type: "makesPerHand", rightMakes: 10 } }
               ]
             },
             {
               duration: "1h",
               drills: [
-                { id: "mon-bb-1h-shooting-1", category: "basketball", subCategory: "shooting", duration: "1h", phase: "Strength", name: "Spot Shooting", description: "5 spots around the arc, move after each make", reps: { type: "makes", makes: 15 } },
-                { id: "mon-bb-1h-shooting-2", category: "basketball", subCategory: "shooting", duration: "1h", phase: "Plyo", name: "Catch and Shoot", description: "Pass from elbow, catch and shoot in one motion", reps: { type: "makes", makes: 20 } },
-                { id: "mon-bb-1h-bh-1", category: "basketball", subCategory: "ballHandling", duration: "1h", phase: "Strength", name: "Stationary Crossover", description: "Low and tight, eyes up", reps: { type: "setsPerHand", sets: 3, rightReps: 25 } },
-                { id: "mon-bb-1h-bh-2", category: "basketball", subCategory: "ballHandling", duration: "1h", phase: "Strength", name: "Figure-8 Dribble", description: "Around legs in figure-8 pattern, switch hands", reps: { type: "setsPerHand", sets: 4, rightReps: 20 } },
-                { id: "mon-bb-1h-finishing-1", category: "basketball", subCategory: "finishing", duration: "1h", phase: "Strength", name: "Euro Step Layup", description: "Full speed from the wing, attack the rim", reps: { type: "makesPerHand", rightMakes: 10 } },
-                { id: "mon-bb-1h-finishing-2", category: "basketball", subCategory: "finishing", duration: "1h", phase: "Plyo", name: "Reverse Layup", description: "Off-hand finish at the rim", reps: { type: "makesPerHand", rightMakes: 8 } }
+                { id: "mon-bb-1h-shooting-1", category: "basketball", subCategory: "shooting", duration: "1h", intensity: "medium", name: "Spot Shooting", description: "5 spots around the arc, move after each make", reps: { type: "makes", makes: 15 } },
+                { id: "mon-bb-1h-shooting-2", category: "basketball", subCategory: "shooting", duration: "1h", intensity: "high", name: "Catch and Shoot", description: "Pass from elbow, catch and shoot in one motion", reps: { type: "makes", makes: 20 } },
+                { id: "mon-bb-1h-bh-1", category: "basketball", subCategory: "ballHandling", duration: "1h", intensity: "medium", name: "Stationary Crossover", description: "Low and tight, eyes up", reps: { type: "setsPerHand", sets: 3, rightReps: 25 } },
+                { id: "mon-bb-1h-bh-2", category: "basketball", subCategory: "ballHandling", duration: "1h", intensity: "medium", name: "Figure-8 Dribble", description: "Around legs in figure-8 pattern, switch hands", reps: { type: "setsPerHand", sets: 4, rightReps: 20 } },
+                { id: "mon-bb-1h-finishing-1", category: "basketball", subCategory: "finishing", duration: "1h", intensity: "medium", name: "Euro Step Layup", description: "Full speed from the wing, attack the rim", reps: { type: "makesPerHand", rightMakes: 10 } },
+                { id: "mon-bb-1h-finishing-2", category: "basketball", subCategory: "finishing", duration: "1h", intensity: "high", name: "Reverse Layup", description: "Off-hand finish at the rim", reps: { type: "makesPerHand", rightMakes: 8 } }
               ]
             },
             {
               duration: "2h",
               drills: [
-                { id: "mon-bb-2h-shooting-1", category: "basketball", subCategory: "shooting", duration: "2h", phase: "Strength", name: "Spot Shooting", description: "5 spots around the arc, move after each make", reps: { type: "makes", makes: 15 } },
-                { id: "mon-bb-2h-shooting-2", category: "basketball", subCategory: "shooting", duration: "2h", phase: "Plyo", name: "Catch and Shoot", description: "Pass from elbow, catch and shoot in one motion", reps: { type: "makes", makes: 20 } },
-                { id: "mon-bb-2h-shooting-3", category: "basketball", subCategory: "shooting", duration: "2h", phase: "Strength", name: "Pull-Up Jumper", description: "Off the dribble from various spots", reps: { type: "makes", makes: 18 } },
-                { id: "mon-bb-2h-shooting-4", category: "basketball", subCategory: "shooting", duration: "2h", phase: "Plyo", name: "Deep Three", description: "NBA range attempts", reps: { type: "makes", makes: 10 } },
-                { id: "mon-bb-2h-bh-1", category: "basketball", subCategory: "ballHandling", duration: "2h", phase: "Strength", name: "Stationary Crossover", description: "Low and tight, eyes up", reps: { type: "setsPerHand", sets: 3, rightReps: 25 } },
-                { id: "mon-bb-2h-bh-2", category: "basketball", subCategory: "ballHandling", duration: "2h", phase: "Strength", name: "Figure-8 Dribble", description: "Around legs in figure-8 pattern, switch hands", reps: { type: "setsPerHand", sets: 4, rightReps: 20 } },
-                { id: "mon-bb-2h-bh-3", category: "basketball", subCategory: "ballHandling", duration: "2h", phase: "Strength", name: "Between the Legs", description: "Hard crossover between legs", reps: { type: "setsPerHand", sets: 3, rightReps: 15 } },
-                { id: "mon-bb-2h-bh-4", category: "basketball", subCategory: "ballHandling", duration: "2h", phase: "Plyo", name: "Speed Crossover", description: "Maximum speed crossover drills", reps: { type: "setsPerHand", sets: 5, rightReps: 10 } },
-                { id: "mon-bb-2h-finishing-1", category: "basketball", subCategory: "finishing", duration: "2h", phase: "Strength", name: "Euro Step Layup", description: "Full speed from the wing, attack the rim", reps: { type: "makesPerHand", rightMakes: 10 } },
-                { id: "mon-bb-2h-finishing-2", category: "basketball", subCategory: "finishing", duration: "2h", phase: "Plyo", name: "Reverse Layup", description: "Off-hand finish at the rim", reps: { type: "makesPerHand", rightMakes: 8 } },
-                { id: "mon-bb-2h-finishing-3", category: "basketball", subCategory: "finishing", duration: "2h", phase: "Strength", name: "Floater", description: "Mid-range floater from both sides", reps: { type: "makesPerHand", rightMakes: 12 } },
-                { id: "mon-bb-2h-finishing-4", category: "basketball", subCategory: "finishing", duration: "2h", phase: "Plyo", name: "Contested Layup", description: "Defenders present, finish through contact", reps: { type: "makesPerHand", rightMakes: 9 } }
+                { id: "mon-bb-2h-shooting-1", category: "basketball", subCategory: "shooting", duration: "2h", intensity: "medium", name: "Spot Shooting", description: "5 spots around the arc, move after each make", reps: { type: "makes", makes: 15 } },
+                { id: "mon-bb-2h-shooting-2", category: "basketball", subCategory: "shooting", duration: "2h", intensity: "high", name: "Catch and Shoot", description: "Pass from elbow, catch and shoot in one motion", reps: { type: "makes", makes: 20 } },
+                { id: "mon-bb-2h-shooting-3", category: "basketball", subCategory: "shooting", duration: "2h", intensity: "medium", name: "Pull-Up Jumper", description: "Off the dribble from various spots", reps: { type: "makes", makes: 18 } },
+                { id: "mon-bb-2h-shooting-4", category: "basketball", subCategory: "shooting", duration: "2h", intensity: "high", name: "Deep Three", description: "NBA range attempts", reps: { type: "makes", makes: 10 } },
+                { id: "mon-bb-2h-bh-1", category: "basketball", subCategory: "ballHandling", duration: "2h", intensity: "medium", name: "Stationary Crossover", description: "Low and tight, eyes up", reps: { type: "setsPerHand", sets: 3, rightReps: 25 } },
+                { id: "mon-bb-2h-bh-2", category: "basketball", subCategory: "ballHandling", duration: "2h", intensity: "medium", name: "Figure-8 Dribble", description: "Around legs in figure-8 pattern, switch hands", reps: { type: "setsPerHand", sets: 4, rightReps: 20 } },
+                { id: "mon-bb-2h-bh-3", category: "basketball", subCategory: "ballHandling", duration: "2h", intensity: "medium", name: "Between the Legs", description: "Hard crossover between legs", reps: { type: "setsPerHand", sets: 3, rightReps: 15 } },
+                { id: "mon-bb-2h-bh-4", category: "basketball", subCategory: "ballHandling", duration: "2h", intensity: "high", name: "Speed Crossover", description: "Maximum speed crossover drills", reps: { type: "setsPerHand", sets: 5, rightReps: 10 } },
+                { id: "mon-bb-2h-finishing-1", category: "basketball", subCategory: "finishing", duration: "2h", intensity: "medium", name: "Euro Step Layup", description: "Full speed from the wing, attack the rim", reps: { type: "makesPerHand", rightMakes: 10 } },
+                { id: "mon-bb-2h-finishing-2", category: "basketball", subCategory: "finishing", duration: "2h", intensity: "high", name: "Reverse Layup", description: "Off-hand finish at the rim", reps: { type: "makesPerHand", rightMakes: 8 } },
+                { id: "mon-bb-2h-finishing-3", category: "basketball", subCategory: "finishing", duration: "2h", intensity: "medium", name: "Floater", description: "Mid-range floater from both sides", reps: { type: "makesPerHand", rightMakes: 12 } },
+                { id: "mon-bb-2h-finishing-4", category: "basketball", subCategory: "finishing", duration: "2h", intensity: "high", name: "Contested Layup", description: "Defenders present, finish through contact", reps: { type: "makesPerHand", rightMakes: 9 } }
               ]
             },
             {
               duration: "3h",
               drills: [
-                { id: "mon-bb-3h-shooting-1", category: "basketball", subCategory: "shooting", duration: "3h", phase: "Strength", name: "Spot Shooting", description: "5 spots around the arc, move after each make", reps: { type: "makes", makes: 15 } },
-                { id: "mon-bb-3h-shooting-2", category: "basketball", subCategory: "shooting", duration: "3h", phase: "Plyo", name: "Catch and Shoot", description: "Pass from elbow, catch and shoot in one motion", reps: { type: "makes", makes: 20 } },
-                { id: "mon-bb-3h-shooting-3", category: "basketball", subCategory: "shooting", duration: "3h", phase: "Strength", name: "Pull-Up Jumper", description: "Off the dribble from various spots", reps: { type: "makes", makes: 18 } },
-                { id: "mon-bb-3h-shooting-4", category: "basketball", subCategory: "shooting", duration: "3h", phase: "Plyo", name: "Deep Three", description: "NBA range attempts", reps: { type: "makes", makes: 10 } },
-                { id: "mon-bb-3h-shooting-5", category: "basketball", subCategory: "shooting", duration: "3h", phase: "Strength", name: "Trailing Three", description: "Running catch and shoot", reps: { type: "makes", makes: 12 } },
-                { id: "mon-bb-3h-shooting-6", category: "basketball", subCategory: "shooting", duration: "3h", phase: "Aesthetic", name: "Free Throw", description: "From the line, consistency focus", reps: { type: "makes", makes: 25 } },
-                { id: "mon-bb-3h-bh-1", category: "basketball", subCategory: "ballHandling", duration: "3h", phase: "Strength", name: "Stationary Crossover", description: "Low and tight, eyes up", reps: { type: "setsPerHand", sets: 3, rightReps: 25 } },
-                { id: "mon-bb-3h-bh-2", category: "basketball", subCategory: "ballHandling", duration: "3h", phase: "Strength", name: "Figure-8 Dribble", description: "Around legs in figure-8 pattern, switch hands", reps: { type: "setsPerHand", sets: 4, rightReps: 20 } },
-                { id: "mon-bb-3h-bh-3", category: "basketball", subCategory: "ballHandling", duration: "3h", phase: "Strength", name: "Between the Legs", description: "Hard crossover between legs", reps: { type: "setsPerHand", sets: 3, rightReps: 15 } },
-                { id: "mon-bb-3h-bh-4", category: "basketball", subCategory: "ballHandling", duration: "3h", phase: "Plyo", name: "Speed Crossover", description: "Maximum speed crossover drills", reps: { type: "setsPerHand", sets: 5, rightReps: 10 } },
-                { id: "mon-bb-3h-bh-5", category: "basketball", subCategory: "ballHandling", duration: "3h", phase: "Strength", name: "Half-Court Dribble", description: "Full court handling, pressure defense", reps: { type: "setsPerHand", sets: 4, rightReps: 30 } },
-                { id: "mon-bb-3h-bh-6", category: "basketball", subCategory: "ballHandling", duration: "3h", phase: "Aesthetic", name: "Retreat Dribble", description: "Escape and advance patterns", reps: { type: "setsPerHand", sets: 3, rightReps: 20 } },
-                { id: "mon-bb-3h-finishing-1", category: "basketball", subCategory: "finishing", duration: "3h", phase: "Strength", name: "Euro Step Layup", description: "Full speed from the wing, attack the rim", reps: { type: "makesPerHand", rightMakes: 10 } },
-                { id: "mon-bb-3h-finishing-2", category: "basketball", subCategory: "finishing", duration: "3h", phase: "Plyo", name: "Reverse Layup", description: "Off-hand finish at the rim", reps: { type: "makesPerHand", rightMakes: 8 } },
-                { id: "mon-bb-3h-finishing-3", category: "basketball", subCategory: "finishing", duration: "3h", phase: "Strength", name: "Floater", description: "Mid-range floater from both sides", reps: { type: "makesPerHand", rightMakes: 12 } },
-                { id: "mon-bb-3h-finishing-4", category: "basketball", subCategory: "finishing", duration: "3h", phase: "Plyo", name: "Contested Layup", description: "Defenders present, finish through contact", reps: { type: "makesPerHand", rightMakes: 9 } },
-                { id: "mon-bb-3h-finishing-5", category: "basketball", subCategory: "finishing", duration: "3h", phase: "Strength", name: "Driving Layup", description: "Full speed drive and finish", reps: { type: "makesPerHand", rightMakes: 11 } },
-                { id: "mon-bb-3h-finishing-6", category: "basketball", subCategory: "finishing", duration: "3h", phase: "Aesthetic", name: "Hammer", description: "One-handed finish down the line", reps: { type: "makesPerHand", rightMakes: 8 } }
+                { id: "mon-bb-3h-shooting-1", category: "basketball", subCategory: "shooting", duration: "3h", intensity: "medium", name: "Spot Shooting", description: "5 spots around the arc, move after each make", reps: { type: "makes", makes: 15 } },
+                { id: "mon-bb-3h-shooting-2", category: "basketball", subCategory: "shooting", duration: "3h", intensity: "high", name: "Catch and Shoot", description: "Pass from elbow, catch and shoot in one motion", reps: { type: "makes", makes: 20 } },
+                { id: "mon-bb-3h-shooting-3", category: "basketball", subCategory: "shooting", duration: "3h", intensity: "medium", name: "Pull-Up Jumper", description: "Off the dribble from various spots", reps: { type: "makes", makes: 18 } },
+                { id: "mon-bb-3h-shooting-4", category: "basketball", subCategory: "shooting", duration: "3h", intensity: "high", name: "Deep Three", description: "NBA range attempts", reps: { type: "makes", makes: 10 } },
+                { id: "mon-bb-3h-shooting-5", category: "basketball", subCategory: "shooting", duration: "3h", intensity: "medium", name: "Trailing Three", description: "Running catch and shoot", reps: { type: "makes", makes: 12 } },
+                { id: "mon-bb-3h-shooting-6", category: "basketball", subCategory: "shooting", duration: "3h", intensity: "low", name: "Free Throw", description: "From the line, consistency focus", reps: { type: "makes", makes: 25 } },
+                { id: "mon-bb-3h-bh-1", category: "basketball", subCategory: "ballHandling", duration: "3h", intensity: "medium", name: "Stationary Crossover", description: "Low and tight, eyes up", reps: { type: "setsPerHand", sets: 3, rightReps: 25 } },
+                { id: "mon-bb-3h-bh-2", category: "basketball", subCategory: "ballHandling", duration: "3h", intensity: "medium", name: "Figure-8 Dribble", description: "Around legs in figure-8 pattern, switch hands", reps: { type: "setsPerHand", sets: 4, rightReps: 20 } },
+                { id: "mon-bb-3h-bh-3", category: "basketball", subCategory: "ballHandling", duration: "3h", intensity: "medium", name: "Between the Legs", description: "Hard crossover between legs", reps: { type: "setsPerHand", sets: 3, rightReps: 15 } },
+                { id: "mon-bb-3h-bh-4", category: "basketball", subCategory: "ballHandling", duration: "3h", intensity: "high", name: "Speed Crossover", description: "Maximum speed crossover drills", reps: { type: "setsPerHand", sets: 5, rightReps: 10 } },
+                { id: "mon-bb-3h-bh-5", category: "basketball", subCategory: "ballHandling", duration: "3h", intensity: "medium", name: "Half-Court Dribble", description: "Full court handling, pressure defense", reps: { type: "setsPerHand", sets: 4, rightReps: 30 } },
+                { id: "mon-bb-3h-bh-6", category: "basketball", subCategory: "ballHandling", duration: "3h", intensity: "low", name: "Retreat Dribble", description: "Escape and advance patterns", reps: { type: "setsPerHand", sets: 3, rightReps: 20 } },
+                { id: "mon-bb-3h-finishing-1", category: "basketball", subCategory: "finishing", duration: "3h", intensity: "medium", name: "Euro Step Layup", description: "Full speed from the wing, attack the rim", reps: { type: "makesPerHand", rightMakes: 10 } },
+                { id: "mon-bb-3h-finishing-2", category: "basketball", subCategory: "finishing", duration: "3h", intensity: "high", name: "Reverse Layup", description: "Off-hand finish at the rim", reps: { type: "makesPerHand", rightMakes: 8 } },
+                { id: "mon-bb-3h-finishing-3", category: "basketball", subCategory: "finishing", duration: "3h", intensity: "medium", name: "Floater", description: "Mid-range floater from both sides", reps: { type: "makesPerHand", rightMakes: 12 } },
+                { id: "mon-bb-3h-finishing-4", category: "basketball", subCategory: "finishing", duration: "3h", intensity: "high", name: "Contested Layup", description: "Defenders present, finish through contact", reps: { type: "makesPerHand", rightMakes: 9 } },
+                { id: "mon-bb-3h-finishing-5", category: "basketball", subCategory: "finishing", duration: "3h", intensity: "medium", name: "Driving Layup", description: "Full speed drive and finish", reps: { type: "makesPerHand", rightMakes: 11 } },
+                { id: "mon-bb-3h-finishing-6", category: "basketball", subCategory: "finishing", duration: "3h", intensity: "low", name: "Hammer", description: "One-handed finish down the line", reps: { type: "makesPerHand", rightMakes: 8 } }
               ]
             }
           ]
@@ -213,60 +213,60 @@ const WORKOUTS_DATA: WorkoutsData = {
             {
               duration: "30m",
               drills: [
-                { id: "tue-bb-30-shooting-1", category: "basketball", subCategory: "shooting", duration: "30m", phase: "Plyo", name: "Quick Release", description: "Fast catch and shoot, minimal footwork", reps: { type: "makes", makes: 18 } },
-                { id: "tue-bb-30-bh-1", category: "basketball", subCategory: "ballHandling", duration: "30m", phase: "Strength", name: "Push Pull Dribble", description: "Rapid hand switches, low bounce", reps: { type: "setsPerHand", sets: 4, rightReps: 15 } },
-                { id: "tue-bb-30-finishing-1", category: "basketball", subCategory: "finishing", duration: "30m", phase: "Plyo", name: "Drop Step", description: "Use a drop step to create space", reps: { type: "makesPerHand", rightMakes: 9 } }
+                { id: "tue-bb-30-shooting-1", category: "basketball", subCategory: "shooting", duration: "30m", intensity: "high", name: "Quick Release", description: "Fast catch and shoot, minimal footwork", reps: { type: "makes", makes: 18 } },
+                { id: "tue-bb-30-bh-1", category: "basketball", subCategory: "ballHandling", duration: "30m", intensity: "medium", name: "Push Pull Dribble", description: "Rapid hand switches, low bounce", reps: { type: "setsPerHand", sets: 4, rightReps: 15 } },
+                { id: "tue-bb-30-finishing-1", category: "basketball", subCategory: "finishing", duration: "30m", intensity: "high", name: "Drop Step", description: "Use a drop step to create space", reps: { type: "makesPerHand", rightMakes: 9 } }
               ]
             },
             {
               duration: "1h",
               drills: [
-                { id: "tue-bb-1h-shooting-1", category: "basketball", subCategory: "shooting", duration: "1h", phase: "Plyo", name: "Quick Release", description: "Fast catch and shoot, minimal footwork", reps: { type: "makes", makes: 18 } },
-                { id: "tue-bb-1h-shooting-2", category: "basketball", subCategory: "shooting", duration: "1h", phase: "Strength", name: "Wing Threes", description: "Off-the-wing three-point range", reps: { type: "makes", makes: 16 } },
-                { id: "tue-bb-1h-bh-1", category: "basketball", subCategory: "ballHandling", duration: "1h", phase: "Strength", name: "Push Pull Dribble", description: "Rapid hand switches, low bounce", reps: { type: "setsPerHand", sets: 4, rightReps: 15 } },
-                { id: "tue-bb-1h-bh-2", category: "basketball", subCategory: "ballHandling", duration: "1h", phase: "Plyo", name: "Jab Step", description: "Deceive defender with shoulder feints", reps: { type: "setsPerHand", sets: 3, rightReps: 12 } },
-                { id: "tue-bb-1h-finishing-1", category: "basketball", subCategory: "finishing", duration: "1h", phase: "Plyo", name: "Drop Step", description: "Use a drop step to create space", reps: { type: "makesPerHand", rightMakes: 9 } },
-                { id: "tue-bb-1h-finishing-2", category: "basketball", subCategory: "finishing", duration: "1h", phase: "Strength", name: "Spin Move", description: "Rotate around defender, finish", reps: { type: "makesPerHand", rightMakes: 7 } }
+                { id: "tue-bb-1h-shooting-1", category: "basketball", subCategory: "shooting", duration: "1h", intensity: "high", name: "Quick Release", description: "Fast catch and shoot, minimal footwork", reps: { type: "makes", makes: 18 } },
+                { id: "tue-bb-1h-shooting-2", category: "basketball", subCategory: "shooting", duration: "1h", intensity: "medium", name: "Wing Threes", description: "Off-the-wing three-point range", reps: { type: "makes", makes: 16 } },
+                { id: "tue-bb-1h-bh-1", category: "basketball", subCategory: "ballHandling", duration: "1h", intensity: "medium", name: "Push Pull Dribble", description: "Rapid hand switches, low bounce", reps: { type: "setsPerHand", sets: 4, rightReps: 15 } },
+                { id: "tue-bb-1h-bh-2", category: "basketball", subCategory: "ballHandling", duration: "1h", intensity: "high", name: "Jab Step", description: "Deceive defender with shoulder feints", reps: { type: "setsPerHand", sets: 3, rightReps: 12 } },
+                { id: "tue-bb-1h-finishing-1", category: "basketball", subCategory: "finishing", duration: "1h", intensity: "high", name: "Drop Step", description: "Use a drop step to create space", reps: { type: "makesPerHand", rightMakes: 9 } },
+                { id: "tue-bb-1h-finishing-2", category: "basketball", subCategory: "finishing", duration: "1h", intensity: "medium", name: "Spin Move", description: "Rotate around defender, finish", reps: { type: "makesPerHand", rightMakes: 7 } }
               ]
             },
             {
               duration: "2h",
               drills: [
-                { id: "tue-bb-2h-shooting-1", category: "basketball", subCategory: "shooting", duration: "2h", phase: "Plyo", name: "Quick Release", description: "Fast catch and shoot, minimal footwork", reps: { type: "makes", makes: 18 } },
-                { id: "tue-bb-2h-shooting-2", category: "basketball", subCategory: "shooting", duration: "2h", phase: "Strength", name: "Wing Threes", description: "Off-the-wing three-point range", reps: { type: "makes", makes: 16 } },
-                { id: "tue-bb-2h-shooting-3", category: "basketball", subCategory: "shooting", duration: "2h", phase: "Plyo", name: "Baseline Corner", description: "Baseline and corner three attempts", reps: { type: "makes", makes: 14 } },
-                { id: "tue-bb-2h-shooting-4", category: "basketball", subCategory: "shooting", duration: "2h", phase: "Strength", name: "Top of Key", description: "Three-point line extended top", reps: { type: "makes", makes: 13 } },
-                { id: "tue-bb-2h-bh-1", category: "basketball", subCategory: "ballHandling", duration: "2h", phase: "Strength", name: "Push Pull Dribble", description: "Rapid hand switches, low bounce", reps: { type: "setsPerHand", sets: 4, rightReps: 15 } },
-                { id: "tue-bb-2h-bh-2", category: "basketball", subCategory: "ballHandling", duration: "2h", phase: "Plyo", name: "Jab Step", description: "Deceive defender with shoulder feints", reps: { type: "setsPerHand", sets: 3, rightReps: 12 } },
-                { id: "tue-bb-2h-bh-3", category: "basketball", subCategory: "ballHandling", duration: "2h", phase: "Strength", name: "Full Court Handling", description: "Dribble full court, change pace", reps: { type: "setsPerHand", sets: 5, rightReps: 25 } },
-                { id: "tue-bb-2h-bh-4", category: "basketball", subCategory: "ballHandling", duration: "2h", phase: "Strength", name: "Hesitation Move", description: "Pause and accelerate patterns", reps: { type: "setsPerHand", sets: 4, rightReps: 14 } },
-                { id: "tue-bb-2h-finishing-1", category: "basketball", subCategory: "finishing", duration: "2h", phase: "Plyo", name: "Drop Step", description: "Use a drop step to create space", reps: { type: "makesPerHand", rightMakes: 9 } },
-                { id: "tue-bb-2h-finishing-2", category: "basketball", subCategory: "finishing", duration: "2h", phase: "Strength", name: "Spin Move", description: "Rotate around defender, finish", reps: { type: "makesPerHand", rightMakes: 7 } },
-                { id: "tue-bb-2h-finishing-3", category: "basketball", subCategory: "finishing", duration: "2h", phase: "Plyo", name: "Jump Shot Off Screen", description: "Come off pick and shoot", reps: { type: "makesPerHand", rightMakes: 11 } },
-                { id: "tue-bb-2h-finishing-4", category: "basketball", subCategory: "finishing", duration: "2h", phase: "Strength", name: "High-Low Finish", description: "Deep position finishes at rim", reps: { type: "makesPerHand", rightMakes: 10 } }
+                { id: "tue-bb-2h-shooting-1", category: "basketball", subCategory: "shooting", duration: "2h", intensity: "high", name: "Quick Release", description: "Fast catch and shoot, minimal footwork", reps: { type: "makes", makes: 18 } },
+                { id: "tue-bb-2h-shooting-2", category: "basketball", subCategory: "shooting", duration: "2h", intensity: "medium", name: "Wing Threes", description: "Off-the-wing three-point range", reps: { type: "makes", makes: 16 } },
+                { id: "tue-bb-2h-shooting-3", category: "basketball", subCategory: "shooting", duration: "2h", intensity: "high", name: "Baseline Corner", description: "Baseline and corner three attempts", reps: { type: "makes", makes: 14 } },
+                { id: "tue-bb-2h-shooting-4", category: "basketball", subCategory: "shooting", duration: "2h", intensity: "medium", name: "Top of Key", description: "Three-point line extended top", reps: { type: "makes", makes: 13 } },
+                { id: "tue-bb-2h-bh-1", category: "basketball", subCategory: "ballHandling", duration: "2h", intensity: "medium", name: "Push Pull Dribble", description: "Rapid hand switches, low bounce", reps: { type: "setsPerHand", sets: 4, rightReps: 15 } },
+                { id: "tue-bb-2h-bh-2", category: "basketball", subCategory: "ballHandling", duration: "2h", intensity: "high", name: "Jab Step", description: "Deceive defender with shoulder feints", reps: { type: "setsPerHand", sets: 3, rightReps: 12 } },
+                { id: "tue-bb-2h-bh-3", category: "basketball", subCategory: "ballHandling", duration: "2h", intensity: "medium", name: "Full Court Handling", description: "Dribble full court, change pace", reps: { type: "setsPerHand", sets: 5, rightReps: 25 } },
+                { id: "tue-bb-2h-bh-4", category: "basketball", subCategory: "ballHandling", duration: "2h", intensity: "medium", name: "Hesitation Move", description: "Pause and accelerate patterns", reps: { type: "setsPerHand", sets: 4, rightReps: 14 } },
+                { id: "tue-bb-2h-finishing-1", category: "basketball", subCategory: "finishing", duration: "2h", intensity: "high", name: "Drop Step", description: "Use a drop step to create space", reps: { type: "makesPerHand", rightMakes: 9 } },
+                { id: "tue-bb-2h-finishing-2", category: "basketball", subCategory: "finishing", duration: "2h", intensity: "medium", name: "Spin Move", description: "Rotate around defender, finish", reps: { type: "makesPerHand", rightMakes: 7 } },
+                { id: "tue-bb-2h-finishing-3", category: "basketball", subCategory: "finishing", duration: "2h", intensity: "high", name: "Jump Shot Off Screen", description: "Come off pick and shoot", reps: { type: "makesPerHand", rightMakes: 11 } },
+                { id: "tue-bb-2h-finishing-4", category: "basketball", subCategory: "finishing", duration: "2h", intensity: "medium", name: "High-Low Finish", description: "Deep position finishes at rim", reps: { type: "makesPerHand", rightMakes: 10 } }
               ]
             },
             {
               duration: "3h",
               drills: [
-                { id: "tue-bb-3h-shooting-1", category: "basketball", subCategory: "shooting", duration: "3h", phase: "Plyo", name: "Quick Release", description: "Fast catch and shoot, minimal footwork", reps: { type: "makes", makes: 18 } },
-                { id: "tue-bb-3h-shooting-2", category: "basketball", subCategory: "shooting", duration: "3h", phase: "Strength", name: "Wing Threes", description: "Off-the-wing three-point range", reps: { type: "makes", makes: 16 } },
-                { id: "tue-bb-3h-shooting-3", category: "basketball", subCategory: "shooting", duration: "3h", phase: "Plyo", name: "Baseline Corner", description: "Baseline and corner three attempts", reps: { type: "makes", makes: 14 } },
-                { id: "tue-bb-3h-shooting-4", category: "basketball", subCategory: "shooting", duration: "3h", phase: "Strength", name: "Top of Key", description: "Three-point line extended top", reps: { type: "makes", makes: 13 } },
-                { id: "tue-bb-3h-shooting-5", category: "basketball", subCategory: "shooting", duration: "3h", phase: "Plyo", name: "Step-Back Three", description: "Create space with step back", reps: { type: "makes", makes: 12 } },
-                { id: "tue-bb-3h-shooting-6", category: "basketball", subCategory: "shooting", duration: "3h", phase: "Aesthetic", name: "Rhythm Shooting", description: "Get in rhythm with spot-ups", reps: { type: "makes", makes: 21 } },
-                { id: "tue-bb-3h-bh-1", category: "basketball", subCategory: "ballHandling", duration: "3h", phase: "Strength", name: "Push Pull Dribble", description: "Rapid hand switches, low bounce", reps: { type: "setsPerHand", sets: 4, rightReps: 15 } },
-                { id: "tue-bb-3h-bh-2", category: "basketball", subCategory: "ballHandling", duration: "3h", phase: "Plyo", name: "Jab Step", description: "Deceive defender with shoulder feints", reps: { type: "setsPerHand", sets: 3, rightReps: 12 } },
-                { id: "tue-bb-3h-bh-3", category: "basketball", subCategory: "ballHandling", duration: "3h", phase: "Strength", name: "Full Court Handling", description: "Dribble full court, change pace", reps: { type: "setsPerHand", sets: 5, rightReps: 25 } },
-                { id: "tue-bb-3h-bh-4", category: "basketball", subCategory: "ballHandling", duration: "3h", phase: "Strength", name: "Hesitation Move", description: "Pause and accelerate patterns", reps: { type: "setsPerHand", sets: 4, rightReps: 14 } },
-                { id: "tue-bb-3h-bh-5", category: "basketball", subCategory: "ballHandling", duration: "3h", phase: "Plyo", name: "Tight Handle Drills", description: "Small tight handles under pressure", reps: { type: "setsPerHand", sets: 6, rightReps: 8 } },
-                { id: "tue-bb-3h-bh-6", category: "basketball", subCategory: "ballHandling", duration: "3h", phase: "Aesthetic", name: "Combination Moves", description: "String multiple moves together", reps: { type: "setsPerHand", sets: 5, rightReps: 12 } },
-                { id: "tue-bb-3h-finishing-1", category: "basketball", subCategory: "finishing", duration: "3h", phase: "Plyo", name: "Drop Step", description: "Use a drop step to create space", reps: { type: "makesPerHand", rightMakes: 9 } },
-                { id: "tue-bb-3h-finishing-2", category: "basketball", subCategory: "finishing", duration: "3h", phase: "Strength", name: "Spin Move", description: "Rotate around defender, finish", reps: { type: "makesPerHand", rightMakes: 7 } },
-                { id: "tue-bb-3h-finishing-3", category: "basketball", subCategory: "finishing", duration: "3h", phase: "Plyo", name: "Jump Shot Off Screen", description: "Come off pick and shoot", reps: { type: "makesPerHand", rightMakes: 11 } },
-                { id: "tue-bb-3h-finishing-4", category: "basketball", subCategory: "finishing", duration: "3h", phase: "Strength", name: "High-Low Finish", description: "Deep position finishes at rim", reps: { type: "makesPerHand", rightMakes: 10 } },
-                { id: "tue-bb-3h-finishing-5", category: "basketball", subCategory: "finishing", duration: "3h", phase: "Plyo", name: "Tough Finish", description: "Finish against physical defense", reps: { type: "makesPerHand", rightMakes: 8 } },
-                { id: "tue-bb-3h-finishing-6", category: "basketball", subCategory: "finishing", duration: "3h", phase: "Aesthetic", name: "Quick Feet", description: "Speed work, footwork patterns", reps: { type: "makesPerHand", rightMakes: 13 } }
+                { id: "tue-bb-3h-shooting-1", category: "basketball", subCategory: "shooting", duration: "3h", intensity: "high", name: "Quick Release", description: "Fast catch and shoot, minimal footwork", reps: { type: "makes", makes: 18 } },
+                { id: "tue-bb-3h-shooting-2", category: "basketball", subCategory: "shooting", duration: "3h", intensity: "medium", name: "Wing Threes", description: "Off-the-wing three-point range", reps: { type: "makes", makes: 16 } },
+                { id: "tue-bb-3h-shooting-3", category: "basketball", subCategory: "shooting", duration: "3h", intensity: "high", name: "Baseline Corner", description: "Baseline and corner three attempts", reps: { type: "makes", makes: 14 } },
+                { id: "tue-bb-3h-shooting-4", category: "basketball", subCategory: "shooting", duration: "3h", intensity: "medium", name: "Top of Key", description: "Three-point line extended top", reps: { type: "makes", makes: 13 } },
+                { id: "tue-bb-3h-shooting-5", category: "basketball", subCategory: "shooting", duration: "3h", intensity: "high", name: "Step-Back Three", description: "Create space with step back", reps: { type: "makes", makes: 12 } },
+                { id: "tue-bb-3h-shooting-6", category: "basketball", subCategory: "shooting", duration: "3h", intensity: "low", name: "Rhythm Shooting", description: "Get in rhythm with spot-ups", reps: { type: "makes", makes: 21 } },
+                { id: "tue-bb-3h-bh-1", category: "basketball", subCategory: "ballHandling", duration: "3h", intensity: "medium", name: "Push Pull Dribble", description: "Rapid hand switches, low bounce", reps: { type: "setsPerHand", sets: 4, rightReps: 15 } },
+                { id: "tue-bb-3h-bh-2", category: "basketball", subCategory: "ballHandling", duration: "3h", intensity: "high", name: "Jab Step", description: "Deceive defender with shoulder feints", reps: { type: "setsPerHand", sets: 3, rightReps: 12 } },
+                { id: "tue-bb-3h-bh-3", category: "basketball", subCategory: "ballHandling", duration: "3h", intensity: "medium", name: "Full Court Handling", description: "Dribble full court, change pace", reps: { type: "setsPerHand", sets: 5, rightReps: 25 } },
+                { id: "tue-bb-3h-bh-4", category: "basketball", subCategory: "ballHandling", duration: "3h", intensity: "medium", name: "Hesitation Move", description: "Pause and accelerate patterns", reps: { type: "setsPerHand", sets: 4, rightReps: 14 } },
+                { id: "tue-bb-3h-bh-5", category: "basketball", subCategory: "ballHandling", duration: "3h", intensity: "high", name: "Tight Handle Drills", description: "Small tight handles under pressure", reps: { type: "setsPerHand", sets: 6, rightReps: 8 } },
+                { id: "tue-bb-3h-bh-6", category: "basketball", subCategory: "ballHandling", duration: "3h", intensity: "low", name: "Combination Moves", description: "String multiple moves together", reps: { type: "setsPerHand", sets: 5, rightReps: 12 } },
+                { id: "tue-bb-3h-finishing-1", category: "basketball", subCategory: "finishing", duration: "3h", intensity: "high", name: "Drop Step", description: "Use a drop step to create space", reps: { type: "makesPerHand", rightMakes: 9 } },
+                { id: "tue-bb-3h-finishing-2", category: "basketball", subCategory: "finishing", duration: "3h", intensity: "medium", name: "Spin Move", description: "Rotate around defender, finish", reps: { type: "makesPerHand", rightMakes: 7 } },
+                { id: "tue-bb-3h-finishing-3", category: "basketball", subCategory: "finishing", duration: "3h", intensity: "high", name: "Jump Shot Off Screen", description: "Come off pick and shoot", reps: { type: "makesPerHand", rightMakes: 11 } },
+                { id: "tue-bb-3h-finishing-4", category: "basketball", subCategory: "finishing", duration: "3h", intensity: "medium", name: "High-Low Finish", description: "Deep position finishes at rim", reps: { type: "makesPerHand", rightMakes: 10 } },
+                { id: "tue-bb-3h-finishing-5", category: "basketball", subCategory: "finishing", duration: "3h", intensity: "high", name: "Tough Finish", description: "Finish against physical defense", reps: { type: "makesPerHand", rightMakes: 8 } },
+                { id: "tue-bb-3h-finishing-6", category: "basketball", subCategory: "finishing", duration: "3h", intensity: "low", name: "Quick Feet", description: "Speed work, footwork patterns", reps: { type: "makesPerHand", rightMakes: 13 } }
               ]
             }
           ]
@@ -367,60 +367,60 @@ const WORKOUTS_DATA: WorkoutsData = {
             {
               duration: "30m",
               drills: [
-                { id: "wed-bb-30-shooting-1", category: "basketball", subCategory: "shooting", duration: "30m", phase: "Aesthetic", name: "Bank Shot", description: "Off glass from various spots", reps: { type: "makes", makes: 14 } },
-                { id: "wed-bb-30-bh-1", category: "basketball", subCategory: "ballHandling", duration: "30m", phase: "Plyo", name: "One-Dribble Pull-Up", description: "Single dribble into shot", reps: { type: "setsPerHand", sets: 5, rightReps: 8 } },
-                { id: "wed-bb-30-finishing-1", category: "basketball", subCategory: "finishing", duration: "30m", phase: "Aesthetic", name: "Contact Finish", description: "Finish through defender", reps: { type: "makesPerHand", rightMakes: 8 } }
+                { id: "wed-bb-30-shooting-1", category: "basketball", subCategory: "shooting", duration: "30m", intensity: "low", name: "Bank Shot", description: "Off glass from various spots", reps: { type: "makes", makes: 14 } },
+                { id: "wed-bb-30-bh-1", category: "basketball", subCategory: "ballHandling", duration: "30m", intensity: "high", name: "One-Dribble Pull-Up", description: "Single dribble into shot", reps: { type: "setsPerHand", sets: 5, rightReps: 8 } },
+                { id: "wed-bb-30-finishing-1", category: "basketball", subCategory: "finishing", duration: "30m", intensity: "low", name: "Contact Finish", description: "Finish through defender", reps: { type: "makesPerHand", rightMakes: 8 } }
               ]
             },
             {
               duration: "1h",
               drills: [
-                { id: "wed-bb-1h-shooting-1", category: "basketball", subCategory: "shooting", duration: "1h", phase: "Aesthetic", name: "Bank Shot", description: "Off glass from various spots", reps: { type: "makes", makes: 14 } },
-                { id: "wed-bb-1h-shooting-2", category: "basketball", subCategory: "shooting", duration: "1h", phase: "Strength", name: "Elbow Threes", description: "Mid-range extended threes", reps: { type: "makes", makes: 17 } },
-                { id: "wed-bb-1h-bh-1", category: "basketball", subCategory: "ballHandling", duration: "1h", phase: "Plyo", name: "One-Dribble Pull-Up", description: "Single dribble into shot", reps: { type: "setsPerHand", sets: 5, rightReps: 8 } },
-                { id: "wed-bb-1h-bh-2", category: "basketball", subCategory: "ballHandling", duration: "1h", phase: "Strength", name: "In-and-Out", description: "Head and shoulder fakes", reps: { type: "setsPerHand", sets: 4, rightReps: 12 } },
-                { id: "wed-bb-1h-finishing-1", category: "basketball", subCategory: "finishing", duration: "1h", phase: "Aesthetic", name: "Contact Finish", description: "Finish through defender", reps: { type: "makesPerHand", rightMakes: 8 } },
-                { id: "wed-bb-1h-finishing-2", category: "basketball", subCategory: "finishing", duration: "1h", phase: "Plyo", name: "Acrobatic Finish", description: "Creative finishing away from basket", reps: { type: "makesPerHand", rightMakes: 6 } }
+                { id: "wed-bb-1h-shooting-1", category: "basketball", subCategory: "shooting", duration: "1h", intensity: "low", name: "Bank Shot", description: "Off glass from various spots", reps: { type: "makes", makes: 14 } },
+                { id: "wed-bb-1h-shooting-2", category: "basketball", subCategory: "shooting", duration: "1h", intensity: "medium", name: "Elbow Threes", description: "Mid-range extended threes", reps: { type: "makes", makes: 17 } },
+                { id: "wed-bb-1h-bh-1", category: "basketball", subCategory: "ballHandling", duration: "1h", intensity: "high", name: "One-Dribble Pull-Up", description: "Single dribble into shot", reps: { type: "setsPerHand", sets: 5, rightReps: 8 } },
+                { id: "wed-bb-1h-bh-2", category: "basketball", subCategory: "ballHandling", duration: "1h", intensity: "medium", name: "In-and-Out", description: "Head and shoulder fakes", reps: { type: "setsPerHand", sets: 4, rightReps: 12 } },
+                { id: "wed-bb-1h-finishing-1", category: "basketball", subCategory: "finishing", duration: "1h", intensity: "low", name: "Contact Finish", description: "Finish through defender", reps: { type: "makesPerHand", rightMakes: 8 } },
+                { id: "wed-bb-1h-finishing-2", category: "basketball", subCategory: "finishing", duration: "1h", intensity: "high", name: "Acrobatic Finish", description: "Creative finishing away from basket", reps: { type: "makesPerHand", rightMakes: 6 } }
               ]
             },
             {
               duration: "2h",
               drills: [
-                { id: "wed-bb-2h-shooting-1", category: "basketball", subCategory: "shooting", duration: "2h", phase: "Aesthetic", name: "Bank Shot", description: "Off glass from various spots", reps: { type: "makes", makes: 14 } },
-                { id: "wed-bb-2h-shooting-2", category: "basketball", subCategory: "shooting", duration: "2h", phase: "Strength", name: "Elbow Threes", description: "Mid-range extended threes", reps: { type: "makes", makes: 17 } },
-                { id: "wed-bb-2h-shooting-3", category: "basketball", subCategory: "shooting", duration: "2h", phase: "Aesthetic", name: "Off-The-Dribble Three", description: "Pull up three off dribble", reps: { type: "makes", makes: 12 } },
-                { id: "wed-bb-2h-shooting-4", category: "basketball", subCategory: "shooting", duration: "2h", phase: "Strength", name: "Mid-Range", description: "High percentage mid-range", reps: { type: "makes", makes: 19 } },
-                { id: "wed-bb-2h-bh-1", category: "basketball", subCategory: "ballHandling", duration: "2h", phase: "Plyo", name: "One-Dribble Pull-Up", description: "Single dribble into shot", reps: { type: "setsPerHand", sets: 5, rightReps: 8 } },
-                { id: "wed-bb-2h-bh-2", category: "basketball", subCategory: "ballHandling", duration: "2h", phase: "Strength", name: "In-and-Out", description: "Head and shoulder fakes", reps: { type: "setsPerHand", sets: 4, rightReps: 12 } },
-                { id: "wed-bb-2h-bh-3", category: "basketball", subCategory: "ballHandling", duration: "2h", phase: "Plyo", name: "Behind-the-Back", description: "Behind-the-back dribble transitions", reps: { type: "setsPerHand", sets: 4, rightReps: 10 } },
-                { id: "wed-bb-2h-bh-4", category: "basketball", subCategory: "ballHandling", duration: "2h", phase: "Strength", name: "Pound Dribble", description: "Aggressive ground control", reps: { type: "setsPerHand", sets: 5, rightReps: 12 } },
-                { id: "wed-bb-2h-finishing-1", category: "basketball", subCategory: "finishing", duration: "2h", phase: "Aesthetic", name: "Contact Finish", description: "Finish through defender", reps: { type: "makesPerHand", rightMakes: 8 } },
-                { id: "wed-bb-2h-finishing-2", category: "basketball", subCategory: "finishing", duration: "2h", phase: "Plyo", name: "Acrobatic Finish", description: "Creative finishing away from basket", reps: { type: "makesPerHand", rightMakes: 6 } },
-                { id: "wed-bb-2h-finishing-3", category: "basketball", subCategory: "finishing", duration: "2h", phase: "Strength", name: "Tear Drop", description: "Short soft touch floaters", reps: { type: "makesPerHand", rightMakes: 10 } },
-                { id: "wed-bb-2h-finishing-4", category: "basketball", subCategory: "finishing", duration: "2h", phase: "Aesthetic", name: "Alley-Oop Ready", description: "Vertical finishes preparation", reps: { type: "makesPerHand", rightMakes: 7 } }
+                { id: "wed-bb-2h-shooting-1", category: "basketball", subCategory: "shooting", duration: "2h", intensity: "low", name: "Bank Shot", description: "Off glass from various spots", reps: { type: "makes", makes: 14 } },
+                { id: "wed-bb-2h-shooting-2", category: "basketball", subCategory: "shooting", duration: "2h", intensity: "medium", name: "Elbow Threes", description: "Mid-range extended threes", reps: { type: "makes", makes: 17 } },
+                { id: "wed-bb-2h-shooting-3", category: "basketball", subCategory: "shooting", duration: "2h", intensity: "low", name: "Off-The-Dribble Three", description: "Pull up three off dribble", reps: { type: "makes", makes: 12 } },
+                { id: "wed-bb-2h-shooting-4", category: "basketball", subCategory: "shooting", duration: "2h", intensity: "medium", name: "Mid-Range", description: "High percentage mid-range", reps: { type: "makes", makes: 19 } },
+                { id: "wed-bb-2h-bh-1", category: "basketball", subCategory: "ballHandling", duration: "2h", intensity: "high", name: "One-Dribble Pull-Up", description: "Single dribble into shot", reps: { type: "setsPerHand", sets: 5, rightReps: 8 } },
+                { id: "wed-bb-2h-bh-2", category: "basketball", subCategory: "ballHandling", duration: "2h", intensity: "medium", name: "In-and-Out", description: "Head and shoulder fakes", reps: { type: "setsPerHand", sets: 4, rightReps: 12 } },
+                { id: "wed-bb-2h-bh-3", category: "basketball", subCategory: "ballHandling", duration: "2h", intensity: "high", name: "Behind-the-Back", description: "Behind-the-back dribble transitions", reps: { type: "setsPerHand", sets: 4, rightReps: 10 } },
+                { id: "wed-bb-2h-bh-4", category: "basketball", subCategory: "ballHandling", duration: "2h", intensity: "medium", name: "Pound Dribble", description: "Aggressive ground control", reps: { type: "setsPerHand", sets: 5, rightReps: 12 } },
+                { id: "wed-bb-2h-finishing-1", category: "basketball", subCategory: "finishing", duration: "2h", intensity: "low", name: "Contact Finish", description: "Finish through defender", reps: { type: "makesPerHand", rightMakes: 8 } },
+                { id: "wed-bb-2h-finishing-2", category: "basketball", subCategory: "finishing", duration: "2h", intensity: "high", name: "Acrobatic Finish", description: "Creative finishing away from basket", reps: { type: "makesPerHand", rightMakes: 6 } },
+                { id: "wed-bb-2h-finishing-3", category: "basketball", subCategory: "finishing", duration: "2h", intensity: "medium", name: "Tear Drop", description: "Short soft touch floaters", reps: { type: "makesPerHand", rightMakes: 10 } },
+                { id: "wed-bb-2h-finishing-4", category: "basketball", subCategory: "finishing", duration: "2h", intensity: "low", name: "Alley-Oop Ready", description: "Vertical finishes preparation", reps: { type: "makesPerHand", rightMakes: 7 } }
               ]
             },
             {
               duration: "3h",
               drills: [
-                { id: "wed-bb-3h-shooting-1", category: "basketball", subCategory: "shooting", duration: "3h", phase: "Aesthetic", name: "Bank Shot", description: "Off glass from various spots", reps: { type: "makes", makes: 14 } },
-                { id: "wed-bb-3h-shooting-2", category: "basketball", subCategory: "shooting", duration: "3h", phase: "Strength", name: "Elbow Threes", description: "Mid-range extended threes", reps: { type: "makes", makes: 17 } },
-                { id: "wed-bb-3h-shooting-3", category: "basketball", subCategory: "shooting", duration: "3h", phase: "Aesthetic", name: "Off-The-Dribble Three", description: "Pull up three off dribble", reps: { type: "makes", makes: 12 } },
-                { id: "wed-bb-3h-shooting-4", category: "basketball", subCategory: "shooting", duration: "3h", phase: "Strength", name: "Mid-Range", description: "High percentage mid-range", reps: { type: "makes", makes: 19 } },
-                { id: "wed-bb-3h-shooting-5", category: "basketball", subCategory: "shooting", duration: "3h", phase: "Plyo", name: "Transition Three", description: "Three on the break", reps: { type: "makes", makes: 11 } },
-                { id: "wed-bb-3h-shooting-6", category: "basketball", subCategory: "shooting", duration: "3h", phase: "Aesthetic", name: "Game Speed", description: "Simulated game situation shooting", reps: { type: "makes", makes: 20 } },
-                { id: "wed-bb-3h-bh-1", category: "basketball", subCategory: "ballHandling", duration: "3h", phase: "Plyo", name: "One-Dribble Pull-Up", description: "Single dribble into shot", reps: { type: "setsPerHand", sets: 5, rightReps: 8 } },
-                { id: "wed-bb-3h-bh-2", category: "basketball", subCategory: "ballHandling", duration: "3h", phase: "Strength", name: "In-and-Out", description: "Head and shoulder fakes", reps: { type: "setsPerHand", sets: 4, rightReps: 12 } },
-                { id: "wed-bb-3h-bh-3", category: "basketball", subCategory: "ballHandling", duration: "3h", phase: "Plyo", name: "Behind-the-Back", description: "Behind-the-back dribble transitions", reps: { type: "setsPerHand", sets: 4, rightReps: 10 } },
-                { id: "wed-bb-3h-bh-4", category: "basketball", subCategory: "ballHandling", duration: "3h", phase: "Strength", name: "Pound Dribble", description: "Aggressive ground control", reps: { type: "setsPerHand", sets: 5, rightReps: 12 } },
-                { id: "wed-bb-3h-bh-5", category: "basketball", subCategory: "ballHandling", duration: "3h", phase: "Plyo", name: "Crossover Combination", description: "Multiple crossovers in sequence", reps: { type: "setsPerHand", sets: 6, rightReps: 10 } },
-                { id: "wed-bb-3h-bh-6", category: "basketball", subCategory: "ballHandling", duration: "3h", phase: "Aesthetic", name: "Live Defense", description: "Handle against live defender", reps: { type: "setsPerHand", sets: 5, rightReps: 15 } },
-                { id: "wed-bb-3h-finishing-1", category: "basketball", subCategory: "finishing", duration: "3h", phase: "Aesthetic", name: "Contact Finish", description: "Finish through defender", reps: { type: "makesPerHand", rightMakes: 8 } },
-                { id: "wed-bb-3h-finishing-2", category: "basketball", subCategory: "finishing", duration: "3h", phase: "Plyo", name: "Acrobatic Finish", description: "Creative finishing away from basket", reps: { type: "makesPerHand", rightMakes: 6 } },
-                { id: "wed-bb-3h-finishing-3", category: "basketball", subCategory: "finishing", duration: "3h", phase: "Strength", name: "Tear Drop", description: "Short soft touch floaters", reps: { type: "makesPerHand", rightMakes: 10 } },
-                { id: "wed-bb-3h-finishing-4", category: "basketball", subCategory: "finishing", duration: "3h", phase: "Aesthetic", name: "Alley-Oop Ready", description: "Vertical finishes preparation", reps: { type: "makesPerHand", rightMakes: 7 } },
-                { id: "wed-bb-3h-finishing-5", category: "basketball", subCategory: "finishing", duration: "3h", phase: "Plyo", name: "Transition Finish", description: "Full speed outlet to layup", reps: { type: "makesPerHand", rightMakes: 9 } },
-                { id: "wed-bb-3h-finishing-6", category: "basketball", subCategory: "finishing", duration: "3h", phase: "Aesthetic", name: "Game Situation", description: "Offensive moves under game pressure", reps: { type: "makesPerHand", rightMakes: 12 } }
+                { id: "wed-bb-3h-shooting-1", category: "basketball", subCategory: "shooting", duration: "3h", intensity: "low", name: "Bank Shot", description: "Off glass from various spots", reps: { type: "makes", makes: 14 } },
+                { id: "wed-bb-3h-shooting-2", category: "basketball", subCategory: "shooting", duration: "3h", intensity: "medium", name: "Elbow Threes", description: "Mid-range extended threes", reps: { type: "makes", makes: 17 } },
+                { id: "wed-bb-3h-shooting-3", category: "basketball", subCategory: "shooting", duration: "3h", intensity: "low", name: "Off-The-Dribble Three", description: "Pull up three off dribble", reps: { type: "makes", makes: 12 } },
+                { id: "wed-bb-3h-shooting-4", category: "basketball", subCategory: "shooting", duration: "3h", intensity: "medium", name: "Mid-Range", description: "High percentage mid-range", reps: { type: "makes", makes: 19 } },
+                { id: "wed-bb-3h-shooting-5", category: "basketball", subCategory: "shooting", duration: "3h", intensity: "high", name: "Transition Three", description: "Three on the break", reps: { type: "makes", makes: 11 } },
+                { id: "wed-bb-3h-shooting-6", category: "basketball", subCategory: "shooting", duration: "3h", intensity: "low", name: "Game Speed", description: "Simulated game situation shooting", reps: { type: "makes", makes: 20 } },
+                { id: "wed-bb-3h-bh-1", category: "basketball", subCategory: "ballHandling", duration: "3h", intensity: "high", name: "One-Dribble Pull-Up", description: "Single dribble into shot", reps: { type: "setsPerHand", sets: 5, rightReps: 8 } },
+                { id: "wed-bb-3h-bh-2", category: "basketball", subCategory: "ballHandling", duration: "3h", intensity: "medium", name: "In-and-Out", description: "Head and shoulder fakes", reps: { type: "setsPerHand", sets: 4, rightReps: 12 } },
+                { id: "wed-bb-3h-bh-3", category: "basketball", subCategory: "ballHandling", duration: "3h", intensity: "high", name: "Behind-the-Back", description: "Behind-the-back dribble transitions", reps: { type: "setsPerHand", sets: 4, rightReps: 10 } },
+                { id: "wed-bb-3h-bh-4", category: "basketball", subCategory: "ballHandling", duration: "3h", intensity: "medium", name: "Pound Dribble", description: "Aggressive ground control", reps: { type: "setsPerHand", sets: 5, rightReps: 12 } },
+                { id: "wed-bb-3h-bh-5", category: "basketball", subCategory: "ballHandling", duration: "3h", intensity: "high", name: "Crossover Combination", description: "Multiple crossovers in sequence", reps: { type: "setsPerHand", sets: 6, rightReps: 10 } },
+                { id: "wed-bb-3h-bh-6", category: "basketball", subCategory: "ballHandling", duration: "3h", intensity: "low", name: "Live Defense", description: "Handle against live defender", reps: { type: "setsPerHand", sets: 5, rightReps: 15 } },
+                { id: "wed-bb-3h-finishing-1", category: "basketball", subCategory: "finishing", duration: "3h", intensity: "low", name: "Contact Finish", description: "Finish through defender", reps: { type: "makesPerHand", rightMakes: 8 } },
+                { id: "wed-bb-3h-finishing-2", category: "basketball", subCategory: "finishing", duration: "3h", intensity: "high", name: "Acrobatic Finish", description: "Creative finishing away from basket", reps: { type: "makesPerHand", rightMakes: 6 } },
+                { id: "wed-bb-3h-finishing-3", category: "basketball", subCategory: "finishing", duration: "3h", intensity: "medium", name: "Tear Drop", description: "Short soft touch floaters", reps: { type: "makesPerHand", rightMakes: 10 } },
+                { id: "wed-bb-3h-finishing-4", category: "basketball", subCategory: "finishing", duration: "3h", intensity: "low", name: "Alley-Oop Ready", description: "Vertical finishes preparation", reps: { type: "makesPerHand", rightMakes: 7 } },
+                { id: "wed-bb-3h-finishing-5", category: "basketball", subCategory: "finishing", duration: "3h", intensity: "high", name: "Transition Finish", description: "Full speed outlet to layup", reps: { type: "makesPerHand", rightMakes: 9 } },
+                { id: "wed-bb-3h-finishing-6", category: "basketball", subCategory: "finishing", duration: "3h", intensity: "low", name: "Game Situation", description: "Offensive moves under game pressure", reps: { type: "makesPerHand", rightMakes: 12 } }
               ]
             }
           ]
@@ -521,60 +521,60 @@ const WORKOUTS_DATA: WorkoutsData = {
             {
               duration: "30m",
               drills: [
-                { id: "thu-bb-30-shooting-1", category: "basketball", subCategory: "shooting", duration: "30m", phase: "Strength", name: "Rhythm Shooter", description: "Get in a zone, rhythm and timing", reps: { type: "makes", makes: 17 } },
-                { id: "thu-bb-30-bh-1", category: "basketball", subCategory: "ballHandling", duration: "30m", phase: "Strength", name: "High Dribble", description: "Head up, control at waist", reps: { type: "setsPerHand", sets: 3, rightReps: 18 } },
-                { id: "thu-bb-30-finishing-1", category: "basketball", subCategory: "finishing", duration: "30m", phase: "Strength", name: "Pick and Roll", description: "Come off screen, attack lane", reps: { type: "makesPerHand", rightMakes: 10 } }
+                { id: "thu-bb-30-shooting-1", category: "basketball", subCategory: "shooting", duration: "30m", intensity: "medium", name: "Rhythm Shooter", description: "Get in a zone, rhythm and timing", reps: { type: "makes", makes: 17 } },
+                { id: "thu-bb-30-bh-1", category: "basketball", subCategory: "ballHandling", duration: "30m", intensity: "medium", name: "High Dribble", description: "Head up, control at waist", reps: { type: "setsPerHand", sets: 3, rightReps: 18 } },
+                { id: "thu-bb-30-finishing-1", category: "basketball", subCategory: "finishing", duration: "30m", intensity: "medium", name: "Pick and Roll", description: "Come off screen, attack lane", reps: { type: "makesPerHand", rightMakes: 10 } }
               ]
             },
             {
               duration: "1h",
               drills: [
-                { id: "thu-bb-1h-shooting-1", category: "basketball", subCategory: "shooting", duration: "1h", phase: "Strength", name: "Rhythm Shooter", description: "Get in a zone, rhythm and timing", reps: { type: "makes", makes: 17 } },
-                { id: "thu-bb-1h-shooting-2", category: "basketball", subCategory: "shooting", duration: "1h", phase: "Plyo", name: "Transition", description: "Three on the break situations", reps: { type: "makes", makes: 13 } },
-                { id: "thu-bb-1h-bh-1", category: "basketball", subCategory: "ballHandling", duration: "1h", phase: "Strength", name: "High Dribble", description: "Head up, control at waist", reps: { type: "setsPerHand", sets: 3, rightReps: 18 } },
-                { id: "thu-bb-1h-bh-2", category: "basketball", subCategory: "ballHandling", duration: "1h", phase: "Strength", name: "Retreat Dribble", description: "Fall back with the ball", reps: { type: "setsPerHand", sets: 4, rightReps: 16 } },
-                { id: "thu-bb-1h-finishing-1", category: "basketball", subCategory: "finishing", duration: "1h", phase: "Strength", name: "Pick and Roll", description: "Come off screen, attack lane", reps: { type: "makesPerHand", rightMakes: 10 } },
-                { id: "thu-bb-1h-finishing-2", category: "basketball", subCategory: "finishing", duration: "1h", phase: "Plyo", name: "Cutting Lanes", description: "V-cuts and back screens", reps: { type: "makesPerHand", rightMakes: 9 } }
+                { id: "thu-bb-1h-shooting-1", category: "basketball", subCategory: "shooting", duration: "1h", intensity: "medium", name: "Rhythm Shooter", description: "Get in a zone, rhythm and timing", reps: { type: "makes", makes: 17 } },
+                { id: "thu-bb-1h-shooting-2", category: "basketball", subCategory: "shooting", duration: "1h", intensity: "high", name: "Transition", description: "Three on the break situations", reps: { type: "makes", makes: 13 } },
+                { id: "thu-bb-1h-bh-1", category: "basketball", subCategory: "ballHandling", duration: "1h", intensity: "medium", name: "High Dribble", description: "Head up, control at waist", reps: { type: "setsPerHand", sets: 3, rightReps: 18 } },
+                { id: "thu-bb-1h-bh-2", category: "basketball", subCategory: "ballHandling", duration: "1h", intensity: "medium", name: "Retreat Dribble", description: "Fall back with the ball", reps: { type: "setsPerHand", sets: 4, rightReps: 16 } },
+                { id: "thu-bb-1h-finishing-1", category: "basketball", subCategory: "finishing", duration: "1h", intensity: "medium", name: "Pick and Roll", description: "Come off screen, attack lane", reps: { type: "makesPerHand", rightMakes: 10 } },
+                { id: "thu-bb-1h-finishing-2", category: "basketball", subCategory: "finishing", duration: "1h", intensity: "high", name: "Cutting Lanes", description: "V-cuts and back screens", reps: { type: "makesPerHand", rightMakes: 9 } }
               ]
             },
             {
               duration: "2h",
               drills: [
-                { id: "thu-bb-2h-shooting-1", category: "basketball", subCategory: "shooting", duration: "2h", phase: "Strength", name: "Rhythm Shooter", description: "Get in a zone, rhythm and timing", reps: { type: "makes", makes: 17 } },
-                { id: "thu-bb-2h-shooting-2", category: "basketball", subCategory: "shooting", duration: "2h", phase: "Plyo", name: "Transition", description: "Three on the break situations", reps: { type: "makes", makes: 13 } },
-                { id: "thu-bb-2h-shooting-3", category: "basketball", subCategory: "shooting", duration: "2h", phase: "Strength", name: "Pin Down", description: "Come off pin screen and shoot", reps: { type: "makes", makes: 15 } },
-                { id: "thu-bb-2h-shooting-4", category: "basketball", subCategory: "shooting", duration: "2h", phase: "Aesthetic", name: "Game Tempo", description: "Regular game speed shooting", reps: { type: "makes", makes: 18 } },
-                { id: "thu-bb-2h-bh-1", category: "basketball", subCategory: "ballHandling", duration: "2h", phase: "Strength", name: "High Dribble", description: "Head up, control at waist", reps: { type: "setsPerHand", sets: 3, rightReps: 18 } },
-                { id: "thu-bb-2h-bh-2", category: "basketball", subCategory: "ballHandling", duration: "2h", phase: "Strength", name: "Retreat Dribble", description: "Fall back with the ball", reps: { type: "setsPerHand", sets: 4, rightReps: 16 } },
-                { id: "thu-bb-2h-bh-3", category: "basketball", subCategory: "ballHandling", duration: "2h", phase: "Plyo", name: "Attacking Dribble", description: "Aggressive drive and attack", reps: { type: "setsPerHand", sets: 5, rightReps: 12 } },
-                { id: "thu-bb-2h-bh-4", category: "basketball", subCategory: "ballHandling", duration: "2h", phase: "Strength", name: "Pass and Move", description: "Cut and reposition after pass", reps: { type: "setsPerHand", sets: 4, rightReps: 14 } },
-                { id: "thu-bb-2h-finishing-1", category: "basketball", subCategory: "finishing", duration: "2h", phase: "Strength", name: "Pick and Roll", description: "Come off screen, attack lane", reps: { type: "makesPerHand", rightMakes: 10 } },
-                { id: "thu-bb-2h-finishing-2", category: "basketball", subCategory: "finishing", duration: "2h", phase: "Plyo", name: "Cutting Lanes", description: "V-cuts and back screens", reps: { type: "makesPerHand", rightMakes: 9 } },
-                { id: "thu-bb-2h-finishing-3", category: "basketball", subCategory: "finishing", duration: "2h", phase: "Strength", name: "Post Moves", description: "Footwork near the basket", reps: { type: "makesPerHand", rightMakes: 11 } },
-                { id: "thu-bb-2h-finishing-4", category: "basketball", subCategory: "finishing", duration: "2h", phase: "Aesthetic", name: "Timing and Spacing", description: "Arrival timing drills", reps: { type: "makesPerHand", rightMakes: 10 } }
+                { id: "thu-bb-2h-shooting-1", category: "basketball", subCategory: "shooting", duration: "2h", intensity: "medium", name: "Rhythm Shooter", description: "Get in a zone, rhythm and timing", reps: { type: "makes", makes: 17 } },
+                { id: "thu-bb-2h-shooting-2", category: "basketball", subCategory: "shooting", duration: "2h", intensity: "high", name: "Transition", description: "Three on the break situations", reps: { type: "makes", makes: 13 } },
+                { id: "thu-bb-2h-shooting-3", category: "basketball", subCategory: "shooting", duration: "2h", intensity: "medium", name: "Pin Down", description: "Come off pin screen and shoot", reps: { type: "makes", makes: 15 } },
+                { id: "thu-bb-2h-shooting-4", category: "basketball", subCategory: "shooting", duration: "2h", intensity: "low", name: "Game Tempo", description: "Regular game speed shooting", reps: { type: "makes", makes: 18 } },
+                { id: "thu-bb-2h-bh-1", category: "basketball", subCategory: "ballHandling", duration: "2h", intensity: "medium", name: "High Dribble", description: "Head up, control at waist", reps: { type: "setsPerHand", sets: 3, rightReps: 18 } },
+                { id: "thu-bb-2h-bh-2", category: "basketball", subCategory: "ballHandling", duration: "2h", intensity: "medium", name: "Retreat Dribble", description: "Fall back with the ball", reps: { type: "setsPerHand", sets: 4, rightReps: 16 } },
+                { id: "thu-bb-2h-bh-3", category: "basketball", subCategory: "ballHandling", duration: "2h", intensity: "high", name: "Attacking Dribble", description: "Aggressive drive and attack", reps: { type: "setsPerHand", sets: 5, rightReps: 12 } },
+                { id: "thu-bb-2h-bh-4", category: "basketball", subCategory: "ballHandling", duration: "2h", intensity: "medium", name: "Pass and Move", description: "Cut and reposition after pass", reps: { type: "setsPerHand", sets: 4, rightReps: 14 } },
+                { id: "thu-bb-2h-finishing-1", category: "basketball", subCategory: "finishing", duration: "2h", intensity: "medium", name: "Pick and Roll", description: "Come off screen, attack lane", reps: { type: "makesPerHand", rightMakes: 10 } },
+                { id: "thu-bb-2h-finishing-2", category: "basketball", subCategory: "finishing", duration: "2h", intensity: "high", name: "Cutting Lanes", description: "V-cuts and back screens", reps: { type: "makesPerHand", rightMakes: 9 } },
+                { id: "thu-bb-2h-finishing-3", category: "basketball", subCategory: "finishing", duration: "2h", intensity: "medium", name: "Post Moves", description: "Footwork near the basket", reps: { type: "makesPerHand", rightMakes: 11 } },
+                { id: "thu-bb-2h-finishing-4", category: "basketball", subCategory: "finishing", duration: "2h", intensity: "low", name: "Timing and Spacing", description: "Arrival timing drills", reps: { type: "makesPerHand", rightMakes: 10 } }
               ]
             },
             {
               duration: "3h",
               drills: [
-                { id: "thu-bb-3h-shooting-1", category: "basketball", subCategory: "shooting", duration: "3h", phase: "Strength", name: "Rhythm Shooter", description: "Get in a zone, rhythm and timing", reps: { type: "makes", makes: 17 } },
-                { id: "thu-bb-3h-shooting-2", category: "basketball", subCategory: "shooting", duration: "3h", phase: "Plyo", name: "Transition", description: "Three on the break situations", reps: { type: "makes", makes: 13 } },
-                { id: "thu-bb-3h-shooting-3", category: "basketball", subCategory: "shooting", duration: "3h", phase: "Strength", name: "Pin Down", description: "Come off pin screen and shoot", reps: { type: "makes", makes: 15 } },
-                { id: "thu-bb-3h-shooting-4", category: "basketball", subCategory: "shooting", duration: "3h", phase: "Aesthetic", name: "Game Tempo", description: "Regular game speed shooting", reps: { type: "makes", makes: 18 } },
-                { id: "thu-bb-3h-shooting-5", category: "basketball", subCategory: "shooting", duration: "3h", phase: "Plyo", name: "Moving Off Ball", description: "Shooting while on the move", reps: { type: "makes", makes: 12 } },
-                { id: "thu-bb-3h-shooting-6", category: "basketball", subCategory: "shooting", duration: "3h", phase: "Aesthetic", name: "Pressure Situations", description: "Last second shot attempts", reps: { type: "makes", makes: 14 } },
-                { id: "thu-bb-3h-bh-1", category: "basketball", subCategory: "ballHandling", duration: "3h", phase: "Strength", name: "High Dribble", description: "Head up, control at waist", reps: { type: "setsPerHand", sets: 3, rightReps: 18 } },
-                { id: "thu-bb-3h-bh-2", category: "basketball", subCategory: "ballHandling", duration: "3h", phase: "Strength", name: "Retreat Dribble", description: "Fall back with the ball", reps: { type: "setsPerHand", sets: 4, rightReps: 16 } },
-                { id: "thu-bb-3h-bh-3", category: "basketball", subCategory: "ballHandling", duration: "3h", phase: "Plyo", name: "Attacking Dribble", description: "Aggressive drive and attack", reps: { type: "setsPerHand", sets: 5, rightReps: 12 } },
-                { id: "thu-bb-3h-bh-4", category: "basketball", subCategory: "ballHandling", duration: "3h", phase: "Strength", name: "Pass and Move", description: "Cut and reposition after pass", reps: { type: "setsPerHand", sets: 4, rightReps: 14 } },
-                { id: "thu-bb-3h-bh-5", category: "basketball", subCategory: "ballHandling", duration: "3h", phase: "Strength", name: "Two Ball", description: "Alternating ball dribbles", reps: { type: "setsPerHand", sets: 6, rightReps: 10 } },
-                { id: "thu-bb-3h-bh-6", category: "basketball", subCategory: "ballHandling", duration: "3h", phase: "Aesthetic", name: "Pressure Defense", description: "Handle under defensive pressure", reps: { type: "setsPerHand", sets: 5, rightReps: 14 } },
-                { id: "thu-bb-3h-finishing-1", category: "basketball", subCategory: "finishing", duration: "3h", phase: "Strength", name: "Pick and Roll", description: "Come off screen, attack lane", reps: { type: "makesPerHand", rightMakes: 10 } },
-                { id: "thu-bb-3h-finishing-2", category: "basketball", subCategory: "finishing", duration: "3h", phase: "Plyo", name: "Cutting Lanes", description: "V-cuts and back screens", reps: { type: "makesPerHand", rightMakes: 9 } },
-                { id: "thu-bb-3h-finishing-3", category: "basketball", subCategory: "finishing", duration: "3h", phase: "Strength", name: "Post Moves", description: "Footwork near the basket", reps: { type: "makesPerHand", rightMakes: 11 } },
-                { id: "thu-bb-3h-finishing-4", category: "basketball", subCategory: "finishing", duration: "3h", phase: "Aesthetic", name: "Timing and Spacing", description: "Arrival timing drills", reps: { type: "makesPerHand", rightMakes: 10 } },
-                { id: "thu-bb-3h-finishing-5", category: "basketball", subCategory: "finishing", duration: "3h", phase: "Plyo", name: "Penetration and Pass", description: "Drive, then kick out assist", reps: { type: "makesPerHand", rightMakes: 8 } },
-                { id: "thu-bb-3h-finishing-6", category: "basketball", subCategory: "finishing", duration: "3h", phase: "Aesthetic", name: "Assisted Scoring", description: "Screen assistance and reads", reps: { type: "makesPerHand", rightMakes: 11 } }
+                { id: "thu-bb-3h-shooting-1", category: "basketball", subCategory: "shooting", duration: "3h", intensity: "medium", name: "Rhythm Shooter", description: "Get in a zone, rhythm and timing", reps: { type: "makes", makes: 17 } },
+                { id: "thu-bb-3h-shooting-2", category: "basketball", subCategory: "shooting", duration: "3h", intensity: "high", name: "Transition", description: "Three on the break situations", reps: { type: "makes", makes: 13 } },
+                { id: "thu-bb-3h-shooting-3", category: "basketball", subCategory: "shooting", duration: "3h", intensity: "medium", name: "Pin Down", description: "Come off pin screen and shoot", reps: { type: "makes", makes: 15 } },
+                { id: "thu-bb-3h-shooting-4", category: "basketball", subCategory: "shooting", duration: "3h", intensity: "low", name: "Game Tempo", description: "Regular game speed shooting", reps: { type: "makes", makes: 18 } },
+                { id: "thu-bb-3h-shooting-5", category: "basketball", subCategory: "shooting", duration: "3h", intensity: "high", name: "Moving Off Ball", description: "Shooting while on the move", reps: { type: "makes", makes: 12 } },
+                { id: "thu-bb-3h-shooting-6", category: "basketball", subCategory: "shooting", duration: "3h", intensity: "low", name: "Pressure Situations", description: "Last second shot attempts", reps: { type: "makes", makes: 14 } },
+                { id: "thu-bb-3h-bh-1", category: "basketball", subCategory: "ballHandling", duration: "3h", intensity: "medium", name: "High Dribble", description: "Head up, control at waist", reps: { type: "setsPerHand", sets: 3, rightReps: 18 } },
+                { id: "thu-bb-3h-bh-2", category: "basketball", subCategory: "ballHandling", duration: "3h", intensity: "medium", name: "Retreat Dribble", description: "Fall back with the ball", reps: { type: "setsPerHand", sets: 4, rightReps: 16 } },
+                { id: "thu-bb-3h-bh-3", category: "basketball", subCategory: "ballHandling", duration: "3h", intensity: "high", name: "Attacking Dribble", description: "Aggressive drive and attack", reps: { type: "setsPerHand", sets: 5, rightReps: 12 } },
+                { id: "thu-bb-3h-bh-4", category: "basketball", subCategory: "ballHandling", duration: "3h", intensity: "medium", name: "Pass and Move", description: "Cut and reposition after pass", reps: { type: "setsPerHand", sets: 4, rightReps: 14 } },
+                { id: "thu-bb-3h-bh-5", category: "basketball", subCategory: "ballHandling", duration: "3h", intensity: "medium", name: "Two Ball", description: "Alternating ball dribbles", reps: { type: "setsPerHand", sets: 6, rightReps: 10 } },
+                { id: "thu-bb-3h-bh-6", category: "basketball", subCategory: "ballHandling", duration: "3h", intensity: "low", name: "Pressure Defense", description: "Handle under defensive pressure", reps: { type: "setsPerHand", sets: 5, rightReps: 14 } },
+                { id: "thu-bb-3h-finishing-1", category: "basketball", subCategory: "finishing", duration: "3h", intensity: "medium", name: "Pick and Roll", description: "Come off screen, attack lane", reps: { type: "makesPerHand", rightMakes: 10 } },
+                { id: "thu-bb-3h-finishing-2", category: "basketball", subCategory: "finishing", duration: "3h", intensity: "high", name: "Cutting Lanes", description: "V-cuts and back screens", reps: { type: "makesPerHand", rightMakes: 9 } },
+                { id: "thu-bb-3h-finishing-3", category: "basketball", subCategory: "finishing", duration: "3h", intensity: "medium", name: "Post Moves", description: "Footwork near the basket", reps: { type: "makesPerHand", rightMakes: 11 } },
+                { id: "thu-bb-3h-finishing-4", category: "basketball", subCategory: "finishing", duration: "3h", intensity: "low", name: "Timing and Spacing", description: "Arrival timing drills", reps: { type: "makesPerHand", rightMakes: 10 } },
+                { id: "thu-bb-3h-finishing-5", category: "basketball", subCategory: "finishing", duration: "3h", intensity: "high", name: "Penetration and Pass", description: "Drive, then kick out assist", reps: { type: "makesPerHand", rightMakes: 8 } },
+                { id: "thu-bb-3h-finishing-6", category: "basketball", subCategory: "finishing", duration: "3h", intensity: "low", name: "Assisted Scoring", description: "Screen assistance and reads", reps: { type: "makesPerHand", rightMakes: 11 } }
               ]
             }
           ]
@@ -675,60 +675,60 @@ const WORKOUTS_DATA: WorkoutsData = {
             {
               duration: "30m",
               drills: [
-                { id: "fri-bb-30-shooting-1", category: "basketball", subCategory: "shooting", duration: "30m", phase: "Plyo", name: "Transition Shooting", description: "Fast break shooting drills", reps: { type: "makes", makes: 16 } },
-                { id: "fri-bb-30-bh-1", category: "basketball", subCategory: "ballHandling", duration: "30m", phase: "Aesthetic", name: "Passing Drills", description: "Various passing techniques", reps: { type: "setsPerHand", sets: 4, rightReps: 20 } },
-                { id: "fri-bb-30-finishing-1", category: "basketball", subCategory: "finishing", duration: "30m", phase: "Strength", name: "Penetration", description: "Drive hard to the basket", reps: { type: "makesPerHand", rightMakes: 10 } }
+                { id: "fri-bb-30-shooting-1", category: "basketball", subCategory: "shooting", duration: "30m", intensity: "high", name: "Transition Shooting", description: "Fast break shooting drills", reps: { type: "makes", makes: 16 } },
+                { id: "fri-bb-30-bh-1", category: "basketball", subCategory: "ballHandling", duration: "30m", intensity: "low", name: "Passing Drills", description: "Various passing techniques", reps: { type: "setsPerHand", sets: 4, rightReps: 20 } },
+                { id: "fri-bb-30-finishing-1", category: "basketball", subCategory: "finishing", duration: "30m", intensity: "medium", name: "Penetration", description: "Drive hard to the basket", reps: { type: "makesPerHand", rightMakes: 10 } }
               ]
             },
             {
               duration: "1h",
               drills: [
-                { id: "fri-bb-1h-shooting-1", category: "basketball", subCategory: "shooting", duration: "1h", phase: "Plyo", name: "Transition Shooting", description: "Fast break shooting drills", reps: { type: "makes", makes: 16 } },
-                { id: "fri-bb-1h-shooting-2", category: "basketball", subCategory: "shooting", duration: "1h", phase: "Strength", name: "Assisted Shots", description: "Get open for others' passes", reps: { type: "makes", makes: 14 } },
-                { id: "fri-bb-1h-bh-1", category: "basketball", subCategory: "ballHandling", duration: "1h", phase: "Aesthetic", name: "Passing Drills", description: "Various passing techniques", reps: { type: "setsPerHand", sets: 4, rightReps: 20 } },
-                { id: "fri-bb-1h-bh-2", category: "basketball", subCategory: "ballHandling", duration: "1h", phase: "Strength", name: "No-Look Dribbles", description: "Deceive with eyes while handling", reps: { type: "setsPerHand", sets: 3, rightReps: 16 } },
-                { id: "fri-bb-1h-finishing-1", category: "basketball", subCategory: "finishing", duration: "1h", phase: "Strength", name: "Penetration", description: "Drive hard to the basket", reps: { type: "makesPerHand", rightMakes: 10 } },
-                { id: "fri-bb-1h-finishing-2", category: "basketball", subCategory: "finishing", duration: "1h", phase: "Plyo", name: "Layup Packages", description: "Various layup finishes", reps: { type: "makesPerHand", rightMakes: 12 } }
+                { id: "fri-bb-1h-shooting-1", category: "basketball", subCategory: "shooting", duration: "1h", intensity: "high", name: "Transition Shooting", description: "Fast break shooting drills", reps: { type: "makes", makes: 16 } },
+                { id: "fri-bb-1h-shooting-2", category: "basketball", subCategory: "shooting", duration: "1h", intensity: "medium", name: "Assisted Shots", description: "Get open for others' passes", reps: { type: "makes", makes: 14 } },
+                { id: "fri-bb-1h-bh-1", category: "basketball", subCategory: "ballHandling", duration: "1h", intensity: "low", name: "Passing Drills", description: "Various passing techniques", reps: { type: "setsPerHand", sets: 4, rightReps: 20 } },
+                { id: "fri-bb-1h-bh-2", category: "basketball", subCategory: "ballHandling", duration: "1h", intensity: "medium", name: "No-Look Dribbles", description: "Deceive with eyes while handling", reps: { type: "setsPerHand", sets: 3, rightReps: 16 } },
+                { id: "fri-bb-1h-finishing-1", category: "basketball", subCategory: "finishing", duration: "1h", intensity: "medium", name: "Penetration", description: "Drive hard to the basket", reps: { type: "makesPerHand", rightMakes: 10 } },
+                { id: "fri-bb-1h-finishing-2", category: "basketball", subCategory: "finishing", duration: "1h", intensity: "high", name: "Layup Packages", description: "Various layup finishes", reps: { type: "makesPerHand", rightMakes: 12 } }
               ]
             },
             {
               duration: "2h",
               drills: [
-                { id: "fri-bb-2h-shooting-1", category: "basketball", subCategory: "shooting", duration: "2h", phase: "Plyo", name: "Transition Shooting", description: "Fast break shooting drills", reps: { type: "makes", makes: 16 } },
-                { id: "fri-bb-2h-shooting-2", category: "basketball", subCategory: "shooting", duration: "2h", phase: "Strength", name: "Assisted Shots", description: "Get open for others' passes", reps: { type: "makes", makes: 14 } },
-                { id: "fri-bb-2h-shooting-3", category: "basketball", subCategory: "shooting", duration: "2h", phase: "Plyo", name: "Spot Up", description: "Stand and shoot ready position", reps: { type: "makes", makes: 17 } },
-                { id: "fri-bb-2h-shooting-4", category: "basketball", subCategory: "shooting", duration: "2h", phase: "Aesthetic", name: "Movement Off Ball", description: "Shoot while in motion", reps: { type: "makes", makes: 13 } },
-                { id: "fri-bb-2h-bh-1", category: "basketball", subCategory: "ballHandling", duration: "2h", phase: "Aesthetic", name: "Passing Drills", description: "Various passing techniques", reps: { type: "setsPerHand", sets: 4, rightReps: 20 } },
-                { id: "fri-bb-2h-bh-2", category: "basketball", subCategory: "ballHandling", duration: "2h", phase: "Strength", name: "No-Look Dribbles", description: "Deceive with eyes while handling", reps: { type: "setsPerHand", sets: 3, rightReps: 16 } },
-                { id: "fri-bb-2h-bh-3", category: "basketball", subCategory: "ballHandling", duration: "2h", phase: "Plyo", name: "Quick Outlet", description: "Fast break transition handling", reps: { type: "setsPerHand", sets: 5, rightReps: 12 } },
-                { id: "fri-bb-2h-bh-4", category: "basketball", subCategory: "ballHandling", duration: "2h", phase: "Strength", name: "Catch and Go", description: "Receive and immediately attack", reps: { type: "setsPerHand", sets: 4, rightReps: 18 } },
-                { id: "fri-bb-2h-finishing-1", category: "basketball", subCategory: "finishing", duration: "2h", phase: "Strength", name: "Penetration", description: "Drive hard to the basket", reps: { type: "makesPerHand", rightMakes: 10 } },
-                { id: "fri-bb-2h-finishing-2", category: "basketball", subCategory: "finishing", duration: "2h", phase: "Plyo", name: "Layup Packages", description: "Various layup finishes", reps: { type: "makesPerHand", rightMakes: 12 } },
-                { id: "fri-bb-2h-finishing-3", category: "basketball", subCategory: "finishing", duration: "2h", phase: "Strength", name: "Kick Out Passes", description: "Drive and dish to open shooters", reps: { type: "makesPerHand", rightMakes: 9 } },
-                { id: "fri-bb-2h-finishing-4", category: "basketball", subCategory: "finishing", duration: "2h", phase: "Aesthetic", name: "Transition Lanes", description: "Three-on-two drills", reps: { type: "makesPerHand", rightMakes: 11 } }
+                { id: "fri-bb-2h-shooting-1", category: "basketball", subCategory: "shooting", duration: "2h", intensity: "high", name: "Transition Shooting", description: "Fast break shooting drills", reps: { type: "makes", makes: 16 } },
+                { id: "fri-bb-2h-shooting-2", category: "basketball", subCategory: "shooting", duration: "2h", intensity: "medium", name: "Assisted Shots", description: "Get open for others' passes", reps: { type: "makes", makes: 14 } },
+                { id: "fri-bb-2h-shooting-3", category: "basketball", subCategory: "shooting", duration: "2h", intensity: "high", name: "Spot Up", description: "Stand and shoot ready position", reps: { type: "makes", makes: 17 } },
+                { id: "fri-bb-2h-shooting-4", category: "basketball", subCategory: "shooting", duration: "2h", intensity: "low", name: "Movement Off Ball", description: "Shoot while in motion", reps: { type: "makes", makes: 13 } },
+                { id: "fri-bb-2h-bh-1", category: "basketball", subCategory: "ballHandling", duration: "2h", intensity: "low", name: "Passing Drills", description: "Various passing techniques", reps: { type: "setsPerHand", sets: 4, rightReps: 20 } },
+                { id: "fri-bb-2h-bh-2", category: "basketball", subCategory: "ballHandling", duration: "2h", intensity: "medium", name: "No-Look Dribbles", description: "Deceive with eyes while handling", reps: { type: "setsPerHand", sets: 3, rightReps: 16 } },
+                { id: "fri-bb-2h-bh-3", category: "basketball", subCategory: "ballHandling", duration: "2h", intensity: "high", name: "Quick Outlet", description: "Fast break transition handling", reps: { type: "setsPerHand", sets: 5, rightReps: 12 } },
+                { id: "fri-bb-2h-bh-4", category: "basketball", subCategory: "ballHandling", duration: "2h", intensity: "medium", name: "Catch and Go", description: "Receive and immediately attack", reps: { type: "setsPerHand", sets: 4, rightReps: 18 } },
+                { id: "fri-bb-2h-finishing-1", category: "basketball", subCategory: "finishing", duration: "2h", intensity: "medium", name: "Penetration", description: "Drive hard to the basket", reps: { type: "makesPerHand", rightMakes: 10 } },
+                { id: "fri-bb-2h-finishing-2", category: "basketball", subCategory: "finishing", duration: "2h", intensity: "high", name: "Layup Packages", description: "Various layup finishes", reps: { type: "makesPerHand", rightMakes: 12 } },
+                { id: "fri-bb-2h-finishing-3", category: "basketball", subCategory: "finishing", duration: "2h", intensity: "medium", name: "Kick Out Passes", description: "Drive and dish to open shooters", reps: { type: "makesPerHand", rightMakes: 9 } },
+                { id: "fri-bb-2h-finishing-4", category: "basketball", subCategory: "finishing", duration: "2h", intensity: "low", name: "Transition Lanes", description: "Three-on-two drills", reps: { type: "makesPerHand", rightMakes: 11 } }
               ]
             },
             {
               duration: "3h",
               drills: [
-                { id: "fri-bb-3h-shooting-1", category: "basketball", subCategory: "shooting", duration: "3h", phase: "Plyo", name: "Transition Shooting", description: "Fast break shooting drills", reps: { type: "makes", makes: 16 } },
-                { id: "fri-bb-3h-shooting-2", category: "basketball", subCategory: "shooting", duration: "3h", phase: "Strength", name: "Assisted Shots", description: "Get open for others' passes", reps: { type: "makes", makes: 14 } },
-                { id: "fri-bb-3h-shooting-3", category: "basketball", subCategory: "shooting", duration: "3h", phase: "Plyo", name: "Spot Up", description: "Stand and shoot ready position", reps: { type: "makes", makes: 17 } },
-                { id: "fri-bb-3h-shooting-4", category: "basketball", subCategory: "shooting", duration: "3h", phase: "Aesthetic", name: "Movement Off Ball", description: "Shoot while in motion", reps: { type: "makes", makes: 13 } },
-                { id: "fri-bb-3h-shooting-5", category: "basketball", subCategory: "shooting", duration: "3h", phase: "Strength", name: "Catch and Shoot", description: "One motion catch and shoot", reps: { type: "makes", makes: 19 } },
-                { id: "fri-bb-3h-shooting-6", category: "basketball", subCategory: "shooting", duration: "3h", phase: "Aesthetic", name: "Game Situations", description: "Scripted game scenario shooting", reps: { type: "makes", makes: 22 } },
-                { id: "fri-bb-3h-bh-1", category: "basketball", subCategory: "ballHandling", duration: "3h", phase: "Aesthetic", name: "Passing Drills", description: "Various passing techniques", reps: { type: "setsPerHand", sets: 4, rightReps: 20 } },
-                { id: "fri-bb-3h-bh-2", category: "basketball", subCategory: "ballHandling", duration: "3h", phase: "Strength", name: "No-Look Dribbles", description: "Deceive with eyes while handling", reps: { type: "setsPerHand", sets: 3, rightReps: 16 } },
-                { id: "fri-bb-3h-bh-3", category: "basketball", subCategory: "ballHandling", duration: "3h", phase: "Plyo", name: "Quick Outlet", description: "Fast break transition handling", reps: { type: "setsPerHand", sets: 5, rightReps: 12 } },
-                { id: "fri-bb-3h-bh-4", category: "basketball", subCategory: "ballHandling", duration: "3h", phase: "Strength", name: "Catch and Go", description: "Receive and immediately attack", reps: { type: "setsPerHand", sets: 4, rightReps: 18 } },
-                { id: "fri-bb-3h-bh-5", category: "basketball", subCategory: "ballHandling", duration: "3h", phase: "Plyo", name: "Advance and Retreat", description: "Different pace handling", reps: { type: "setsPerHand", sets: 6, rightReps: 10 } },
-                { id: "fri-bb-3h-bh-6", category: "basketball", subCategory: "ballHandling", duration: "3h", phase: "Aesthetic", name: "Ball Movement", description: "Team passing patterns", reps: { type: "setsPerHand", sets: 5, rightReps: 16 } },
-                { id: "fri-bb-3h-finishing-1", category: "basketball", subCategory: "finishing", duration: "3h", phase: "Strength", name: "Penetration", description: "Drive hard to the basket", reps: { type: "makesPerHand", rightMakes: 10 } },
-                { id: "fri-bb-3h-finishing-2", category: "basketball", subCategory: "finishing", duration: "3h", phase: "Plyo", name: "Layup Packages", description: "Various layup finishes", reps: { type: "makesPerHand", rightMakes: 12 } },
-                { id: "fri-bb-3h-finishing-3", category: "basketball", subCategory: "finishing", duration: "3h", phase: "Strength", name: "Kick Out Passes", description: "Drive and dish to open shooters", reps: { type: "makesPerHand", rightMakes: 9 } },
-                { id: "fri-bb-3h-finishing-4", category: "basketball", subCategory: "finishing", duration: "3h", phase: "Aesthetic", name: "Transition Lanes", description: "Three-on-two drills", reps: { type: "makesPerHand", rightMakes: 11 } },
-                { id: "fri-bb-3h-finishing-5", category: "basketball", subCategory: "finishing", duration: "3h", phase: "Plyo", name: "Strong Finishes", description: "Physical contact finishes", reps: { type: "makesPerHand", rightMakes: 10 } },
-                { id: "fri-bb-3h-finishing-6", category: "basketball", subCategory: "finishing", duration: "3h", phase: "Aesthetic", name: "Flow Offense", description: "Continuous offensive patterns", reps: { type: "makesPerHand", rightMakes: 13 } }
+                { id: "fri-bb-3h-shooting-1", category: "basketball", subCategory: "shooting", duration: "3h", intensity: "high", name: "Transition Shooting", description: "Fast break shooting drills", reps: { type: "makes", makes: 16 } },
+                { id: "fri-bb-3h-shooting-2", category: "basketball", subCategory: "shooting", duration: "3h", intensity: "medium", name: "Assisted Shots", description: "Get open for others' passes", reps: { type: "makes", makes: 14 } },
+                { id: "fri-bb-3h-shooting-3", category: "basketball", subCategory: "shooting", duration: "3h", intensity: "high", name: "Spot Up", description: "Stand and shoot ready position", reps: { type: "makes", makes: 17 } },
+                { id: "fri-bb-3h-shooting-4", category: "basketball", subCategory: "shooting", duration: "3h", intensity: "low", name: "Movement Off Ball", description: "Shoot while in motion", reps: { type: "makes", makes: 13 } },
+                { id: "fri-bb-3h-shooting-5", category: "basketball", subCategory: "shooting", duration: "3h", intensity: "medium", name: "Catch and Shoot", description: "One motion catch and shoot", reps: { type: "makes", makes: 19 } },
+                { id: "fri-bb-3h-shooting-6", category: "basketball", subCategory: "shooting", duration: "3h", intensity: "low", name: "Game Situations", description: "Scripted game scenario shooting", reps: { type: "makes", makes: 22 } },
+                { id: "fri-bb-3h-bh-1", category: "basketball", subCategory: "ballHandling", duration: "3h", intensity: "low", name: "Passing Drills", description: "Various passing techniques", reps: { type: "setsPerHand", sets: 4, rightReps: 20 } },
+                { id: "fri-bb-3h-bh-2", category: "basketball", subCategory: "ballHandling", duration: "3h", intensity: "medium", name: "No-Look Dribbles", description: "Deceive with eyes while handling", reps: { type: "setsPerHand", sets: 3, rightReps: 16 } },
+                { id: "fri-bb-3h-bh-3", category: "basketball", subCategory: "ballHandling", duration: "3h", intensity: "high", name: "Quick Outlet", description: "Fast break transition handling", reps: { type: "setsPerHand", sets: 5, rightReps: 12 } },
+                { id: "fri-bb-3h-bh-4", category: "basketball", subCategory: "ballHandling", duration: "3h", intensity: "medium", name: "Catch and Go", description: "Receive and immediately attack", reps: { type: "setsPerHand", sets: 4, rightReps: 18 } },
+                { id: "fri-bb-3h-bh-5", category: "basketball", subCategory: "ballHandling", duration: "3h", intensity: "high", name: "Advance and Retreat", description: "Different pace handling", reps: { type: "setsPerHand", sets: 6, rightReps: 10 } },
+                { id: "fri-bb-3h-bh-6", category: "basketball", subCategory: "ballHandling", duration: "3h", intensity: "low", name: "Ball Movement", description: "Team passing patterns", reps: { type: "setsPerHand", sets: 5, rightReps: 16 } },
+                { id: "fri-bb-3h-finishing-1", category: "basketball", subCategory: "finishing", duration: "3h", intensity: "medium", name: "Penetration", description: "Drive hard to the basket", reps: { type: "makesPerHand", rightMakes: 10 } },
+                { id: "fri-bb-3h-finishing-2", category: "basketball", subCategory: "finishing", duration: "3h", intensity: "high", name: "Layup Packages", description: "Various layup finishes", reps: { type: "makesPerHand", rightMakes: 12 } },
+                { id: "fri-bb-3h-finishing-3", category: "basketball", subCategory: "finishing", duration: "3h", intensity: "medium", name: "Kick Out Passes", description: "Drive and dish to open shooters", reps: { type: "makesPerHand", rightMakes: 9 } },
+                { id: "fri-bb-3h-finishing-4", category: "basketball", subCategory: "finishing", duration: "3h", intensity: "low", name: "Transition Lanes", description: "Three-on-two drills", reps: { type: "makesPerHand", rightMakes: 11 } },
+                { id: "fri-bb-3h-finishing-5", category: "basketball", subCategory: "finishing", duration: "3h", intensity: "high", name: "Strong Finishes", description: "Physical contact finishes", reps: { type: "makesPerHand", rightMakes: 10 } },
+                { id: "fri-bb-3h-finishing-6", category: "basketball", subCategory: "finishing", duration: "3h", intensity: "low", name: "Flow Offense", description: "Continuous offensive patterns", reps: { type: "makesPerHand", rightMakes: 13 } }
               ]
             }
           ]
@@ -829,60 +829,60 @@ const WORKOUTS_DATA: WorkoutsData = {
             {
               duration: "30m",
               drills: [
-                { id: "sat-bb-30-shooting-1", category: "basketball", subCategory: "shooting", duration: "30m", phase: "Strength", name: "Accuracy Focus", description: "High percentage looks", reps: { type: "makes", makes: 20 } },
-                { id: "sat-bb-30-bh-1", category: "basketball", subCategory: "ballHandling", duration: "30m", phase: "Strength", name: "Defensive Pressure", description: "Handle with defense", reps: { type: "setsPerHand", sets: 4, rightReps: 12 } },
-                { id: "sat-bb-30-finishing-1", category: "basketball", subCategory: "finishing", duration: "30m", phase: "Strength", name: "Power Moves", description: "Dominant finishes", reps: { type: "makesPerHand", rightMakes: 11 } }
+                { id: "sat-bb-30-shooting-1", category: "basketball", subCategory: "shooting", duration: "30m", intensity: "medium", name: "Accuracy Focus", description: "High percentage looks", reps: { type: "makes", makes: 20 } },
+                { id: "sat-bb-30-bh-1", category: "basketball", subCategory: "ballHandling", duration: "30m", intensity: "medium", name: "Defensive Pressure", description: "Handle with defense", reps: { type: "setsPerHand", sets: 4, rightReps: 12 } },
+                { id: "sat-bb-30-finishing-1", category: "basketball", subCategory: "finishing", duration: "30m", intensity: "medium", name: "Power Moves", description: "Dominant finishes", reps: { type: "makesPerHand", rightMakes: 11 } }
               ]
             },
             {
               duration: "1h",
               drills: [
-                { id: "sat-bb-1h-shooting-1", category: "basketball", subCategory: "shooting", duration: "1h", phase: "Strength", name: "Accuracy Focus", description: "High percentage looks", reps: { type: "makes", makes: 20 } },
-                { id: "sat-bb-1h-shooting-2", category: "basketball", subCategory: "shooting", duration: "1h", phase: "Aesthetic", name: "Game Simulation", description: "Simulated game conditions", reps: { type: "makes", makes: 15 } },
-                { id: "sat-bb-1h-bh-1", category: "basketball", subCategory: "ballHandling", duration: "1h", phase: "Strength", name: "Defensive Pressure", description: "Handle with defense", reps: { type: "setsPerHand", sets: 4, rightReps: 12 } },
-                { id: "sat-bb-1h-bh-2", category: "basketball", subCategory: "ballHandling", duration: "1h", phase: "Plyo", name: "Speed Handling", description: "Maximum velocity drills", reps: { type: "setsPerHand", sets: 5, rightReps: 10 } },
-                { id: "sat-bb-1h-finishing-1", category: "basketball", subCategory: "finishing", duration: "1h", phase: "Strength", name: "Power Moves", description: "Dominant finishes", reps: { type: "makesPerHand", rightMakes: 11 } },
-                { id: "sat-bb-1h-finishing-2", category: "basketball", subCategory: "finishing", duration: "1h", phase: "Aesthetic", name: "Footwork", description: "Footwork fundamentals", reps: { type: "makesPerHand", rightMakes: 13 } }
+                { id: "sat-bb-1h-shooting-1", category: "basketball", subCategory: "shooting", duration: "1h", intensity: "medium", name: "Accuracy Focus", description: "High percentage looks", reps: { type: "makes", makes: 20 } },
+                { id: "sat-bb-1h-shooting-2", category: "basketball", subCategory: "shooting", duration: "1h", intensity: "low", name: "Game Simulation", description: "Simulated game conditions", reps: { type: "makes", makes: 15 } },
+                { id: "sat-bb-1h-bh-1", category: "basketball", subCategory: "ballHandling", duration: "1h", intensity: "medium", name: "Defensive Pressure", description: "Handle with defense", reps: { type: "setsPerHand", sets: 4, rightReps: 12 } },
+                { id: "sat-bb-1h-bh-2", category: "basketball", subCategory: "ballHandling", duration: "1h", intensity: "high", name: "Speed Handling", description: "Maximum velocity drills", reps: { type: "setsPerHand", sets: 5, rightReps: 10 } },
+                { id: "sat-bb-1h-finishing-1", category: "basketball", subCategory: "finishing", duration: "1h", intensity: "medium", name: "Power Moves", description: "Dominant finishes", reps: { type: "makesPerHand", rightMakes: 11 } },
+                { id: "sat-bb-1h-finishing-2", category: "basketball", subCategory: "finishing", duration: "1h", intensity: "low", name: "Footwork", description: "Footwork fundamentals", reps: { type: "makesPerHand", rightMakes: 13 } }
               ]
             },
             {
               duration: "2h",
               drills: [
-                { id: "sat-bb-2h-shooting-1", category: "basketball", subCategory: "shooting", duration: "2h", phase: "Strength", name: "Accuracy Focus", description: "High percentage looks", reps: { type: "makes", makes: 20 } },
-                { id: "sat-bb-2h-shooting-2", category: "basketball", subCategory: "shooting", duration: "2h", phase: "Aesthetic", name: "Game Simulation", description: "Simulated game conditions", reps: { type: "makes", makes: 15 } },
-                { id: "sat-bb-2h-shooting-3", category: "basketball", subCategory: "shooting", duration: "2h", phase: "Strength", name: "Under Pressure", description: "Closing shooters drills", reps: { type: "makes", makes: 13 } },
-                { id: "sat-bb-2h-shooting-4", category: "basketball", subCategory: "shooting", duration: "2h", phase: "Plyo", name: "Rapid Fire", description: "Quick succession shots", reps: { type: "makes", makes: 16 } },
-                { id: "sat-bb-2h-bh-1", category: "basketball", subCategory: "ballHandling", duration: "2h", phase: "Strength", name: "Defensive Pressure", description: "Handle with defense", reps: { type: "setsPerHand", sets: 4, rightReps: 12 } },
-                { id: "sat-bb-2h-bh-2", category: "basketball", subCategory: "ballHandling", duration: "2h", phase: "Plyo", name: "Speed Handling", description: "Maximum velocity drills", reps: { type: "setsPerHand", sets: 5, rightReps: 10 } },
-                { id: "sat-bb-2h-bh-3", category: "basketball", subCategory: "ballHandling", duration: "2h", phase: "Strength", name: "Decision Making", description: "Read and react drills", reps: { type: "setsPerHand", sets: 4, rightReps: 14 } },
-                { id: "sat-bb-2h-bh-4", category: "basketball", subCategory: "ballHandling", duration: "2h", phase: "Aesthetic", name: "Flow State", description: "Continuous motion drills", reps: { type: "setsPerHand", sets: 6, rightReps: 12 } },
-                { id: "sat-bb-2h-finishing-1", category: "basketball", subCategory: "finishing", duration: "2h", phase: "Strength", name: "Power Moves", description: "Dominant finishes", reps: { type: "makesPerHand", rightMakes: 11 } },
-                { id: "sat-bb-2h-finishing-2", category: "basketball", subCategory: "finishing", duration: "2h", phase: "Aesthetic", name: "Footwork", description: "Footwork fundamentals", reps: { type: "makesPerHand", rightMakes: 13 } },
-                { id: "sat-bb-2h-finishing-3", category: "basketball", subCategory: "finishing", duration: "2h", phase: "Plyo", name: "Explosiveness", description: "Quick explosive finishes", reps: { type: "makesPerHand", rightMakes: 10 } },
-                { id: "sat-bb-2h-finishing-4", category: "basketball", subCategory: "finishing", duration: "2h", phase: "Strength", name: "Composure", description: "Calm, controlled finishes", reps: { type: "makesPerHand", rightMakes: 12 } }
+                { id: "sat-bb-2h-shooting-1", category: "basketball", subCategory: "shooting", duration: "2h", intensity: "medium", name: "Accuracy Focus", description: "High percentage looks", reps: { type: "makes", makes: 20 } },
+                { id: "sat-bb-2h-shooting-2", category: "basketball", subCategory: "shooting", duration: "2h", intensity: "low", name: "Game Simulation", description: "Simulated game conditions", reps: { type: "makes", makes: 15 } },
+                { id: "sat-bb-2h-shooting-3", category: "basketball", subCategory: "shooting", duration: "2h", intensity: "medium", name: "Under Pressure", description: "Closing shooters drills", reps: { type: "makes", makes: 13 } },
+                { id: "sat-bb-2h-shooting-4", category: "basketball", subCategory: "shooting", duration: "2h", intensity: "high", name: "Rapid Fire", description: "Quick succession shots", reps: { type: "makes", makes: 16 } },
+                { id: "sat-bb-2h-bh-1", category: "basketball", subCategory: "ballHandling", duration: "2h", intensity: "medium", name: "Defensive Pressure", description: "Handle with defense", reps: { type: "setsPerHand", sets: 4, rightReps: 12 } },
+                { id: "sat-bb-2h-bh-2", category: "basketball", subCategory: "ballHandling", duration: "2h", intensity: "high", name: "Speed Handling", description: "Maximum velocity drills", reps: { type: "setsPerHand", sets: 5, rightReps: 10 } },
+                { id: "sat-bb-2h-bh-3", category: "basketball", subCategory: "ballHandling", duration: "2h", intensity: "medium", name: "Decision Making", description: "Read and react drills", reps: { type: "setsPerHand", sets: 4, rightReps: 14 } },
+                { id: "sat-bb-2h-bh-4", category: "basketball", subCategory: "ballHandling", duration: "2h", intensity: "low", name: "Flow State", description: "Continuous motion drills", reps: { type: "setsPerHand", sets: 6, rightReps: 12 } },
+                { id: "sat-bb-2h-finishing-1", category: "basketball", subCategory: "finishing", duration: "2h", intensity: "medium", name: "Power Moves", description: "Dominant finishes", reps: { type: "makesPerHand", rightMakes: 11 } },
+                { id: "sat-bb-2h-finishing-2", category: "basketball", subCategory: "finishing", duration: "2h", intensity: "low", name: "Footwork", description: "Footwork fundamentals", reps: { type: "makesPerHand", rightMakes: 13 } },
+                { id: "sat-bb-2h-finishing-3", category: "basketball", subCategory: "finishing", duration: "2h", intensity: "high", name: "Explosiveness", description: "Quick explosive finishes", reps: { type: "makesPerHand", rightMakes: 10 } },
+                { id: "sat-bb-2h-finishing-4", category: "basketball", subCategory: "finishing", duration: "2h", intensity: "medium", name: "Composure", description: "Calm, controlled finishes", reps: { type: "makesPerHand", rightMakes: 12 } }
               ]
             },
             {
               duration: "3h",
               drills: [
-                { id: "sat-bb-3h-shooting-1", category: "basketball", subCategory: "shooting", duration: "3h", phase: "Strength", name: "Accuracy Focus", description: "High percentage looks", reps: { type: "makes", makes: 20 } },
-                { id: "sat-bb-3h-shooting-2", category: "basketball", subCategory: "shooting", duration: "3h", phase: "Aesthetic", name: "Game Simulation", description: "Simulated game conditions", reps: { type: "makes", makes: 15 } },
-                { id: "sat-bb-3h-shooting-3", category: "basketball", subCategory: "shooting", duration: "3h", phase: "Strength", name: "Under Pressure", description: "Closing shooters drills", reps: { type: "makes", makes: 13 } },
-                { id: "sat-bb-3h-shooting-4", category: "basketball", subCategory: "shooting", duration: "3h", phase: "Plyo", name: "Rapid Fire", description: "Quick succession shots", reps: { type: "makes", makes: 16 } },
-                { id: "sat-bb-3h-shooting-5", category: "basketball", subCategory: "shooting", duration: "3h", phase: "Aesthetic", name: "Clutch Situations", description: "Late game clutch shots", reps: { type: "makes", makes: 12 } },
-                { id: "sat-bb-3h-shooting-6", category: "basketball", subCategory: "shooting", duration: "3h", phase: "Strength", name: "High Volume", description: "High volume shooting day", reps: { type: "makes", makes: 25 } },
-                { id: "sat-bb-3h-bh-1", category: "basketball", subCategory: "ballHandling", duration: "3h", phase: "Strength", name: "Defensive Pressure", description: "Handle with defense", reps: { type: "setsPerHand", sets: 4, rightReps: 12 } },
-                { id: "sat-bb-3h-bh-2", category: "basketball", subCategory: "ballHandling", duration: "3h", phase: "Plyo", name: "Speed Handling", description: "Maximum velocity drills", reps: { type: "setsPerHand", sets: 5, rightReps: 10 } },
-                { id: "sat-bb-3h-bh-3", category: "basketball", subCategory: "ballHandling", duration: "3h", phase: "Strength", name: "Decision Making", description: "Read and react drills", reps: { type: "setsPerHand", sets: 4, rightReps: 14 } },
-                { id: "sat-bb-3h-bh-4", category: "basketball", subCategory: "ballHandling", duration: "3h", phase: "Aesthetic", name: "Flow State", description: "Continuous motion drills", reps: { type: "setsPerHand", sets: 6, rightReps: 12 } },
-                { id: "sat-bb-3h-bh-5", category: "basketball", subCategory: "ballHandling", duration: "3h", phase: "Plyo", name: "Game Pace", description: "Game tempo handling", reps: { type: "setsPerHand", sets: 5, rightReps: 16 } },
-                { id: "sat-bb-3h-bh-6", category: "basketball", subCategory: "ballHandling", duration: "3h", phase: "Aesthetic", name: "Confidence Building", description: "Comfortable zone drills", reps: { type: "setsPerHand", sets: 6, rightReps: 15 } },
-                { id: "sat-bb-3h-finishing-1", category: "basketball", subCategory: "finishing", duration: "3h", phase: "Strength", name: "Power Moves", description: "Dominant finishes", reps: { type: "makesPerHand", rightMakes: 11 } },
-                { id: "sat-bb-3h-finishing-2", category: "basketball", subCategory: "finishing", duration: "3h", phase: "Aesthetic", name: "Footwork", description: "Footwork fundamentals", reps: { type: "makesPerHand", rightMakes: 13 } },
-                { id: "sat-bb-3h-finishing-3", category: "basketball", subCategory: "finishing", duration: "3h", phase: "Plyo", name: "Explosiveness", description: "Quick explosive finishes", reps: { type: "makesPerHand", rightMakes: 10 } },
-                { id: "sat-bb-3h-finishing-4", category: "basketball", subCategory: "finishing", duration: "3h", phase: "Strength", name: "Composure", description: "Calm, controlled finishes", reps: { type: "makesPerHand", rightMakes: 12 } },
-                { id: "sat-bb-3h-finishing-5", category: "basketball", subCategory: "finishing", duration: "3h", phase: "Aesthetic", name: "Variety", description: "Multiple finishing styles", reps: { type: "makesPerHand", rightMakes: 14 } },
-                { id: "sat-bb-3h-finishing-6", category: "basketball", subCategory: "finishing", duration: "3h", phase: "Plyo", name: "Game Prep", description: "Pre-game finishing prep", reps: { type: "makesPerHand", rightMakes: 15 } }
+                { id: "sat-bb-3h-shooting-1", category: "basketball", subCategory: "shooting", duration: "3h", intensity: "medium", name: "Accuracy Focus", description: "High percentage looks", reps: { type: "makes", makes: 20 } },
+                { id: "sat-bb-3h-shooting-2", category: "basketball", subCategory: "shooting", duration: "3h", intensity: "low", name: "Game Simulation", description: "Simulated game conditions", reps: { type: "makes", makes: 15 } },
+                { id: "sat-bb-3h-shooting-3", category: "basketball", subCategory: "shooting", duration: "3h", intensity: "medium", name: "Under Pressure", description: "Closing shooters drills", reps: { type: "makes", makes: 13 } },
+                { id: "sat-bb-3h-shooting-4", category: "basketball", subCategory: "shooting", duration: "3h", intensity: "high", name: "Rapid Fire", description: "Quick succession shots", reps: { type: "makes", makes: 16 } },
+                { id: "sat-bb-3h-shooting-5", category: "basketball", subCategory: "shooting", duration: "3h", intensity: "low", name: "Clutch Situations", description: "Late game clutch shots", reps: { type: "makes", makes: 12 } },
+                { id: "sat-bb-3h-shooting-6", category: "basketball", subCategory: "shooting", duration: "3h", intensity: "medium", name: "High Volume", description: "High volume shooting day", reps: { type: "makes", makes: 25 } },
+                { id: "sat-bb-3h-bh-1", category: "basketball", subCategory: "ballHandling", duration: "3h", intensity: "medium", name: "Defensive Pressure", description: "Handle with defense", reps: { type: "setsPerHand", sets: 4, rightReps: 12 } },
+                { id: "sat-bb-3h-bh-2", category: "basketball", subCategory: "ballHandling", duration: "3h", intensity: "high", name: "Speed Handling", description: "Maximum velocity drills", reps: { type: "setsPerHand", sets: 5, rightReps: 10 } },
+                { id: "sat-bb-3h-bh-3", category: "basketball", subCategory: "ballHandling", duration: "3h", intensity: "medium", name: "Decision Making", description: "Read and react drills", reps: { type: "setsPerHand", sets: 4, rightReps: 14 } },
+                { id: "sat-bb-3h-bh-4", category: "basketball", subCategory: "ballHandling", duration: "3h", intensity: "low", name: "Flow State", description: "Continuous motion drills", reps: { type: "setsPerHand", sets: 6, rightReps: 12 } },
+                { id: "sat-bb-3h-bh-5", category: "basketball", subCategory: "ballHandling", duration: "3h", intensity: "high", name: "Game Pace", description: "Game tempo handling", reps: { type: "setsPerHand", sets: 5, rightReps: 16 } },
+                { id: "sat-bb-3h-bh-6", category: "basketball", subCategory: "ballHandling", duration: "3h", intensity: "low", name: "Confidence Building", description: "Comfortable zone drills", reps: { type: "setsPerHand", sets: 6, rightReps: 15 } },
+                { id: "sat-bb-3h-finishing-1", category: "basketball", subCategory: "finishing", duration: "3h", intensity: "medium", name: "Power Moves", description: "Dominant finishes", reps: { type: "makesPerHand", rightMakes: 11 } },
+                { id: "sat-bb-3h-finishing-2", category: "basketball", subCategory: "finishing", duration: "3h", intensity: "low", name: "Footwork", description: "Footwork fundamentals", reps: { type: "makesPerHand", rightMakes: 13 } },
+                { id: "sat-bb-3h-finishing-3", category: "basketball", subCategory: "finishing", duration: "3h", intensity: "high", name: "Explosiveness", description: "Quick explosive finishes", reps: { type: "makesPerHand", rightMakes: 10 } },
+                { id: "sat-bb-3h-finishing-4", category: "basketball", subCategory: "finishing", duration: "3h", intensity: "medium", name: "Composure", description: "Calm, controlled finishes", reps: { type: "makesPerHand", rightMakes: 12 } },
+                { id: "sat-bb-3h-finishing-5", category: "basketball", subCategory: "finishing", duration: "3h", intensity: "low", name: "Variety", description: "Multiple finishing styles", reps: { type: "makesPerHand", rightMakes: 14 } },
+                { id: "sat-bb-3h-finishing-6", category: "basketball", subCategory: "finishing", duration: "3h", intensity: "high", name: "Game Prep", description: "Pre-game finishing prep", reps: { type: "makesPerHand", rightMakes: 15 } }
               ]
             }
           ]
@@ -983,60 +983,60 @@ const WORKOUTS_DATA: WorkoutsData = {
             {
               duration: "30m",
               drills: [
-                { id: "sun-bb-30-shooting-1", category: "basketball", subCategory: "shooting", duration: "30m", phase: "Aesthetic", name: "Recovery Shooting", description: "Light, low intensity shooting", reps: { type: "makes", makes: 12 } },
-                { id: "sun-bb-30-bh-1", category: "basketball", subCategory: "ballHandling", duration: "30m", phase: "Aesthetic", name: "Light Handling", description: "Easy, relaxed ball work", reps: { type: "setsPerHand", sets: 2, rightReps: 15 } },
-                { id: "sun-bb-30-finishing-1", category: "basketball", subCategory: "finishing", duration: "30m", phase: "Aesthetic", name: "Footwork Drills", description: "Basic footwork fundamentals", reps: { type: "makesPerHand", rightMakes: 8 } }
+                { id: "sun-bb-30-shooting-1", category: "basketball", subCategory: "shooting", duration: "30m", intensity: "low", name: "Recovery Shooting", description: "Light, low intensity shooting", reps: { type: "makes", makes: 12 } },
+                { id: "sun-bb-30-bh-1", category: "basketball", subCategory: "ballHandling", duration: "30m", intensity: "low", name: "Light Handling", description: "Easy, relaxed ball work", reps: { type: "setsPerHand", sets: 2, rightReps: 15 } },
+                { id: "sun-bb-30-finishing-1", category: "basketball", subCategory: "finishing", duration: "30m", intensity: "low", name: "Footwork Drills", description: "Basic footwork fundamentals", reps: { type: "makesPerHand", rightMakes: 8 } }
               ]
             },
             {
               duration: "1h",
               drills: [
-                { id: "sun-bb-1h-shooting-1", category: "basketball", subCategory: "shooting", duration: "1h", phase: "Aesthetic", name: "Recovery Shooting", description: "Light, low intensity shooting", reps: { type: "makes", makes: 12 } },
-                { id: "sun-bb-1h-shooting-2", category: "basketball", subCategory: "shooting", duration: "1h", phase: "Strength", name: "Form Work", description: "Focus on shooting form", reps: { type: "makes", makes: 14 } },
-                { id: "sun-bb-1h-bh-1", category: "basketball", subCategory: "ballHandling", duration: "1h", phase: "Aesthetic", name: "Light Handling", description: "Easy, relaxed ball work", reps: { type: "setsPerHand", sets: 2, rightReps: 15 } },
-                { id: "sun-bb-1h-bh-2", category: "basketball", subCategory: "ballHandling", duration: "1h", phase: "Strength", name: "Fundamentals", description: "Basic ball handling skills", reps: { type: "setsPerHand", sets: 3, rightReps: 10 } },
-                { id: "sun-bb-1h-finishing-1", category: "basketball", subCategory: "finishing", duration: "1h", phase: "Aesthetic", name: "Footwork Drills", description: "Basic footwork fundamentals", reps: { type: "makesPerHand", rightMakes: 8 } },
-                { id: "sun-bb-1h-finishing-2", category: "basketball", subCategory: "finishing", duration: "1h", phase: "Strength", name: "Touch Work", description: "Soft touch around the basket", reps: { type: "makesPerHand", rightMakes: 10 } }
+                { id: "sun-bb-1h-shooting-1", category: "basketball", subCategory: "shooting", duration: "1h", intensity: "low", name: "Recovery Shooting", description: "Light, low intensity shooting", reps: { type: "makes", makes: 12 } },
+                { id: "sun-bb-1h-shooting-2", category: "basketball", subCategory: "shooting", duration: "1h", intensity: "medium", name: "Form Work", description: "Focus on shooting form", reps: { type: "makes", makes: 14 } },
+                { id: "sun-bb-1h-bh-1", category: "basketball", subCategory: "ballHandling", duration: "1h", intensity: "low", name: "Light Handling", description: "Easy, relaxed ball work", reps: { type: "setsPerHand", sets: 2, rightReps: 15 } },
+                { id: "sun-bb-1h-bh-2", category: "basketball", subCategory: "ballHandling", duration: "1h", intensity: "medium", name: "Fundamentals", description: "Basic ball handling skills", reps: { type: "setsPerHand", sets: 3, rightReps: 10 } },
+                { id: "sun-bb-1h-finishing-1", category: "basketball", subCategory: "finishing", duration: "1h", intensity: "low", name: "Footwork Drills", description: "Basic footwork fundamentals", reps: { type: "makesPerHand", rightMakes: 8 } },
+                { id: "sun-bb-1h-finishing-2", category: "basketball", subCategory: "finishing", duration: "1h", intensity: "medium", name: "Touch Work", description: "Soft touch around the basket", reps: { type: "makesPerHand", rightMakes: 10 } }
               ]
             },
             {
               duration: "2h",
               drills: [
-                { id: "sun-bb-2h-shooting-1", category: "basketball", subCategory: "shooting", duration: "2h", phase: "Aesthetic", name: "Recovery Shooting", description: "Light, low intensity shooting", reps: { type: "makes", makes: 12 } },
-                { id: "sun-bb-2h-shooting-2", category: "basketball", subCategory: "shooting", duration: "2h", phase: "Strength", name: "Form Work", description: "Focus on shooting form", reps: { type: "makes", makes: 14 } },
-                { id: "sun-bb-2h-shooting-3", category: "basketball", subCategory: "shooting", duration: "2h", phase: "Aesthetic", name: "Spot Shooting", description: "Comfortable range spots", reps: { type: "makes", makes: 13 } },
-                { id: "sun-bb-2h-shooting-4", category: "basketball", subCategory: "shooting", duration: "2h", phase: "Strength", name: "Confidence Building", description: "Get feeling back", reps: { type: "makes", makes: 15 } },
-                { id: "sun-bb-2h-bh-1", category: "basketball", subCategory: "ballHandling", duration: "2h", phase: "Aesthetic", name: "Light Handling", description: "Easy, relaxed ball work", reps: { type: "setsPerHand", sets: 2, rightReps: 15 } },
-                { id: "sun-bb-2h-bh-2", category: "basketball", subCategory: "ballHandling", duration: "2h", phase: "Strength", name: "Fundamentals", description: "Basic ball handling skills", reps: { type: "setsPerHand", sets: 3, rightReps: 10 } },
-                { id: "sun-bb-2h-bh-3", category: "basketball", subCategory: "ballHandling", duration: "2h", phase: "Aesthetic", name: "Muscle Memory", description: "Repetitive basic moves", reps: { type: "setsPerHand", sets: 3, rightReps: 12 } },
-                { id: "sun-bb-2h-bh-4", category: "basketball", subCategory: "ballHandling", duration: "2h", phase: "Strength", name: "Flow Drills", description: "Natural continuous movement", reps: { type: "setsPerHand", sets: 4, rightReps: 10 } },
-                { id: "sun-bb-2h-finishing-1", category: "basketball", subCategory: "finishing", duration: "2h", phase: "Aesthetic", name: "Footwork Drills", description: "Basic footwork fundamentals", reps: { type: "makesPerHand", rightMakes: 8 } },
-                { id: "sun-bb-2h-finishing-2", category: "basketball", subCategory: "finishing", duration: "2h", phase: "Strength", name: "Touch Work", description: "Soft touch around the basket", reps: { type: "makesPerHand", rightMakes: 10 } },
-                { id: "sun-bb-2h-finishing-3", category: "basketball", subCategory: "finishing", duration: "2h", phase: "Aesthetic", name: "Finishing Basics", description: "Simple finish attempts", reps: { type: "makesPerHand", rightMakes: 9 } },
-                { id: "sun-bb-2h-finishing-4", category: "basketball", subCategory: "finishing", duration: "2h", phase: "Strength", name: "Rim Feel", description: "Get comfortable at the basket", reps: { type: "makesPerHand", rightMakes: 11 } }
+                { id: "sun-bb-2h-shooting-1", category: "basketball", subCategory: "shooting", duration: "2h", intensity: "low", name: "Recovery Shooting", description: "Light, low intensity shooting", reps: { type: "makes", makes: 12 } },
+                { id: "sun-bb-2h-shooting-2", category: "basketball", subCategory: "shooting", duration: "2h", intensity: "medium", name: "Form Work", description: "Focus on shooting form", reps: { type: "makes", makes: 14 } },
+                { id: "sun-bb-2h-shooting-3", category: "basketball", subCategory: "shooting", duration: "2h", intensity: "low", name: "Spot Shooting", description: "Comfortable range spots", reps: { type: "makes", makes: 13 } },
+                { id: "sun-bb-2h-shooting-4", category: "basketball", subCategory: "shooting", duration: "2h", intensity: "medium", name: "Confidence Building", description: "Get feeling back", reps: { type: "makes", makes: 15 } },
+                { id: "sun-bb-2h-bh-1", category: "basketball", subCategory: "ballHandling", duration: "2h", intensity: "low", name: "Light Handling", description: "Easy, relaxed ball work", reps: { type: "setsPerHand", sets: 2, rightReps: 15 } },
+                { id: "sun-bb-2h-bh-2", category: "basketball", subCategory: "ballHandling", duration: "2h", intensity: "medium", name: "Fundamentals", description: "Basic ball handling skills", reps: { type: "setsPerHand", sets: 3, rightReps: 10 } },
+                { id: "sun-bb-2h-bh-3", category: "basketball", subCategory: "ballHandling", duration: "2h", intensity: "low", name: "Muscle Memory", description: "Repetitive basic moves", reps: { type: "setsPerHand", sets: 3, rightReps: 12 } },
+                { id: "sun-bb-2h-bh-4", category: "basketball", subCategory: "ballHandling", duration: "2h", intensity: "medium", name: "Flow Drills", description: "Natural continuous movement", reps: { type: "setsPerHand", sets: 4, rightReps: 10 } },
+                { id: "sun-bb-2h-finishing-1", category: "basketball", subCategory: "finishing", duration: "2h", intensity: "low", name: "Footwork Drills", description: "Basic footwork fundamentals", reps: { type: "makesPerHand", rightMakes: 8 } },
+                { id: "sun-bb-2h-finishing-2", category: "basketball", subCategory: "finishing", duration: "2h", intensity: "medium", name: "Touch Work", description: "Soft touch around the basket", reps: { type: "makesPerHand", rightMakes: 10 } },
+                { id: "sun-bb-2h-finishing-3", category: "basketball", subCategory: "finishing", duration: "2h", intensity: "low", name: "Finishing Basics", description: "Simple finish attempts", reps: { type: "makesPerHand", rightMakes: 9 } },
+                { id: "sun-bb-2h-finishing-4", category: "basketball", subCategory: "finishing", duration: "2h", intensity: "medium", name: "Rim Feel", description: "Get comfortable at the basket", reps: { type: "makesPerHand", rightMakes: 11 } }
               ]
             },
             {
               duration: "3h",
               drills: [
-                { id: "sun-bb-3h-shooting-1", category: "basketball", subCategory: "shooting", duration: "3h", phase: "Aesthetic", name: "Recovery Shooting", description: "Light, low intensity shooting", reps: { type: "makes", makes: 12 } },
-                { id: "sun-bb-3h-shooting-2", category: "basketball", subCategory: "shooting", duration: "3h", phase: "Strength", name: "Form Work", description: "Focus on shooting form", reps: { type: "makes", makes: 14 } },
-                { id: "sun-bb-3h-shooting-3", category: "basketball", subCategory: "shooting", duration: "3h", phase: "Aesthetic", name: "Spot Shooting", description: "Comfortable range spots", reps: { type: "makes", makes: 13 } },
-                { id: "sun-bb-3h-shooting-4", category: "basketball", subCategory: "shooting", duration: "3h", phase: "Strength", name: "Confidence Building", description: "Get feeling back", reps: { type: "makes", makes: 15 } },
-                { id: "sun-bb-3h-shooting-5", category: "basketball", subCategory: "shooting", duration: "3h", phase: "Aesthetic", name: "Groove Shooting", description: "Get into a rhythm", reps: { type: "makes", makes: 17 } },
-                { id: "sun-bb-3h-shooting-6", category: "basketball", subCategory: "shooting", duration: "3h", phase: "Strength", name: "Mental Reset", description: "Relax and reset mentally", reps: { type: "makes", makes: 16 } },
-                { id: "sun-bb-3h-bh-1", category: "basketball", subCategory: "ballHandling", duration: "3h", phase: "Aesthetic", name: "Light Handling", description: "Easy, relaxed ball work", reps: { type: "setsPerHand", sets: 2, rightReps: 15 } },
-                { id: "sun-bb-3h-bh-2", category: "basketball", subCategory: "ballHandling", duration: "3h", phase: "Strength", name: "Fundamentals", description: "Basic ball handling skills", reps: { type: "setsPerHand", sets: 3, rightReps: 10 } },
-                { id: "sun-bb-3h-bh-3", category: "basketball", subCategory: "ballHandling", duration: "3h", phase: "Aesthetic", name: "Muscle Memory", description: "Repetitive basic moves", reps: { type: "setsPerHand", sets: 3, rightReps: 12 } },
-                { id: "sun-bb-3h-bh-4", category: "basketball", subCategory: "ballHandling", duration: "3h", phase: "Strength", name: "Flow Drills", description: "Natural continuous movement", reps: { type: "setsPerHand", sets: 4, rightReps: 10 } },
-                { id: "sun-bb-3h-bh-5", category: "basketball", subCategory: "ballHandling", duration: "3h", phase: "Aesthetic", name: "Comfortable Pace", description: "Relaxed, easy pace", reps: { type: "setsPerHand", sets: 4, rightReps: 14 } },
-                { id: "sun-bb-3h-bh-6", category: "basketball", subCategory: "ballHandling", duration: "3h", phase: "Strength", name: "Connection", description: "Feel connection with ball", reps: { type: "setsPerHand", sets: 5, rightReps: 12 } },
-                { id: "sun-bb-3h-finishing-1", category: "basketball", subCategory: "finishing", duration: "3h", phase: "Aesthetic", name: "Footwork Drills", description: "Basic footwork fundamentals", reps: { type: "makesPerHand", rightMakes: 8 } },
-                { id: "sun-bb-3h-finishing-2", category: "basketball", subCategory: "finishing", duration: "3h", phase: "Strength", name: "Touch Work", description: "Soft touch around the basket", reps: { type: "makesPerHand", rightMakes: 10 } },
-                { id: "sun-bb-3h-finishing-3", category: "basketball", subCategory: "finishing", duration: "3h", phase: "Aesthetic", name: "Finishing Basics", description: "Simple finish attempts", reps: { type: "makesPerHand", rightMakes: 9 } },
-                { id: "sun-bb-3h-finishing-4", category: "basketball", subCategory: "finishing", duration: "3h", phase: "Strength", name: "Rim Feel", description: "Get comfortable at the basket", reps: { type: "makesPerHand", rightMakes: 11 } },
-                { id: "sun-bb-3h-finishing-5", category: "basketball", subCategory: "finishing", duration: "3h", phase: "Aesthetic", name: "Rhythm Finishes", description: "Get rhythm at the basket", reps: { type: "makesPerHand", rightMakes: 12 } },
-                { id: "sun-bb-3h-finishing-6", category: "basketball", subCategory: "finishing", duration: "3h", phase: "Strength", name: "Recovery Week", description: "Low stress finishing work", reps: { type: "makesPerHand", rightMakes: 10 } }
+                { id: "sun-bb-3h-shooting-1", category: "basketball", subCategory: "shooting", duration: "3h", intensity: "low", name: "Recovery Shooting", description: "Light, low intensity shooting", reps: { type: "makes", makes: 12 } },
+                { id: "sun-bb-3h-shooting-2", category: "basketball", subCategory: "shooting", duration: "3h", intensity: "medium", name: "Form Work", description: "Focus on shooting form", reps: { type: "makes", makes: 14 } },
+                { id: "sun-bb-3h-shooting-3", category: "basketball", subCategory: "shooting", duration: "3h", intensity: "low", name: "Spot Shooting", description: "Comfortable range spots", reps: { type: "makes", makes: 13 } },
+                { id: "sun-bb-3h-shooting-4", category: "basketball", subCategory: "shooting", duration: "3h", intensity: "medium", name: "Confidence Building", description: "Get feeling back", reps: { type: "makes", makes: 15 } },
+                { id: "sun-bb-3h-shooting-5", category: "basketball", subCategory: "shooting", duration: "3h", intensity: "low", name: "Groove Shooting", description: "Get into a rhythm", reps: { type: "makes", makes: 17 } },
+                { id: "sun-bb-3h-shooting-6", category: "basketball", subCategory: "shooting", duration: "3h", intensity: "medium", name: "Mental Reset", description: "Relax and reset mentally", reps: { type: "makes", makes: 16 } },
+                { id: "sun-bb-3h-bh-1", category: "basketball", subCategory: "ballHandling", duration: "3h", intensity: "low", name: "Light Handling", description: "Easy, relaxed ball work", reps: { type: "setsPerHand", sets: 2, rightReps: 15 } },
+                { id: "sun-bb-3h-bh-2", category: "basketball", subCategory: "ballHandling", duration: "3h", intensity: "medium", name: "Fundamentals", description: "Basic ball handling skills", reps: { type: "setsPerHand", sets: 3, rightReps: 10 } },
+                { id: "sun-bb-3h-bh-3", category: "basketball", subCategory: "ballHandling", duration: "3h", intensity: "low", name: "Muscle Memory", description: "Repetitive basic moves", reps: { type: "setsPerHand", sets: 3, rightReps: 12 } },
+                { id: "sun-bb-3h-bh-4", category: "basketball", subCategory: "ballHandling", duration: "3h", intensity: "medium", name: "Flow Drills", description: "Natural continuous movement", reps: { type: "setsPerHand", sets: 4, rightReps: 10 } },
+                { id: "sun-bb-3h-bh-5", category: "basketball", subCategory: "ballHandling", duration: "3h", intensity: "low", name: "Comfortable Pace", description: "Relaxed, easy pace", reps: { type: "setsPerHand", sets: 4, rightReps: 14 } },
+                { id: "sun-bb-3h-bh-6", category: "basketball", subCategory: "ballHandling", duration: "3h", intensity: "medium", name: "Connection", description: "Feel connection with ball", reps: { type: "setsPerHand", sets: 5, rightReps: 12 } },
+                { id: "sun-bb-3h-finishing-1", category: "basketball", subCategory: "finishing", duration: "3h", intensity: "low", name: "Footwork Drills", description: "Basic footwork fundamentals", reps: { type: "makesPerHand", rightMakes: 8 } },
+                { id: "sun-bb-3h-finishing-2", category: "basketball", subCategory: "finishing", duration: "3h", intensity: "medium", name: "Touch Work", description: "Soft touch around the basket", reps: { type: "makesPerHand", rightMakes: 10 } },
+                { id: "sun-bb-3h-finishing-3", category: "basketball", subCategory: "finishing", duration: "3h", intensity: "low", name: "Finishing Basics", description: "Simple finish attempts", reps: { type: "makesPerHand", rightMakes: 9 } },
+                { id: "sun-bb-3h-finishing-4", category: "basketball", subCategory: "finishing", duration: "3h", intensity: "medium", name: "Rim Feel", description: "Get comfortable at the basket", reps: { type: "makesPerHand", rightMakes: 11 } },
+                { id: "sun-bb-3h-finishing-5", category: "basketball", subCategory: "finishing", duration: "3h", intensity: "low", name: "Rhythm Finishes", description: "Get rhythm at the basket", reps: { type: "makesPerHand", rightMakes: 12 } },
+                { id: "sun-bb-3h-finishing-6", category: "basketball", subCategory: "finishing", duration: "3h", intensity: "medium", name: "Recovery Week", description: "Low stress finishing work", reps: { type: "makesPerHand", rightMakes: 10 } }
               ]
             }
           ]

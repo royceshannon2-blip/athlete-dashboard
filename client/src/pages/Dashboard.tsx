@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { useWorkouts } from "@/hooks/use-workouts";
 import { useWeightLog, parseSetsReps } from "@/hooks/use-weight-log";
 import { useRestTimer } from "@/hooks/use-rest-timer";
+import { useCompletedSets } from "@/hooks/use-completed-sets";
 import { Sidebar } from "@/components/layout/Sidebar";
 import { WorkoutTable } from "@/components/workout/WorkoutTable";
 import { ScheduleBrowserButton } from "@/components/ScheduleBrowserButton";
@@ -28,9 +29,9 @@ export default function Dashboard() {
   const [scheduleBrowserOpen, setScheduleBrowserOpen] = useState(false);
   const [progressionOpen, setProgressionOpen] = useState(false);
   const [promptState, setPromptState] = useState<PromptState | null>(null);
-  const [completedSets, setCompletedSets] = useState<Record<string, Set<number>>>({});
   const [timerSettingsOpen, setTimerSettingsOpen] = useState(false);
 
+  const { completedSets, setCompletedSets, isLoaded } = useCompletedSets();
   const weightLog = useWeightLog();
   const restTimer = useRestTimer(
     weightLog.prefs.defaultDurationSecs,
@@ -38,10 +39,6 @@ export default function Dashboard() {
   );
 
   const { data: workoutsData, isLoading, error } = useWorkouts();
-
-  useEffect(() => {
-    setCompletedSets({});
-  }, [selectedDay, selectedCategory, selectedDuration]);
 
   if (isLoading) {
     return (
@@ -90,14 +87,12 @@ export default function Dashboard() {
   };
 
   const markSetComplete = (exerciseId: string, setNumber: number) => {
-    setCompletedSets((prev) => {
-      const next = { ...prev };
-      const existing = prev[exerciseId] ?? new Set();
-      const updated = new Set(existing);
-      updated.add(setNumber);
-      next[exerciseId] = updated;
-      return next;
-    });
+    const next = { ...completedSets };
+    const existing = next[exerciseId] ?? new Set();
+    const updated = new Set(existing);
+    updated.add(setNumber);
+    next[exerciseId] = updated;
+    setCompletedSets(next);
   };
 
   const daysList = workoutsData.workouts.map(w => ({ day: w.day, focus: w.focus || "" }));
