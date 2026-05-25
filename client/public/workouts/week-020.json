@@ -16,7 +16,7 @@
                   "subCategory": "shooting",
                   "duration": "30m",
                   "name": "Reverse Lunge Overhead to Shot",
-                  "description": "Game-Speed: Reverse lunge to shot at game pace, fluid energy transfer",
+                  "description": "Game-Speed: Perform a reverse lunge with your hands overhead, then quickly pop both feet to the ground into a smooth shot. Transfer the energy from the lunge directly into shooting elevation. Dynamic warm-up.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
@@ -29,7 +29,7 @@
                   "subCategory": "shooting",
                   "duration": "30m",
                   "name": "Ball Pickup Shots",
-                  "description": "Pressured: Fast pickup with defender closing, shoot before defender arrives",
+                  "description": "Pressured: The ball starts on the ground. Reach down, change your level to pick it up, and immediately find your rhythm into a shot. Focus on smooth energy transfer from the ground pickup into shooting.",
                   "intensity": "high",
                   "reps": {
                     "type": "makes",
@@ -42,7 +42,7 @@
                   "subCategory": "shooting",
                   "duration": "30m",
                   "name": "Psychological Momentum (Quick Form)",
-                  "description": "Game-Speed: Quick form shooting, goal 10 makes in a row at game tempo",
+                  "description": "Game-Speed: Fast-paced form shooting with a goal (like 10 makes in a row) to build mental confidence and flow state.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
@@ -55,7 +55,7 @@
                   "subCategory": "ballHandling",
                   "duration": "30m",
                   "name": "Double Behind to Inverted Snatch",
-                  "description": "Form: Two behind-the-back dribbles then inverted snatch at controlled tempo",
+                  "description": "Form: Execute two behind-the-back dribbles, then step across your body into an inverted snatch move. Keep your coordination smooth and connected through all three moves. This trains the ability to chain moves fluidly without losing rhythm.",
                   "intensity": "low",
                   "reps": {
                     "type": "setsPerHand",
@@ -74,7 +74,7 @@
                   "subCategory": "finishing",
                   "duration": "1h",
                   "name": "Modified Inside-Hand Mikan",
-                  "description": "Game-Speed: Inside-hand Mikan at game pace, soft touch and backboard spin",
+                  "description": "Game-Speed: Perform a Mikan-style drill using specifically your inside hand to develop soft touch and high spin on the backboard. Work both sides of the rim with the inside hand. Foundational warm-up for advanced finishing.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
@@ -87,7 +87,7 @@
                   "subCategory": "finishing",
                   "duration": "1h",
                   "name": "Pull the Chair Recovery",
-                  "description": "Pressured: Full-speed aggressive lean, explosive recovery from chair-pull and finish",
+                  "description": "Pressured: Lean heavily into a defender to create contact. The defender pulls away, and you recover balance to finish.",
                   "intensity": "high",
                   "reps": {
                     "type": "makes",
@@ -100,7 +100,7 @@
                   "subCategory": "shooting",
                   "duration": "1h",
                   "name": "Catch and Shoot (On the Move)",
-                  "description": "Game-Speed: Catch and shoot on the move at full game speed",
+                  "description": "Game-Speed: Hit shots while navigating the court at game speed, simulating relocation or transition actions.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
@@ -113,7 +113,7 @@
                   "subCategory": "shooting",
                   "duration": "1h",
                   "name": "Low-to-Ground Differential Pickup",
-                  "description": "Technique: Deliberate awkward low pickups in motion, find rhythm into shot",
+                  "description": "Technique: Force yourself to pick the ball up from extremely low or awkward positions. Challenge your shooting problem-solving.",
                   "intensity": "low",
                   "reps": {
                     "type": "makes",
@@ -126,7 +126,7 @@
                   "subCategory": "shooting",
                   "duration": "1h",
                   "name": "Offhand Floater Development Circuit",
-                  "description": "Game-Speed: Off-hand floater circuit at game tempo, one-foot and two-foot variety",
+                  "description": "Game-Speed: A high-volume circuit with 20 makes using only the off-hand, alternating one-foot and two-foot floaters.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
@@ -144,7 +144,7 @@
                   "subCategory": "ballHandling",
                   "duration": "2h",
                   "name": "Low Joint Position Mobility Warm-up",
-                  "description": "Form: Move through deep low joint positions in all directions, slow and controlled",
+                  "description": "Form: Before dribbling, move through low joint positions in different directions. Target mobility for explosive first steps.",
                   "intensity": "low",
                   "reps": {
                     "type": "setsPerHand",
@@ -158,7 +158,7 @@
                   "subCategory": "ballHandling",
                   "duration": "2h",
                   "name": "Moving Pound Crossovers",
-                  "description": "Game-Speed: Full-speed sideline crossovers, hips turning explosively each rep",
+                  "description": "Game-Speed: Move sideline-to-sideline while performing crossovers where your hips must turn in the direction of the ball to increase explosiveness out of the move. Keep each rep sharp and controlled. Train lower-body coordination with upper-body ball-handling.",
                   "intensity": "medium",
                   "reps": {
                     "type": "setsPerHand",
@@ -172,7 +172,7 @@
                   "subCategory": "finishing",
                   "duration": "2h",
                   "name": "The Four-Way Reverse Sequence",
-                  "description": "Game-Speed: Four-way reverse sequence at game pace, varied hand-rim combinations",
+                  "description": "Game-Speed: Complete four specific types of reverse layups: drive right/finish left, drive right/finish right, drive left/finish right, drive left/finish left.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
@@ -185,7 +185,7 @@
                   "subCategory": "finishing",
                   "duration": "2h",
                   "name": "Gyro Counter Finish",
-                  "description": "Game-Speed: Gyro counter at game pace, decisive and smooth gyro execution",
+                  "description": "Game-Speed: Show the ball to the defender and then counter with a gyro step to the opposite side to finish.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
@@ -198,7 +198,7 @@
                   "subCategory": "finishing",
                   "duration": "2h",
                   "name": "Same Foot Same Hand (Off-Foot)",
-                  "description": "Game-Speed: Same-foot/same-hand finish at game pace, difficult for defender to time",
+                  "description": "Game-Speed: Perform a creative move and finish with a same-foot, same-hand layup. Intentionally difficult for defenders to time.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makesPerHand",
@@ -211,7 +211,7 @@
                   "subCategory": "finishing",
                   "duration": "2h",
                   "name": "Standard Layup Series (Overhand, Underhand, Side-Hand)",
-                  "description": "Form: Slow consecutive overhand, underhand, and side-hand layups, master positioning",
+                  "description": "Form: A fundamental series where you make consecutive makes of overhand, underhand, and side-hand layups.",
                   "intensity": "low",
                   "reps": {
                     "type": "makes",
@@ -224,7 +224,7 @@
                   "subCategory": "shooting",
                   "duration": "2h",
                   "name": "Wichita Help-Side Counter Pull-up",
-                  "description": "Pressured: Live help defender rotating, explosive counter into pull-up jumper",
+                  "description": "Pressured: Visualize a help-side defender rotating over. Execute a counter-move to transition into a pull-up jumper.",
                   "intensity": "high",
                   "reps": {
                     "type": "makes",
@@ -242,7 +242,7 @@
                   "subCategory": "shooting",
                   "duration": "3h",
                   "name": "Visualization Short Jumpers",
-                  "description": "Technique: Slow freestyle with visualization, deliberate pull-up from each position",
+                  "description": "Technique: Move through freestyle dribbles, visualizing bumps, fades, and defenders before pulling up for a short jumper.",
                   "intensity": "low",
                   "reps": {
                     "type": "makes",
@@ -255,7 +255,7 @@
                   "subCategory": "finishing",
                   "duration": "3h",
                   "name": "Behind-the-Back Air Dexterity",
-                  "description": "Game-Speed: Air dexterity at game pace, explosive hand-eye coordination finish",
+                  "description": "Game-Speed: While moving at speed, perform behind-the-back dribbles where the ball travels through the air between dribbles, not bouncing to the ground. Keep your hands relaxed and your body leaning forward. Build advanced ball security and rhythm.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
@@ -268,7 +268,7 @@
                   "subCategory": "finishing",
                   "duration": "3h",
                   "name": "Escape Floater",
-                  "description": "Game-Speed: Escape floater at game pace, max two dribbles under chase",
+                  "description": "Game-Speed: Starting on a defender's hip, push out to escape and perform a fading floater within two dribbles while being chased.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makesPerHand",
@@ -281,7 +281,7 @@
                   "subCategory": "shooting",
                   "duration": "3h",
                   "name": "One Move Capstone Shooting",
-                  "description": "Game-Speed: Capstone move into shooting option at game tempo",
+                  "description": "Game-Speed: At the end of your shooting workout, perform one high-intensity move into your best available shot. Test which moves execute effectively when fatigued and which finish your arsenal.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
@@ -294,7 +294,7 @@
                   "subCategory": "shooting",
                   "duration": "3h",
                   "name": "Lunge Stop Anchor Stop Pull-up",
-                  "description": "Game-Speed: Lunge-anchor stop pull-up at game pace, snap from drive to shot",
+                  "description": "Game-Speed: Enter a short lunge during a drive and use an anchor stop (using one foot to kill momentum) to pop into a jumper.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
@@ -307,7 +307,7 @@
                   "subCategory": "shooting",
                   "duration": "3h",
                   "name": "2v1 / 1v2 Shooting",
-                  "description": "Game-Speed: 1v2 at game speed, quick read and shoot before help arrives",
+                  "description": "Game-Speed: Read multiple defenders to find space for a short jumper. The 1v2 version is particularly difficult. Adapt to multiple closes.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
@@ -320,7 +320,7 @@
                   "subCategory": "ballHandling",
                   "duration": "3h",
                   "name": "Wichita Outside Hip Sweep",
-                  "description": "Pressured: Full-speed outside hip sweep with active defender reaching",
+                  "description": "Pressured: Practice ripping the ball while keeping it strictly on your outside hip. Jerk to the air, not across your body.",
                   "intensity": "high",
                   "reps": {
                     "type": "setsPerHand",
@@ -334,7 +334,7 @@
                   "subCategory": "shooting",
                   "duration": "3h",
                   "name": "Single Leg RDL Reach to Shot",
-                  "description": "Form: Single-leg RDL reach-out, controlled energy transfer into shot",
+                  "description": "Form: Perform a single-leg RDL with a reach-out, then transfer energy into a shot. Switch spots every rep. Build dynamic shooting.",
                   "intensity": "low",
                   "reps": {
                     "type": "makes",
@@ -347,7 +347,7 @@
                   "subCategory": "ballHandling",
                   "duration": "3h",
                   "name": "Stationary Crossovers (Wide Base)",
-                  "description": "Pressured: Explosive crossovers with defender mirroring, maximize width and speed",
+                  "description": "Pressured: Stand in a low, wide stance with hips down, crossing the ball back and forth wider than your knees. The body weight must shift in the direction of the ball with every cross. Build fingertip control and rhythm at game-speed transitions.",
                   "intensity": "high",
                   "reps": {
                     "type": "setsPerHand",
@@ -361,7 +361,7 @@
                   "subCategory": "shooting",
                   "duration": "3h",
                   "name": "Corner Out of Bounds",
-                  "description": "Game-Speed: Corner out-of-bounds at game pace, simulate end-of-game pressure",
+                  "description": "Game-Speed: Shoot five shots from deep in the corner out of bounds. This challenges arc and precision in a low-intensity environment.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
@@ -389,7 +389,7 @@
                   "subCategory": "shooting",
                   "duration": "30m",
                   "name": "Ball Screen Hedge & Relocation",
-                  "description": "Pressured: Live hard hedge with aggressive defense, fast ball-out and shooting relocation",
+                  "description": "Pressured: Practice playing off a hard hedge from a defender. Work on getting the ball out of the screen to a short-roller (or simulated position), then immediately relocate for a return pass and shot. Trains point guard decision-making.",
                   "intensity": "high",
                   "reps": {
                     "type": "makes",
@@ -402,7 +402,7 @@
                   "subCategory": "finishing",
                   "duration": "30m",
                   "name": "Kyrie 18-Shot Finishing Series",
-                  "description": "Game-Speed: 18-shot series at game pace, all timings, switch sides",
+                  "description": "Game-Speed: A structured finishing workout consisting of six specific shots performed with three different timings (18 shots total).",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
@@ -415,7 +415,7 @@
                   "subCategory": "shooting",
                   "duration": "30m",
                   "name": "Mid-Court Toss-and-Meet",
-                  "description": "Technique: Gentle toss across court, jog to meet, find balance and shoot",
+                  "description": "Technique: Toss the ball across the court, meet it at full speed, find your balance, and shoot immediately. Train game-speed mechanics.",
                   "intensity": "low",
                   "reps": {
                     "type": "makes",
@@ -428,7 +428,7 @@
                   "subCategory": "finishing",
                   "duration": "30m",
                   "name": "Slam and Tuck Protection",
-                  "description": "Game-Speed: Slam and tuck at game speed, shoulder shields ball on contact",
+                  "description": "Game-Speed: Go up strong at the rim and use a rib tuck to protect the ball through contact. This variation emphasizes absorbing a defender's hand or body on the finish.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
@@ -446,7 +446,7 @@
                   "subCategory": "finishing",
                   "duration": "1h",
                   "name": "Kyrie Cuffing Series",
-                  "description": "Game-Speed: Cuffing series at game pace, total control during acrobatics",
+                  "description": "Game-Speed: Before entering a finishing move, cuff the ball against your forearm/wrist for total control. Then bring it back to start your move.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
@@ -459,7 +459,7 @@
                   "subCategory": "ballHandling",
                   "duration": "1h",
                   "name": "Wimby Pole Read",
-                  "description": "Pressured: Full-speed drive with live Wimby-style help, adapt finish under pressure",
+                  "description": "Pressured: Drive by an imaginary defender using a pole or net post as reference. Read whether help is coming and adjust your finish or shot accordingly. Train spatial awareness and help-side reads.",
                   "intensity": "high",
                   "reps": {
                     "type": "setsPerHand",
@@ -473,7 +473,7 @@
                   "subCategory": "shooting",
                   "duration": "1h",
                   "name": "Arm-Free Pickup Shoot",
-                  "description": "Game-Speed: Game-speed drive, defender on arm, fluid pickup into shot",
+                  "description": "Game-Speed: Drive at game speed with a defender playing tight on your arm. Work to get your arm free specifically during the pickup phase. Get into a fluid shot without allowing the defender to disrupt your rhythm.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
@@ -486,7 +486,7 @@
                   "subCategory": "shooting",
                   "duration": "1h",
                   "name": "Bump and Score (Step-back)",
-                  "description": "Technique: Controlled bump into defender, slow step-back for jumper",
+                  "description": "Technique: Drive into a defender to initiate contact, then use that bump to create space for a step-back jumper.",
                   "intensity": "low",
                   "reps": {
                     "type": "makes",
@@ -499,7 +499,7 @@
                   "subCategory": "ballHandling",
                   "duration": "1h",
                   "name": "Spin Downhill (Creative Options)",
-                  "description": "Game-Speed: Live spin-off with creative secondary moves at game pace",
+                  "description": "Game-Speed: A defender forces a spin move. Use creative ball-handling options off that spin.",
                   "intensity": "medium",
                   "reps": {
                     "type": "setsPerHand",
@@ -518,7 +518,7 @@
                   "subCategory": "ballHandling",
                   "duration": "2h",
                   "name": "Hezi-Jumpback Explode",
-                  "description": "Pressured: Full-speed jumpback with live defender, maximum commitment on explode",
+                  "description": "Pressured: From an even stance hesitation where the ball floats, jump backward to sell a forward lean before suddenly exploding past the defender. Use deception with your body language to freeze the defender's feet.",
                   "intensity": "high",
                   "reps": {
                     "type": "setsPerHand",
@@ -532,7 +532,7 @@
                   "subCategory": "shooting",
                   "duration": "2h",
                   "name": "Corner to Wing Shooting",
-                  "description": "Game-Speed: Corner to wing at game tempo, build mental consistency",
+                  "description": "Game-Speed: Alternate between corner and wing three-pointers, aiming for a goal (e.g., 7 for 10). Build mental consistency.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
@@ -545,7 +545,7 @@
                   "subCategory": "ballHandling",
                   "duration": "2h",
                   "name": "Off-Balance Visualization",
-                  "description": "Game-Speed: Off-balance positions at game intensity, recover dribble quickly",
+                  "description": "Game-Speed: Purposefully put yourself in awkward, off-balance positions (simulating a slip or bump) and work to keep your dribble alive and recover. Stay calm and composed while regaining control.",
                   "intensity": "medium",
                   "reps": {
                     "type": "setsPerHand",
@@ -559,7 +559,7 @@
                   "subCategory": "shooting",
                   "duration": "2h",
                   "name": "The Curry Drill",
-                  "description": "Game-Speed: Curry drill at game pace, use screeners to create three-point space",
+                  "description": "Game-Speed: Start at the three-point line and use quick, subtle footwork (step-backs, side steps, in-and-outs) to create space before rising into a jumper. The moves should feel seamless.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
@@ -572,7 +572,7 @@
                   "subCategory": "shooting",
                   "duration": "2h",
                   "name": "Cold Start Threes",
-                  "description": "Form: Three-pointers from cold, focus on release point and follow-through only",
+                  "description": "Form: Jump straight into shooting three-pointers without any form of warm-up. Train consistency coming off the bench.",
                   "intensity": "low",
                   "reps": {
                     "type": "makes",
@@ -585,7 +585,7 @@
                   "subCategory": "finishing",
                   "duration": "2h",
                   "name": "Overhead Gather Bait",
-                  "description": "Game-Speed: High-speed pound to overhead gather bait at game pace",
+                  "description": "Game-Speed: Perform a high-speed pound into an overhead gather, showing the ball to bait a mistimed jump before finishing.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
@@ -598,7 +598,7 @@
                   "subCategory": "shooting",
                   "duration": "2h",
                   "name": "Peripheral Vision/Quiet Eye Turn",
-                  "description": "Pressured: Late turn with aggressive defender, fast quiet eye lock and shoot",
+                  "description": "Pressured: Start facing away from the rim. Turn late—sometimes with a defender's hands in your view—and lock eyes to shoot.",
                   "intensity": "high",
                   "reps": {
                     "type": "makes",
@@ -616,7 +616,7 @@
                   "subCategory": "finishing",
                   "duration": "3h",
                   "name": "Layups from Anywhere",
-                  "description": "Game-Speed: Freestyle layups at game pace, immediate secondary finish on catch",
+                  "description": "Game-Speed: A freestyle drill where you shoot whichever layup comes to mind, then immediately catch and perform secondary finishes.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
@@ -629,7 +629,7 @@
                   "subCategory": "shooting",
                   "duration": "3h",
                   "name": "Double Pump Shots",
-                  "description": "Game-Speed: Double pump at game speed, smooth rhythm recovery into shot",
+                  "description": "Game-Speed: Perform a super-exaggerated pump fake that removes all natural momentum. Then refine your rhythm and immediately fire the shot. Works with or without the dribble.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
@@ -642,7 +642,7 @@
                   "subCategory": "shooting",
                   "duration": "3h",
                   "name": "Tense to Relaxed Shooting",
-                  "description": "Technique: Light pushing/pulling from partner, controlled shift to relaxed shot",
+                  "description": "Technique: A defender pushes and pulls you to throw you off balance. On a go command, shift from tense to relaxed for the shot.",
                   "intensity": "low",
                   "reps": {
                     "type": "makes",
@@ -655,7 +655,7 @@
                   "subCategory": "shooting",
                   "duration": "3h",
                   "name": "Corner to Corner Shooting",
-                  "description": "Pressured: Full-speed corner to corner, different footwork, defender closing",
+                  "description": "Pressured: Alternate corner shots, but the footwork (turn, pivot, or hop) must be different every time. Prevent setup reliance.",
                   "intensity": "high",
                   "reps": {
                     "type": "makes",
@@ -668,7 +668,7 @@
                   "subCategory": "finishing",
                   "duration": "3h",
                   "name": "Two-Foot Finish off Sell-Out Reach",
-                  "description": "Game-Speed: React to sell-out reach at game speed, step up and two-foot finish",
+                  "description": "Game-Speed: When a defender sells out with an aggressive reach, step up and get to a balanced two-foot finish.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
@@ -681,7 +681,7 @@
                   "subCategory": "finishing",
                   "duration": "3h",
                   "name": "Wide Hook Soft Touch",
-                  "description": "Game-Speed: Wide hooks at game speed, both hands, varied angles",
+                  "description": "Game-Speed: Work on finishing with wide hook shots using both hands. Develop an extended range of touch near the rim.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
@@ -694,7 +694,7 @@
                   "subCategory": "shooting",
                   "duration": "3h",
                   "name": "Wichita Wing Series (Step-Over Rip)",
-                  "description": "Game-Speed: Step-over cut at game speed, hard rip into one-dribble pull-up",
+                  "description": "Game-Speed: Perform a step-over cut to get open on the wing, catch, and execute a hard rip into a one-dribble pull-up. Train wing shooting.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
@@ -707,7 +707,7 @@
                   "subCategory": "shooting",
                   "duration": "3h",
                   "name": "Mid-Range Volume Pull-ups (25 Each Way)",
-                  "description": "Form: 25 pull-ups each direction at deliberate pace, perfect legal first step",
+                  "description": "Form: Hit 25 pull-up jumpers in each direction. Emphasize legal footwork during the first step.",
                   "intensity": "low",
                   "reps": {
                     "type": "makes",
@@ -720,7 +720,7 @@
                   "subCategory": "finishing",
                   "duration": "3h",
                   "name": "Off-Hand Key Extension",
-                  "description": "Pressured: Off-hand extension with defender contesting, no backboard allowed",
+                  "description": "Pressured: Attack the middle of the floor and extend a score using only your off-hand. Whether floater, layup, or mid-range jumper—the off-hand must be your only option. Build symmetry.",
                   "intensity": "high",
                   "reps": {
                     "type": "makesPerHand",
@@ -733,7 +733,7 @@
                   "subCategory": "ballHandling",
                   "duration": "3h",
                   "name": "Over-the-Net Reach",
-                  "description": "Pressured: Full-speed drive, maximum reach extension, finish through live defender",
+                  "description": "Pressured: Drive and attempt to make the ball touch the net before pulling it back for a protected finish.",
                   "intensity": "high",
                   "reps": {
                     "type": "setsPerHand",
@@ -762,7 +762,7 @@
                   "subCategory": "shooting",
                   "duration": "30m",
                   "name": "High-Speed Skip Pull-ups",
-                  "description": "Game-Speed: Two fast skips into high-speed three-point pull-up",
+                  "description": "Game-Speed: Perform two skips as fast as possible into a high-speed three-point pull-up. Train transition shooting.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
@@ -775,7 +775,7 @@
                   "subCategory": "shooting",
                   "duration": "30m",
                   "name": "Anchored Pivot Pickup Shoot",
-                  "description": "Pressured: Full-speed anchored pivots with defender on ball, clean pickup and shoot",
+                  "description": "Pressured: Stay anchored on one foot, performing various pounds and freestyle moves before transitioning into a shot. Train shot transitions.",
                   "intensity": "high",
                   "reps": {
                     "type": "makes",
@@ -788,7 +788,7 @@
                   "subCategory": "shooting",
                   "duration": "30m",
                   "name": "Knee-Push Transition Shot",
-                  "description": "Technique: From one knee, slow push into transition pull-up, focus on footwork",
+                  "description": "Technique: Starting from one knee, push out as low and fast as you can into a transition pull-up jumper. Focus on explosive leg drive and balanced footwork. Train the ability to generate shooting opportunities from unconventional positions.",
                   "intensity": "low",
                   "reps": {
                     "type": "makes",
@@ -801,7 +801,7 @@
                   "subCategory": "finishing",
                   "duration": "30m",
                   "name": "Wichita Counter to Finish",
-                  "description": "Game-Speed: Wichita counter to finish at game pace, tight compact finish",
+                  "description": "Game-Speed: Catch on a step-over cut, rip the ball. If the middle drive is taken away, counter into a tight finish.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
@@ -819,7 +819,7 @@
                   "subCategory": "finishing",
                   "duration": "1h",
                   "name": "Bump and Score (5 Variations)",
-                  "description": "Technique: Slow bump into defender hip, practice all five scoring counters methodically",
+                  "description": "Technique: Drive into contact with a defender, then execute five different scoring counters: step-back, floater, reverse, inside-hand finish, and outside-hand finish. Test your composure after initiating contact.",
                   "intensity": "low",
                   "reps": {
                     "type": "makes",
@@ -832,7 +832,7 @@
                   "subCategory": "finishing",
                   "duration": "1h",
                   "name": "Touch the Net Reach",
-                  "description": "Game-Speed: Game-speed touch-the-net reach, protected finish on pullback",
+                  "description": "Game-Speed: Drive and try to make the ball touch the net before pulling it back to your shoulder for a protected finish.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
@@ -845,7 +845,7 @@
                   "subCategory": "shooting",
                   "duration": "1h",
                   "name": "Find the Seams Warm-up",
-                  "description": "Game-Speed: Spin toss at game pace, fast seam find into shot",
+                  "description": "Game-Speed: Toss the ball with various spins and catch it, finding the seams as fast as possible before shooting. Build rhythm.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
@@ -858,7 +858,7 @@
                   "subCategory": "shooting",
                   "duration": "1h",
                   "name": "Wichita Help-Side Counter Pull-up",
-                  "description": "Pressured: Live help defender rotating, explosive counter into pull-up jumper",
+                  "description": "Pressured: Visualize a help-side defender rotating over. Execute a counter-move to transition into a pull-up jumper.",
                   "intensity": "high",
                   "reps": {
                     "type": "makes",
@@ -871,7 +871,7 @@
                   "subCategory": "shooting",
                   "duration": "1h",
                   "name": "Different Footwork Every Rep",
-                  "description": "Technique: Corner to corner shooting, different footwork each rep at slow tempo",
+                  "description": "Technique: While shooting, you are strictly forbidden from using the same footwork twice. Alternate between turns, pivots, hops, and various lead-foot entries for every make. Prevent overreliance on one setup.",
                   "intensity": "low",
                   "reps": {
                     "type": "makes",
@@ -889,7 +889,7 @@
                   "subCategory": "shooting",
                   "duration": "2h",
                   "name": "Screen Rejection Jumpers",
-                  "description": "Form: Reject slow screen, controlled chest stop, recover into jump shot",
+                  "description": "Form: Reject a ball screen by playing through a chest stop or contact from a defender. Recover into a jump shot while feeling the residual contact. Train shooting cleanly through physical disruption.",
                   "intensity": "low",
                   "reps": {
                     "type": "makes",
@@ -902,7 +902,7 @@
                   "subCategory": "ballHandling",
                   "duration": "2h",
                   "name": "Find the Seams Dribble-to-Shot",
-                  "description": "Game-Speed: Game-speed toss, fast seam find, immediate move into shot",
+                  "description": "Game-Speed: Toss the ball with various spins, catch it, and find the seams as fast as possible while transitioning into a shot.",
                   "intensity": "medium",
                   "reps": {
                     "type": "setsPerHand",
@@ -916,7 +916,7 @@
                   "subCategory": "ballHandling",
                   "duration": "2h",
                   "name": "Feet-Behind Footwork",
-                  "description": "Pressured: Explosive feet-behind with active defender, max acceleration out",
+                  "description": "Pressured: Send only your feet behind you (similar to a track start) to create instant forward momentum off the dribble. Keep your upper body lean and eyes forward. This creates explosive separation without losing control.",
                   "intensity": "high",
                   "reps": {
                     "type": "setsPerHand",
@@ -930,7 +930,7 @@
                   "subCategory": "shooting",
                   "duration": "2h",
                   "name": "Two-Foot Floater Series",
-                  "description": "Game-Speed: Full Kyrie two-foot floater series at game pace",
+                  "description": "Game-Speed: A Kyrie-style sequence where you perform a cross-between-behind move into a stopped-short two-foot floater.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
@@ -943,7 +943,7 @@
                   "subCategory": "finishing",
                   "duration": "2h",
                   "name": "Off-Hand Floater Circuit",
-                  "description": "Game-Speed: Off-hand floater circuit at game pace, baseline and middle variety",
+                  "description": "Game-Speed: A high-volume circuit with 20 makes using only the off-hand, alternating one-foot and two-foot floaters. Challenge yourself to be equally comfortable with both hands from the midrange.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makesPerHand",
@@ -956,7 +956,7 @@
                   "subCategory": "shooting",
                   "duration": "2h",
                   "name": "Separate Back Separation Shot",
-                  "description": "Technique: Slow separation back move off imaginary screen, create window and shoot",
+                  "description": "Technique: Get your defender on your hip or behind you. Practice separating back to create a sudden shooting window.",
                   "intensity": "low",
                   "reps": {
                     "type": "makes",
@@ -969,7 +969,7 @@
                   "subCategory": "ballHandling",
                   "duration": "2h",
                   "name": "Split Feet Pound-Between",
-                  "description": "Game-Speed: Moving split-feet pound-between at game pace, feet snap back under hips",
+                  "description": "Game-Speed: While moving, perform a pound followed by splitting feet as the ball goes between the legs.",
                   "intensity": "medium",
                   "reps": {
                     "type": "setsPerHand",
@@ -988,7 +988,7 @@
                   "subCategory": "shooting",
                   "duration": "3h",
                   "name": "Offhand Floater Development Circuit",
-                  "description": "Game-Speed: Off-hand floater circuit at game tempo, one-foot and two-foot variety",
+                  "description": "Game-Speed: A high-volume circuit with 20 makes using only the off-hand, alternating one-foot and two-foot floaters.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
@@ -1001,7 +1001,7 @@
                   "subCategory": "shooting",
                   "duration": "3h",
                   "name": "Hezi BTB/Push Cross Pull-up",
-                  "description": "Game-Speed: BTB/push-cross hezi at game speed, freeze then rise to pull-up",
+                  "description": "Game-Speed: Use a hesitation (hezi) with either a behind-the-back (BTB) or push-cross move to freeze the defender's feet, then immediately rise into a pull-up jumper. The rhythm change should feel smooth. One of the best scoring combinations.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
@@ -1014,7 +1014,7 @@
                   "subCategory": "finishing",
                   "duration": "3h",
                   "name": "Differential Angle Floaters",
-                  "description": "Pressured: Full-speed differential floaters with live defense, varied angles",
+                  "description": "Pressured: Practice three types of floaters while driving at a different angle for every repetition. Train adaptability.",
                   "intensity": "high",
                   "reps": {
                     "type": "makes",
@@ -1027,7 +1027,7 @@
                   "subCategory": "shooting",
                   "duration": "3h",
                   "name": "Side-to-Side Pops to Shot",
-                  "description": "Game-Speed: Lateral pops at game speed, find ground and rise into shot",
+                  "description": "Game-Speed: Find a line and perform four to five lateral hops on one foot before finding the ground and rising into a shot. Keep your body under control throughout the hops. This challenges fluidity and warms up your ankle while building shooting rhythm.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
@@ -1040,7 +1040,7 @@
                   "subCategory": "ballHandling",
                   "duration": "3h",
                   "name": "Dribble-Step Between the Legs",
-                  "description": "Game-Speed: Dribble-step between legs at game speed, explosive direction change",
+                  "description": "Game-Speed: While moving forward, perform a single dribble step between the legs without breaking stride. Your trailing foot must cross over to project your body forward explosively.",
                   "intensity": "medium",
                   "reps": {
                     "type": "setsPerHand",
@@ -1054,7 +1054,7 @@
                   "subCategory": "finishing",
                   "duration": "3h",
                   "name": "Contact Pump Fake",
-                  "description": "Technique: Slow slam and tuck, patient pump fake, deliberate finish over defender",
+                  "description": "Technique: A progression where you initiate contact but add a patient pump fake to get the defender in the air.",
                   "intensity": "low",
                   "reps": {
                     "type": "makes",
@@ -1067,7 +1067,7 @@
                   "subCategory": "ballHandling",
                   "duration": "3h",
                   "name": "Hezi In-and-Out Explode",
-                  "description": "Technique: Slow in-and-out during hesitation, body rises to freeze imaginary defender",
+                  "description": "Technique: Use a hesitation with an in-and-out dribble while raising your body height to freeze the defender.",
                   "intensity": "low",
                   "reps": {
                     "type": "setsPerHand",
@@ -1081,7 +1081,7 @@
                   "subCategory": "shooting",
                   "duration": "3h",
                   "name": "Turn and Decide (Close-out)",
-                  "description": "Pressured: Full-speed turn, aggressive close-out, committed instant decision",
+                  "description": "Pressured: Turn late to see a defender closing out and decide in a split second whether to shoot or drive.",
                   "intensity": "high",
                   "reps": {
                     "type": "makes",
@@ -1094,7 +1094,7 @@
                   "subCategory": "finishing",
                   "duration": "3h",
                   "name": "Chest-Stop Screen Rejection Finish",
-                  "description": "Technique: Slow screen rejection, deliberate chest stop contact, compose and finish",
+                  "description": "Technique: Reject a ball screen and purposefully initiate a chest stop. Maintain composure and play through tight spaces.",
                   "intensity": "low",
                   "reps": {
                     "type": "makes",
@@ -1107,7 +1107,7 @@
                   "subCategory": "finishing",
                   "duration": "3h",
                   "name": "Inside Hand Driving Finish",
-                  "description": "Game-Speed: Inside-hand drive finish at game speed, left leg up on left-hand finish",
+                  "description": "Game-Speed: Drive at speed (right or left) and finish with the opposite hand (e.g., drive right, finish left). Get the corresponding leg up for balance and protection (left leg up for left-hand finish). This shields the ball from shot blockers.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makesPerHand",
@@ -1135,7 +1135,7 @@
                   "subCategory": "finishing",
                   "duration": "30m",
                   "name": "One-Move Capstone Finish",
-                  "description": "Game-Speed: Capstone move into creative finish at game pace when fatigued",
+                  "description": "Game-Speed: At the end of your finishing workout, perform one high-intensity move of your choice into any creative finishing option you practiced. Test which moves execute effectively when fatigued and reveal your most reliable finishing arsenal.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
@@ -1148,7 +1148,7 @@
                   "subCategory": "shooting",
                   "duration": "30m",
                   "name": "Corner Out of Bounds",
-                  "description": "Game-Speed: Corner out-of-bounds at game pace, simulate end-of-game pressure",
+                  "description": "Game-Speed: Shoot five shots from deep in the corner out of bounds. This challenges arc and precision in a low-intensity environment.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
@@ -1161,7 +1161,7 @@
                   "subCategory": "shooting",
                   "duration": "30m",
                   "name": "One Move Capstone Shooting",
-                  "description": "Technique: One chosen move into any shooting option at slow pace, build confidence",
+                  "description": "Technique: At the end of your shooting workout, perform one high-intensity move into your best available shot. Test which moves execute effectively when fatigued and which finish your arsenal.",
                   "intensity": "low",
                   "reps": {
                     "type": "makes",
@@ -1174,7 +1174,7 @@
                   "subCategory": "shooting",
                   "duration": "30m",
                   "name": "Reverse Lunge Overhead to Shot",
-                  "description": "Pressured: Explosive reverse lunge shot with closing defender",
+                  "description": "Pressured: Perform a reverse lunge with your hands overhead, then quickly pop both feet to the ground into a smooth shot. Transfer the energy from the lunge directly into shooting elevation. Dynamic warm-up.",
                   "intensity": "high",
                   "reps": {
                     "type": "makes",
@@ -1192,7 +1192,7 @@
                   "subCategory": "shooting",
                   "duration": "1h",
                   "name": "Catch and Shoot (On the Move)",
-                  "description": "Game-Speed: Catch and shoot on the move at full game speed",
+                  "description": "Game-Speed: Hit shots while navigating the court at game speed, simulating relocation or transition actions.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
@@ -1205,7 +1205,7 @@
                   "subCategory": "finishing",
                   "duration": "1h",
                   "name": "Side-to-Side Cradles",
-                  "description": "Game-Speed: Side-to-side cradles at game pace, arm generates spin on backboard",
+                  "description": "Game-Speed: Cradle the ball from side to side, using your full arm to generate spin on the backboard rather than just the wrist. Keep the movement controlled and rhythmic. Develop touch and a wider range of finishing angles.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makesPerHand",
@@ -1218,7 +1218,7 @@
                   "subCategory": "shooting",
                   "duration": "1h",
                   "name": "Ball Pickup Shots",
-                  "description": "Game-Speed: Ball pickup at game speed, immediate rhythm into shot on pickup",
+                  "description": "Game-Speed: The ball starts on the ground. Reach down, change your level to pick it up, and immediately find your rhythm into a shot. Focus on smooth energy transfer from the ground pickup into shooting.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
@@ -1231,7 +1231,7 @@
                   "subCategory": "finishing",
                   "duration": "1h",
                   "name": "Cradle-Change Direction Finish",
-                  "description": "Pressured: Full-speed cradle COD with live shot-blocker, maximum ball protection",
+                  "description": "Pressured: Incorporate a cradle gather during the mid-air shift to protect the ball from shot-blockers.",
                   "intensity": "high",
                   "reps": {
                     "type": "makes",
@@ -1244,7 +1244,7 @@
                   "subCategory": "shooting",
                   "duration": "1h",
                   "name": "Single Leg RDL Reach to Shot",
-                  "description": "Form: Single-leg RDL reach-out, controlled energy transfer into shot",
+                  "description": "Form: Perform a single-leg RDL with a reach-out, then transfer energy into a shot. Switch spots every rep. Build dynamic shooting.",
                   "intensity": "low",
                   "reps": {
                     "type": "makes",
@@ -1262,7 +1262,7 @@
                   "subCategory": "shooting",
                   "duration": "2h",
                   "name": "Peripheral Vision/Quiet Eye Turn",
-                  "description": "Technique: Slow turn, deliberate quiet eye focus on rim before controlled shot",
+                  "description": "Technique: Start facing away from the rim. Turn late—sometimes with a defender's hands in your view—and lock eyes to shoot.",
                   "intensity": "low",
                   "reps": {
                     "type": "makes",
@@ -1275,7 +1275,7 @@
                   "subCategory": "ballHandling",
                   "duration": "2h",
                   "name": "Feet-Behind Spin",
-                  "description": "Game-Speed: Feet-behind spin at game pace, stay downhill through rotation",
+                  "description": "Game-Speed: Send your feet behind you and immediately enter a spin move while maintaining momentum.",
                   "intensity": "medium",
                   "reps": {
                     "type": "setsPerHand",
@@ -1289,7 +1289,7 @@
                   "subCategory": "finishing",
                   "duration": "2h",
                   "name": "Off-Board Touch Finishing",
-                  "description": "Game-Speed: Off-board touch finishing at game speed, varied creative finishes",
+                  "description": "Game-Speed: Toss the ball off the backboard or rim and react to the bounce, using creativity to finish game-like reps.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
@@ -1302,7 +1302,7 @@
                   "subCategory": "shooting",
                   "duration": "2h",
                   "name": "Arm-Free Pickup Shoot",
-                  "description": "Pressured: Aggressive defender on arm, explosive disentanglement into shot",
+                  "description": "Pressured: Drive at game speed with a defender playing tight on your arm. Work to get your arm free specifically during the pickup phase. Get into a fluid shot without allowing the defender to disrupt your rhythm.",
                   "intensity": "high",
                   "reps": {
                     "type": "makes",
@@ -1315,7 +1315,7 @@
                   "subCategory": "shooting",
                   "duration": "2h",
                   "name": "Low-to-Ground Differential Pickup",
-                  "description": "Game-Speed: Low-to-ground pickup challenge at game pace, adaptive shooting",
+                  "description": "Game-Speed: Force yourself to pick the ball up from extremely low or awkward positions. Challenge your shooting problem-solving.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
@@ -1328,7 +1328,7 @@
                   "subCategory": "shooting",
                   "duration": "2h",
                   "name": "Lunge Stop Anchor Stop Pull-up",
-                  "description": "Technique: Slow lunge into anchor stop, controlled momentum kill before pull-up",
+                  "description": "Technique: Enter a short lunge during a drive and use an anchor stop (using one foot to kill momentum) to pop into a jumper.",
                   "intensity": "low",
                   "reps": {
                     "type": "makes",
@@ -1341,7 +1341,7 @@
                   "subCategory": "ballHandling",
                   "duration": "2h",
                   "name": "Hezi-Even Stance",
-                  "description": "Game-Speed: Even stance hesitation at game pace, convincing freeze before explode",
+                  "description": "Game-Speed: Bring both feet into an even stance off the dribble, raising your height to hesitate and let the ball float in your hand before exploding forward. The pause should feel like a real read, not a scripted move.",
                   "intensity": "medium",
                   "reps": {
                     "type": "setsPerHand",
@@ -1360,7 +1360,7 @@
                   "subCategory": "ballHandling",
                   "duration": "3h",
                   "name": "Single Hand Freestyle",
-                  "description": "Technique: Court-wide single hand dribbling at 50% speed, focus on fluidity",
+                  "description": "Technique: Move at 100% speed across the court, dribbling fluidly using only one hand. Improve weak-hand confidence.",
                   "intensity": "low",
                   "reps": {
                     "type": "setsPerHand",
@@ -1374,7 +1374,7 @@
                   "subCategory": "finishing",
                   "duration": "3h",
                   "name": "Wichita Double Rip to Finish",
-                  "description": "Game-Speed: Double rip to tight finish at game pace, low and compact",
+                  "description": "Game-Speed: Rip across your body and encounter a defender. Rip back to the middle for a tight finish, staying low and compact.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
@@ -1387,7 +1387,7 @@
                   "subCategory": "finishing",
                   "duration": "3h",
                   "name": "Trey Young High Floater",
-                  "description": "Pressured: High floater with shot-blocker live, maintain arc under pressure",
+                  "description": "Pressured: The goal is to loft the ball above the backboard so it drops in through the hoop without touching the rim.",
                   "intensity": "high",
                   "reps": {
                     "type": "makes",
@@ -1400,7 +1400,7 @@
                   "subCategory": "shooting",
                   "duration": "3h",
                   "name": "2v1 / 1v2 Shooting",
-                  "description": "Game-Speed: 1v2 at game speed, quick read and shoot before help arrives",
+                  "description": "Game-Speed: Read multiple defenders to find space for a short jumper. The 1v2 version is particularly difficult. Adapt to multiple closes.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
@@ -1413,7 +1413,7 @@
                   "subCategory": "ballHandling",
                   "duration": "3h",
                   "name": "Lunge Stop Series",
-                  "description": "Game-Speed: Lunge stop at game speed, explosive early explosion option",
+                  "description": "Game-Speed: Enter a short lunge during a drive. Variations include exploding immediately, early explosion, or slowing for a move.",
                   "intensity": "medium",
                   "reps": {
                     "type": "setsPerHand",
@@ -1427,7 +1427,7 @@
                   "subCategory": "finishing",
                   "duration": "3h",
                   "name": "Inside-Hand Wrap Reverse",
-                  "description": "Game-Speed: Inside-hand wrap reverse at game pace, use backboard strategically",
+                  "description": "Game-Speed: Drive toward the baseline and use your inside hand to wrap the ball around the rim in a reverse finishing motion. Use the backboard as a shield and challenge your touch.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makesPerHand",
@@ -1440,7 +1440,7 @@
                   "subCategory": "ballHandling",
                   "duration": "3h",
                   "name": "Kyrie Two-Foot C.O.D. Series",
-                  "description": "Game-Speed: Full Kyrie two-foot C.O.D. series at game pace",
+                  "description": "Game-Speed: Execute a series of two-foot jumps and change-of-direction moves to shift the defense violently. Each stop should be controlled and ready for the next move. Advanced footwork pattern.",
                   "intensity": "medium",
                   "reps": {
                     "type": "setsPerHand",
@@ -1454,7 +1454,7 @@
                   "subCategory": "finishing",
                   "duration": "3h",
                   "name": "Two-Foot Change of Direction (Kyrie Series)",
-                  "description": "Pressured: Full-speed Kyrie COD with live defender, decisive baseline shift and finish",
+                  "description": "Pressured: Hit a cross-between-behind combo into a hesitation and use a two-foot jump to shift momentum toward the baseline.",
                   "intensity": "high",
                   "reps": {
                     "type": "makes",
@@ -1467,7 +1467,7 @@
                   "subCategory": "shooting",
                   "duration": "3h",
                   "name": "Psychological Momentum (Quick Form)",
-                  "description": "Game-Speed: Quick form shooting, goal 10 makes in a row at game tempo",
+                  "description": "Game-Speed: Fast-paced form shooting with a goal (like 10 makes in a row) to build mental confidence and flow state.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
@@ -1480,7 +1480,7 @@
                   "subCategory": "shooting",
                   "duration": "3h",
                   "name": "Visualization Short Jumpers",
-                  "description": "Technique: Slow freestyle with visualization, deliberate pull-up from each position",
+                  "description": "Technique: Move through freestyle dribbles, visualizing bumps, fades, and defenders before pulling up for a short jumper.",
                   "intensity": "low",
                   "reps": {
                     "type": "makes",
@@ -1508,7 +1508,7 @@
                   "subCategory": "finishing",
                   "duration": "30m",
                   "name": "Underhand Floater (Same-Foot/Same-Hand)",
-                  "description": "Game-Speed: Same-foot/hand underhand floater at game pace, away from rim",
+                  "description": "Game-Speed: Use the same foot/hand timing but perform an underhand floater from further away. Make it harder to time.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makesPerHand",
@@ -1521,7 +1521,7 @@
                   "subCategory": "ballHandling",
                   "duration": "30m",
                   "name": "Blended Crossover/Between Series",
-                  "description": "Pressured: Full-speed blended crossover/between with defender shadowing",
+                  "description": "Pressured: A moving drill that alternates between crossovers and between-the-legs moves. Keep a slanted posture.",
                   "intensity": "high",
                   "reps": {
                     "type": "setsPerHand",
@@ -1535,7 +1535,7 @@
                   "subCategory": "shooting",
                   "duration": "30m",
                   "name": "Double Pump Shots",
-                  "description": "Game-Speed: Double pump at game speed, smooth rhythm recovery into shot",
+                  "description": "Game-Speed: Perform a super-exaggerated pump fake that removes all natural momentum. Then refine your rhythm and immediately fire the shot. Works with or without the dribble.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
@@ -1548,7 +1548,7 @@
                   "subCategory": "shooting",
                   "duration": "30m",
                   "name": "Corner to Wing Shooting",
-                  "description": "Form: Alternating corner and wing threes at slow pace, 7 for 10 target",
+                  "description": "Form: Alternate between corner and wing three-pointers, aiming for a goal (e.g., 7 for 10). Build mental consistency.",
                   "intensity": "low",
                   "reps": {
                     "type": "makes",
@@ -1566,7 +1566,7 @@
                   "subCategory": "shooting",
                   "duration": "1h",
                   "name": "Corner to Corner Shooting",
-                  "description": "Pressured: Full-speed corner to corner, different footwork, defender closing",
+                  "description": "Pressured: Alternate corner shots, but the footwork (turn, pivot, or hop) must be different every time. Prevent setup reliance.",
                   "intensity": "high",
                   "reps": {
                     "type": "makes",
@@ -1579,7 +1579,7 @@
                   "subCategory": "shooting",
                   "duration": "1h",
                   "name": "Wichita Wing Series (Step-Over Rip)",
-                  "description": "Game-Speed: Step-over cut at game speed, hard rip into one-dribble pull-up",
+                  "description": "Game-Speed: Perform a step-over cut to get open on the wing, catch, and execute a hard rip into a one-dribble pull-up. Train wing shooting.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
@@ -1592,7 +1592,7 @@
                   "subCategory": "finishing",
                   "duration": "1h",
                   "name": "Inside-Hand Reverse Finish",
-                  "description": "Game-Speed: Inside-hand reverse at game pace, backboard shield from defender",
+                  "description": "Game-Speed: Drive toward the baseline and use your inside hand to wrap the ball around the rim. Utilize the backboard.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makesPerHand",
@@ -1605,7 +1605,7 @@
                   "subCategory": "ballHandling",
                   "duration": "1h",
                   "name": "Leaning Pull the Chair Recovery",
-                  "description": "Technique: Lean into partner slowly, partner pulls away, controlled balance recovery",
+                  "description": "Technique: Lean into the defender to create contact. Recover balance despite the sudden loss of resistance.",
                   "intensity": "low",
                   "reps": {
                     "type": "setsPerHand",
@@ -1619,7 +1619,7 @@
                   "subCategory": "finishing",
                   "duration": "1h",
                   "name": "Two-Step Disentanglement",
-                  "description": "Game-Speed: Game-speed two-step disentanglement, efficient and decisive",
+                  "description": "Game-Speed: Starting with no dribble, a defender has their hand on the ball. You have only two steps to get free and finish.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
@@ -1637,7 +1637,7 @@
                   "subCategory": "finishing",
                   "duration": "2h",
                   "name": "Rip-Away Finish",
-                  "description": "Pressured: Aggressive defender on ball, explosive rip-away and strong finish",
+                  "description": "Pressured: As you gather the ball, a defender gets a hand on it. Explosively rip the ball away and finish with your off-hand using strong body control. This simulates contact finishes and improves off-hand finishing.",
                   "intensity": "high",
                   "reps": {
                     "type": "makesPerHand",
@@ -1650,7 +1650,7 @@
                   "subCategory": "finishing",
                   "duration": "2h",
                   "name": "Wichita Double Rip Middle Finish",
-                  "description": "Game-Speed: Double rip middle finish at game pace, stay low through contact",
+                  "description": "Game-Speed: Rip across your body and encounter a defender. Rip back to the middle for a tight finish at the rim.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
@@ -1663,7 +1663,7 @@
                   "subCategory": "ballHandling",
                   "duration": "2h",
                   "name": "Overhead Gathered Pound",
-                  "description": "Game-Speed: Max-speed pound to overhead gather, sell shot fake convincingly",
+                  "description": "Game-Speed: Perform a maximum speed pound and show the ball in an overhead gather to bait a shot-blocker.",
                   "intensity": "medium",
                   "reps": {
                     "type": "setsPerHand",
@@ -1677,7 +1677,7 @@
                   "subCategory": "shooting",
                   "duration": "2h",
                   "name": "The Curry Drill",
-                  "description": "Game-Speed: Curry drill at game pace, use screeners to create three-point space",
+                  "description": "Game-Speed: Start at the three-point line and use quick, subtle footwork (step-backs, side steps, in-and-outs) to create space before rising into a jumper. The moves should feel seamless.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
@@ -1690,7 +1690,7 @@
                   "subCategory": "shooting",
                   "duration": "2h",
                   "name": "Ball Screen Hedge & Relocation",
-                  "description": "Pressured: Live hard hedge with aggressive defense, fast ball-out and shooting relocation",
+                  "description": "Pressured: Practice playing off a hard hedge from a defender. Work on getting the ball out of the screen to a short-roller (or simulated position), then immediately relocate for a return pass and shot. Trains point guard decision-making.",
                   "intensity": "high",
                   "reps": {
                     "type": "makes",
@@ -1703,7 +1703,7 @@
                   "subCategory": "finishing",
                   "duration": "2h",
                   "name": "Slow-Step / Extension Read",
-                  "description": "Technique: Slow approach downhill, deliberate read, choose extension or slow step",
+                  "description": "Technique: While downhill, read the defender. Either extend to the rim or use a slow step to jump back or change angles.",
                   "intensity": "low",
                   "reps": {
                     "type": "makes",
@@ -1716,7 +1716,7 @@
                   "subCategory": "ballHandling",
                   "duration": "2h",
                   "name": "Pound to Jolt Cross",
-                  "description": "Game-Speed: Standard pound then immediate low jolt cross at game pace",
+                  "description": "Game-Speed: Perform a standard pound dribble followed immediately by a jolt cross—a low, quick crossover using primarily the fingertips. Keep the transition smooth. Build rhythm in move sequencing.",
                   "intensity": "medium",
                   "reps": {
                     "type": "setsPerHand",
@@ -1735,7 +1735,7 @@
                   "subCategory": "shooting",
                   "duration": "3h",
                   "name": "Bump and Score (Step-back)",
-                  "description": "Technique: Controlled bump into defender, slow step-back for jumper",
+                  "description": "Technique: Drive into a defender to initiate contact, then use that bump to create space for a step-back jumper.",
                   "intensity": "low",
                   "reps": {
                     "type": "makes",
@@ -1748,7 +1748,7 @@
                   "subCategory": "shooting",
                   "duration": "3h",
                   "name": "Mid-Range Volume Pull-ups (25 Each Way)",
-                  "description": "Pressured: Volume pull-ups each direction with closing defender, clean footwork",
+                  "description": "Pressured: Hit 25 pull-up jumpers in each direction. Emphasize legal footwork during the first step.",
                   "intensity": "high",
                   "reps": {
                     "type": "makes",
@@ -1761,7 +1761,7 @@
                   "subCategory": "shooting",
                   "duration": "3h",
                   "name": "Tense to Relaxed Shooting",
-                  "description": "Game-Speed: Moderate disruption, quick shift from tense to fluid on go signal",
+                  "description": "Game-Speed: A defender pushes and pulls you to throw you off balance. On a go command, shift from tense to relaxed for the shot.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
@@ -1774,7 +1774,7 @@
                   "subCategory": "finishing",
                   "duration": "3h",
                   "name": "One Move Capstone Finishing",
-                  "description": "Pressured: Full-speed capstone circuit with defender, execute finishes under fatigue",
+                  "description": "Pressured: At the end of your workout, perform one high-intensity move of your choice into any creative finishing option you practiced. Test which moves execute effectively when fatigued. This reveals your most reliable late-game finishing arsenal.",
                   "intensity": "high",
                   "reps": {
                     "type": "makes",
@@ -1787,7 +1787,7 @@
                   "subCategory": "shooting",
                   "duration": "3h",
                   "name": "Mid-Court Toss-and-Meet",
-                  "description": "Game-Speed: Toss and meet at game speed, immediate shot on balance",
+                  "description": "Game-Speed: Toss the ball across the court, meet it at full speed, find your balance, and shoot immediately. Train game-speed mechanics.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
@@ -1800,7 +1800,7 @@
                   "subCategory": "shooting",
                   "duration": "3h",
                   "name": "Find the Seams Warm-up",
-                  "description": "Game-Speed: Spin toss at game pace, fast seam find into shot",
+                  "description": "Game-Speed: Toss the ball with various spins and catch it, finding the seams as fast as possible before shooting. Build rhythm.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
@@ -1813,7 +1813,7 @@
                   "subCategory": "ballHandling",
                   "duration": "3h",
                   "name": "Slam and Protect (Rib Tuck)",
-                  "description": "Game-Speed: Game-speed slam and tuck, shoulder shields ball on contact",
+                  "description": "Game-Speed: Finish at the rim and immediately protect the ball by tucking it near your ribs. Simulate a defender attempting to swat or steal. Train contact finishes and ball security.",
                   "intensity": "medium",
                   "reps": {
                     "type": "setsPerHand",
@@ -1827,7 +1827,7 @@
                   "subCategory": "shooting",
                   "duration": "3h",
                   "name": "Cold Start Threes",
-                  "description": "Form: Three-pointers from cold, focus on release point and follow-through only",
+                  "description": "Form: Jump straight into shooting three-pointers without any form of warm-up. Train consistency coming off the bench.",
                   "intensity": "low",
                   "reps": {
                     "type": "makes",
@@ -1840,7 +1840,7 @@
                   "subCategory": "shooting",
                   "duration": "3h",
                   "name": "Side-to-Side Pops to Shot",
-                  "description": "Game-Speed: Lateral pops at game speed, find ground and rise into shot",
+                  "description": "Game-Speed: Find a line and perform four to five lateral hops on one foot before finding the ground and rising into a shot. Keep your body under control throughout the hops. This challenges fluidity and warms up your ankle while building shooting rhythm.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
@@ -1853,7 +1853,7 @@
                   "subCategory": "finishing",
                   "duration": "3h",
                   "name": "Object Jump Finish",
-                  "description": "Pressured: Full-speed object jump with defender contesting, creative finish in traffic",
+                  "description": "Pressured: Place an object on the ground and jump from outside it. Use the resulting hang time for creative hand finishes.",
                   "intensity": "high",
                   "reps": {
                     "type": "makes",
@@ -1881,7 +1881,7 @@
                   "subCategory": "shooting",
                   "duration": "30m",
                   "name": "Wichita Help-Side Counter Pull-up",
-                  "description": "Game-Speed: Help-side counter pull-up at game pace, smooth transition from drive",
+                  "description": "Game-Speed: Visualize a help-side defender rotating over. Execute a counter-move to transition into a pull-up jumper.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
@@ -1894,7 +1894,7 @@
                   "subCategory": "ballHandling",
                   "duration": "30m",
                   "name": "Slow Step Extension",
-                  "description": "Technique: Slow-step without stopping, read imaginary defender, extend or jump back",
+                  "description": "Technique: While downhill with a defender on the hip, perform a slow step without stopping. Keep momentum alive.",
                   "intensity": "low",
                   "reps": {
                     "type": "setsPerHand",
@@ -1908,7 +1908,7 @@
                   "subCategory": "finishing",
                   "duration": "30m",
                   "name": "Gyro Counter Finish",
-                  "description": "Pressured: Full-speed gyro counter with live defender, explosive gyro step finish",
+                  "description": "Pressured: Show the ball to the defender and then counter with a gyro step to the opposite side to finish.",
                   "intensity": "high",
                   "reps": {
                     "type": "makes",
@@ -1921,7 +1921,7 @@
                   "subCategory": "shooting",
                   "duration": "30m",
                   "name": "High-Speed Skip Pull-ups",
-                  "description": "Game-Speed: Two fast skips into high-speed three-point pull-up",
+                  "description": "Game-Speed: Perform two skips as fast as possible into a high-speed three-point pull-up. Train transition shooting.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
@@ -1939,7 +1939,7 @@
                   "subCategory": "shooting",
                   "duration": "1h",
                   "name": "Visualization Short Jumpers",
-                  "description": "Game-Speed: Visualization drill at game speed, commit to pull-up decision",
+                  "description": "Game-Speed: Move through freestyle dribbles, visualizing bumps, fades, and defenders before pulling up for a short jumper.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
@@ -1952,7 +1952,7 @@
                   "subCategory": "ballHandling",
                   "duration": "1h",
                   "name": "Cross Step Inverted Between",
-                  "description": "Game-Speed: Cross-step inverted between at game pace, project body forward",
+                  "description": "Game-Speed: Cross one foot over the other while going between the legs. Keep your back foot glued to the ground to project your body forward. The move should be explosive and directional. Create instant separation.",
                   "intensity": "medium",
                   "reps": {
                     "type": "setsPerHand",
@@ -1966,7 +1966,7 @@
                   "subCategory": "shooting",
                   "duration": "1h",
                   "name": "Separate Back Separation Shot",
-                  "description": "Pressured: Live screen with hard hedge, explosive separation and quick shot",
+                  "description": "Pressured: Get your defender on your hip or behind you. Practice separating back to create a sudden shooting window.",
                   "intensity": "high",
                   "reps": {
                     "type": "makes",
@@ -1979,7 +1979,7 @@
                   "subCategory": "finishing",
                   "duration": "1h",
                   "name": "The Four-Way Reverse Sequence",
-                  "description": "Technique: All four reverse types slowly: drive R/finish L, R/R, L/R, L/L",
+                  "description": "Technique: Complete four specific types of reverse layups: drive right/finish left, drive right/finish right, drive left/finish right, drive left/finish left.",
                   "intensity": "low",
                   "reps": {
                     "type": "makes",
@@ -1992,7 +1992,7 @@
                   "subCategory": "shooting",
                   "duration": "1h",
                   "name": "Anchored Pivot Pickup Shoot",
-                  "description": "Game-Speed: Anchored pivot pounds at game tempo, unpredictable before pickup",
+                  "description": "Game-Speed: Stay anchored on one foot, performing various pounds and freestyle moves before transitioning into a shot. Train shot transitions.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
@@ -2010,7 +2010,7 @@
                   "subCategory": "shooting",
                   "duration": "2h",
                   "name": "Turn and Decide (Close-out)",
-                  "description": "Pressured: Full-speed turn, aggressive close-out, committed instant decision",
+                  "description": "Pressured: Turn late to see a defender closing out and decide in a split second whether to shoot or drive.",
                   "intensity": "high",
                   "reps": {
                     "type": "makes",
@@ -2023,7 +2023,7 @@
                   "subCategory": "finishing",
                   "duration": "2h",
                   "name": "Same Foot Same Hand (Off-Foot)",
-                  "description": "Game-Speed: Same-foot/same-hand finish at game pace, difficult for defender to time",
+                  "description": "Game-Speed: Perform a creative move and finish with a same-foot, same-hand layup. Intentionally difficult for defenders to time.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makesPerHand",
@@ -2036,7 +2036,7 @@
                   "subCategory": "shooting",
                   "duration": "2h",
                   "name": "Screen Rejection Jumpers",
-                  "description": "Game-Speed: Screen rejection at game pace, recover shot through contact",
+                  "description": "Game-Speed: Reject a ball screen by playing through a chest stop or contact from a defender. Recover into a jump shot while feeling the residual contact. Train shooting cleanly through physical disruption.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
@@ -2049,7 +2049,7 @@
                   "subCategory": "finishing",
                   "duration": "2h",
                   "name": "Modified Inside-Hand Mikan",
-                  "description": "Form: Mikan-style drill using inside hand only, slow touch and high spin focus",
+                  "description": "Form: Perform a Mikan-style drill using specifically your inside hand to develop soft touch and high spin on the backboard. Work both sides of the rim with the inside hand. Foundational warm-up for advanced finishing.",
                   "intensity": "low",
                   "reps": {
                     "type": "makes",
@@ -2062,7 +2062,7 @@
                   "subCategory": "shooting",
                   "duration": "2h",
                   "name": "Knee-Push Transition Shot",
-                  "description": "Technique: From one knee, slow push into transition pull-up, focus on footwork",
+                  "description": "Technique: Starting from one knee, push out as low and fast as you can into a transition pull-up jumper. Focus on explosive leg drive and balanced footwork. Train the ability to generate shooting opportunities from unconventional positions.",
                   "intensity": "low",
                   "reps": {
                     "type": "makes",
@@ -2075,7 +2075,7 @@
                   "subCategory": "shooting",
                   "duration": "2h",
                   "name": "Two-Foot Floater Series",
-                  "description": "Game-Speed: Full Kyrie two-foot floater series at game pace",
+                  "description": "Game-Speed: A Kyrie-style sequence where you perform a cross-between-behind move into a stopped-short two-foot floater.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
@@ -2088,7 +2088,7 @@
                   "subCategory": "finishing",
                   "duration": "2h",
                   "name": "Behind-the-Back Air Dexterity",
-                  "description": "Game-Speed: Air dexterity at game pace, explosive hand-eye coordination finish",
+                  "description": "Game-Speed: While moving at speed, perform behind-the-back dribbles where the ball travels through the air between dribbles, not bouncing to the ground. Keep your hands relaxed and your body leaning forward. Build advanced ball security and rhythm.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
@@ -2106,7 +2106,7 @@
                   "subCategory": "ballHandling",
                   "duration": "3h",
                   "name": "Exaggerated Low to High",
-                  "description": "Pressured: Max-speed exaggerated low-to-high with defender close, maintain control",
+                  "description": "Pressured: Alternate between two extremely low dribbles and two extremely high dribbles. Build adaptability.",
                   "intensity": "high",
                   "reps": {
                     "type": "setsPerHand",
@@ -2120,7 +2120,7 @@
                   "subCategory": "ballHandling",
                   "duration": "3h",
                   "name": "Cross-Step Pop (COD Tween)",
-                  "description": "Game-Speed: Cross-step pop at game speed, instant reaction when foot lands",
+                  "description": "Game-Speed: Cross a foot over and, as soon as the second foot hits the ground, pop back in the opposite direction.",
                   "intensity": "medium",
                   "reps": {
                     "type": "setsPerHand",
@@ -2134,7 +2134,7 @@
                   "subCategory": "finishing",
                   "duration": "3h",
                   "name": "Standard Layup Series (Overhand, Underhand, Side-Hand)",
-                  "description": "Form: Slow consecutive overhand, underhand, and side-hand layups, master positioning",
+                  "description": "Form: A fundamental series where you make consecutive makes of overhand, underhand, and side-hand layups.",
                   "intensity": "low",
                   "reps": {
                     "type": "makes",
@@ -2147,7 +2147,7 @@
                   "subCategory": "shooting",
                   "duration": "3h",
                   "name": "Hezi BTB/Push Cross Pull-up",
-                  "description": "Game-Speed: BTB/push-cross hezi at game speed, freeze then rise to pull-up",
+                  "description": "Game-Speed: Use a hesitation (hezi) with either a behind-the-back (BTB) or push-cross move to freeze the defender's feet, then immediately rise into a pull-up jumper. The rhythm change should feel smooth. One of the best scoring combinations.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
@@ -2160,7 +2160,7 @@
                   "subCategory": "finishing",
                   "duration": "3h",
                   "name": "Pull the Chair Recovery",
-                  "description": "Game-Speed: Game-speed lean, sudden chair-pull, recover and finish",
+                  "description": "Game-Speed: Lean heavily into a defender to create contact. The defender pulls away, and you recover balance to finish.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
@@ -2173,7 +2173,7 @@
                   "subCategory": "shooting",
                   "duration": "3h",
                   "name": "Offhand Floater Development Circuit",
-                  "description": "Pressured: High-volume off-hand floater circuit with live defender challenging",
+                  "description": "Pressured: A high-volume circuit with 20 makes using only the off-hand, alternating one-foot and two-foot floaters.",
                   "intensity": "high",
                   "reps": {
                     "type": "makes",
@@ -2186,7 +2186,7 @@
                   "subCategory": "shooting",
                   "duration": "3h",
                   "name": "Psychological Momentum (Quick Form)",
-                  "description": "Game-Speed: Quick form shooting, goal 10 makes in a row at game tempo",
+                  "description": "Game-Speed: Fast-paced form shooting with a goal (like 10 makes in a row) to build mental confidence and flow state.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
@@ -2199,7 +2199,7 @@
                   "subCategory": "finishing",
                   "duration": "3h",
                   "name": "Escape Floater",
-                  "description": "Technique: Slow push-out from defender hip, two-dribble fading floater, feel the escape",
+                  "description": "Technique: Starting on a defender's hip, push out to escape and perform a fading floater within two dribbles while being chased.",
                   "intensity": "low",
                   "reps": {
                     "type": "makesPerHand",
@@ -2212,7 +2212,7 @@
                   "subCategory": "ballHandling",
                   "duration": "3h",
                   "name": "Hop Freestyle",
-                  "description": "Game-Speed: Hop freestyle with progressively larger hops at game pace",
+                  "description": "Game-Speed: Hop on one leg while maintaining a freestyle dribble, progressively increasing the size and speed of your hops. Build ankle stability and improve ball control during explosive, off-balance movements.",
                   "intensity": "medium",
                   "reps": {
                     "type": "setsPerHand",
@@ -2226,7 +2226,7 @@
                   "subCategory": "shooting",
                   "duration": "3h",
                   "name": "Different Footwork Every Rep",
-                  "description": "Technique: Corner to corner shooting, different footwork each rep at slow tempo",
+                  "description": "Technique: While shooting, you are strictly forbidden from using the same footwork twice. Alternate between turns, pivots, hops, and various lead-foot entries for every make. Prevent overreliance on one setup.",
                   "intensity": "low",
                   "reps": {
                     "type": "makes",
@@ -2254,7 +2254,7 @@
                   "subCategory": "shooting",
                   "duration": "30m",
                   "name": "Lunge Stop Anchor Stop Pull-up",
-                  "description": "Technique: Slow lunge into anchor stop, controlled momentum kill before pull-up",
+                  "description": "Technique: Enter a short lunge during a drive and use an anchor stop (using one foot to kill momentum) to pop into a jumper.",
                   "intensity": "low",
                   "reps": {
                     "type": "makes",
@@ -2267,7 +2267,7 @@
                   "subCategory": "shooting",
                   "duration": "30m",
                   "name": "Reverse Lunge Overhead to Shot",
-                  "description": "Form: Controlled reverse lunge overhead, pop feet to ground and shoot with rhythm",
+                  "description": "Form: Perform a reverse lunge with your hands overhead, then quickly pop both feet to the ground into a smooth shot. Transfer the energy from the lunge directly into shooting elevation. Dynamic warm-up.",
                   "intensity": "low",
                   "reps": {
                     "type": "makes",
@@ -2280,7 +2280,7 @@
                   "subCategory": "shooting",
                   "duration": "30m",
                   "name": "Ball Pickup Shots",
-                  "description": "Game-Speed: Ball pickup at game speed, immediate rhythm into shot on pickup",
+                  "description": "Game-Speed: The ball starts on the ground. Reach down, change your level to pick it up, and immediately find your rhythm into a shot. Focus on smooth energy transfer from the ground pickup into shooting.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
@@ -2293,7 +2293,7 @@
                   "subCategory": "finishing",
                   "duration": "30m",
                   "name": "Kyrie Cuffing Series",
-                  "description": "Game-Speed: Cuffing series at game pace, total control during acrobatics",
+                  "description": "Game-Speed: Before entering a finishing move, cuff the ball against your forearm/wrist for total control. Then bring it back to start your move.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
@@ -2311,7 +2311,7 @@
                   "subCategory": "finishing",
                   "duration": "1h",
                   "name": "Kyrie 18-Shot Finishing Series",
-                  "description": "Technique: Six shots × three timings slowly, master each timing variation",
+                  "description": "Technique: A structured finishing workout consisting of six specific shots performed with three different timings (18 shots total).",
                   "intensity": "low",
                   "reps": {
                     "type": "makes",
@@ -2324,7 +2324,7 @@
                   "subCategory": "shooting",
                   "duration": "1h",
                   "name": "Cold Start Threes",
-                  "description": "Game-Speed: Cold start threes at game tempo, off-the-bench readiness",
+                  "description": "Game-Speed: Jump straight into shooting three-pointers without any form of warm-up. Train consistency coming off the bench.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
@@ -2337,7 +2337,7 @@
                   "subCategory": "shooting",
                   "duration": "1h",
                   "name": "Peripheral Vision/Quiet Eye Turn",
-                  "description": "Game-Speed: Mid-speed turn with hands up from defender, lock eyes and shoot",
+                  "description": "Game-Speed: Start facing away from the rim. Turn late—sometimes with a defender's hands in your view—and lock eyes to shoot.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
@@ -2350,7 +2350,7 @@
                   "subCategory": "finishing",
                   "duration": "1h",
                   "name": "Off-Hand Key Extension",
-                  "description": "Form: Standing outside key, deliberate off-hand extension layup, no backboard",
+                  "description": "Form: Attack the middle of the floor and extend a score using only your off-hand. Whether floater, layup, or mid-range jumper—the off-hand must be your only option. Build symmetry.",
                   "intensity": "low",
                   "reps": {
                     "type": "makesPerHand",
@@ -2363,7 +2363,7 @@
                   "subCategory": "finishing",
                   "duration": "1h",
                   "name": "Overhead Gather Bait",
-                  "description": "Pressured: Full-speed overhead gather with live shot-blocker, bait and finish under them",
+                  "description": "Pressured: Perform a high-speed pound into an overhead gather, showing the ball to bait a mistimed jump before finishing.",
                   "intensity": "high",
                   "reps": {
                     "type": "makes",
@@ -2381,7 +2381,7 @@
                   "subCategory": "shooting",
                   "duration": "2h",
                   "name": "2v1 / 1v2 Shooting",
-                  "description": "Game-Speed: 1v2 at game speed, quick read and shoot before help arrives",
+                  "description": "Game-Speed: Read multiple defenders to find space for a short jumper. The 1v2 version is particularly difficult. Adapt to multiple closes.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
@@ -2394,7 +2394,7 @@
                   "subCategory": "shooting",
                   "duration": "2h",
                   "name": "Corner Out of Bounds",
-                  "description": "Game-Speed: Corner out-of-bounds at game pace, simulate end-of-game pressure",
+                  "description": "Game-Speed: Shoot five shots from deep in the corner out of bounds. This challenges arc and precision in a low-intensity environment.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
@@ -2407,7 +2407,7 @@
                   "subCategory": "ballHandling",
                   "duration": "2h",
                   "name": "Bump and Counter (5 Variations)",
-                  "description": "Technique: Slow bump into defender hip, practice five counter options methodically",
+                  "description": "Technique: Drive into the defender's hip to initiate contact. Following contact, execute five different scoring counters.",
                   "intensity": "low",
                   "reps": {
                     "type": "setsPerHand",
@@ -2421,7 +2421,7 @@
                   "subCategory": "ballHandling",
                   "duration": "2h",
                   "name": "In Stride Change of Direction",
-                  "description": "Pressured: 80% sprint change of direction at maximum efficiency with defender",
+                  "description": "Pressured: While maintaining an 80% sprint, make a subtle move to alter your direction without losing any speed or stride efficiency. The move should feel seamless and blend into your forward momentum. Essential for open-court ball-handling.",
                   "intensity": "high",
                   "reps": {
                     "type": "setsPerHand",
@@ -2435,7 +2435,7 @@
                   "subCategory": "shooting",
                   "duration": "2h",
                   "name": "Mid-Court Toss-and-Meet",
-                  "description": "Technique: Gentle toss across court, jog to meet, find balance and shoot",
+                  "description": "Technique: Toss the ball across the court, meet it at full speed, find your balance, and shoot immediately. Train game-speed mechanics.",
                   "intensity": "low",
                   "reps": {
                     "type": "makes",
@@ -2448,7 +2448,7 @@
                   "subCategory": "finishing",
                   "duration": "2h",
                   "name": "Wide Hook Soft Touch",
-                  "description": "Game-Speed: Wide hooks at game speed, both hands, varied angles",
+                  "description": "Game-Speed: Work on finishing with wide hook shots using both hands. Develop an extended range of touch near the rim.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
@@ -2461,7 +2461,7 @@
                   "subCategory": "shooting",
                   "duration": "2h",
                   "name": "One Move Capstone Shooting",
-                  "description": "Technique: One chosen move into any shooting option at slow pace, build confidence",
+                  "description": "Technique: At the end of your shooting workout, perform one high-intensity move into your best available shot. Test which moves execute effectively when fatigued and which finish your arsenal.",
                   "intensity": "low",
                   "reps": {
                     "type": "makes",
@@ -2479,7 +2479,7 @@
                   "subCategory": "shooting",
                   "duration": "3h",
                   "name": "Catch and Shoot (On the Move)",
-                  "description": "Game-Speed: Catch and shoot on the move at full game speed",
+                  "description": "Game-Speed: Hit shots while navigating the court at game speed, simulating relocation or transition actions.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
@@ -2492,7 +2492,7 @@
                   "subCategory": "finishing",
                   "duration": "3h",
                   "name": "Slam and Tuck Protection",
-                  "description": "Technique: Controlled slam dribble, deliberate rib tuck and lateral jump into partner",
+                  "description": "Technique: Go up strong at the rim and use a rib tuck to protect the ball through contact. This variation emphasizes absorbing a defender's hand or body on the finish.",
                   "intensity": "low",
                   "reps": {
                     "type": "makes",
@@ -2505,7 +2505,7 @@
                   "subCategory": "shooting",
                   "duration": "3h",
                   "name": "Low-to-Ground Differential Pickup",
-                  "description": "Game-Speed: Low-to-ground pickup challenge at game pace, adaptive shooting",
+                  "description": "Game-Speed: Force yourself to pick the ball up from extremely low or awkward positions. Challenge your shooting problem-solving.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
@@ -2518,7 +2518,7 @@
                   "subCategory": "ballHandling",
                   "duration": "3h",
                   "name": "Pound Between-Behind",
-                  "description": "Game-Speed: Full rhythm pound-between-behind series at game pace, sway with ball",
+                  "description": "Game-Speed: Pound the ball, go between the legs (dribbling by the big toe), then immediately behind the back while swaying your body with the ball's movement. Work this as a rhythmic drill. Build smooth, coordinated move sequences.",
                   "intensity": "medium",
                   "reps": {
                     "type": "setsPerHand",
@@ -2532,7 +2532,7 @@
                   "subCategory": "shooting",
                   "duration": "3h",
                   "name": "Arm-Free Pickup Shoot",
-                  "description": "Technique: Drive slowly with partner lightly holding arm, controlled arm-free pickup",
+                  "description": "Technique: Drive at game speed with a defender playing tight on your arm. Work to get your arm free specifically during the pickup phase. Get into a fluid shot without allowing the defender to disrupt your rhythm.",
                   "intensity": "low",
                   "reps": {
                     "type": "makes",
@@ -2545,7 +2545,7 @@
                   "subCategory": "ballHandling",
                   "duration": "3h",
                   "name": "Arm-Free Pickup (Disentanglement)",
-                  "description": "Game-Speed: Game-speed drive, defender on arm, fluid pickup into shot",
+                  "description": "Game-Speed: As you move downhill, a defender keeps a hand on your arm. Get your arm free during the pickup phase.",
                   "intensity": "medium",
                   "reps": {
                     "type": "setsPerHand",
@@ -2559,7 +2559,7 @@
                   "subCategory": "ballHandling",
                   "duration": "3h",
                   "name": "Change of Speed Push-Out",
-                  "description": "Technique: Raise body to slow down, slow-motion push-out dribble then snatch back",
+                  "description": "Technique: Raise your body level to slow down, then drop low into a push-out dribble followed by a quick snatch back.",
                   "intensity": "low",
                   "reps": {
                     "type": "setsPerHand",
@@ -2573,7 +2573,7 @@
                   "subCategory": "finishing",
                   "duration": "3h",
                   "name": "Layups from Anywhere",
-                  "description": "Technique: Slow freestyle, any layup choice, catch and immediate creative secondary",
+                  "description": "Technique: A freestyle drill where you shoot whichever layup comes to mind, then immediately catch and perform secondary finishes.",
                   "intensity": "low",
                   "reps": {
                     "type": "makes",
@@ -2586,7 +2586,7 @@
                   "subCategory": "shooting",
                   "duration": "3h",
                   "name": "Single Leg RDL Reach to Shot",
-                  "description": "Game-Speed: RDL reach to shot at game speed, switching spots each rep",
+                  "description": "Game-Speed: Perform a single-leg RDL with a reach-out, then transfer energy into a shot. Switch spots every rep. Build dynamic shooting.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
@@ -2599,7 +2599,7 @@
                   "subCategory": "finishing",
                   "duration": "3h",
                   "name": "Two-Foot Finish off Sell-Out Reach",
-                  "description": "Pressured: Live aggressive defender reach, explosive step-up two-foot balanced finish",
+                  "description": "Pressured: When a defender sells out with an aggressive reach, step up and get to a balanced two-foot finish.",
                   "intensity": "high",
                   "reps": {
                     "type": "makes",
