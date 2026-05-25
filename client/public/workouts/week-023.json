@@ -281,7 +281,7 @@
                   "subCategory": "ballHandling",
                   "duration": "3h",
                   "name": "Double Pump Rhythm Drill",
-                  "description": "Game-Speed: Perform a super-exaggerated pump fake that removes all natural momentum. Immediately refine your rhythm and execute your secondary move or shot. This forces you to work on generating energy from a completely dead stop.",
+                  "description": "Pressured: Perform a super-exaggerated pump fake that removes all natural momentum. Immediately refine your rhythm and execute your secondary move or shot. This forces you to work on generating energy from a completely dead stop.",
                   "intensity": "medium",
                   "reps": {
                     "type": "setsPerHand",
@@ -428,7 +428,7 @@
                   "subCategory": "finishing",
                   "duration": "30m",
                   "name": "Rip-Away Finish",
-                  "description": "Technique: As you gather the ball, a defender gets a hand on it. Explosively rip the ball away and finish with your off-hand using strong body control. This simulates contact finishes and improves off-hand finishing.",
+                  "description": "Pressured: As you gather the ball, a defender gets a hand on it. Explosively rip the ball away and finish with your off-hand using strong body control. This simulates contact finishes and improves off-hand finishing.",
                   "intensity": "low",
                   "reps": {
                     "type": "makesPerHand",
@@ -640,7 +640,7 @@
                   "subCategory": "ballHandling",
                   "duration": "3h",
                   "name": "Slow Dribble to Explosive Reach",
-                  "description": "Game-Speed: Maintain a relaxed, slow dribble with control while a live defender reaches aggressively. The moment the defender commits to a reach, explode past them with an explosive first step. This drill trains you to read defensive aggression and capitalize on overcommitment.",
+                  "description": "Pressured: Maintain a relaxed, slow dribble with control while a live defender reaches aggressively. The moment the defender commits to a reach, explode past them with an explosive first step. This drill trains you to read defensive aggression and capitalize on overcommitment.",
                   "intensity": "medium",
                   "reps": {
                     "type": "setsPerHand",
@@ -654,7 +654,7 @@
                   "subCategory": "ballHandling",
                   "duration": "3h",
                   "name": "Hop Freestyle",
-                  "description": "Pressured: Hop on one leg while maintaining a freestyle dribble, progressively increasing the size and speed of your hops. Build ankle stability and improve ball control during explosive, off-balance movements.",
+                  "description": "Game-Speed: Hop on one leg while maintaining a freestyle dribble, progressively increasing the size and speed of your hops. Build ankle stability and improve ball control during explosive, off-balance movements.",
                   "intensity": "high",
                   "reps": {
                     "type": "setsPerHand",
@@ -845,7 +845,7 @@
                   "subCategory": "finishing",
                   "duration": "1h",
                   "name": "One Move Capstone Finishing",
-                  "description": "Technique: At the end of your workout, perform one high-intensity move of your choice into any creative finishing option you practiced. Test which moves execute effectively when fatigued. This reveals your most reliable late-game finishing arsenal.",
+                  "description": "Game-Speed: At the end of your workout, perform one high-intensity move of your choice into any creative finishing option you practiced. Test which moves execute effectively when fatigued. This reveals your most reliable late-game finishing arsenal.",
                   "intensity": "low",
                   "reps": {
                     "type": "makes",
@@ -1161,7 +1161,7 @@
                   "subCategory": "ballHandling",
                   "duration": "30m",
                   "name": "In Stride Change of Direction",
-                  "description": "Game-Speed: While maintaining an 80% sprint, make a subtle move to alter your direction without losing any speed or stride efficiency. The move should feel seamless and blend into your forward momentum. Essential for open-court ball-handling.",
+                  "description": "Technique: While maintaining an 80% sprint, make a subtle move to alter your direction without losing any speed or stride efficiency. The move should feel seamless and blend into your forward momentum. Essential for open-court ball-handling.",
                   "intensity": "medium",
                   "reps": {
                     "type": "setsPerHand",
@@ -1508,7 +1508,7 @@
                   "subCategory": "finishing",
                   "duration": "30m",
                   "name": "Rip-Away Finish",
-                  "description": "Game-Speed: As you gather the ball, a defender gets a hand on it. Explosively rip the ball away and finish with your off-hand using strong body control. This simulates contact finishes and improves off-hand finishing.",
+                  "description": "Pressured: As you gather the ball, a defender gets a hand on it. Explosively rip the ball away and finish with your off-hand using strong body control. This simulates contact finishes and improves off-hand finishing.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makesPerHand",
@@ -1702,7 +1702,7 @@
                   "subCategory": "shooting",
                   "duration": "2h",
                   "name": "Side-to-Side Pops to Shot",
-                  "description": "Game-Speed: Find a line and perform four to five lateral hops on one foot before finding the ground and rising into a shot. Keep your body under control throughout the hops. This challenges fluidity and warms up your ankle while building shooting rhythm.",
+                  "description": "Form: Find a line and perform four to five lateral hops on one foot before finding the ground and rising into a shot. Keep your body under control throughout the hops. This challenges fluidity and warms up your ankle while building shooting rhythm.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",

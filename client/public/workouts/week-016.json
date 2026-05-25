@@ -16,7 +16,7 @@
                   "subCategory": "finishing",
                   "duration": "30m",
                   "name": "Rip-Away Finish",
-                  "description": "Game-Speed: As you gather the ball, a defender gets a hand on it. Explosively rip the ball away and finish with your off-hand using strong body control. This simulates contact finishes and improves off-hand finishing.",
+                  "description": "Pressured: As you gather the ball, a defender gets a hand on it. Explosively rip the ball away and finish with your off-hand using strong body control. This simulates contact finishes and improves off-hand finishing.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makesPerHand",
@@ -627,7 +627,7 @@
                   "subCategory": "ballHandling",
                   "duration": "3h",
                   "name": "Slow Dribble to Explosive Reach",
-                  "description": "Game-Speed: Maintain a relaxed, slow dribble with control while a live defender reaches aggressively. The moment the defender commits to a reach, explode past them with an explosive first step. This drill trains you to read defensive aggression and capitalize on overcommitment.",
+                  "description": "Pressured: Maintain a relaxed, slow dribble with control while a live defender reaches aggressively. The moment the defender commits to a reach, explode past them with an explosive first step. This drill trains you to read defensive aggression and capitalize on overcommitment.",
                   "intensity": "medium",
                   "reps": {
                     "type": "setsPerHand",
@@ -988,7 +988,7 @@
                   "subCategory": "shooting",
                   "duration": "2h",
                   "name": "Side-to-Side Pops to Shot",
-                  "description": "Game-Speed: Find a line and perform four to five lateral hops on one foot before finding the ground and rising into a shot. Keep your body under control throughout the hops. This challenges fluidity and warms up your ankle while building shooting rhythm.",
+                  "description": "Form: Find a line and perform four to five lateral hops on one foot before finding the ground and rising into a shot. Keep your body under control throughout the hops. This challenges fluidity and warms up your ankle while building shooting rhythm.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
@@ -1074,7 +1074,7 @@
                   "subCategory": "ballHandling",
                   "duration": "3h",
                   "name": "In Stride Change of Direction",
-                  "description": "Game-Speed: While maintaining an 80% sprint, make a subtle move to alter your direction without losing any speed or stride efficiency. The move should feel seamless and blend into your forward momentum. Essential for open-court ball-handling.",
+                  "description": "Technique: While maintaining an 80% sprint, make a subtle move to alter your direction without losing any speed or stride efficiency. The move should feel seamless and blend into your forward momentum. Essential for open-court ball-handling.",
                   "intensity": "medium",
                   "reps": {
                     "type": "setsPerHand",
@@ -1173,7 +1173,7 @@
                   "subCategory": "ballHandling",
                   "duration": "30m",
                   "name": "Feet-Behind Footwork",
-                  "description": "Technique: Send only your feet behind you (similar to a track start) to create instant forward momentum off the dribble. Keep your upper body lean and eyes forward. This creates explosive separation without losing control.",
+                  "description": "Game-Speed: Send only your feet behind you (similar to a track start) to create instant forward momentum off the dribble. Keep your upper body lean and eyes forward. This creates explosive separation without losing control.",
                   "intensity": "low",
                   "reps": {
                     "type": "setsPerHand",
@@ -1472,7 +1472,7 @@
                   "subCategory": "finishing",
                   "duration": "3h",
                   "name": "One Move Capstone Finishing",
-                  "description": "Technique: At the end of your workout, perform one high-intensity move of your choice into any creative finishing option you practiced. Test which moves execute effectively when fatigued. This reveals your most reliable late-game finishing arsenal.",
+                  "description": "Game-Speed: At the end of your workout, perform one high-intensity move of your choice into any creative finishing option you practiced. Test which moves execute effectively when fatigued. This reveals your most reliable late-game finishing arsenal.",
                   "intensity": "low",
                   "reps": {
                     "type": "makes",
@@ -1498,7 +1498,7 @@
                   "subCategory": "ballHandling",
                   "duration": "3h",
                   "name": "Double Pump Rhythm Drill",
-                  "description": "Game-Speed: Perform a super-exaggerated pump fake that removes all natural momentum. Immediately refine your rhythm and execute your secondary move or shot. This forces you to work on generating energy from a completely dead stop.",
+                  "description": "Pressured: Perform a super-exaggerated pump fake that removes all natural momentum. Immediately refine your rhythm and execute your secondary move or shot. This forces you to work on generating energy from a completely dead stop.",
                   "intensity": "medium",
                   "reps": {
                     "type": "setsPerHand",
@@ -1670,7 +1670,7 @@
                   "subCategory": "ballHandling",
                   "duration": "2h",
                   "name": "Anchored Pivot Pounds",
-                  "description": "Pressured: Stay anchored on one foot while performing various pound dribbles at game speed. Work improvised pound sequences before transitioning into a shot pickup. Keep the ball hitting the same spot while your body remains centered and ready.",
+                  "description": "Game-Speed: Stay anchored on one foot while performing various pound dribbles at game speed. Work improvised pound sequences before transitioning into a shot pickup. Keep the ball hitting the same spot while your body remains centered and ready.",
                   "intensity": "high",
                   "reps": {
                     "type": "setsPerHand",
@@ -2066,7 +2066,7 @@
                   "subCategory": "ballHandling",
                   "duration": "2h",
                   "name": "In Stride Change of Direction",
-                  "description": "Game-Speed: While maintaining an 80% sprint, make a subtle move to alter your direction without losing any speed or stride efficiency. The move should feel seamless and blend into your forward momentum. Essential for open-court ball-handling.",
+                  "description": "Technique: While maintaining an 80% sprint, make a subtle move to alter your direction without losing any speed or stride efficiency. The move should feel seamless and blend into your forward momentum. Essential for open-court ball-handling.",
                   "intensity": "medium",
                   "reps": {
                     "type": "setsPerHand",
@@ -2107,7 +2107,7 @@
                   "subCategory": "shooting",
                   "duration": "2h",
                   "name": "Ball Pickup Shots",
-                  "description": "Pressured: The ball starts on the ground. Reach down, change your level to pick it up, and immediately find your rhythm into a shot. Focus on smooth energy transfer from the ground pickup into shooting.",
+                  "description": "Game-Speed: The ball starts on the ground. Reach down, change your level to pick it up, and immediately find your rhythm into a shot. Focus on smooth energy transfer from the ground pickup into shooting.",
                   "intensity": "high",
                   "reps": {
                     "type": "makes",
@@ -2191,7 +2191,7 @@
                   "subCategory": "finishing",
                   "duration": "3h",
                   "name": "Rip-Away Finish",
-                  "description": "Game-Speed: As you gather the ball, a defender gets a hand on it. Explosively rip the ball away and finish with your off-hand using strong body control. This simulates contact finishes and improves off-hand finishing.",
+                  "description": "Pressured: As you gather the ball, a defender gets a hand on it. Explosively rip the ball away and finish with your off-hand using strong body control. This simulates contact finishes and improves off-hand finishing.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makesPerHand",
@@ -2273,7 +2273,7 @@
                   "subCategory": "ballHandling",
                   "duration": "3h",
                   "name": "Slow Dribble to Explosive Reach",
-                  "description": "Game-Speed: Maintain a relaxed, slow dribble with control while a live defender reaches aggressively. The moment the defender commits to a reach, explode past them with an explosive first step. This drill trains you to read defensive aggression and capitalize on overcommitment.",
+                  "description": "Pressured: Maintain a relaxed, slow dribble with control while a live defender reaches aggressively. The moment the defender commits to a reach, explode past them with an explosive first step. This drill trains you to read defensive aggression and capitalize on overcommitment.",
                   "intensity": "medium",
                   "reps": {
                     "type": "setsPerHand",
@@ -2473,7 +2473,7 @@
                   "subCategory": "ballHandling",
                   "duration": "2h",
                   "name": "Stationary Crossovers (Wide Base)",
-                  "description": "Game-Speed: Stand in a low, wide stance with hips down, crossing the ball back and forth wider than your knees. The body weight must shift in the direction of the ball with every cross. Build fingertip control and rhythm at game-speed transitions.",
+                  "description": "Form: Stand in a low, wide stance with hips down, crossing the ball back and forth wider than your knees. The body weight must shift in the direction of the ball with every cross. Build fingertip control and rhythm at game-speed transitions.",
                   "intensity": "medium",
                   "reps": {
                     "type": "setsPerHand",
@@ -2515,7 +2515,7 @@
                   "subCategory": "ballHandling",
                   "duration": "2h",
                   "name": "Moving Pound Crossovers",
-                  "description": "Form: Move sideline-to-sideline while performing crossovers where your hips must turn in the direction of the ball to increase explosiveness out of the move. Keep each rep sharp and controlled. Train lower-body coordination with upper-body ball-handling.",
+                  "description": "Game-Speed: Move sideline-to-sideline while performing crossovers where your hips must turn in the direction of the ball to increase explosiveness out of the move. Keep each rep sharp and controlled. Train lower-body coordination with upper-body ball-handling.",
                   "intensity": "low",
                   "reps": {
                     "type": "setsPerHand",
@@ -2547,7 +2547,7 @@
                   "subCategory": "ballHandling",
                   "duration": "3h",
                   "name": "Feet-Behind Footwork",
-                  "description": "Technique: Send only your feet behind you (similar to a track start) to create instant forward momentum off the dribble. Keep your upper body lean and eyes forward. This creates explosive separation without losing control.",
+                  "description": "Game-Speed: Send only your feet behind you (similar to a track start) to create instant forward momentum off the dribble. Keep your upper body lean and eyes forward. This creates explosive separation without losing control.",
                   "intensity": "low",
                   "reps": {
                     "type": "setsPerHand",

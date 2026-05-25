@@ -486,7 +486,7 @@
                   "subCategory": "ballHandling",
                   "duration": "1h",
                   "name": "Double Behind to Inverted Snatch",
-                  "description": "Pressured: Execute two behind-the-back dribbles, then step across your body into an inverted snatch move. Keep your coordination smooth and connected through all three moves. This trains the ability to chain moves fluidly without losing rhythm.",
+                  "description": "Game-Speed: Execute two behind-the-back dribbles, then step across your body into an inverted snatch move. Keep your coordination smooth and connected through all three moves. This trains the ability to chain moves fluidly without losing rhythm.",
                   "intensity": "high",
                   "reps": {
                     "type": "setsPerHand",
@@ -571,7 +571,7 @@
                   "subCategory": "finishing",
                   "duration": "2h",
                   "name": "Rip-Away Finish",
-                  "description": "Technique: As you gather the ball, a defender gets a hand on it. Explosively rip the ball away and finish with your off-hand using strong body control. This simulates contact finishes and improves off-hand finishing.",
+                  "description": "Pressured: As you gather the ball, a defender gets a hand on it. Explosively rip the ball away and finish with your off-hand using strong body control. This simulates contact finishes and improves off-hand finishing.",
                   "intensity": "low",
                   "reps": {
                     "type": "makesPerHand",
@@ -987,7 +987,7 @@
                   "subCategory": "shooting",
                   "duration": "3h",
                   "name": "Side-to-Side Pops to Shot",
-                  "description": "Game-Speed: Find a line and perform four to five lateral hops on one foot before finding the ground and rising into a shot. Keep your body under control throughout the hops. This challenges fluidity and warms up your ankle while building shooting rhythm.",
+                  "description": "Form: Find a line and perform four to five lateral hops on one foot before finding the ground and rising into a shot. Keep your body under control throughout the hops. This challenges fluidity and warms up your ankle while building shooting rhythm.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
@@ -1040,7 +1040,7 @@
                   "subCategory": "ballHandling",
                   "duration": "3h",
                   "name": "Double Pump Rhythm Drill",
-                  "description": "Technique: Perform a super-exaggerated pump fake that removes all natural momentum. Immediately refine your rhythm and execute your secondary move or shot. This forces you to work on generating energy from a completely dead stop.",
+                  "description": "Pressured: Perform a super-exaggerated pump fake that removes all natural momentum. Immediately refine your rhythm and execute your secondary move or shot. This forces you to work on generating energy from a completely dead stop.",
                   "intensity": "low",
                   "reps": {
                     "type": "setsPerHand",
@@ -1344,7 +1344,7 @@
                   "subCategory": "ballHandling",
                   "duration": "2h",
                   "name": "In Stride Change of Direction",
-                  "description": "Pressured: While maintaining an 80% sprint, make a subtle move to alter your direction without losing any speed or stride efficiency. The move should feel seamless and blend into your forward momentum. Essential for open-court ball-handling.",
+                  "description": "Technique: While maintaining an 80% sprint, make a subtle move to alter your direction without losing any speed or stride efficiency. The move should feel seamless and blend into your forward momentum. Essential for open-court ball-handling.",
                   "intensity": "high",
                   "reps": {
                     "type": "setsPerHand",
@@ -1617,7 +1617,7 @@
                   "subCategory": "shooting",
                   "duration": "1h",
                   "name": "Ball Pickup Shots",
-                  "description": "Pressured: The ball starts on the ground. Reach down, change your level to pick it up, and immediately find your rhythm into a shot. Focus on smooth energy transfer from the ground pickup into shooting.",
+                  "description": "Game-Speed: The ball starts on the ground. Reach down, change your level to pick it up, and immediately find your rhythm into a shot. Focus on smooth energy transfer from the ground pickup into shooting.",
                   "intensity": "high",
                   "reps": {
                     "type": "makes",
@@ -2036,7 +2036,7 @@
                   "subCategory": "shooting",
                   "duration": "2h",
                   "name": "Side-to-Side Pops to Shot",
-                  "description": "Game-Speed: Find a line and perform four to five lateral hops on one foot before finding the ground and rising into a shot. Keep your body under control throughout the hops. This challenges fluidity and warms up your ankle while building shooting rhythm.",
+                  "description": "Form: Find a line and perform four to five lateral hops on one foot before finding the ground and rising into a shot. Keep your body under control throughout the hops. This challenges fluidity and warms up your ankle while building shooting rhythm.",
                   "intensity": "medium",
                   "reps": {
                     "type": "makes",
@@ -2351,7 +2351,7 @@
                   "subCategory": "finishing",
                   "duration": "1h",
                   "name": "Rip-Away Finish",
-                  "description": "Technique: As you gather the ball, a defender gets a hand on it. Explosively rip the ball away and finish with your off-hand using strong body control. This simulates contact finishes and improves off-hand finishing.",
+                  "description": "Pressured: As you gather the ball, a defender gets a hand on it. Explosively rip the ball away and finish with your off-hand using strong body control. This simulates contact finishes and improves off-hand finishing.",
                   "intensity": "low",
                   "reps": {
                     "type": "makesPerHand",
