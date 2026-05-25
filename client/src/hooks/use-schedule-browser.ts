@@ -200,10 +200,7 @@ export function useScheduleBrowser() {
 
   const setAsCurrentWeek = (weekIndex: number) => {
     setCurrentWeekOverride(weekIndex);
-    setState(prev => ({
-      ...prev,
-      currentWeekIndex: weekIndex,
-    }));
+    window.location.reload();
   };
 
   return {
