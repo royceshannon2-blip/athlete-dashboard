@@ -32,6 +32,8 @@ interface DayWorkout {
 interface WeekPlan {
   label: string;
   days: DayWorkout[];
+  loadPhase?: 1 | 2 | 3 | 4 | "deload";
+  isDeloadWeek?: boolean;
 }
 
 interface Manifest {
@@ -60,11 +62,28 @@ interface ScheduleBrowserState {
 }
 
 const WEEK_MS = 7 * 24 * 60 * 60 * 1000;
+const OVERRIDE_KEY = "apex_current_week_override";
 
 function getWeekDateRange(startDate: Date, weekIndex: number) {
   const from = new Date(startDate.getTime() + weekIndex * WEEK_MS);
   const to = new Date(from.getTime() + 6 * 24 * 60 * 60 * 1000);
   return { from, to };
+}
+
+export function getOverriddenWeekIndex(): number | null {
+  if (typeof window === "undefined") return null;
+  const override = localStorage.getItem(OVERRIDE_KEY);
+  return override ? parseInt(override, 10) : null;
+}
+
+export function setCurrentWeekOverride(weekIndex: number): void {
+  if (typeof window === "undefined") return;
+  localStorage.setItem(OVERRIDE_KEY, weekIndex.toString());
+}
+
+export function clearCurrentWeekOverride(): void {
+  if (typeof window === "undefined") return;
+  localStorage.removeItem(OVERRIDE_KEY);
 }
 
 function formatDateRange(from: Date, to: Date): string {
@@ -92,11 +111,18 @@ export function useScheduleBrowser() {
         if (!manifestRes.ok) throw new Error("Failed to fetch manifest");
         const manifest: Manifest = await manifestRes.json();
 
-        // Calculate current week index
+        // Calculate current week index (check for override first)
         const startDate = new Date(manifest.startDate);
-        const now = new Date();
-        const diffMs = now.getTime() - startDate.getTime();
-        const currentWeekIndex = Math.max(0, Math.floor(diffMs / WEEK_MS));
+        const override = getOverriddenWeekIndex();
+        let currentWeekIndex: number;
+
+        if (override !== null) {
+          currentWeekIndex = override;
+        } else {
+          const now = new Date();
+          const diffMs = now.getTime() - startDate.getTime();
+          currentWeekIndex = Math.max(0, Math.floor(diffMs / WEEK_MS));
+        }
 
         // Build week list with Past / Current / Upcoming grouping
         // Generate past, current, and upcoming weeks
@@ -172,8 +198,15 @@ export function useScheduleBrowser() {
     }
   };
 
+  const setAsCurrentWeek = (weekIndex: number) => {
+    setCurrentWeekOverride(weekIndex);
+    // Force a re-fetch with the new override
+    window.location.reload();
+  };
+
   return {
     ...state,
     fetchWeekPlan,
+    setAsCurrentWeek,
   };
 }

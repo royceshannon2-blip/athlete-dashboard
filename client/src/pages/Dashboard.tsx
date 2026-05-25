@@ -3,6 +3,7 @@ import { useWorkouts } from "@/hooks/use-workouts";
 import { useWeightLog, parseSetsReps } from "@/hooks/use-weight-log";
 import { useRestTimer } from "@/hooks/use-rest-timer";
 import { useCompletedSets } from "@/hooks/use-completed-sets";
+import { useLoadPhase } from "@/hooks/use-load-phase";
 import { Sidebar } from "@/components/layout/Sidebar";
 import { WorkoutTable } from "@/components/workout/WorkoutTable";
 import { ScheduleBrowserButton } from "@/components/ScheduleBrowserButton";
@@ -37,6 +38,7 @@ export default function Dashboard() {
     weightLog.prefs.defaultDurationSecs,
     weightLog.prefs.soundEnabled
   );
+  const loadPhase = useLoadPhase();
 
   const { data: workoutsData, isLoading, error } = useWorkouts();
 
@@ -130,9 +132,20 @@ export default function Dashboard() {
       <main data-testid="main-workout-view" className="flex-1 flex flex-col overflow-hidden">
         <div className="flex-1 overflow-y-auto p-4 md:p-6 space-y-4 pb-24 md:pb-6">
           <div className="flex items-center justify-between border-b border-white/5 pb-4 mb-2">
-            <h2 className="text-xl font-display font-bold text-white tracking-wide uppercase">
-              {activeDay.day} <span className="text-slate-600">/</span> {selectedCategory.toUpperCase()} - {selectedDuration}
-            </h2>
+            <div className="flex items-center gap-3">
+              <h2 className="text-xl font-display font-bold text-white tracking-wide uppercase">
+                {activeDay.day} <span className="text-slate-600">/</span> {selectedCategory.toUpperCase()} - {selectedDuration}
+              </h2>
+              {(selectedCategory === "weightlifting" || selectedCategory === "jumping") && loadPhase && (
+                <span className={`px-2 py-1 rounded text-[11px] font-mono font-bold tracking-wider whitespace-nowrap ${
+                  loadPhase === 'deload'
+                    ? 'bg-orange-900/40 text-orange-300 border border-orange-600/30'
+                    : 'bg-emerald-900/40 text-emerald-300 border border-emerald-600/30'
+                }`}>
+                  {loadPhase === 'deload' ? 'DELOAD WEEK' : 'LOAD WEEK'}
+                </span>
+              )}
+            </div>
             <div className="flex items-center gap-4">
               {selectedCategory === "weightlifting" && (
                 <DashboardButton onClick={() => setProgressionOpen(true)} />

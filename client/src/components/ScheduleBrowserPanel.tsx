@@ -10,10 +10,11 @@ interface ScheduleBrowserPanelProps {
 }
 
 export function ScheduleBrowserPanel({ isOpen, onClose }: ScheduleBrowserPanelProps) {
-  const { weeks, weekPlans, fetchWeekPlan, loading, error, currentWeekIndex } = useScheduleBrowser();
+  const { weeks, weekPlans, fetchWeekPlan, loading, error, currentWeekIndex, setAsCurrentWeek } = useScheduleBrowser();
   const [selectedWeekIndex, setSelectedWeekIndex] = useState<number | null>(null);
   const [selectedDay, setSelectedDay] = useState("Monday");
   const [weekLoading, setWeekLoading] = useState(false);
+  const [selectedCategory, setSelectedCategory] = useState("weightlifting");
 
   const panelRef = useRef<HTMLDivElement>(null);
 
@@ -98,29 +99,39 @@ export function ScheduleBrowserPanel({ isOpen, onClose }: ScheduleBrowserPanelPr
                     {weeks
                       .filter(w => w.isPast)
                       .map(week => (
-                        <button
-                          data-testid="past-week-row"
-                          key={week.index}
-                          onClick={() => setSelectedWeekIndex(week.index)}
-                          aria-pressed={selectedWeekIndex === week.index}
-                          className={`w-full text-left min-h-[44px] px-2 py-2 rounded-lg text-sm transition-colors mb-1 focus-visible:ring-1 focus-visible:ring-ring/50 outline-none ${
-                            selectedWeekIndex === week.index
-                              ? "bg-primary/20 border border-primary/30"
-                              : "hover:bg-white/5 border border-transparent"
-                          }`}
-                        >
-                          <div className="font-semibold text-slate-200">{week.label}</div>
-                          <div className="text-xs text-slate-500">
-                            {week.from.toLocaleDateString("en-US", {
-                              month: "short",
-                              day: "numeric",
-                            })} –{" "}
-                            {week.to.toLocaleDateString("en-US", {
-                              month: "short",
-                              day: "numeric",
-                            })}
-                          </div>
-                        </button>
+                        <div key={week.index} className="mb-1 group">
+                          <button
+                            data-testid="past-week-row"
+                            onClick={() => setSelectedWeekIndex(week.index)}
+                            aria-pressed={selectedWeekIndex === week.index}
+                            className={`w-full text-left min-h-[44px] px-2 py-2 rounded-lg text-sm transition-colors focus-visible:ring-1 focus-visible:ring-ring/50 outline-none ${
+                              selectedWeekIndex === week.index
+                                ? "bg-primary/20 border border-primary/30"
+                                : "hover:bg-white/5 border border-transparent"
+                            }`}
+                          >
+                            <div className="font-semibold text-slate-200">{week.label}</div>
+                            <div className="text-xs text-slate-500">
+                              {week.from.toLocaleDateString("en-US", {
+                                month: "short",
+                                day: "numeric",
+                              })} –{" "}
+                              {week.to.toLocaleDateString("en-US", {
+                                month: "short",
+                                day: "numeric",
+                              })}
+                            </div>
+                          </button>
+                          <button
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              setAsCurrentWeek(week.index);
+                            }}
+                            className="mt-1 w-full px-2 py-1 text-[10px] font-mono bg-slate-700/50 hover:bg-slate-600/50 text-slate-400 hover:text-slate-300 rounded transition-colors"
+                          >
+                            SET AS CURRENT
+                          </button>
+                        </div>
                       ))}
                   </>
                 )}
@@ -134,33 +145,43 @@ export function ScheduleBrowserPanel({ isOpen, onClose }: ScheduleBrowserPanelPr
                     {weeks
                       .filter(w => w.isCurrent)
                       .map(week => (
-                        <button
-                          data-testid="current-week-row"
-                          key={week.index}
-                          onClick={() => setSelectedWeekIndex(week.index)}
-                          aria-pressed={selectedWeekIndex === week.index}
-                          className={`w-full text-left min-h-[44px] px-2 py-2 rounded-lg text-sm transition-colors mb-1 highlighted focus-visible:ring-1 focus-visible:ring-ring/50 outline-none ${
-                            selectedWeekIndex === week.index
-                              ? "bg-primary/20 border border-primary/30"
-                              : "hover:bg-white/5 border border-transparent"
-                          }`}
-                        >
-                          <div className="font-semibold text-slate-200">{week.label}</div>
-                          <div className="text-xs text-slate-500">
-                            {week.from.toLocaleDateString("en-US", {
-                              month: "short",
-                              day: "numeric",
-                            })} –{" "}
-                            {week.to.toLocaleDateString("en-US", {
-                              month: "short",
-                              day: "numeric",
-                            })}
-                          </div>
-                          <div className="flex items-center gap-1 mt-1">
-                            <span className="w-2 h-2 rounded-full bg-emerald-500" />
-                            <span className="text-[10px] font-mono text-emerald-400 font-bold">ACTIVE</span>
-                          </div>
-                        </button>
+                        <div key={week.index} className="mb-1 group">
+                          <button
+                            data-testid="current-week-row"
+                            onClick={() => setSelectedWeekIndex(week.index)}
+                            aria-pressed={selectedWeekIndex === week.index}
+                            className={`w-full text-left min-h-[44px] px-2 py-2 rounded-lg text-sm transition-colors highlighted focus-visible:ring-1 focus-visible:ring-ring/50 outline-none ${
+                              selectedWeekIndex === week.index
+                                ? "bg-primary/20 border border-primary/30"
+                                : "hover:bg-white/5 border border-transparent"
+                            }`}
+                          >
+                            <div className="font-semibold text-slate-200">{week.label}</div>
+                            <div className="text-xs text-slate-500">
+                              {week.from.toLocaleDateString("en-US", {
+                                month: "short",
+                                day: "numeric",
+                              })} –{" "}
+                              {week.to.toLocaleDateString("en-US", {
+                                month: "short",
+                                day: "numeric",
+                              })}
+                            </div>
+                            <div className="flex items-center gap-1 mt-1">
+                              <span className="w-2 h-2 rounded-full bg-emerald-500" />
+                              <span className="text-[10px] font-mono text-emerald-400 font-bold">ACTIVE</span>
+                            </div>
+                          </button>
+                          <button
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              setAsCurrentWeek(week.index);
+                            }}
+                            className="mt-1 w-full px-2 py-1 text-[10px] font-mono bg-emerald-900/40 hover:bg-emerald-800/50 text-emerald-400 hover:text-emerald-300 rounded transition-colors"
+                          >
+                            KEEP AS CURRENT
+                          </button>
+                        </div>
                       ))}
                   </>
                 )}
@@ -174,36 +195,46 @@ export function ScheduleBrowserPanel({ isOpen, onClose }: ScheduleBrowserPanelPr
                     {weeks
                       .filter(w => w.isUpcoming)
                       .map(week => (
-                        <button
-                          data-testid="upcoming-week-row"
-                          key={week.index}
-                          onClick={() => setSelectedWeekIndex(week.index)}
-                          aria-pressed={selectedWeekIndex === week.index}
-                          className={`w-full text-left min-h-[44px] px-2 py-2 rounded-lg text-sm transition-colors mb-1 focus-visible:ring-1 focus-visible:ring-ring/50 outline-none ${
-                            selectedWeekIndex === week.index
-                              ? "bg-primary/20 border border-primary/30"
-                              : "hover:bg-white/5 border border-transparent"
-                          }`}
-                        >
-                          <div className="flex items-center justify-between">
-                            <div>
-                              <div className="font-semibold text-slate-200">{week.label}</div>
-                              <div className="text-xs text-slate-500">
-                                {week.from.toLocaleDateString("en-US", {
-                                  month: "short",
-                                  day: "numeric",
-                                })} –{" "}
-                                {week.to.toLocaleDateString("en-US", {
-                                  month: "short",
-                                  day: "numeric",
-                                })}
+                        <div key={week.index} className="mb-1 group">
+                          <button
+                            data-testid="upcoming-week-row"
+                            onClick={() => setSelectedWeekIndex(week.index)}
+                            aria-pressed={selectedWeekIndex === week.index}
+                            className={`w-full text-left min-h-[44px] px-2 py-2 rounded-lg text-sm transition-colors focus-visible:ring-1 focus-visible:ring-ring/50 outline-none ${
+                              selectedWeekIndex === week.index
+                                ? "bg-primary/20 border border-primary/30"
+                                : "hover:bg-white/5 border border-transparent"
+                            }`}
+                          >
+                            <div className="flex items-center justify-between">
+                              <div>
+                                <div className="font-semibold text-slate-200">{week.label}</div>
+                                <div className="text-xs text-slate-500">
+                                  {week.from.toLocaleDateString("en-US", {
+                                    month: "short",
+                                    day: "numeric",
+                                  })} –{" "}
+                                  {week.to.toLocaleDateString("en-US", {
+                                    month: "short",
+                                    day: "numeric",
+                                  })}
+                                </div>
+                              </div>
+                              <div className="px-1.5 py-0.5 bg-slate-700/50 rounded text-[10px] font-mono text-slate-400 font-bold">
+                                PREVIEW
                               </div>
                             </div>
-                            <div className="px-1.5 py-0.5 bg-slate-700/50 rounded text-[10px] font-mono text-slate-400 font-bold">
-                              PREVIEW
-                            </div>
-                          </div>
-                        </button>
+                          </button>
+                          <button
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              setAsCurrentWeek(week.index);
+                            }}
+                            className="mt-1 w-full px-2 py-1 text-[10px] font-mono bg-slate-700/50 hover:bg-slate-600/50 text-slate-400 hover:text-slate-300 rounded transition-colors"
+                          >
+                            SET AS CURRENT
+                          </button>
+                        </div>
                       ))}
                   </>
                 )}
@@ -242,6 +273,17 @@ export function ScheduleBrowserPanel({ isOpen, onClose }: ScheduleBrowserPanelPr
                       )}
                     </p>
                   )}
+                  {selectedWeekPlan.loadPhase && (
+                    <div className="mt-3 inline-block">
+                      <span className={`px-2 py-1 rounded text-[11px] font-mono font-bold tracking-wider ${
+                        selectedWeekPlan.loadPhase === 'deload'
+                          ? 'bg-orange-900/40 text-orange-300 border border-orange-600/30'
+                          : 'bg-emerald-900/40 text-emerald-300 border border-emerald-600/30'
+                      }`}>
+                        {selectedWeekPlan.loadPhase === 'deload' ? 'DELOAD WEEK' : 'LOAD WEEK'}
+                      </span>
+                    </div>
+                  )}
                 </div>
 
                 {/* Day Tabs */}
@@ -264,6 +306,28 @@ export function ScheduleBrowserPanel({ isOpen, onClose }: ScheduleBrowserPanelPr
                   </div>
                 </div>
 
+
+                {/* Category Tabs */}
+                {selectedDayData && (
+                  <div className="mb-6">
+                    <div className="flex gap-1 overflow-x-auto pb-2 -mx-4 px-4">
+                      {['weightlifting', 'jumping', 'basketball'].map(category => (
+                        <button
+                          key={category}
+                          onClick={() => setSelectedCategory(category)}
+                          aria-current={selectedCategory === category ? "true" : undefined}
+                          className={`min-h-[44px] px-3 py-2 rounded-lg text-sm font-semibold transition-colors whitespace-nowrap flex-shrink-0 focus-visible:ring-1 focus-visible:ring-ring/50 outline-none ${
+                            selectedCategory === category
+                              ? "bg-primary/20 text-primary border border-primary/30"
+                              : "bg-slate-800/50 text-slate-300 border border-transparent hover:bg-slate-700/50"
+                          }`}
+                        >
+                          {category.charAt(0).toUpperCase() + category.slice(1)}
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+                )}
                 {/* Day Focus */}
                 {selectedDayData && (
                   <div className="mb-4">
@@ -274,11 +338,24 @@ export function ScheduleBrowserPanel({ isOpen, onClose }: ScheduleBrowserPanelPr
                 {/* Category Cards */}
                 {selectedDayData ? (
                   <div className="space-y-6">
-                    {Object.entries(selectedDayData.categories).map(([category, categoryData]) => (
+                    {Object.entries(selectedDayData.categories)
+                      .filter(([category]) => category === selectedCategory)
+                      .map(([category, categoryData]) => (
                       <div key={category}>
-                        <h4 className="text-lg font-display font-bold text-white uppercase tracking-wide mb-3">
-                          {category}
-                        </h4>
+                        <div className="flex items-center gap-2 mb-3">
+                          <h4 className="text-lg font-display font-bold text-white uppercase tracking-wide">
+                            {category}
+                          </h4>
+                          {(category === 'weightlifting' || category === 'jumping') && selectedWeekPlan.loadPhase && (
+                            <span className={`px-1.5 py-0.5 rounded text-[10px] font-mono font-bold tracking-wider ${
+                              selectedWeekPlan.loadPhase === 'deload'
+                                ? 'bg-orange-900/40 text-orange-300 border border-orange-600/30'
+                                : 'bg-emerald-900/40 text-emerald-300 border border-emerald-600/30'
+                            }`}>
+                              {selectedWeekPlan.loadPhase === 'deload' ? 'DELOAD' : 'LOAD'}
+                            </span>
+                          )}
+                        </div>
                         <div className="space-y-3">
                           {categoryData.workouts.map((workout, idx) => (
                             <div key={idx}>

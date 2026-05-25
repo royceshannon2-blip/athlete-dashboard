@@ -2612,5 +2612,7 @@
         }
       }
     }
-  ]
+  ],
+  "loadPhase": "deload",
+  "isDeloadWeek": true
 }
