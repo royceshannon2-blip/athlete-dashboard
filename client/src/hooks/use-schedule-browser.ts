@@ -107,7 +107,7 @@ export function useScheduleBrowser() {
     const fetchData = async () => {
       try {
         // Fetch manifest
-        const manifestRes = await fetch("/workouts/manifest.json");
+        const manifestRes = await fetch(`${import.meta.env.BASE_URL.replace(/\/$/, "")}/workouts/manifest.json`);
         if (!manifestRes.ok) throw new Error("Failed to fetch manifest");
         const manifest: Manifest = await manifestRes.json();
 
@@ -179,7 +179,7 @@ export function useScheduleBrowser() {
       const planIndex = weekIndex % state.manifest.weeks.length;
       const weekFile = state.manifest.weeks[planIndex];
 
-      const res = await fetch(`/workouts/${weekFile}`);
+      const res = await fetch(`${import.meta.env.BASE_URL.replace(/\/$/, "")}/workouts/${weekFile}`);
       if (!res.ok) throw new Error(`Failed to fetch ${weekFile}`);
       const plan: WeekPlan = await res.json();
 

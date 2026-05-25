@@ -74,7 +74,7 @@ export function useWeeklyRotation(overrideWeekIndex?: number) {
         setError(null);
 
         // Fetch manifest
-        const manifestRes = await fetch("/workouts/manifest.json");
+        const manifestRes = await fetch(`${import.meta.env.BASE_URL.replace(/\/$/, "")}/workouts/manifest.json`);
         if (!manifestRes.ok) throw new Error("Failed to fetch manifest");
         const manifestData: Manifest = await manifestRes.json();
         setManifest(manifestData);
@@ -96,7 +96,7 @@ export function useWeeklyRotation(overrideWeekIndex?: number) {
         const weekFile = manifestData.weeks[planIndex];
 
         // Fetch the week plan
-        const planRes = await fetch(`/workouts/${weekFile}`);
+        const planRes = await fetch(`${import.meta.env.BASE_URL.replace(/\/$/, "")}/workouts/${weekFile}`);
         if (!planRes.ok) throw new Error(`Failed to fetch ${weekFile}`);
         const weekPlanData: WeekPlan = await planRes.json();
         setFullWeekPlan(weekPlanData);
