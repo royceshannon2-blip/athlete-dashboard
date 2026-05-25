@@ -1,5 +1,13 @@
 import { useEffect, useState } from "react";
 
+const OVERRIDE_KEY = "apex_current_week_override";
+
+function getOverriddenWeekIndex(): number | null {
+  if (typeof window === "undefined") return null;
+  const override = localStorage.getItem(OVERRIDE_KEY);
+  return override ? parseInt(override, 10) : null;
+}
+
 interface Manifest {
   startDate: string;
   weeks: string[];
@@ -79,14 +87,19 @@ export function useWeeklyRotation(overrideWeekIndex?: number) {
         const manifestData: Manifest = await manifestRes.json();
         setManifest(manifestData);
 
-        // Calculate current week index if not overridden
+        // Calculate current week index: check param override first, then localStorage, then calculate
         let targetWeekIndex = overrideWeekIndex;
         if (targetWeekIndex === undefined) {
-          const start = new Date(manifestData.startDate);
-          const now = new Date();
-          const diffMs = now.getTime() - start.getTime();
-          const diffWeeks = Math.floor(diffMs / (7 * 24 * 60 * 60 * 1000));
-          targetWeekIndex = Math.max(0, diffWeeks);
+          const storageOverride = getOverriddenWeekIndex();
+          if (storageOverride !== null) {
+            targetWeekIndex = storageOverride;
+          } else {
+            const start = new Date(manifestData.startDate);
+            const now = new Date();
+            const diffMs = now.getTime() - start.getTime();
+            const diffWeeks = Math.floor(diffMs / (7 * 24 * 60 * 60 * 1000));
+            targetWeekIndex = Math.max(0, diffWeeks);
+          }
         }
 
         setWeekIndex(targetWeekIndex);
